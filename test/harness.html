@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0;background:#888;display:flex;gap:16px;padding:16px;align-items:flex-start}
+iframe{width:390px;height:844px;border:0;border-radius:28px;background:#fff;flex:none}
+</style></head><body><script>
+// ?f=<json array of {h, scheme, steps:[[op,arg,arg2]...]}>
+const frames = JSON.parse(decodeURIComponent(new URLSearchParams(location.search).get('f')));
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+frames.forEach((f) => {
+  const ifr = document.createElement('iframe');
+  if (f.scheme) ifr.style.colorScheme = f.scheme;
+  ifr.src = '/docs/index.html' + (f.h || '');
+  document.body.appendChild(ifr);
+  let pos = 0;
+  ifr.onload = async () => {
+    const w = ifr.contentWindow, d = ifr.contentDocument;
+    await sleep(600);
+    const steps = f.steps || [];
+    while (pos < steps.length) {
+      const [op, a, b] = steps[pos++];
+      if (op === 'go') w.location.hash = a;
+      else if (op === 'click') d.querySelector(a)?.click();
+      else if (op === 'type') { const el = d.querySelector(a); el.value = b; el.dispatchEvent(new Event('input', {bubbles: true})); }
+      else if (op === 'scroll') w.scrollTo(0, a);
+      else if (op === 'ls') { w.localStorage.setItem('pp:v1', a); }
+      else if (op === 'reload') { w.location.reload(); return; }
+      await sleep(op === 'wait' ? a : 350);
+    }
+  };
+});
+</script></body></html>

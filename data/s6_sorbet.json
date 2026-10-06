@@ -1,0 +1,349 @@
+[
+  {
+    "slug": "kala-khatta-gola-sorbet",
+    "title": "Kala Khatta Gola Sorbet",
+    "subtitle": "The Juhu beach gola, now scoopable",
+    "program": "SORBET",
+    "respin": "Rarely needed; if crumbly, re-spin once with 1 tbsp water",
+    "prep_min": 5,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Desi Classic", "No-Cook"],
+    "colors": { "base": "#6D2E6B", "accent": "#9BC53D", "deep": "#3E1540" },
+    "intro": "Every Indian summer has a gola stall with a bottle of inky kala khatta, a squeeze of nimbu and a shake of kala namak. This sorbet keeps that sweet-sour-salty hit, minus the ice shards.",
+    "ingredients": [
+      { "qty": "160 ml (⅔ cup)", "item": "Kala khatta syrup", "note": "Mala's; a syrup, not squash" },
+      { "qty": "230 ml (scant 1 cup)", "item": "Chilled drinking water" },
+      { "qty": "30 ml (2 tbsp)", "item": "Fresh lime juice", "note": "about 2 nimbu" },
+      { "qty": "½ tsp", "item": "Kala namak (black salt)" },
+      { "qty": "¼ tsp", "item": "Chaat masala", "note": "plus extra to sprinkle" },
+      { "qty": "1 pinch", "item": "Freshly ground black pepper", "note": "optional" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "BLAST", "text": "Blend syrup, water, lime juice, kala namak, chaat masala and pepper in the Ninja Blast 30 seconds until the salt dissolves." },
+      { "tag": "PREP", "text": "Taste: it should be a little sweeter and saltier than a drink, since freezing dulls flavour. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump with a spoon and run SORBET. If powdery, add 1 tbsp water and RE-SPIN." },
+      { "tag": "SERVE", "text": "Scoop into chilled bowls, add a few drops of lime and dust with chaat masala, gola-style." }
+    ],
+    "tips": [
+      "Kala khatta syrups are about 50–60% sugar, which keeps this scoopable. Squashes are thinner and freeze icier, so check the label says syrup.",
+      "For the full gola moment, serve in paper cups with wooden spoons and extra lime at the table.",
+      "Leftovers: flatten the top, refreeze, and re-spin on SORBET before serving."
+    ],
+    "swaps": [
+      "Fresh jamun (June–July): pulp 250 g ripe jamun off the seeds; blend with 80 g sugar, 120 ml water, the lime and spices; strain.",
+      "Lower sugar: 120 ml syrup, 270 ml water. Sugar drops from about 24% to 18%, so it freezes harder and icier; expect one or two re-spins.",
+      "Soda float: drop a scoop into chilled masala soda or plain soda."
+    ],
+    "nutrition_per_pint": { "kcal": 440, "protein_g": 0, "carbs_g": 110, "fat_g": 0 },
+    "shop_note": "Kala khatta syrup: Mala's on Amazon, Blinkit or BigBasket. Kala namak, chaat masala: MDH or Everest, any kirana."
+  },
+  {
+    "slug": "aam-panna-sorbet",
+    "title": "Aam Panna Sorbet",
+    "subtitle": "Raw mango, roasted jeera, loo-proof",
+    "program": "SORBET",
+    "respin": "Rarely needed; if crumbly, re-spin once with 1 tbsp water",
+    "prep_min": 15,
+    "cook_min": 15,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Desi Classic", "Fruit Forward"],
+    "colors": { "base": "#D9DE9A", "accent": "#4E9A55", "deep": "#4A5A1C" },
+    "intro": "Nani swore by aam panna against the May loo, and she was right. Cooked raw mango, roasted jeera, kala namak and mint make a pale green sorbet that is sharp, salty and cooling at once.",
+    "ingredients": [
+      { "qty": "2 medium (~350 g)", "item": "Raw green mangoes (kachchi kairi)", "note": "firm and sour; yields ~180 g pulp" },
+      { "qty": "100 g (½ cup)", "item": "Sugar", "note": "or half grated jaggery, for darker panna" },
+      { "qty": "200 ml (generous ¾ cup)", "item": "Chilled drinking water" },
+      { "qty": "1 tsp", "item": "Roasted jeera (cumin) powder" },
+      { "qty": "¾ tsp", "item": "Kala namak (black salt)" },
+      { "qty": "12–15 leaves", "item": "Fresh mint (pudina)" },
+      { "qty": "1 pinch", "item": "Salt", "note": "optional; sharpens the mango" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "COOK", "text": "Pressure cook the whole mangoes with 1 cup water for 3 whistles, or boil 15 minutes, until the skins split and the flesh is soft." },
+      { "tag": "PREP", "text": "When cool enough to handle, peel and scrape all the pulp off the skins and seeds. You should have about 180 g." },
+      { "tag": "COOK", "text": "Stir the sugar into the warm pulp until dissolved, warming it a minute on low if grains remain." },
+      { "tag": "COOL", "text": "Cool to room temperature, at least 30 minutes. Never put a warm base in the sealed Blast." },
+      { "tag": "BLAST", "text": "Blend the pulp, water, jeera, kala namak, mint and salt in the Ninja Blast 45 seconds. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run SORBET. Only if powdery, add 1 tbsp water and RE-SPIN." },
+      { "tag": "SERVE", "text": "Serve with a pinch of roasted jeera and a torn mint leaf." }
+    ],
+    "tips": [
+      "Raw mangoes vary in sourness. The blended base should taste slightly too sweet and salty as a drink; freezing mutes both.",
+      "Don't overblend the mint or the base turns murky brown-green; a few visible flecks look best.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving."
+    ],
+    "swaps": [
+      "Shortcut: blend 200 ml ready aam panna concentrate (Mapro) with 200 ml water and the spices; skip the cooking.",
+      "Lower sugar: use 70 g sugar. Sugar drops from about 23% to 18%; it sets harder and icier and needs one or two re-spins.",
+      "Smoky panna: char the mangoes directly over the gas flame instead of boiling, for a deeper flavour."
+    ],
+    "nutrition_per_pint": { "kcal": 505, "protein_g": 2, "carbs_g": 128, "fat_g": 1 },
+    "shop_note": "Raw mango: Blinkit/Zepto or any sabziwala, March–June. Roasted jeera powder: MDH or Everest, or roast and pound your own."
+  },
+  {
+    "slug": "watermelon-lime-sorbet",
+    "title": "Watermelon Lime Sorbet",
+    "subtitle": "Three ingredients, no cooking, pure summer",
+    "program": "SORBET",
+    "respin": "Often 1 re-spin with 1 tbsp water or juice",
+    "prep_min": 5,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Lazy 3-Ingredient", "No-Cook", "Kid Favourite"],
+    "colors": { "base": "#F2667A", "accent": "#8CC63F", "deep": "#9E1B32" },
+    "intro": "If you make one sorbet, start here. Ripe tarbooz, a squeeze of lime and a little sugar is all it takes, and the Blast does the work in under a minute.",
+    "ingredients": [
+      { "qty": "375 g (2½ cups cubed)", "item": "Ripe watermelon, seeds removed", "note": "makes about 360 ml purée" },
+      { "qty": "70 g (⅓ cup)", "item": "Sugar" },
+      { "qty": "30 ml (2 tbsp)", "item": "Fresh lime juice", "note": "about 2 nimbu" },
+      { "qty": "1 pinch", "item": "Salt or kala namak", "note": "optional; makes the melon taste sweeter" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "BLAST", "text": "Blend watermelon, sugar, lime juice and salt in the Ninja Blast 45–60 seconds until smooth and the sugar dissolves." },
+      { "tag": "PREP", "text": "Rest 2 minutes so the foam settles, then pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run SORBET. Watermelon is watery: if it looks snowy, add 1 tbsp water and RE-SPIN." },
+      { "tag": "SERVE", "text": "Serve at once with a thin lime wheel or a pinch of chaat masala." }
+    ],
+    "tips": [
+      "Pick a heavy melon with a creamy-yellow ground spot. If yours is pale or bland, add 1 extra tbsp sugar to avoid an icy sorbet.",
+      "Pick out every black seed before blending; crushed seeds turn the sorbet grey and gritty.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving."
+    ],
+    "swaps": [
+      "Lower sugar: halve the sugar to 35 g. Sugar drops from about 20% to 13%, giving a firmer, granita-like texture that needs two re-spins.",
+      "Watermelon mint: blend in 10 mint leaves, or swap the lime for 1 tbsp fresh ginger juice.",
+      "Tarbooz chaat: sprinkle each scoop with kala namak, chaat masala and a pinch of chilli powder."
+    ],
+    "nutrition_per_pint": { "kcal": 400, "protein_g": 2, "carbs_g": 101, "fat_g": 1 },
+    "shop_note": "Everything is at any kirana or on Blinkit/Zepto; watermelon is best March–June."
+  },
+  {
+    "slug": "litchi-sorbet",
+    "title": "Muzaffarpur Litchi Sorbet",
+    "subtitle": "Floral, juicy, gone in minutes",
+    "program": "SORBET",
+    "respin": "Rarely needed; if crumbly, re-spin once with 1 tbsp water",
+    "prep_min": 20,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Fruit Forward", "No-Cook"],
+    "colors": { "base": "#F6EEE6", "accent": "#C8344A", "deep": "#8A2537" },
+    "intro": "Muzaffarpur's shahi litchis have a season of barely a month, and this is the best way to make it last. The pale, perfumed sorbet tastes like biting into the fruit.",
+    "ingredients": [
+      { "qty": "350 g flesh", "item": "Fresh litchis, peeled and seeded", "note": "about 500 g whole, 25–30 fruits" },
+      { "qty": "60 g (5 tbsp)", "item": "Sugar" },
+      { "qty": "40 ml (2½ tbsp)", "item": "Chilled drinking water" },
+      { "qty": "15 ml (1 tbsp)", "item": "Fresh lime juice", "note": "keeps it pale; lifts the flavour" },
+      { "qty": "3–4 drops", "item": "Rose water (optional)", "note": "food-grade only, not cosmetic" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "PREP", "text": "Peel and seed the litchis, scraping off the bitter brown skin that clings to the seed." },
+      { "tag": "BLAST", "text": "Blend the litchi flesh, sugar, water, lime juice and rose water in the Ninja Blast 60 seconds until smooth." },
+      { "tag": "PREP", "text": "Rest 2 minutes for the foam to settle. Strain for a silkier sorbet, then pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run SORBET. Only if powdery, add 1 tbsp water and RE-SPIN." },
+      { "tag": "SERVE", "text": "Serve small scoops with a few chopped fresh litchis or a single mint leaf." }
+    ],
+    "tips": [
+      "Peeled litchi browns and loses its scent within hours. Blend and freeze the same day, and don't skip the lime.",
+      "Litchis are about 15% sugar, so the 60 g added here lands the base near 24%, which scoops beautifully.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving."
+    ],
+    "swaps": [
+      "Canned: blend the drained fruit of a 565 g tin, 150 ml of its syrup, the lime and 30 g sugar.",
+      "Lower sugar: cut sugar to 30 g. Sugar drops from about 24% to 19%; it freezes firmer and icier and usually needs a re-spin.",
+      "Litchi rose: double the rose water and MIX-IN 2 tbsp chopped fresh litchi after spinning, falooda-style."
+    ],
+    "nutrition_per_pint": { "kcal": 467, "protein_g": 3, "carbs_g": 120, "fat_g": 1 },
+    "shop_note": "Fresh litchi: Blinkit/Zepto/BigBasket, late May–June. Canned litchi: Golden Crown on BigBasket or Amazon."
+  },
+  {
+    "slug": "masala-shikanji-sorbet",
+    "title": "Masala Shikanji Sorbet",
+    "subtitle": "Nimbu pani with a frozen kick",
+    "program": "SORBET",
+    "respin": "Rarely needed; if crumbly, re-spin once with 1 tbsp water",
+    "prep_min": 10,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Desi Classic", "Gluten-Free Option"],
+    "colors": { "base": "#F1EBB5", "accent": "#3F8F4E", "deep": "#3D5A1E" },
+    "intro": "Highway dhaba shikanji, with its chaat masala, kala namak and roasted jeera, is a lemon sorbet waiting to happen. Tart, salty and sweet with fresh mint, it makes a sharp finish to a heavy Sunday lunch.",
+    "ingredients": [
+      { "qty": "100 g (½ cup)", "item": "Sugar" },
+      { "qty": "260 ml (generous 1 cup)", "item": "Drinking water", "note": "100 ml for syrup, 160 ml chilled" },
+      { "qty": "90 ml (6 tbsp)", "item": "Fresh nimbu (lemon) juice", "note": "5–6 lemons" },
+      { "qty": "1 tsp", "item": "Chaat masala", "note": "if gluten-free, check hing isn't wheat-based" },
+      { "qty": "½ tsp", "item": "Kala namak (black salt)" },
+      { "qty": "½ tsp", "item": "Roasted jeera (cumin) powder" },
+      { "qty": "12 leaves", "item": "Fresh mint (pudina)" },
+      { "qty": "1 pinch", "item": "Freshly ground black pepper" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "COOK", "text": "Warm the sugar with 100 ml water, stirring, just until it dissolves and turns clear. Don't boil it down." },
+      { "tag": "COOL", "text": "Off heat, add the remaining 160 ml chilled water and cool fully to room temperature." },
+      { "tag": "BLAST", "text": "Blend the cooled syrup with lemon juice, chaat masala, kala namak, jeera, mint and pepper in the Ninja Blast 30 seconds." },
+      { "tag": "PREP", "text": "Taste and adjust salt or lemon, then pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run SORBET. Only if powdery, add 1 tbsp water and RE-SPIN." },
+      { "tag": "SERVE", "text": "Scoop into small glasses with a pinch of chaat masala and a mint sprig." }
+    ],
+    "tips": [
+      "Lemon sorbet needs more added sugar than fruit sorbets because the juice has almost none. About 22% keeps it scoopable; much less gives lemon ice.",
+      "Roll the lemons hard before cutting for more juice, and strain out every seed; one crushed seed tastes bitter.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving."
+    ],
+    "swaps": [
+      "Lower sugar: use 70 g. Sugar drops from about 22% to 17%, so expect a harder, icier sorbet, closer to a gola; re-spin once or twice.",
+      "Gur shikanji: replace half the sugar with grated jaggery for a darker, caramel-tinged scoop.",
+      "Shikanji float: drop a scoop into chilled soda with a pinch of kala namak."
+    ],
+    "nutrition_per_pint": { "kcal": 417, "protein_g": 1, "carbs_g": 108, "fat_g": 0 },
+    "shop_note": "Everything is at any kirana or on Blinkit/Zepto. Chaat masala and roasted jeera: MDH, Everest or Catch."
+  },
+  {
+    "slug": "nagpur-orange-sorbet",
+    "title": "Nagpur Santra Sorbet",
+    "subtitle": "Winter oranges, fresh-squeezed, extra zest",
+    "program": "SORBET",
+    "respin": "Rarely needed; if crumbly, re-spin once with 1 tbsp juice",
+    "prep_min": 20,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Vegan", "Fruit Forward", "Kid Favourite"],
+    "colors": { "base": "#F7A23B", "accent": "#F26B1D", "deep": "#8C3B08" },
+    "intro": "When Nagpur santras flood the thelas in winter, squeeze a bagful and freeze the sunshine. A quick zest syrup brings the aroma of a freshly peeled orange; the juice keeps it bright and tangy.",
+    "ingredients": [
+      { "qty": "340 ml (1⅓ cups)", "item": "Fresh Nagpur orange juice", "note": "6–7 oranges; kinnow also works" },
+      { "qty": "70 g (⅓ cup)", "item": "Sugar" },
+      { "qty": "40 ml (2½ tbsp)", "item": "Water" },
+      { "qty": "1 tsp (1 orange)", "item": "Finely grated orange zest", "note": "orange part only, no pith" },
+      { "qty": "15 ml (1 tbsp)", "item": "Fresh lime juice" },
+      { "qty": "1 pinch", "item": "Salt" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "PREP", "text": "Zest one orange before cutting, then squeeze all the oranges and strain out the seeds. Measure 340 ml juice." },
+      { "tag": "COOK", "text": "Warm the sugar, water and zest, stirring, until the sugar dissolves. Off heat, steep 10 minutes." },
+      { "tag": "COOL", "text": "Cool the zest syrup completely to room temperature before it goes into the Blast." },
+      { "tag": "BLAST", "text": "Blend the syrup, orange juice, lime juice and salt in the Ninja Blast 30 seconds. Rest 1–2 minutes; pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run SORBET. If powdery, add 1 tbsp juice and RE-SPIN." },
+      { "tag": "SERVE", "text": "Serve in scooped-out orange halves or small bowls, topped with a curl of zest." }
+    ],
+    "tips": [
+      "Freeze the base within 30 minutes of squeezing; some Indian oranges turn bitter as the juice sits. Don't press the pith hard.",
+      "If your juice tastes sour on its own, add 1 extra tbsp sugar to the syrup so the sorbet stays scoopable.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving."
+    ],
+    "swaps": [
+      "Off-season: use 340 ml chilled 100% orange juice (Tropicana or Real Activ, no added sugar), still with the fresh-zest syrup.",
+      "Lower sugar: use 40 g sugar. Sugar drops from about 21% to 16%, giving a firmer, icier sorbet that needs one or two re-spins.",
+      "Orange-ginger: steep 1 tsp grated fresh ginger in the syrup with the zest, then strain."
+    ],
+    "nutrition_per_pint": { "kcal": 428, "protein_g": 2, "carbs_g": 107, "fat_g": 1 },
+    "shop_note": "Nagpur oranges: Blinkit/Zepto/BigBasket and local thelas, November–March. Otherwise use kinnow or any sweet orange."
+  },
+  {
+    "slug": "dragon-fruit-protein-smoothie-bowl",
+    "title": "Dragon Fruit Protein Smoothie Bowl",
+    "subtitle": "Hot-pink breakfast with 37 g protein",
+    "program": "SMOOTHIE BOWL",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": ["High Protein", "Fruit Forward", "No-Cook", "Gluten-Free Option"],
+    "colors": { "base": "#D6286E", "accent": "#C8A165", "deep": "#8A1048" },
+    "intro": "Pink-fleshed dragon fruit, now grown across Gujarat and Maharashtra as kamalam, makes a shockingly pink bowl. Banana adds body, Greek yogurt and whey bring the protein, and the CREAMi makes it thick enough for toppings.",
+    "ingredients": [
+      { "qty": "180 g (1 small fruit)", "item": "Pink/red-fleshed dragon fruit", "note": "white-fleshed turns the bowl greyish" },
+      { "qty": "80 g (1 small)", "item": "Ripe banana, peeled" },
+      { "qty": "100 g (scant ½ cup)", "item": "Epigamia plain Greek yogurt", "note": "or thick hung curd" },
+      { "qty": "30 g (1 scoop)", "item": "Vanilla whey protein", "note": "MuscleBlaze, Avvatar or ON; ~24 g protein" },
+      { "qty": "45 ml (3 tbsp)", "item": "Amul Taaza toned milk" },
+      { "qty": "1 tbsp (21 g)", "item": "Honey", "note": "optional if your whey is sweet" },
+      { "qty": "⅛ tsp", "item": "Xanthan gum", "note": "optional; smoother, less icy" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "BLAST", "text": "Add milk, yogurt, dragon fruit, banana, honey, whey and xanthan to the Ninja Blast, liquids first. Blend 45–60 seconds until evenly pink." },
+      { "tag": "PREP", "text": "Rest 2–3 minutes, or tap the vessel, so the whey foam settles. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Let the pint sit 5 minutes, flatten any hump, then run SMOOTHIE BOWL." },
+      { "tag": "RESPIN", "text": "If crumbly, add 1–2 tbsp milk and RE-SPIN until thick and spoonable." },
+      { "tag": "SERVE", "text": "Divide between two bowls; top with granola, chia or pumpkin seeds, sliced banana, kiwi and coconut flakes." }
+    ],
+    "tips": [
+      "Dragon fruit is cheapest from monsoon to early winter. Freeze cubed flesh in zip bags and blend it, half-thawed, whenever you want a bowl.",
+      "Toppings aren't counted in the nutrition: 30 g granola and 1 tbsp seeds add roughly 180 kcal and 5 g protein.",
+      "Leftovers: flatten the top, refreeze, and re-spin with a splash of milk before serving."
+    ],
+    "swaps": [
+      "No whey: use 150 g Greek yogurt and skip the milk. Protein falls to about 16 g and the bowl is tangier.",
+      "Tropical: swap the banana for 80 g ripe mango and use coconut or unflavoured whey.",
+      "Gluten-free: top with seeds, nuts and coconut instead of oat granola, or use certified gluten-free granola."
+    ],
+    "nutrition_per_pint": { "kcal": 479, "protein_g": 37, "carbs_g": 67, "fat_g": 7 },
+    "shop_note": "Pink dragon fruit: Blinkit/Zepto/BigBasket (check 'red flesh'). Xanthan: Urban Platter on Amazon. Granola: Yogabar or True Elements."
+  },
+  {
+    "slug": "bournvita-malt-protein-thickshake",
+    "title": "Bournvita Malt Protein Thickshake",
+    "subtitle": "Tann ki shakti, plus 40 g protein",
+    "program": "MILKSHAKE",
+    "respin": "LITE ICE CREAM first; re-spin once with 1 tbsp milk if powdery, then MILKSHAKE",
+    "prep_min": 5,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": ["High Protein", "Kid Favourite", "Eggless", "No-Cook"],
+    "colors": { "base": "#9C6B4E", "accent": "#5A3420", "deep": "#4A2A17" },
+    "intro": "Remember sneaking spoonfuls of dry Bournvita from the jar? This is that taste grown up: a malty chocolate base frozen with whey, spun creamy, then whipped with cold milk into a spoon-thick shake.",
+    "ingredients": [
+      { "qty": "320 ml (1⅓ cups)", "item": "Amul Taaza toned milk, chilled", "note": "for the frozen base" },
+      { "qty": "40 g (4 tbsp)", "item": "Cadbury Bournvita", "note": "or any malted chocolate drink" },
+      { "qty": "30 g (1 scoop)", "item": "Chocolate whey protein", "note": "MuscleBlaze, Avvatar or ON; ~24 g protein" },
+      { "qty": "⅛ tsp", "item": "Xanthan gum", "note": "optional; creamier, less icy" },
+      { "qty": "1 pinch", "item": "Salt", "note": "brings out the malt" },
+      { "qty": "120 ml (½ cup)", "item": "Amul Taaza toned milk, chilled", "note": "for the MILKSHAKE stage" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "BLAST", "text": "Blend 320 ml milk, Bournvita, whey, xanthan and salt in the Ninja Blast 45 seconds until no powdery lumps remain." },
+      { "tag": "PREP", "text": "Rest 2–3 minutes or tap the vessel so the foam settles, then pour into the pint, well under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN once." },
+      { "tag": "SPIN", "text": "Make a 4 cm well to the bottom, pour in the remaining 120 ml milk and run MILKSHAKE." },
+      { "tag": "SERVE", "text": "Pour into two tall glasses, dust with dry Bournvita and serve with a wide straw and a spoon." }
+    ],
+    "tips": [
+      "Bournvita barely dissolves in cold milk with a spoon, but the Blast handles it in seconds. Scrape out any powder sludge at the bottom.",
+      "Want it sweeter? Add 1 tbsp sugar or Milkmaid to the base; it also makes the frozen pint slightly softer.",
+      "Leftovers: pour extra shake back into the pint, flatten, refreeze, and process on LITE ICE CREAM before adding milk again."
+    ],
+    "swaps": [
+      "Horlicks: use 40 g Classic Malt Horlicks and vanilla whey for a lighter, more biscuity malt.",
+      "Boost or Complan work the same way; Boost gives a darker, more chocolatey shake.",
+      "Malt-biscuit crunch: after the LITE ICE CREAM spin, run MIX-IN with 2 crushed Parle-G before adding the milk."
+    ],
+    "nutrition_per_pint": { "kcal": 527, "protein_g": 40, "carbs_g": 58, "fat_g": 15 },
+    "shop_note": "Bournvita and Horlicks: any kirana or Blinkit/Zepto. Whey: Amazon, Blinkit or brand sites. Xanthan: Urban Platter on Amazon."
+  }
+]

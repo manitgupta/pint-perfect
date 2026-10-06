@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art">
+<circle cx="100" cy="104" r="86" fill="#E7E3F0"/>
+<circle cx="100" cy="104" r="86" fill="none" stroke="#CBC3E0" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M24.8,53.8 Q24.8,60.4 31.4,60.4 Q24.8,60.4 24.8,67.1 Q24.8,60.4 18.1,60.4 Q24.8,60.4 24.8,53.8Z" fill="#3E3A8C" opacity="0.8"/><path d="M38.0,27.8 Q38.0,32.4 42.6,32.4 Q38.0,32.4 38.0,37.0 Q38.0,32.4 33.4,32.4 Q38.0,32.4 38.0,27.8Z" fill="#3E3A8C" opacity="0.8"/><path d="M22.2,24.6 Q22.2,29.2 26.8,29.2 Q22.2,29.2 22.2,33.8 Q22.2,29.2 17.6,29.2 Q22.2,29.2 22.2,24.6Z" fill="#3E3A8C" opacity="0.8"/><path d="M62.4,23.3 Q62.4,27.9 67.0,27.9 Q62.4,27.9 62.4,32.5 Q62.4,27.9 57.8,27.9 Q62.4,27.9 62.4,23.3Z" fill="#3E3A8C" opacity="0.8"/>
+<path d="M181.8,71.6 Q181.8,75.9 186.1,75.9 Q181.8,75.9 181.8,80.2 Q181.8,75.9 177.4,75.9 Q181.8,75.9 181.8,71.6Z" fill="#766D97" opacity="0.8"/><path d="M154.5,74.3 Q154.5,79.4 159.7,79.4 Q154.5,79.4 154.5,84.6 Q154.5,79.4 149.4,79.4 Q154.5,79.4 154.5,74.3Z" fill="#766D97" opacity="0.8"/>
+<path d="M60.0,82.0 A40.0,38.0 0 0 1 140.0,82.0 Q133.3,102.3 126.7,82.0 Q120.0,96.2 113.3,82.0 Q106.7,100.8 100.0,82.0 Q93.3,97.1 86.7,82.0 Q80.0,102.4 73.3,82.0 Q66.7,96.2 60.0,82.0 Z" fill="#A99BCB" stroke="#8B7FA6" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M117.0,88.0 q0,16.8 3.6,16.8 q3.6,0 3.6,-16.8z" fill="#A99BCB"/>
+<path d="M75.2,74.0 A28.0,28.0 0 0 1 98.0,50.8" fill="none" stroke="#D0C8E2" stroke-width="4.8" stroke-linecap="round" opacity="0.85"/>
+<circle cx="111.2" cy="57.2" r="2.8" fill="#D0C8E2" opacity="0.9"/>
+<path d="M56,92 L144,92 L138,176 L62,176 Z" fill="#FFFFFF" stroke="#766D97" stroke-width="2" stroke-linejoin="round"/>
+<rect x="52" y="88" width="96" height="10" rx="4" fill="#C7BEDD" stroke="#766D97" stroke-width="1.6"/>
+<rect x="64" y="118" width="72" height="30" rx="5" fill="#3B2F6B"/>
+<text x="100" y="138" text-anchor="middle" font-family="DM Sans, sans-serif" font-weight="800" font-size="13" letter-spacing="1.5" fill="#FFFFFF">PROTEIN</text>
+<path d="M66,160 L134,160" stroke="#766D97" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>

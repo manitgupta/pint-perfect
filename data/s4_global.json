@@ -1,0 +1,824 @@
+[
+  {
+    "slug": "real-vanilla-bean-ice-cream",
+    "title": "Real Vanilla Bean Ice Cream",
+    "subtitle": "Philadelphia-style, eggless, flecked with seeds",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; 1 re-spin with 1 tbsp milk if crumbly",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "No-Cook",
+      "Kid Favourite"
+    ],
+    "colors": {
+      "base": "#F6EAC8",
+      "accent": "#3B2A1A",
+      "deep": "#6B4E1F"
+    },
+    "intro": "Philadelphia-style means no custard and no eggs: just cream, milk, sugar and a real vanilla pod. The black seeds taste nothing like bottled essence. This is the plain scoop every gulab jamun and warm brownie deserves.",
+    "ingredients": [
+      {
+        "qty": "180 ml (¾ cup)",
+        "item": "Amul Gold full cream milk, chilled",
+        "note": ""
+      },
+      {
+        "qty": "65 g (5 tbsp)",
+        "item": "sugar",
+        "note": "caster sugar dissolves fastest"
+      },
+      {
+        "qty": "1 pod",
+        "item": "vanilla bean, split and scraped",
+        "note": "or 1½ tsp pure extract, not essence"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "qty": "200 ml (generous ¾ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": "25% fat; any fresh cream"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Split the pod, scrape out the seeds and rub them into the sugar with your fingertips so they don't clump."
+      },
+      {
+        "tag": "PREP",
+        "text": "Optional: steep the scraped pod in the cold milk, refrigerated, 4 hours or overnight for deeper flavour. Remove it before blending."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, vanilla sugar and salt in the Ninja Blast 40 seconds until the sugar dissolves. Add the cream; blend only 5–10 seconds so it doesn't whip."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint, under MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump with a spoon and run ICE CREAM. If the edges look crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once for soft-serve texture, or freeze 20 minutes for firmer, rounder scoops."
+      }
+    ],
+    "tips": [
+      "Dry the scraped pod and bury it in a jar of sugar. In a week you have vanilla sugar for chai biscuits and the next pint.",
+      "The base should taste slightly too sweet at room temperature. Cold dulls sweetness, and sugar keeps the pint soft.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on ICE CREAM before serving."
+    ],
+    "swaps": [
+      "Protein: use 280 ml milk and 100 ml cream, 40 g sugar, 1 scoop vanilla whey, ⅛ tsp xanthan. Rest foam; LITE ICE CREAM, re-spin.",
+      "Milkmaid vanilla: replace the sugar with 80 g Nestlé Milkmaid for a rounder, kulfi-leaning scoop.",
+      "Cookies and cream: after spinning, run MIX-IN with ¼ cup crushed Oreo or Hide & Seek."
+    ],
+    "egg_option": {
+      "title": "Cooked French custard, 3 yolks",
+      "text": "Adds a cook step. Heat milk and seeds until steaming. Whisk 3 yolks with the sugar, slowly whisk in the hot milk, then stir on low heat to 80–82 °C until it coats a spoon. Use 150 ml cream.",
+      "adds": "+3 yolks · net ≈ +45 kcal, +7 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 935,
+      "protein_g": 10,
+      "carbs_g": 81,
+      "fat_g": 61
+    },
+    "shop_note": "Vanilla pods and pure extract: Urban Platter or Sprig on Amazon; Kerala-grown pods online."
+  },
+  {
+    "slug": "belgian-dark-chocolate-ice-cream",
+    "title": "Belgian Dark Chocolate Ice Cream",
+    "subtitle": "Cocoa plus real melted dark chocolate",
+    "program": "ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Kid Favourite",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#4A2C1D",
+      "accent": "#2B1810",
+      "deep": "#3B2316"
+    },
+    "intro": "Cocoa gives chocolate flavour; real melted dark chocolate gives the dense, fudgy body of a good gelato counter. Belgian Callebaut callets are easy to order online, but a bar of Amul Dark works beautifully too.",
+    "ingredients": [
+      {
+        "qty": "220 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk",
+        "note": ""
+      },
+      {
+        "qty": "20 g (3½ tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "55 g (4½ tbsp)",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "qty": "½ tsp",
+        "item": "instant coffee (optional)",
+        "note": "deepens chocolate; won't taste of coffee"
+      },
+      {
+        "qty": "50 g",
+        "item": "dark chocolate, finely chopped",
+        "note": "Callebaut 811, Amul Dark 55% or Morde"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": ""
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Whisk 120 ml of the milk with cocoa, sugar, salt and coffee in a saucepan. Simmer gently 1 minute, whisking, until smooth."
+      },
+      {
+        "tag": "COOK",
+        "text": "Off the heat, stir in the chopped chocolate until melted and glossy."
+      },
+      {
+        "tag": "COOL",
+        "text": "Whisk in the remaining 100 ml cold milk and the cream. Cool to room temperature, about 30 minutes; never blend a warm base."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend in the Ninja Blast 20–30 seconds until silky. Rest 1 minute for bubbles to settle, then pour into the pint under MAX FILL."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "If the top is domed, let it sit 5–10 minutes, then run ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Finish with a pinch of flaky salt or crushed Oreo."
+      }
+    ],
+    "tips": [
+      "Always bloom cocoa in hot milk. Blended cold, it tastes dusty and leaves a gritty film.",
+      "Check the label lists cocoa butter, not vegetable fat. Compound 'chocolate-flavoured' slabs give a waxy finish.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN; chocolate pints almost always need it the second time."
+    ],
+    "swaps": [
+      "Protein: 340 ml milk (no cream), 35 g sugar, 30 g chocolate; blast in 1 scoop chocolate whey + xanthan. Rest foam; LITE ICE CREAM, re-spin.",
+      "Double chocolate: after spinning, MIX-IN ¼ cup chopped dark chocolate.",
+      "Mocha: raise the instant coffee to 2 tsp."
+    ],
+    "egg_option": {
+      "title": "Custard chocolate with 2 yolks",
+      "text": "Simmer the cocoa milk without sugar. Whisk 2 yolks with the sugar, slowly whisk in the hot cocoa milk, then stir on low heat to 80–82 °C until it coats a spoon. Melt in chocolate; use 90 ml cream.",
+      "adds": "+2 yolks · net ≈ +40 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 1070,
+      "protein_g": 17,
+      "carbs_g": 103,
+      "fat_g": 64
+    },
+    "shop_note": "Callebaut 811 callets: Amazon or BigBasket. Cocoa and Amul Dark: Blinkit/Zepto or any kirana."
+  },
+  {
+    "slug": "butterscotch-praline-crunch",
+    "title": "Butterscotch Praline Crunch",
+    "subtitle": "India's parlour favourite, made from scratch",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; 1 re-spin with 1 tbsp milk if crumbly",
+    "prep_min": 15,
+    "cook_min": 15,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Mix-In Special",
+      "Desi Classic"
+    ],
+    "colors": {
+      "base": "#E8BF7A",
+      "accent": "#B5762A",
+      "deep": "#7A4A12"
+    },
+    "intro": "Every Indian parlour has a butterscotch tub, usually bright yellow and loud with essence. This one gets its flavour honestly, from caramel cooked with Amul butter and cream, then studded with crunchy cashew praline.",
+    "ingredients": [
+      {
+        "qty": "60 g (5 tbsp)",
+        "item": "sugar, for the caramel",
+        "note": ""
+      },
+      {
+        "qty": "15 g (1 tbsp)",
+        "item": "Amul salted butter",
+        "note": "if unsalted, add a pinch of salt"
+      },
+      {
+        "qty": "150 ml (⅔ cup)",
+        "item": "Amul Fresh Cream, warmed",
+        "note": "30 seconds in the microwave"
+      },
+      {
+        "qty": "40 g (2 tbsp)",
+        "item": "Nestlé Milkmaid",
+        "note": ""
+      },
+      {
+        "qty": "½ tsp",
+        "item": "vanilla extract",
+        "note": ""
+      },
+      {
+        "qty": "200 ml (generous ¾ cup)",
+        "item": "Amul Gold full cream milk, chilled",
+        "note": ""
+      },
+      {
+        "qty": "2–3 drops",
+        "item": "butterscotch essence (optional)",
+        "note": "Bush; for the parlour aroma"
+      },
+      {
+        "qty": "40 g (3 tbsp)",
+        "item": "sugar, for the praline",
+        "note": ""
+      },
+      {
+        "qty": "30 g (¼ cup)",
+        "item": "cashews, chopped, for the praline",
+        "note": "or almonds"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "⅓ cup (about 50 g)",
+        "item": "crushed cashew praline"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Melt 60 g sugar in a heavy pan on medium-low, swirling, until deep amber, 5–6 minutes."
+      },
+      {
+        "tag": "COOK",
+        "text": "Off heat, stir in the butter, then slowly add the warm cream; it bubbles hard. Stir on low until smooth; add Milkmaid and vanilla."
+      },
+      {
+        "tag": "COOK",
+        "text": "Praline: caramelise 40 g sugar to amber, stir in the cashews, spread thin on butter paper. When glass-hard, crush to pea-sized bits."
+      },
+      {
+        "tag": "COOL",
+        "text": "Whisk in the cold milk and cool to room temperature, 30–40 minutes. Never put a warm base in the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Add the essence and blend in the Ninja Blast 20–30 seconds. Pour into the pint under MAX FILL."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add ⅓ cup praline and run MIX-IN. Serve with extra praline on top."
+      }
+    ],
+    "tips": [
+      "Take the caramel to deep amber, the colour of strong chai. Pale tastes only sweet; smoking turns bitter. Warm cream splutters less.",
+      "Praline turns sticky within a day in humid weather. Store it airtight and crush just before using."
+    ],
+    "swaps": [
+      "Short cut: skip the praline and MIX-IN store-bought butterscotch nuts (Morde) or crushed peanut chikki.",
+      "Protein: swap the cream for 120 ml warm milk; once cool, blast in 1 scoop vanilla whey, rest foam. LITE ICE CREAM, re-spin, then MIX-IN.",
+      "Butterscotch walnut: use half walnuts, half cashews in the praline."
+    ],
+    "egg_option": {
+      "title": "Caramel custard with 2 yolks",
+      "text": "Whisk 2 yolks in a bowl; slowly whisk in the hot caramel-cream, then return to low heat and stir to 80–82 °C until it coats a spoon. Whisk in the cold milk, cut to 170 ml. Cool; Blast.",
+      "adds": "+2 yolks · net ≈ +85 kcal, +4 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 1275,
+      "protein_g": 17,
+      "carbs_g": 132,
+      "fat_g": 75
+    },
+    "shop_note": "Butterscotch essence (optional): Bush on Blinkit/Amazon. Ready butterscotch nuts: Morde on Amazon."
+  },
+  {
+    "slug": "eggless-cookie-dough-ice-cream",
+    "title": "Eggless Cookie Dough Ice Cream",
+    "subtitle": "Brown sugar base, safe-to-eat atta dough",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; 1 re-spin with 1 tbsp milk if crumbly",
+    "prep_min": 20,
+    "cook_min": 5,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Mix-In Special",
+      "Kid Favourite",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#EEDDB8",
+      "accent": "#9C6B3C",
+      "deep": "#6E4520"
+    },
+    "intro": "Raw cookie dough is the best part of baking, and with no eggs and heat-treated atta it is safe to eat. The toffee-ish brown sugar base tastes like the middle of a warm chocolate chip cookie.",
+    "ingredients": [
+      {
+        "qty": "220 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk, chilled",
+        "note": ""
+      },
+      {
+        "qty": "60 g (5 tbsp, packed)",
+        "item": "brown sugar",
+        "note": ""
+      },
+      {
+        "qty": "1 tsp",
+        "item": "vanilla extract",
+        "note": ""
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "qty": "160 ml (⅔ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": ""
+      },
+      {
+        "qty": "30 g (¼ cup)",
+        "item": "whole wheat atta, for the dough",
+        "note": "or maida; must be heat-treated"
+      },
+      {
+        "qty": "15 g (1 tbsp)",
+        "item": "Amul butter, softened, for the dough",
+        "note": ""
+      },
+      {
+        "qty": "15 g (1 tbsp, packed)",
+        "item": "brown sugar, for the dough",
+        "note": ""
+      },
+      {
+        "qty": "2 tsp (10 ml)",
+        "item": "milk, for the dough",
+        "note": ""
+      },
+      {
+        "qty": "15 g (1 heaped tbsp)",
+        "item": "mini chocolate chips, for the dough",
+        "note": "Morde or Hershey's"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "⅓ cup (~85 g)",
+        "item": "frozen pea-sized cookie dough balls"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Heat-treat the atta: dry-roast on low, stirring constantly, 4–5 minutes until toasty and hot throughout (or microwave in 30-second bursts to 75 °C). Sift; cool."
+      },
+      {
+        "tag": "PREP",
+        "text": "Mix the atta with butter, 15 g brown sugar, milk, a drop of vanilla and a pinch of salt. Fold in chips, roll pea-sized balls; freeze."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, 60 g brown sugar, vanilla and salt in the Ninja Blast 45 seconds until no grains remain. Add the cream; blend only 5–10 seconds."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint under MAX FILL. Lid on; freeze level for 24 h, with the dough balls boxed alongside."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If dry or crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, drop in the frozen dough balls and run MIX-IN. Serve straight away."
+      }
+    ],
+    "tips": [
+      "Raw flour can carry bacteria, so never skip heat-treating. Atta tastes nutty, like digestive biscuits; maida is closer to American cookie dough.",
+      "Keep the dough balls small and frozen hard. Big, soft lumps smear instead of staying as chunks.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on ICE CREAM; the dough bits survive well."
+    ],
+    "swaps": [
+      "Protein: swap the cream for 160 ml milk, cut sugar to 40 g, blast in 1 scoop vanilla whey. Rest foam; LITE ICE CREAM, re-spin, MIX-IN.",
+      "Gluten-free: heat-treat 30 g almond flour or certified gluten-free oat flour instead of atta.",
+      "Biscoff dough: replace the butter with 1 tbsp Lotus Biscoff spread and skip the chips."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1185,
+      "protein_g": 15,
+      "carbs_g": 122,
+      "fat_g": 70
+    },
+    "shop_note": "Mini chocolate chips: Morde or Hershey's on Blinkit/Amazon. Brown sugar: BigBasket or any kirana."
+  },
+  {
+    "slug": "fresh-pudina-choc-chip",
+    "title": "Fresh Pudina Choc Chip",
+    "subtitle": "Real mint leaves, no green essence",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; 1 re-spin with 1 tbsp milk if powdery",
+    "prep_min": 40,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Mix-In Special",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#DDEBCF",
+      "accent": "#3A2418",
+      "deep": "#2F5A2A"
+    },
+    "intro": "Most mint choc chip gets its taste and neon colour from a bottle. Steeping a big bunch of chutney pudina gives a softer, garden-fresh mint. Expect a pale ivory-green scoop flecked with dark chocolate.",
+    "ingredients": [
+      {
+        "qty": "220 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk",
+        "note": ""
+      },
+      {
+        "qty": "65 g (5 tbsp)",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "qty": "25 g (1 packed cup)",
+        "item": "fresh mint (pudina) leaves",
+        "note": "one large bunch; leaves only"
+      },
+      {
+        "qty": "180 ml (¾ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": ""
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "40 g (¼ cup)",
+        "item": "dark chocolate chips or chopped dark chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Rinse and dry the mint, then scrunch it in your hands to bruise the leaves and release the oils."
+      },
+      {
+        "tag": "COOK",
+        "text": "Heat milk, sugar and salt until steaming and the sugar dissolves; don't boil. Off the heat, push the mint under, cover and steep 25–30 minutes."
+      },
+      {
+        "tag": "COOL",
+        "text": "Strain, pressing hard on the leaves. Cool the minty milk to room temperature."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the minty milk and cream in the Ninja Blast 10 seconds. It should taste slightly over-minty and over-sweet; freezing mutes both."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint under MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If the edges look powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the chocolate and run MIX-IN. Serve immediately."
+      }
+    ],
+    "tips": [
+      "Steep no longer than 40 minutes and never boil the leaves, or they turn bitter. For brighter mint, cold-steep overnight in the fridge instead.",
+      "For fine flecks, melt the chocolate with 1 tsp coconut oil and drizzle it into the well before MIX-IN; it shatters into shards.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN before serving."
+    ],
+    "swaps": [
+      "Want it green? Blend 6–8 raw mint leaves into the cooled base, then strain again for a natural pale green.",
+      "Protein: swap the cream for 160 ml milk, cut sugar to 40 g, blast in 1 scoop vanilla whey. Rest foam; LITE ICE CREAM, re-spin, MIX-IN.",
+      "Mint Oreo: replace the chocolate with 3 crushed Oreos (about ⅓ cup)."
+    ],
+    "egg_option": {
+      "title": "Mint custard with 2 yolks",
+      "text": "Rewarm the strained minty milk until steaming. Whisk 2 yolks, slowly whisk in the hot milk, then stir on low heat to 80–82 °C until it coats a spoon. Cut cream to 140 ml. Cool fully; Blast.",
+      "adds": "+2 yolks · net ≈ +15 kcal, +4 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 1105,
+      "protein_g": 13,
+      "carbs_g": 101,
+      "fat_g": 72
+    },
+    "shop_note": "Fresh pudina: any sabziwala or Blinkit/Zepto. Dark chocolate chips: Morde or Amul on Amazon/BigBasket."
+  },
+  {
+    "slug": "black-forest-ice-cream",
+    "title": "Black Forest Ice Cream",
+    "subtitle": "The bakery birthday cake, in a scoop",
+    "program": "ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 15,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Mix-In Special",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#5A3524",
+      "accent": "#8E1B2C",
+      "deep": "#5C1420"
+    },
+    "intro": "Black Forest was the birthday cake of every 90s Indian childhood. This pint keeps the trio of chocolate, cream and cherries: cocoa ice cream, a tart homemade compote and dark chocolate shavings.",
+    "ingredients": [
+      {
+        "qty": "230 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk",
+        "note": ""
+      },
+      {
+        "qty": "25 g (4 tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "65 g (5 tbsp)",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "qty": "1 pinch + ½ tsp",
+        "item": "salt + vanilla extract",
+        "note": ""
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": ""
+      },
+      {
+        "qty": "120 g (¾ cup)",
+        "item": "pitted cherries, halved, for the compote",
+        "note": "fresh (May–July), frozen or drained canned"
+      },
+      {
+        "qty": "25 g (2 tbsp)",
+        "item": "sugar, for the compote",
+        "note": "1 tbsp if cherries are syrup-canned"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "lemon juice",
+        "note": ""
+      },
+      {
+        "qty": "1 tsp",
+        "item": "cornflour mixed with 1 tbsp water",
+        "note": ""
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "3 tbsp (~60 g)",
+        "item": "fridge-cold cherry compote"
+      },
+      {
+        "qty": "2 tbsp (15 g)",
+        "item": "dark chocolate shavings (Amul Dark or Morde)"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Whisk 120 ml of the milk with cocoa, sugar and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+      },
+      {
+        "tag": "COOL",
+        "text": "Off heat, whisk in the remaining cold milk, the cream and vanilla. Cool to room temperature, about 30 minutes."
+      },
+      {
+        "tag": "COOK",
+        "text": "Meanwhile, cook cherries, sugar and lemon juice on medium 5–6 minutes. Stir in the slurry; cook 1 minute until jammy. Cool, then refrigerate."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled chocolate base in the Ninja Blast 20–30 seconds. Pour into the pint under MAX FILL."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add 3 tbsp cold compote and the shavings, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Top with leftover compote, extra shavings and a dollop of whipped cream for full bakery effect."
+      }
+    ],
+    "tips": [
+      "The compote must be fridge-cold and thick. Warm, runny compote melts the ice cream around it and refreezes as icy streaks.",
+      "Shave chocolate straight off a cold bar with a vegetable peeler; the curls survive MIX-IN instead of turning to dust."
+    ],
+    "swaps": [
+      "Short cut: use 3 tbsp drained, chopped canned cherries (Druk), or cherry jam loosened with a squeeze of lemon.",
+      "Protein: swap the cream for milk, cut sugar to 40 g; once cool, blast in 1 scoop chocolate whey. Rest foam; LITE ICE CREAM, re-spin, MIX-IN.",
+      "Cake crumbs: swap the shavings for 2 tbsp crumbled chocolate sponge or brownie."
+    ],
+    "egg_option": {
+      "title": "Fudgier base with 2 yolks",
+      "text": "Whisk 2 yolks in a bowl; slowly whisk in the hot cocoa milk, then stir on low heat to 80–82 °C until it coats a spoon. Add only 80 ml cold milk with the cream. Cool; Blast.",
+      "adds": "+2 yolks · net ≈ +85 kcal, +4 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 1030,
+      "protein_g": 17,
+      "carbs_g": 122,
+      "fat_g": 52
+    },
+    "shop_note": "Frozen cherries: Frugivore on BigBasket. Canned: Druk Red Cherry in syrup (BigBasket). Fresh Himachal/Kashmiri cherries May–July."
+  },
+  {
+    "slug": "rocky-road-ice-cream",
+    "title": "Rocky Road (Gelatin-Free)",
+    "subtitle": "Chocolate, veg marshmallows, peanuts, chocolate chunks",
+    "program": "ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Eggless",
+      "Mix-In Special",
+      "Kid Favourite",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#5B3A28",
+      "accent": "#F3EEE4",
+      "deep": "#3E2518"
+    },
+    "intro": "Rocky road is the bumpy one: chocolate ice cream crowded with soft marshmallows, salty peanuts and dark chocolate. Most marshmallows sold in India contain gelatin, so buy a gelatin-free brand with the green dot.",
+    "ingredients": [
+      {
+        "qty": "230 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk",
+        "note": ""
+      },
+      {
+        "qty": "20 g (3½ tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "50 g (4 tbsp)",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "qty": "40 g (2 tbsp)",
+        "item": "Nestlé Milkmaid",
+        "note": ""
+      },
+      {
+        "qty": "130 ml (generous ½ cup)",
+        "item": "Amul Fresh Cream, chilled",
+        "note": ""
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "3 tbsp (8 g)",
+        "item": "gelatin-free mini marshmallows",
+        "note": "Kandee Factory Marshmelts; snip if large"
+      },
+      {
+        "qty": "1 tbsp (10 g)",
+        "item": "roasted salted peanuts, chopped"
+      },
+      {
+        "qty": "1 tbsp (12 g)",
+        "item": "dark chocolate chunks"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Whisk 120 ml of the milk with cocoa, sugar and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+      },
+      {
+        "tag": "COOL",
+        "text": "Off heat, whisk in the Milkmaid, remaining cold milk and cream. Cool to room temperature, about 30 minutes."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled base in the Ninja Blast 20–30 seconds. Pour into the pint under MAX FILL."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Lid on; freeze level for 24 h. Put the marshmallows in the freezer for the last hour."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If dry or crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the marshmallows, peanuts and chocolate, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scatter extra marshmallows and peanuts on top; for a s'mores finish, torch the marshmallows for a few seconds."
+      }
+    ],
+    "tips": [
+      "Kandee Factory Marshmelts are gelatin-free. With any other brand, read the ingredients for gelatin and look for the green dot.",
+      "Chill the marshmallows first; warm ones turn sticky and smear instead of staying as soft pillows.",
+      "Leftovers: flatten, refreeze and RE-SPIN. Nuts and chocolate hold up; the marshmallows turn chewier, which many people love."
+    ],
+    "swaps": [
+      "Swap the peanuts for toasted almonds or walnuts, or crushed peanut chikki for extra crunch.",
+      "Protein: swap the cream for milk and skip the Milkmaid; once cool, blast in 1 scoop chocolate whey. Rest foam; LITE ICE CREAM, re-spin, MIX-IN.",
+      "Nutella road: swap the chocolate chunks for 1 tbsp Nutella in the well."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1090,
+      "protein_g": 21,
+      "carbs_g": 112,
+      "fat_g": 62
+    },
+    "shop_note": "Gelatin-free marshmallows: Kandee Factory Marshmelts, online or on Amazon; always check for the green dot."
+  }
+]

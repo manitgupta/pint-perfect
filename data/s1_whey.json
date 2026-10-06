@@ -1,0 +1,1092 @@
+[
+  {
+    "slug": "chocolate-peanut-butter-protein",
+    "title": "Chocolate Peanut Butter Protein",
+    "subtitle": "The gym-bag classic, now scoopable",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Low Sugar",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#6B4A32",
+      "accent": "#C8955A",
+      "deep": "#3E2617"
+    },
+    "intro": "Chocolate whey and peanut butter already share a shelf in half the kitchens in India. Peanut butter powder adds roasted flavour and protein without extra fat, and salted peanuts finish it.",
+    "ingredients": [
+      {
+        "qty": "340 ml (scant 1½ cups)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "chocolate whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "16 g (1 tbsp)",
+        "item": "natural peanut butter, unsweetened",
+        "note": "Pintola or Alpino"
+      },
+      {
+        "qty": "16 g (2 tbsp)",
+        "item": "Alpino peanut butter powder",
+        "note": "or 1 more tbsp peanut butter"
+      },
+      {
+        "qty": "6 g (1 tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "2–4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (1½ tbsp)",
+        "item": "roasted salted peanuts, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, peanut butter, PB powder, cocoa, sweetener, salt and xanthan in the Ninja Blast, adding the whey last, for 45–60 s until smooth."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the peanuts and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once, with a thin drizzle of peanut butter if you like."
+      }
+    ],
+    "tips": [
+      "Spoon the peanut butter onto the milk, not the vessel walls, or it sticks to the plastic and never blends in.",
+      "Whey brands vary in sweetness. Taste the blended base and add sweetener only if it needs it.",
+      "Leftovers: flatten the top, refreeze, and re-spin with a splash of milk before serving."
+    ],
+    "swaps": [
+      "No PB powder: use 2 tbsp peanut butter in total (adds about 70 kcal and 7 g fat).",
+      "Higher protein: swap 250 ml of the milk for one pack of Amul High Protein Milk (about +27 g protein).",
+      "Gluten-free: most plain chocolate wheys are, but check the label."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 582,
+      "protein_g": 50,
+      "carbs_g": 30,
+      "fat_g": 30
+    },
+    "shop_note": "PB powder: Alpino on Amazon or Blinkit. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "cookies-and-cream-protein",
+    "title": "Cookies & Cream Protein",
+    "subtitle": "Vanilla protein, Oreo in every bite",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Kid Favourite",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#EDE6DA",
+      "accent": "#2B2522",
+      "deep": "#2E2A28"
+    },
+    "intro": "Skimmed milk made rich with two spoons of milk powder, so the vanilla tastes like ice cream, not a shaker bottle. Oreos go in at the end, broken by hand, for real chunks.",
+    "ingredients": [
+      {
+        "qty": "330 ml (1⅓ cups)",
+        "item": "skimmed milk, e.g. Amul Slim n Trim",
+        "note": "toned milk makes it creamier"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "skimmed milk powder, e.g. Amul Sagar"
+      },
+      {
+        "qty": "2 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "vanilla essence"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "3 biscuits (35 g)",
+        "item": "Oreo, broken into pieces",
+        "note": "or any chocolate cream biscuit"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, milk powder, sweetener, vanilla and xanthan in the Ninja Blast, whey last, for 45 s until no powder remains."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, drop in the broken Oreos and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once, topped with one extra crushed Oreo."
+      }
+    ],
+    "tips": [
+      "Break each Oreo into 6–8 pieces by hand. Fine crumbs dissolve during MIX-IN and turn the whole pint grey.",
+      "Milk powder is the cheap trick: it adds body and milky flavour to skimmed milk with almost no fat.",
+      "For a whiter pint, use unflavoured whey and 1 tsp vanilla; many vanilla wheys tint the base beige."
+    ],
+    "swaps": [
+      "Use Hide & Seek, Bourbon or Dark Fantasy pieces instead of Oreo.",
+      "Chocolate: use chocolate whey and add 1 tbsp cocoa to the base.",
+      "Lighter: use 2 Oreos (saves about 55 kcal)."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 448,
+      "protein_g": 41,
+      "carbs_g": 51,
+      "fat_g": 9
+    },
+    "shop_note": "Skimmed milk powder: Amul Sagar on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "kesar-pista-protein-kulfi",
+    "title": "Kesar Pista Protein Kulfi",
+    "subtitle": "Matka kulfi flavour, no hours of stirring",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Desi Classic",
+      "Eggless",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#F1D58A",
+      "accent": "#8DB255",
+      "deep": "#7A4E0E"
+    },
+    "intro": "Real kulfi means boiling milk down for an hour. Here, Amul High Protein Milk and a little milk powder give dense, rabdi-like body in minutes, while saffron and elaichi bring the matka smell.",
+    "ingredients": [
+      {
+        "qty": "250 ml (1 pack)",
+        "item": "Amul High Protein Milk (35 g protein)",
+        "note": "fat-free; see Swaps if unavailable"
+      },
+      {
+        "qty": "110 ml (scant ½ cup)",
+        "item": "Amul Taaza toned milk",
+        "note": "2 tbsp of it for the saffron"
+      },
+      {
+        "qty": "15 g (½ scoop)",
+        "item": "unflavoured or vanilla whey protein",
+        "note": "AS-IT-IS, MuscleBlaze or ON"
+      },
+      {
+        "qty": "20 g (2½ tbsp)",
+        "item": "skimmed milk powder, e.g. Amul Sagar"
+      },
+      {
+        "qty": "15–20 strands",
+        "item": "saffron (kesar)",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "green cardamom powder",
+        "note": "or 4 pods, seeds crushed"
+      },
+      {
+        "qty": "4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "unsalted pistachios, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Warm 2 tbsp of the toned milk for 10 s, crush in the saffron and steep 10 min. Cool to room temperature."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend both milks, saffron milk, milk powder, cardamom, sweetener and xanthan in the Ninja Blast, whey last, for 45 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the pistachios and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in small kulhads, topped with saffron strands and slivered pistachio."
+      }
+    ],
+    "tips": [
+      "Unflavoured whey keeps the saffron in front. Vanilla whey works too; use less sweetener.",
+      "For a firmer, more kulfi-like bite, return the spun pint to the freezer for 15–20 min before scooping.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Malai kulfi: skip the saffron; add 1 tsp edible rose water and a pinch of nutmeg.",
+      "No Amul High Protein Milk: use 360 ml toned milk and 30 g whey in total (about 45 g protein).",
+      "Badam-pista: add 1 tbsp chopped almonds with the pistachios."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 480,
+      "protein_g": 60,
+      "carbs_g": 35,
+      "fat_g": 11
+    },
+    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com (often sells out). Kesar: Blinkit. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "cold-coffee-mocha-chip-protein",
+    "title": "Cold Coffee Mocha Chip Protein",
+    "subtitle": "Café cold coffee, frozen solid",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Low Sugar",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#A27B5C",
+      "accent": "#3B2416",
+      "deep": "#4A2E1C"
+    },
+    "intro": "Strong Nescafé, milk and a hit of cocoa: everything that makes a café cold coffee good, set as a scoopable pint. Dark chocolate chips go in after the spin, so they stay crunchy.",
+    "ingredients": [
+      {
+        "qty": "2 tsp",
+        "item": "instant coffee, e.g. Nescafé Classic or Bru",
+        "note": "1½ tsp for a milder pint"
+      },
+      {
+        "qty": "2 tbsp (30 ml)",
+        "item": "hot water"
+      },
+      {
+        "qty": "320 ml (1⅓ cups)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla or chocolate whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "6 g (1 tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "2–4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "20 g (2 tbsp)",
+        "item": "dark chocolate chips, e.g. Morde",
+        "note": "or chopped Amul dark chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Dissolve the coffee in the hot water and let it cool completely, about 5 min. Never pour hot liquid into the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, cooled coffee, cocoa, sweetener and xanthan in the Ninja Blast, whey last, for 45 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the chocolate chips and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once, dusted with a little cocoa or instant coffee."
+      }
+    ],
+    "tips": [
+      "Freezing mutes coffee, so the base should taste slightly too strong before it goes into the pint.",
+      "Chop a dark chocolate bar into thin shards; they melt on the tongue better than chips.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Decaf: use any decaf instant coffee for an evening pint.",
+      "Hazelnut mocha: add 1 tbsp hazelnut spread to the base and skip the cocoa.",
+      "Lighter: use skimmed milk instead of toned (saves about 70 kcal and 9 g fat)."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 420,
+      "protein_g": 35,
+      "carbs_g": 32,
+      "fat_g": 17
+    },
+    "shop_note": "Morde dark chocolate chips: Amazon or BigBasket. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "banana-bread-protein",
+    "title": "Banana Bread Protein",
+    "subtitle": "Overripe bananas, finally put to use",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Kid Favourite",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#E8CF9A",
+      "accent": "#8A5A34",
+      "deep": "#6B4420"
+    },
+    "intro": "That spotty banana nobody wants is exactly what this pint needs. It brings sweetness and body, jaggery and cinnamon add loaf-cake warmth, and toasted walnuts with an oats biscuit stand in for the crust.",
+    "ingredients": [
+      {
+        "qty": "120 g (1 medium, peeled)",
+        "item": "very ripe banana, brown-spotted",
+        "note": "Robusta or elaichi bananas"
+      },
+      {
+        "qty": "250 ml (1 cup)",
+        "item": "skimmed milk, e.g. Amul Slim n Trim",
+        "note": "or toned milk"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "12 g (1 tbsp)",
+        "item": "jaggery powder",
+        "note": "or brown sugar"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "ground cinnamon"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "nutmeg (jaiphal), grated"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "walnuts, toasted and chopped"
+      },
+      {
+        "qty": "1 biscuit (12 g)",
+        "item": "oats biscuit, crushed",
+        "note": "e.g. Britannia NutriChoice Oats"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Dry-toast the walnuts 3–4 min until fragrant; cool and chop. Break the banana into chunks."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, banana, jaggery, cinnamon, nutmeg, salt and xanthan in the Ninja Blast, whey last, for 45–60 s until silky."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the walnuts and crushed biscuit, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve with a pinch of cinnamon on top."
+      }
+    ],
+    "tips": [
+      "The browner the banana, the sweeter the pint. Yellow bananas taste starchy and flat once frozen.",
+      "Banana makes this one of the creamiest protein pints; it rarely needs more than one re-spin.",
+      "Freeze extra ripe bananas peeled and chopped; thaw 10 min and they blend just as well."
+    ],
+    "swaps": [
+      "Swap the walnuts for pecans or toasted almonds.",
+      "Choco-banana: add 1 tbsp cocoa to the base and use chocolate whey.",
+      "Gluten-free: replace the biscuit with 2 tbsp toasted rolled oats (certified gluten-free if needed)."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 517,
+      "protein_g": 36,
+      "carbs_g": 65,
+      "fat_g": 15
+    },
+    "shop_note": "Jaggery powder: 24 Mantra or Organic Tattva on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "strawberry-cheesecake-protein",
+    "title": "Strawberry Cheesecake Protein",
+    "subtitle": "Strawberries meet digestive biscuit crumble",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Fruit Forward",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#F2B3BC",
+      "accent": "#C9A26B",
+      "deep": "#8E2433"
+    },
+    "intro": "Greek yogurt and a spoon of cream cheese give this pint a baked-cheesecake tang, while real strawberries turn it pink without colouring. Crushed digestives go in last as the base.",
+    "ingredients": [
+      {
+        "qty": "130 g (9–10 berries)",
+        "item": "strawberries, hulled, fresh or frozen",
+        "note": "fresh Dec–Mar; frozen year-round"
+      },
+      {
+        "qty": "180 ml (¾ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "60 g (¼ cup)",
+        "item": "Epigamia Greek yogurt, natural",
+        "note": "or thick hung curd"
+      },
+      {
+        "qty": "40 g (2½ tbsp)",
+        "item": "cream cheese, e.g. D'lecta or Go",
+        "note": "softened 15 min"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "3–4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "lemon juice"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "2 biscuits (30 g)",
+        "item": "digestive biscuits, crushed",
+        "note": "or 4 Britannia Marie Gold"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, strawberries, yogurt, cream cheese, lemon juice, sweetener and xanthan in the Ninja Blast, whey last, for 60 s until smooth and pink."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the crushed biscuits and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Top with a sliced strawberry and a little extra crumble."
+      }
+    ],
+    "tips": [
+      "Soften the cream cheese for 15 min at room temperature, or it leaves white flecks in the base.",
+      "Frozen strawberries are often tarter than fresh; taste the base and add sweetener if needed.",
+      "Leftovers: flatten, refreeze and re-spin; add fresh crumble, as the old pieces go soft."
+    ],
+    "swaps": [
+      "Blueberry cheesecake: use frozen blueberries instead of strawberries.",
+      "Mango cheesecake: use 130 g Alphonso pulp in season.",
+      "No cream cheese: use 40 g more Greek yogurt for a lighter, tangier pint."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 555,
+      "protein_g": 39,
+      "carbs_g": 46,
+      "fat_g": 24
+    },
+    "shop_note": "Frozen strawberries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Cream cheese: D'lecta on BigBasket. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "thandai-protein",
+    "title": "Thandai Protein",
+    "subtitle": "Holi's favourite drink, set as a pint",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 20,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Desi Classic",
+      "Eggless",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#EED9B4",
+      "accent": "#C9506B",
+      "deep": "#6E4A22"
+    },
+    "intro": "Fennel, black pepper, cardamom and rose make thandai the most aromatic glass of milk in India. Soft paneer blended into the base adds malai-like body and pushes the protein up.",
+    "ingredients": [
+      {
+        "qty": "300 ml (1¼ cups)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "unflavoured or vanilla whey protein",
+        "note": "AS-IT-IS, MuscleBlaze or ON"
+      },
+      {
+        "qty": "50 g (¼ cup)",
+        "item": "Amul High Protein Paneer, soft, crumbled",
+        "note": "or fresh malai paneer"
+      },
+      {
+        "qty": "12 g (1½ tbsp)",
+        "item": "thandai masala powder",
+        "note": "Badshah, or homemade (see Swaps)"
+      },
+      {
+        "qty": "10 (12 g)",
+        "item": "almonds, soaked 15 min and peeled"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "edible rose water",
+        "note": "food-grade only, not cosmetic Gulabari"
+      },
+      {
+        "qty": "4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the almonds in hot water 15 min, then peel. Meanwhile, stir the thandai masala into the cold milk to infuse."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend spiced milk, almonds, paneer, rose water, sweetener and xanthan in the Ninja Blast, whey last, for 60 s until no paneer grains remain."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Top with crushed dried rose petals and slivered almonds or pistachios, if you like."
+      }
+    ],
+    "tips": [
+      "Infusing the masala in cold milk for 15 min gives a rounder spice flavour than blending it in dry.",
+      "Thandai masalas differ in pepper; start with 1 tbsp, taste the blended base and add more if needed.",
+      "Use soft, fresh paneer. Dry paneer stays grainy however long you blend it."
+    ],
+    "swaps": [
+      "Homemade masala: grind 1 tbsp almonds, 1 tsp each fennel and melon seeds, ½ tsp poppy seeds, 6 peppercorns, 4 cardamom pods, 1 tsp rose petals.",
+      "Instead of paneer, use 60 g Greek yogurt for a tangier pint.",
+      "Kesar thandai: bloom 10 saffron strands in 1 tbsp warm milk, cool, and add with the rose water."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 497,
+      "protein_g": 50,
+      "carbs_g": 25,
+      "fat_g": 22
+    },
+    "shop_note": "Thandai masala: Badshah on Amazon or Blinkit. Edible rose water and dried petals: Blinkit, or Urban Platter on Amazon."
+  },
+  {
+    "slug": "lotus-biscoff-protein",
+    "title": "Lotus Biscoff Protein",
+    "subtitle": "Caramelised biscuit, blended and crunched",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Mix-In Special",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#D9AE7E",
+      "accent": "#A0602B",
+      "deep": "#6A3D17"
+    },
+    "intro": "Biscoff appears twice: a spoon of spread blended into the base, then more spread and crushed biscuits folded through at the end. Greek yogurt keeps it creamy, and its slight tang tames the caramel.",
+    "ingredients": [
+      {
+        "qty": "280 ml (1 cup + 2 tbsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "80 g (⅓ cup)",
+        "item": "Epigamia Greek yogurt, natural",
+        "note": "or thick hung curd"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "15 g (1 tbsp)",
+        "item": "Lotus Biscoff spread, smooth"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "ground cinnamon"
+      },
+      {
+        "qty": "2 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (1 tbsp)",
+        "item": "Lotus Biscoff spread, warmed 10 s"
+      },
+      {
+        "qty": "3 biscuits",
+        "item": "Lotus Biscoff biscuits, roughly crushed"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, yogurt, 1 tbsp Biscoff spread, cinnamon, sweetener and xanthan in the Ninja Blast, whey last, for 45–60 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, drizzle in the loosened spread, add the crushed biscuits and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve with half a Biscoff biscuit tucked into each scoop."
+      }
+    ],
+    "tips": [
+      "Warm the mix-in spread only until pourable, not hot; hot spread melts a channel through the ice cream.",
+      "For visible ribbons, drizzle the spread over each scoop instead of running it through MIX-IN.",
+      "Leftovers: flatten, refreeze and re-spin; the biscuit softens overnight, so add a few fresh pieces."
+    ],
+    "swaps": [
+      "No Biscoff: crushed ginger or cinnamon biscuits give a similar spiced-caramel flavour.",
+      "Lighter: skip the mix-in spread and use 4 crushed biscuits (saves about 50 kcal).",
+      "Coffee Biscoff: dissolve 1 tsp instant coffee in 1 tbsp hot water, cool, and add to the base."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 629,
+      "protein_g": 40,
+      "carbs_g": 54,
+      "fat_g": 28
+    },
+    "shop_note": "Lotus Biscoff spread and biscuits: Blinkit, Zepto or Amazon. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "rose-falooda-protein",
+    "title": "Rose Falooda Protein",
+    "subtitle": "The Irani café falooda, in a pint",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 20,
+    "cook_min": 0,
+    "difficulty": "Medium",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Desi Classic",
+      "Eggless",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#F4B6C6",
+      "accent": "#3F3A36",
+      "deep": "#8A2647"
+    },
+    "intro": "Rooh Afza turns a plain whey base the exact pink of a Mumbai falooda and brings the rose with it. Sabja and tutti-frutti go in after the spin, so they stay soft and chewy.",
+    "ingredients": [
+      {
+        "qty": "340 ml (scant 1½ cups)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "unflavoured or vanilla whey protein",
+        "note": "AS-IT-IS, MuscleBlaze or ON"
+      },
+      {
+        "qty": "2 tbsp (30 ml)",
+        "item": "Hamdard Rooh Afza",
+        "note": "or any rose syrup"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "edible rose water (optional)",
+        "note": "for a stronger aroma"
+      },
+      {
+        "qty": "1 pack spoon, if needed",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "1 tsp dry (4 g)",
+        "item": "sabja (sweet basil) seeds, soaked in 3 tbsp water"
+      },
+      {
+        "qty": "15 g (1 tbsp)",
+        "item": "tutti-frutti"
+      },
+      {
+        "qty": "2 tbsp (optional)",
+        "item": "cooked falooda sev, chilled, cut short",
+        "note": "not counted in nutrition"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the sabja in 3 tbsp water for 15 min, then chill. If using sev, cook as per the pack, rinse cold and chill."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, Rooh Afza, rose water and xanthan in the Ninja Blast, whey last, for 45 s. Taste; add sweetener only if needed."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the drained sabja, tutti-frutti and sev, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in tall glasses with an extra drizzle of Rooh Afza."
+      }
+    ],
+    "tips": [
+      "Drain the sabja well; extra water freezes into icy streaks.",
+      "Keep mix-ins to about ⅓ cup in total, or MIX-IN cannot fold them through evenly.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Falooda shake: add 120 ml (½ cup) cold milk to the spun pint and run MILKSHAKE.",
+      "Kesar falooda: replace Rooh Afza with 15 saffron strands bloomed in warm milk, cooled, plus 4 spoons Sugar Free Natura.",
+      "Swap the tutti-frutti for chopped pistachios for a less sweet, crunchier pint."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 467,
+      "protein_g": 35,
+      "carbs_g": 55,
+      "fat_g": 12
+    },
+    "shop_note": "Sabja and falooda sev: Blinkit or BigBasket (Weikfield falooda mix also works). Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "brownie-batter-protein",
+    "title": "Brownie Batter Protein",
+    "subtitle": "Double chocolate with real brownie chunks",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1–2 re-spins with 1–2 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Kid Favourite",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#4E3022",
+      "accent": "#2A1810",
+      "deep": "#2E1A10"
+    },
+    "intro": "Cocoa, chocolate syrup and chocolate whey make a base as dark as raw brownie batter, and a pinch of coffee deepens it. Amul High Protein Milk does most of the protein work, so you need little whey.",
+    "ingredients": [
+      {
+        "qty": "250 ml (1 pack)",
+        "item": "Amul High Protein Milk (35 g protein)",
+        "note": "fat-free; see Swaps if unavailable"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "20 g (⅔ scoop)",
+        "item": "chocolate whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "12 g (2 tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "20 g (1 tbsp)",
+        "item": "Hershey's chocolate syrup"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "instant coffee, e.g. Nescafé or Bru"
+      },
+      {
+        "qty": "2–4 pack spoons",
+        "item": "Sugar Free Natura powder (sucralose)",
+        "note": "1 spoon = 1 tsp sugar; or erythritol"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "35 g (⅓ cup)",
+        "item": "brownie, in 1 cm cubes, frozen 15 min",
+        "note": "bakery or packaged"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend both milks, cocoa, syrup, coffee, sweetener, salt and xanthan in the Ninja Blast, whey last, for 60 s so the cocoa dissolves."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM."
+      },
+      {
+        "tag": "RESPIN",
+        "text": "Cocoa bases often spin crumbly. Add 1–2 tbsp milk and RE-SPIN; repeat once if needed."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the frozen brownie cubes and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once with a few brownie crumbs on top."
+      }
+    ],
+    "tips": [
+      "Freeze the brownie cubes first; soft brownie smears into the ice cream instead of staying in chunks.",
+      "Cocoa makes spins more powdery, so the xanthan is especially worth adding here.",
+      "Leftovers: flatten the top, refreeze, and re-spin with a splash of milk."
+    ],
+    "swaps": [
+      "Protein brownie: use cubes of a chocolate protein bar (Yoga Bar, RiteBite Max Protein) instead of brownie.",
+      "No Amul High Protein Milk: use 370 ml toned milk and 35 g chocolate whey (about 44 g protein).",
+      "Mint brownie: add ¼ tsp peppermint essence to the base."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 585,
+      "protein_g": 58,
+      "carbs_g": 57,
+      "fat_g": 14
+    },
+    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com; stock comes and goes. Xanthan gum: Urban Platter on Amazon."
+  }
+]

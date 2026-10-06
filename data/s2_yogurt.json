@@ -1,0 +1,993 @@
+[
+  {
+    "slug": "alphonso-mango-shrikhand-froyo",
+    "title": "Alphonso Mango Shrikhand Froyo",
+    "subtitle": "Aamrakhand, frozen and protein-packed",
+    "program": "LITE ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Desi Classic",
+      "Fruit Forward"
+    ],
+    "colors": {
+      "base": "#F6B94A",
+      "accent": "#E07A1F",
+      "deep": "#7E4209"
+    },
+    "intro": "Every Maharashtrian and Gujarati summer has a bowl of aamrakhand: thick yogurt, Alphonso pulp, saffron and elaichi. This pint keeps the flavour and adds a scoop of whey, so dessert out-proteins most shakes.",
+    "ingredients": [
+      {
+        "qty": "220 g (1 cup)",
+        "item": "Epigamia Greek Yogurt, Natural",
+        "note": "or Amul Greek yogurt, or hung curd"
+      },
+      {
+        "qty": "150 g (⅔ cup)",
+        "item": "Alphonso mango pulp",
+        "note": "Swad or Ratna's tin; Kesar pulp works"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla or unflavoured whey protein",
+        "note": "MuscleBlaze, ON, Avvatar or AS-IT-IS"
+      },
+      {
+        "qty": "20 g (1½ tbsp)",
+        "item": "powdered sugar",
+        "note": "or 4 spoons Sugar Free Natura (sucralose)"
+      },
+      {
+        "qty": "45 ml (3 tbsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "15 strands + 1 tbsp milk",
+        "item": "saffron, soaked in warm milk, cooled",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the saffron in 1 tbsp warm milk for 10 min until deep orange; cool to room temperature."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend yogurt, mango pulp, milk, saffron milk, sugar, cardamom, whey and xanthan in the Ninja Blast: two 45 s cycles, until silky."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint; it sits just under MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump with a spoon, then run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Finish with saffron strands and slivered pistachios, like shrikhand at a wedding thali."
+      }
+    ],
+    "tips": [
+      "Tinned pulp is sweeter than fresh. With fresh Alphonso, add 1 tbsp more sugar or the pint tastes flat frozen.",
+      "Hung curd is tangier and denser; thin it with 1 extra tbsp milk so the Blast can turn it over.",
+      "Leftovers: flatten the top, refreeze, and re-spin on LITE ICE CREAM before serving."
+    ],
+    "swaps": [
+      "Kesar-elaichi shrikhand: skip the mango; use 300 g yogurt, 30 g sugar and double the saffron.",
+      "Whey-free: use 250 g Epigamia Turbo Natural instead of the Greek yogurt and whey (still about 33 g protein).",
+      "Mango lassi pint: replace the milk and 50 g of the yogurt with 100 ml Amul High Protein Lassi (Plain)."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 540,
+      "protein_g": 44,
+      "carbs_g": 72,
+      "fat_g": 8
+    },
+    "shop_note": "Alphonso pulp: Swad or Ratna's on Blinkit, Zepto, Amazon. Kesar: Baby Brand or Lion. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "epigamia-turbo-chocolate-pint",
+    "title": "Epigamia Turbo Chocolate Pint",
+    "subtitle": "One bottle, one tub, done",
+    "program": "LITE ICE CREAM",
+    "respin": "Almost always 1–2 re-spins with 1 tbsp milk each",
+    "prep_min": 3,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Lazy 3-Ingredient",
+      "No Added Sugar",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#6B4630",
+      "accent": "#3B2416",
+      "deep": "#3E2416"
+    },
+    "intro": "Epigamia's Turbo Chocolate shake packs 25 g protein into 250 ml with no added sugar. Add Turbo's thick protein yogurt and cocoa, and it becomes a dense pint with over 40 g protein, for lazy nights.",
+    "ingredients": [
+      {
+        "qty": "250 ml (1 bottle)",
+        "item": "Epigamia Turbo Chocolate protein shake (25 g protein)",
+        "note": "or any 250 ml, 20 g+ protein shake"
+      },
+      {
+        "qty": "150 g (⅔ cup)",
+        "item": "Epigamia Turbo Natural yogurt (50 g protein tub)",
+        "note": "or Milky Mist Skyr Natural"
+      },
+      {
+        "qty": "5 g (1 tbsp)",
+        "item": "unsweetened cocoa powder",
+        "note": "Hershey's or Cadbury"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Shake the bottle well. Blend the shake, yogurt, cocoa and xanthan in the Ninja Blast for 30 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint (about 400 ml, under MAX FILL). Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Let the pint sit 5 min on the counter, then run LITE ICE CREAM."
+      },
+      {
+        "tag": "RESPIN",
+        "text": "This lean base usually spins powdery. Add 1 tbsp milk and RE-SPIN; repeat once if needed until glossy."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Eat from the pint, or top with dark chocolate shavings."
+      }
+    ],
+    "tips": [
+      "Almost zero fat means the texture depends on the re-spin. For a creamier pint, blend in 1 tbsp peanut butter (adds about 95 kcal).",
+      "No Blast handy? Whisk everything in a bowl for a minute. The cocoa may speckle, but it spins out fine.",
+      "Leftovers turn rock hard. Flatten, refreeze and re-spin with a splash of milk."
+    ],
+    "swaps": [
+      "Mocha: use Turbo Coffee and keep the cocoa.",
+      "Malai kulfi: use the Turbo 30 g Malai Kulfi shake, skip the cocoa and add a pinch of cardamom (about 48 g protein).",
+      "Cookies & cream: use Turbo Cookies & Cream, skip the cocoa, and MIX-IN 2 crushed Oreos after spinning."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 250,
+      "protein_g": 43,
+      "carbs_g": 18,
+      "fat_g": 1
+    },
+    "shop_note": "Turbo shakes and the 430 g Turbo yogurt tub (50 g protein): Blinkit, Zepto, Instamart. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "mixed-berry-greek-froyo",
+    "title": "Mixed Berry Skyr Froyo",
+    "subtitle": "Frozen berries, skyr and a little honey",
+    "program": "SMOOTHIE BOWL",
+    "respin": "Re-spin once with 1–2 tbsp milk if crumbly",
+    "prep_min": 8,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Fruit Forward",
+      "Kid Favourite"
+    ],
+    "colors": {
+      "base": "#B85C8A",
+      "accent": "#4B2A6B",
+      "deep": "#6B1F45"
+    },
+    "intro": "Frozen mixed berries from the quick-commerce freezer aisle bring real berry flavour any month of the year. Blended with thick skyr and a little honey, they spin into a tart, magenta froyo.",
+    "ingredients": [
+      {
+        "qty": "160 g (1 heaped cup)",
+        "item": "frozen mixed berries, thawed 15 min",
+        "note": "Pluckk, Delishh or RealFrost"
+      },
+      {
+        "qty": "200 g (2 × 100 g cups)",
+        "item": "Milky Mist Skyr Natural",
+        "note": "or Greek yogurt + ½ scoop more whey"
+      },
+      {
+        "qty": "40 ml (2½ tbsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 g (1½ tbsp)",
+        "item": "honey",
+        "note": "or 2 tbsp sugar"
+      },
+      {
+        "qty": "15 g (½ scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Let the berries sit 15 min to soften and release their juice."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the berries and juice, skyr, milk, honey, whey and xanthan in the Ninja Blast for 45–60 s until no chunks remain."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run SMOOTHIE BOWL; fruit sugars and skyr give a soft-serve texture. If the edges are crumbly, add 1–2 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve as a froyo cup or a breakfast bowl with granola and fresh berries."
+      }
+    ],
+    "tips": [
+      "Berry mixes vary in tartness. The blended base should taste slightly too sweet, because freezing dulls sweetness.",
+      "For a seed-free pint, blend the berries alone first, strain through a tea strainer, then blend in the rest.",
+      "Leftovers: flatten the top, refreeze, then re-spin on SMOOTHIE BOWL."
+    ],
+    "swaps": [
+      "Strawberry: use 160 g frozen or fresh strawberries and 1 tbsp more honey.",
+      "Turbo: swap the skyr for a 140 g Epigamia Turbo Mixed Berries cup plus 60 g Turbo Natural.",
+      "Sugar-free: replace the honey with 6 spoons Sugar Free Natura plus 1 tbsp milk; run LITE ICE CREAM instead."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 375,
+      "protein_g": 36,
+      "carbs_g": 52,
+      "fat_g": 3
+    },
+    "shop_note": "Frozen berries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Milky Mist Skyr: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "rasmalai-paneer-protein-ice-cream",
+    "title": "Rasmalai Paneer Protein Ice Cream",
+    "subtitle": "Kesar-elaichi malai, over 60 g protein",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Medium",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Desi Classic",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#F3E2B3",
+      "accent": "#8DB255",
+      "deep": "#6E4B0E"
+    },
+    "intro": "Rasmalai is paneer soaking in saffron milk, so blending high-protein paneer into kesar milk is a short step. Blitzed smooth with condensed milk and cardamom, it tastes like the last bowl at a Bengali wedding.",
+    "ingredients": [
+      {
+        "qty": "200 g",
+        "item": "Amul High Protein Paneer, room temperature",
+        "note": "regular paneer: about 50 g protein total"
+      },
+      {
+        "qty": "180 ml (¾ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "60 g (3 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk",
+        "note": "or Amul Mithaimate"
+      },
+      {
+        "qty": "20 strands + 1 tbsp milk",
+        "item": "saffron, soaked in warm milk, cooled",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      },
+      {
+        "qty": "2–3 drops",
+        "item": "kewra water (optional)",
+        "note": "e.g. Dabur"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "unsalted pistachios, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the saffron in 1 tbsp warm milk for 10 min; cool. Crumble the paneer finely."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the paneer with the 180 ml milk in the Ninja Blast, two or three 60 s cycles, until completely smooth."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Add condensed milk, saffron milk, cardamom, kewra and xanthan; blend 20 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If chalky, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the pistachios and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scatter a few saffron strands on top and serve at once."
+      }
+    ],
+    "tips": [
+      "Graininess means under-blended paneer. Use it at room temperature and blend it with the milk alone first.",
+      "Rasmalai should taste clearly sweet. If your paneer is sour, add 1 more tbsp condensed milk.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Lower sugar: replace the condensed milk with 30 g milk powder and 7 spoons Sugar Free Natura; expect one more re-spin.",
+      "Angoori: MIX-IN 2 chopped Haldiram's rasgullas, squeezed dry, with the pistachios.",
+      "Regular paneer: use 200 g fresh malai paneer plus 15 g unflavoured whey; rest the base 2–3 min for the foam to settle."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 740,
+      "protein_g": 64,
+      "carbs_g": 54,
+      "fat_g": 30
+    },
+    "shop_note": "Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket. Kewra water: kirana or Amazon. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "amul-protein-shake-pint-hack",
+    "title": "Amul Protein Shake Pint Hack",
+    "subtitle": "Two cartons in, one pint out",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+    "prep_min": 2,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Lazy 3-Ingredient",
+      "No Added Sugar",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#A99BCB",
+      "accent": "#3E3A8C",
+      "deep": "#3B2F6B"
+    },
+    "intro": "Amul's High Protein Blueberry Shake packs 20 g protein into a 200 ml carton with no added sugar. Two cartons fill a pint to just under the line: snip, pour, freeze, spin.",
+    "ingredients": [
+      {
+        "qty": "400 ml (2 × 200 ml)",
+        "item": "Amul High Protein Blueberry Shake (20 g protein each)",
+        "note": "or any 20 g+ protein shake"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      },
+      {
+        "qty": "1 tbsp (15 ml)",
+        "item": "Amul Fresh Cream (optional)",
+        "note": "creamier; about 37 kcal, not counted"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Shake the cartons and blend both with the xanthan and cream in the Ninja Blast for 20 s. No Blast? Whisk hard in the pint."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle; pour into the pint, just under MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Let it stand 5 min, then run LITE ICE CREAM."
+      },
+      {
+        "tag": "RESPIN",
+        "text": "Lean shakes need this: add 1 tbsp milk and RE-SPIN; repeat once if still powdery."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve plain or with fresh blueberries."
+      }
+    ],
+    "tips": [
+      "Without xanthan the pint is icier but still good; the pinch roughly halves the re-spins.",
+      "Freeze the shake in the CREAMi pint, never the carton. Only the pint locks into the machine.",
+      "Leftovers: flatten, refreeze and re-spin with a splash of milk."
+    ],
+    "swaps": [
+      "Blueberry cheesecake: replace 60 ml of shake with 60 g Greek yogurt; MIX-IN 2 crushed digestives after spinning.",
+      "Kool Protein: use two 180 ml Amul Kool Protein bottles (10 g protein each) plus 15 g whey, for about 31 g.",
+      "Epigamia route: one 250 ml Turbo shake plus 150 g Turbo Natural yogurt (see Epigamia Turbo Chocolate Pint)."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 276,
+      "protein_g": 40,
+      "carbs_g": 24,
+      "fat_g": 2
+    },
+    "shop_note": "Amul High Protein Blueberry Shake: Blinkit, Zepto, Instamart, BigBasket or shop.amul.com. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "honey-anjeer-greek-froyo",
+    "title": "Honey Anjeer Greek Froyo",
+    "subtitle": "Soaked figs, honey and Turbo yogurt",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Desi Classic",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#D9B79A",
+      "accent": "#7A3E5A",
+      "deep": "#5C2E2A"
+    },
+    "intro": "Anjeer ice cream is a dry-fruit-shop favourite, all jammy sweetness and crunchy seeds. Figs soaked overnight in milk blend with Turbo yogurt, honey and a spoon of cream, with chewy fig and walnut folded through.",
+    "ingredients": [
+      {
+        "qty": "50 g (5 figs)",
+        "item": "dried anjeer, stems snipped, chopped",
+        "note": "Happilo, Nutraj or loose"
+      },
+      {
+        "qty": "100 ml (scant ½ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "230 g (1 cup)",
+        "item": "Epigamia Turbo Natural yogurt",
+        "note": "or Greek yogurt + 15 g whey"
+      },
+      {
+        "qty": "30 g (1½ tbsp)",
+        "item": "honey",
+        "note": "or jaggery syrup"
+      },
+      {
+        "qty": "30 ml (2 tbsp)",
+        "item": "Amul Fresh Cream",
+        "note": "or thick homemade malai"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "20 g (2 figs)",
+        "item": "dried anjeer, finely chopped"
+      },
+      {
+        "qty": "8 g (1 tbsp)",
+        "item": "walnuts, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the chopped figs in the milk, covered, in the fridge for at least 4 h or overnight."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the figs and their milk in the Ninja Blast for 40 s. Add yogurt, honey, cream and xanthan; blend 20 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL and tap out air bubbles. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the chopped figs and walnuts, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve with a thin drizzle of honey."
+      }
+    ],
+    "tips": [
+      "Soak the figs cold, not in hot milk, so the base goes straight into the Blast with no cooling wait.",
+      "Turbo yogurt is almost fat-free; the 2 tbsp cream is what stops this pint going icy. Don't skip it.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Anjeer-akhrot kulfi: add ¼ tsp cardamom and 1 tbsp milk powder to the base.",
+      "Dates: use 50 g soft seedless dates (e.g. Lion) instead of figs, and cut the honey to 1 tbsp.",
+      "Skyr: use 230 g Milky Mist Skyr instead of Turbo; protein stays about the same."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 620,
+      "protein_g": 35,
+      "carbs_g": 85,
+      "fat_g": 17
+    },
+    "shop_note": "Dried figs: Happilo or Nutraj on Blinkit or Amazon. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+  },
+  {
+    "slug": "pina-colada-protein-froyo",
+    "title": "Piña Colada Protein Froyo",
+    "subtitle": "Pineapple, coconut milk, zero rum",
+    "program": "LITE ICE CREAM",
+    "respin": "Sometimes 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Fruit Forward",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#F6E7A8",
+      "accent": "#E8C547",
+      "deep": "#5E4A0C"
+    },
+    "intro": "Goa shack flavours in a pint: sweet pineapple, rich coconut milk and Greek yogurt tang, with vanilla whey for protein. Entirely non-alcoholic, sunny yellow and finished with toasted coconut.",
+    "ingredients": [
+      {
+        "qty": "150 g (1 cup)",
+        "item": "ripe pineapple, chopped",
+        "note": "fresh, or canned in juice, drained"
+      },
+      {
+        "qty": "150 g (⅔ cup)",
+        "item": "Epigamia Greek Yogurt, Natural",
+        "note": "or Amul Greek yogurt"
+      },
+      {
+        "qty": "80 ml (⅓ cup)",
+        "item": "coconut milk",
+        "note": "Dabur Hommade or Real Thai"
+      },
+      {
+        "qty": "30 g (1 scoop)",
+        "item": "vanilla whey protein",
+        "note": "MuscleBlaze, ON or Avvatar"
+      },
+      {
+        "qty": "20 g (1½ tbsp)",
+        "item": "sugar",
+        "note": "or 4 spoons Sugar Free Natura (sucralose)"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "10 g (2 tbsp)",
+        "item": "desiccated coconut, toasted golden, cooled"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend pineapple, yogurt, coconut milk, sugar and salt in the Ninja Blast for 30 s. Add whey and xanthan; blend 20 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for the foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the toasted coconut and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in a hollowed pineapple half or a chilled glass with a pineapple wedge."
+      }
+    ],
+    "tips": [
+      "Fresh pineapple's bromelain can thin dairy and turn it slightly bitter if the base sits. Freeze straight away, or use canned.",
+      "Shake the coconut milk hard: the cream separates and you want both parts.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Whey-free: replace the yogurt and whey with 200 g Epigamia Turbo Natural (about 27 g protein).",
+      "Vegan-leaning: use plant protein (OZiva, MuscleBlaze) and coconut yogurt; add ½ scoop more protein to compensate.",
+      "Tropical: swap half the pineapple for ripe mango pulp."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 605,
+      "protein_g": 39,
+      "carbs_g": 55,
+      "fat_g": 26
+    },
+    "shop_note": "Coconut milk: Dabur Hommade or Real Thai on Blinkit, Zepto, BigBasket. Xanthan gum: Urban Platter on Amazon."
+  },
+  {
+    "slug": "chikoo-malai-protein",
+    "title": "Chikoo Malai Protein",
+    "subtitle": "A Juhu-style chikoo scoop, with paneer",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Desi Classic",
+      "Fruit Forward"
+    ],
+    "colors": {
+      "base": "#C49A6C",
+      "accent": "#8B5A2B",
+      "deep": "#5A3A1C"
+    },
+    "intro": "Mumbai's Natural Ice Cream made chikoo famous: malty, brown-sugar sweet and a little grainy. Ripe chikoos blended with high-protein paneer and a splash of cream scoop like the real thing, with over 30 g protein.",
+    "ingredients": [
+      {
+        "qty": "180 g (3 medium)",
+        "item": "ripe chikoo (sapota), peeled and seeded",
+        "note": "soft, brown-skinned fruit only"
+      },
+      {
+        "qty": "100 g",
+        "item": "Amul High Protein Paneer, room temperature",
+        "note": "yogurt route: see Swaps"
+      },
+      {
+        "qty": "100 ml (scant ½ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "30 ml (2 tbsp)",
+        "item": "Amul Fresh Cream",
+        "note": "or thick homemade malai"
+      },
+      {
+        "qty": "20 g (1 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk",
+        "note": "or 1 tbsp sugar"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Peel the chikoos, remove the black seeds and white core strip, and chop roughly."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the paneer and milk in the Ninja Blast, two 60 s cycles, until completely smooth."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Add chikoo, cream, condensed milk and xanthan; blend 30 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Top with small cubes of fresh chikoo."
+      }
+    ],
+    "tips": [
+      "Use chikoos that give when pressed. Underripe fruit has latex that tastes chalky, and freezing makes it worse.",
+      "The fine grain is part of chikoo's charm, so don't chase a perfectly smooth base.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Chikoo-coffee: add 1 tsp instant coffee dissolved in 1 tbsp milk.",
+      "Yogurt route: replace the paneer and milk with 200 g Epigamia Turbo Natural (about 27 g protein).",
+      "Sitaphal: use 180 g deseeded custard-apple pulp; frozen pulp works off-season."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 525,
+      "protein_g": 31,
+      "carbs_g": 57,
+      "fat_g": 20
+    },
+    "shop_note": "Chikoo: Blinkit or Zepto fruit aisle, best Oct–Mar. Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket."
+  },
+  {
+    "slug": "gulkand-rose-protein",
+    "title": "Gulkand Rose Protein Pint",
+    "subtitle": "Rose lassi and gulkand, paan-shop style",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Desi Classic",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#F2B8C6",
+      "accent": "#B0234F",
+      "deep": "#7A1F3D"
+    },
+    "intro": "Gulkand, the sticky rose-petal preserve tucked into every meetha paan, makes a floral, jammy base. Amul High Protein Rose Lassi and high-protein paneer bring the protein; pistachio and rose petals bring crunch.",
+    "ingredients": [
+      {
+        "qty": "200 ml (1 pack)",
+        "item": "Amul High Protein Lassi, Rose (15 g protein)",
+        "note": "or 150 g Greek yogurt, 50 ml milk"
+      },
+      {
+        "qty": "100 g",
+        "item": "Amul High Protein Paneer, room temperature",
+        "note": "or 120 g Epigamia Turbo Natural"
+      },
+      {
+        "qty": "60 g (3 tbsp)",
+        "item": "gulkand",
+        "note": "Dabur, Patanjali or your paanwala's"
+      },
+      {
+        "qty": "60 ml (¼ cup)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "8 g (1 tbsp)",
+        "item": "pistachios, chopped"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "dried edible rose petals, crumbled"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "BLAST",
+        "text": "Blend the paneer and milk in the Ninja Blast for 60 s until completely smooth."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Add the rose lassi, gulkand and xanthan; blend 30 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Rest 2–3 min for any foam to settle, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the pistachios and rose petals, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve with a small spoon of gulkand on each scoop."
+      }
+    ],
+    "tips": [
+      "Gulkand brands vary in sweetness. If the blended base tastes mild, add 1 more tbsp gulkand before freezing.",
+      "Blending the paneer with only the milk first is the trick to a smooth, not grainy, pint.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Meetha paan: blend 2 Calcutta paan leaves (stems removed) into the base; MIX-IN 1 tbsp tutti-frutti and 1 tsp sweet saunf.",
+      "Rose falooda: MIX-IN 1 tbsp soaked, drained sabja seeds and drizzle Rooh Afza on top.",
+      "Lighter, tangier: replace the paneer with 120 g Epigamia Turbo Natural."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 540,
+      "protein_g": 44,
+      "carbs_g": 64,
+      "fat_g": 12
+    },
+    "shop_note": "Amul High Protein Rose Lassi: Blinkit, Zepto, Instamart. Gulkand: Dabur or Patanjali. Rose petals: Urban Platter on Amazon."
+  },
+  {
+    "slug": "guava-chilli-froyo",
+    "title": "Guava Chilli Froyo",
+    "subtitle": "Pink amrood with a chilli-salt finish",
+    "program": "LITE ICE CREAM",
+    "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Eggless",
+      "Fruit Forward",
+      "Desi Classic"
+    ],
+    "colors": {
+      "base": "#F4A6A0",
+      "accent": "#C8321E",
+      "deep": "#8A2418"
+    },
+    "intro": "Winter in India means the thela-wala rubbing halved pink guavas with chilli and kala namak. This froyo blends sieved guava with protein yogurt and a pinch of black salt; the chilli dust goes on at the table.",
+    "ingredients": [
+      {
+        "qty": "180 g (¾ cup)",
+        "item": "pink guava pulp, sieved (about 3 guavas)",
+        "note": "or canned pink guava pulp"
+      },
+      {
+        "qty": "200 g (heaped ¾ cup)",
+        "item": "Epigamia Turbo Natural yogurt",
+        "note": "or Milky Mist Skyr Natural"
+      },
+      {
+        "qty": "25 g (2 tbsp)",
+        "item": "sugar",
+        "note": "or 2 tbsp honey"
+      },
+      {
+        "qty": "30 ml (2 tbsp)",
+        "item": "Amul Fresh Cream",
+        "note": "or thick malai"
+      },
+      {
+        "qty": "20 ml (4 tsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "kala namak (black salt)"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      },
+      {
+        "qty": "½ tsp each",
+        "item": "to finish: Kashmiri chilli powder, kala namak, chaat masala",
+        "note": "mixed; topping, not counted"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Quarter the guavas, blend with the milk in the Ninja Blast for 20 s, then press through a sieve to remove the seeds."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Rinse the Blast. Blend the sieved pulp, yogurt, sugar, cream, kala namak and xanthan for 30 s until smooth and pink."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL and tap out air bubbles. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run LITE ICE CREAM."
+      },
+      {
+        "tag": "RESPIN",
+        "text": "Add 1 tbsp milk and RE-SPIN; repeat once if still crumbly."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Dust each scoop with a pinch of the chilli-salt mix and a squeeze of lime."
+      }
+    ],
+    "tips": [
+      "Choose fragrant, slightly soft pink guavas such as Allahabad Surkha. White guavas work, but the pint turns beige.",
+      "Don't skip sieving: guava seeds feel like grit in a frozen pint.",
+      "Leftovers: flatten, refreeze and re-spin; add the masala only after scooping."
+    ],
+    "swaps": [
+      "Kairi twist: use 150 g ripe mango pulp plus 2 tbsp raw-mango pulp instead of guava, with the same masala.",
+      "Sweet only: skip the kala namak and chilli masala, and finish with a drizzle of honey.",
+      "Greek route: use 250 g Epigamia Greek Natural plus 15 g whey and drop the milk; rest the base 2–3 min for foam."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 445,
+      "protein_g": 30,
+      "carbs_g": 61,
+      "fat_g": 10
+    },
+    "shop_note": "Pink guava: Blinkit or Zepto fruit aisle, best Nov–Feb. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+  }
+]

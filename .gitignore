@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+build/png/
+build/dom.html
+build/*.html
+data/SPEC.md

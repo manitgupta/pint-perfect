@@ -1,0 +1,830 @@
+[
+  {
+    "slug": "malai-kulfi",
+    "title": "Malai Kulfi",
+    "subtitle": "Slow-reduced milk, cardamom and saffron",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 30,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Mix-In Special",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#F3E3BF",
+      "accent": "#8DB255",
+      "deep": "#6E4B15"
+    },
+    "intro": "The matka kulfi of every summer evening, reduced the patient way in a kadhai and finished with Milkmaid. The CREAMi turns the dense, caramel-edged milk into a spoonable scoop that still tastes of the kulfi-wala's cart.",
+    "ingredients": [
+      {
+        "qty": "480 ml (2 cups)",
+        "item": "Amul Gold full cream milk",
+        "note": "or any 6% milk; reduced to 240 ml"
+      },
+      {
+        "qty": "100 g (5 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk",
+        "note": "or Amul Mithaimate"
+      },
+      {
+        "qty": "100 ml (scant ½ cup)",
+        "item": "Amul Fresh Cream (25% fat), chilled"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder",
+        "note": "about 4 pods, freshly crushed"
+      },
+      {
+        "qty": "10–12 strands",
+        "item": "saffron (kesar)",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "30 g (¼ cup)",
+        "item": "khoya / mawa, crumbled (optional)",
+        "note": "adds rabri depth; not counted"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "10 g (1 tbsp)",
+        "item": "pistachios, finely chopped"
+      },
+      {
+        "qty": "10 g (1 tbsp)",
+        "item": "almonds, finely chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Simmer the milk in a wide, heavy kadhai on medium-low for about 25 min, stirring and scraping the sides in, until reduced to 240 ml."
+      },
+      {
+        "tag": "COOK",
+        "text": "Stir in the Milkmaid, cardamom, saffron and khoya, if using. Simmer 2–3 min, then take off the heat."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cool to room temperature, about 45 min, or 15 min over an ice-water bath. Never put a warm base in the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled base and cream in the Ninja Blast for 20–30 s; any longer and the cream starts to whip."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the pistachios and almonds, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scoop at once, or rest 5 min for a denser, more kulfi-like bite."
+      }
+    ],
+    "tips": [
+      "Use your widest heavy pan; more surface means faster reduction and fewer scorched spots.",
+      "Measure the cooled reduction. Over 250 ml and the base will pass MAX FILL once the cream goes in; drink the extra.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again. The nuts soften a little."
+    ],
+    "swaps": [
+      "Protein: reduce toned milk, use 50 g Milkmaid, swap cream for 120 g Greek yogurt + 30 g whey; rest for foam, run LITE ICE CREAM.",
+      "Kesar pista: double the saffron, bloomed in 1 tbsp warm milk, and use 20 g pistachios as the only mix-in.",
+      "Rabri kulfi: add the 30 g khoya and 1 tbsp milk powder to the reduction for a grainier texture."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1105,
+      "protein_g": 29,
+      "carbs_g": 86,
+      "fat_g": 71
+    },
+    "shop_note": "Khoya: local mithai shop or Amul khoya on BigBasket. Saffron: Baby Brand or Lion on Blinkit or Zepto."
+  },
+  {
+    "slug": "alphonso-aamras-ice-cream",
+    "title": "Alphonso Aamras Ice Cream",
+    "subtitle": "Ratnagiri mango pulp, cream and cardamom",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 5,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Fruit Forward",
+      "Desi Classic",
+      "No-Cook",
+      "Kid Favourite"
+    ],
+    "colors": {
+      "base": "#F7B538",
+      "accent": "#E8871E",
+      "deep": "#8A4204"
+    },
+    "intro": "Aamras-puri lunches in May are the reason this pint exists. A tin of Alphonso or Kesar pulp makes it possible in December too, and cream rounds the fruit's tang into mango-kulfi territory.",
+    "ingredients": [
+      {
+        "qty": "200 g (¾ cup)",
+        "item": "Alphonso or Kesar mango pulp, sweetened",
+        "note": "Swad tin; fresh pulp needs 1 tbsp sugar"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      },
+      {
+        "qty": "60 g (3 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "80 ml (⅓ cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "green cardamom powder",
+        "note": "optional; very Maharashtrian"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": "sharpens the mango"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Chill the mango pulp and cream for a few hours so the base starts cold."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the pulp, Milkmaid, milk, cardamom and salt in the Ninja Blast for 20 s. Add the cream; blend 15 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "If the top has a hump, let the pint sit 5 min. Run ICE CREAM."
+      },
+      {
+        "tag": "RESPIN",
+        "text": "If the edges look powdery, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Top with fresh mango cubes in season."
+      }
+    ],
+    "tips": [
+      "Taste the pulp first. Tinned Kesar is usually sweeter than Alphonso; unsweetened Harvesta pulp needs 2 extra tbsp sugar.",
+      "Fresh mangoes must be fully ripe and fibre-free. Stringy Totapuri makes a grainy, sour pint.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Protein: replace cream and milk with 180 g Greek yogurt + 30 g whey; rest for foam, run LITE ICE CREAM (adds about 33 g protein).",
+      "Kesar-elaichi: bloom 10 saffron strands in 1 tbsp warm milk, cool, and add with the cardamom.",
+      "Mango lassi: cut the cream to 100 ml and replace the milk with 100 g thick curd for a gentle tang."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 735,
+      "protein_g": 11,
+      "carbs_g": 83,
+      "fat_g": 40
+    },
+    "shop_note": "Mango pulp: Swad Alphonso or Kesar, or Harvesta (unsweetened), on Blinkit, Zepto and Amazon."
+  },
+  {
+    "slug": "filter-coffee-ice-cream",
+    "title": "Filter Coffee Ice Cream",
+    "subtitle": "Chicory decoction with kaapi sweetness",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 15,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#C49A6C",
+      "accent": "#5B3A1E",
+      "deep": "#4A2C14"
+    },
+    "intro": "A tumbler of Chennai degree kaapi, frozen. A thick chicory-blend decoction gives the bitter, toasty edge instant coffee never quite manages, and Milkmaid brings back the sweetness of a darshini counter.",
+    "ingredients": [
+      {
+        "qty": "20 g (3 tbsp)",
+        "item": "filter coffee powder with chicory",
+        "note": "Cothas, Narasu's, Leo or Bru Green Label"
+      },
+      {
+        "qty": "100 ml (scant ½ cup)",
+        "item": "boiling water",
+        "note": "yields about 60 ml decoction"
+      },
+      {
+        "qty": "180 ml (¾ cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      },
+      {
+        "qty": "80 g (4 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "1 tbsp (12 g)",
+        "item": "sugar",
+        "note": "1 tsp more for very sweet kaapi"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Tamp the coffee lightly into the top of a South Indian filter, pour in the boiling water and leave 12–15 min to drip."
+      },
+      {
+        "tag": "COOL",
+        "text": "Collect about 60 ml decoction and cool to room temperature, about 15 min. Never put hot decoction in the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the decoction, milk, Milkmaid and sugar in the Ninja Blast for 20 s. Add the cream; blend 15 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in a steel davara-tumbler, dusted with coffee powder."
+      }
+    ],
+    "tips": [
+      "No filter? Steep the powder in the boiling water for 10 min, then strain through a paper filter or muslin.",
+      "Use only the first, thick drip; a second pour of water makes a watery, icy pint.",
+      "Instant shortcut: dissolve 2 tsp Bru Instant in 3 tbsp hot water, cool, and use instead of decoction."
+    ],
+    "swaps": [
+      "Protein: swap cream for 120 g Greek yogurt + 30 g whey, sugar for 3 spoons Sugar Free Natura; rest for foam, run LITE ICE CREAM.",
+      "Jaggery kaapi: replace the sugar with 15 g jaggery powder dissolved in the warm decoction.",
+      "Mocha kaapi: blend 1 tbsp cocoa in with the milk."
+    ],
+    "egg_option": {
+      "title": "Kaapi custard with 2 yolks",
+      "text": "Adds a cook step. Heat the milk and sugar until steaming, slowly whisk into 2 yolks, then stir on low heat to 80–82 °C until it coats a spoon. Cut milk to 150 ml. Add decoction and Milkmaid; cool fully.",
+      "adds": "+2 yolks · net ≈ +85 kcal, +4 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 768,
+      "protein_g": 15,
+      "carbs_g": 70,
+      "fat_g": 47
+    },
+    "shop_note": "Filter coffee: Cothas, Narasu's or Bru Green Label on Amazon, BigBasket, Instamart. Steel filter: Amazon or any utensil shop."
+  },
+  {
+    "slug": "meetha-paan-ice-cream",
+    "title": "Meetha Paan Ice Cream",
+    "subtitle": "Fresh betel, gulkand and tutti-frutti",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Mix-In Special",
+      "No-Cook",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#C9DDA0",
+      "accent": "#D6336C",
+      "deep": "#3F6212"
+    },
+    "intro": "Everything a paanwala folds into a meetha paan goes into this pint: cool betel leaf, gulkand, fennel and jewel-bright tutti-frutti. Fresh leaves give pale green flecks and a peppery perfume no paan essence can copy.",
+    "ingredients": [
+      {
+        "qty": "4 medium",
+        "item": "fresh paan (betel) leaves, Calcutta or Maghai",
+        "note": "stems and thick vein removed"
+      },
+      {
+        "qty": "220 ml (scant 1 cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "40 g (2 tbsp)",
+        "item": "gulkand (rose petal preserve)",
+        "note": "Dabur or Patanjali"
+      },
+      {
+        "qty": "1 tsp (2 g)",
+        "item": "saunf (fennel seeds), plain"
+      },
+      {
+        "qty": "60 g (3 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "25 g (2 tbsp)",
+        "item": "tutti-frutti"
+      },
+      {
+        "qty": "8 g (1 tbsp)",
+        "item": "sugar-coated saunf (meetha saunf / mukhwas)"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Wash and dry the paan leaves. Cut out the stems and thick central vein, which taste bitter, and tear the leaves."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the leaves, milk, gulkand, saunf and Milkmaid in the Ninja Blast for 45–60 s, until the leaves are fine specks."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Add the cream; blend 15 s more. For a smoother pint, strain through a tea strainer."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the tutti-frutti and coated saunf, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Drizzle with a little gulkand and top with a sliver of paan leaf."
+      }
+    ],
+    "tips": [
+      "Stick to 4 leaves. More turns the pint grassy and bitter; fewer leave only a faint perfume.",
+      "Calcutta (Bangla) leaves are sharper and more peppery; Maghai and Banarasi are milder. Ask your paanwala for fresh, unblemished leaves.",
+      "Leftovers: flatten, refreeze and re-spin. Add coated saunf only on the first serve; it bleeds colour once frozen."
+    ],
+    "swaps": [
+      "Protein: swap cream for 120 g Greek yogurt + 30 g whey and halve the Milkmaid; rest for foam, run LITE ICE CREAM.",
+      "Chocolate paan: swap the tutti-frutti for 25 g chopped Amul dark chocolate.",
+      "Banarasi style: blend in 4 cardamom pods and 1 tsp desiccated coconut."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 928,
+      "protein_g": 15,
+      "carbs_g": 106,
+      "fat_g": 49
+    },
+    "shop_note": "Paan leaves: local paan shop, or betel leaves for puja on Blinkit/Zepto. Gulkand, tutti-frutti: Blinkit, BigBasket, Amazon."
+  },
+  {
+    "slug": "gulab-jamun-ice-cream",
+    "title": "Gulab Jamun Ice Cream",
+    "subtitle": "Rose-cardamom cream with jamun chunks",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Mix-In Special",
+      "Party Pint",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#F1DCC4",
+      "accent": "#7B3415",
+      "deep": "#6B2A10"
+    },
+    "intro": "Hot gulab jamun with vanilla ice cream is a wedding buffet staple; this pint folds the two into one scoop. A rose-cardamom base, sweetened partly with jamun syrup, carries chewy pieces of tinned jamun.",
+    "ingredients": [
+      {
+        "qty": "200 ml (generous ¾ cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      },
+      {
+        "qty": "70 g (3½ tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "2 tbsp (30 ml)",
+        "item": "gulab jamun syrup, from the tin",
+        "note": "Haldiram's or Bikano tin"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder",
+        "note": "freshly crushed is best"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "edible rose water",
+        "note": "food-grade only, not cosmetic Gulabari"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "2 pieces (60 g drained)",
+        "item": "tinned gulab jamun, in 1 cm pieces"
+      },
+      {
+        "qty": "8 g (1 tbsp)",
+        "item": "pistachios, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Lift 2 jamuns from the tin, gently squeeze out the syrup and chop into 1 cm pieces. Chill, covered."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the milk, Milkmaid, jamun syrup, cardamom and rose water in the Ninja Blast for 20 s. Add the cream; blend 15 s more."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Freeze the jamun pieces for 20–30 min first. Make a 4 cm well to the bottom, add jamun and pistachios, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scoop at once, beside one warm gulab jamun for the buffet effect."
+      }
+    ],
+    "tips": [
+      "Firm the jamun pieces in the freezer first. Straight from the tin, the blade smears them into the base.",
+      "Rose waters vary in strength. Start with ½ tsp; too much tastes of soap, not mithai.",
+      "Leftovers: flatten, refreeze and re-spin. The jamun pieces stay chewy after a second freeze."
+    ],
+    "swaps": [
+      "Protein: swap cream for 120 g Greek yogurt + 30 g whey, keeping the jamun mix-in; rest for foam, run LITE ICE CREAM.",
+      "Kala jamun or rasgulla: use the same amount of chopped kala jamun, or squeezed rasgulla with its syrup.",
+      "Kesar jamun: bloom 10 saffron strands in 1 tbsp warm milk; cool and add with the rose water."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1013,
+      "protein_g": 19,
+      "carbs_g": 104,
+      "fat_g": 58
+    },
+    "shop_note": "Tinned gulab jamun: Haldiram's or Bikano on Blinkit, Zepto, BigBasket. Edible rose water: Puramio or Mr. Merchant on Blinkit."
+  },
+  {
+    "slug": "sitaphal-ice-cream",
+    "title": "Sitaphal Ice Cream",
+    "subtitle": "Custard apple, Naturals-style, barely sweetened",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Fruit Forward",
+      "Desi Classic",
+      "No-Cook",
+      "Eggless"
+    ],
+    "colors": {
+      "base": "#F4EEDD",
+      "accent": "#8FAE6B",
+      "deep": "#435C26"
+    },
+    "intro": "Naturals made sitaphal the flavour people queue for, and the secret is real fruit with very little else. Custard apple is already creamy and honey-sweet, so it needs only cream, milk and a spoon of Milkmaid.",
+    "ingredients": [
+      {
+        "qty": "200 g (¾ cup)",
+        "item": "sitaphal (custard apple) pulp, fully deseeded",
+        "note": "2–3 ripe fruit, or frozen pulp"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      },
+      {
+        "qty": "80 ml (⅓ cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "50 g (2½ tbsp)",
+        "item": "Nestlé Milkmaid condensed milk",
+        "note": "or 2 tbsp sugar"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Split the fruit, scoop out the segments and pick out every seed by hand; one crushed seed makes the pint bitter. Discard core and skin."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the pulp, milk and Milkmaid in the Ninja Blast for 20 s. Add the cream; blend 10–15 s until just smooth."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve plain; sitaphal is delicate, so skip strong toppings."
+      }
+    ],
+    "tips": [
+      "Season runs roughly September to December. Off-season, thaw Fooda frozen custard apple pulp in the fridge overnight.",
+      "Use only fully ripe fruit that gives when pressed; underripe sitaphal tastes starchy and flat frozen.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Protein: swap cream for 120 g Greek yogurt + 30 g whey and cut Milkmaid to 25 g; rest for foam, run LITE ICE CREAM.",
+      "Ramphal or chikoo: use the same weight of ripe, deseeded ramphal or peeled chikoo pulp.",
+      "Sitaphal rabri: blend in 30 g crumbled khoya and cut the milk to 50 ml."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 720,
+      "protein_g": 12,
+      "carbs_g": 82,
+      "fat_g": 39
+    },
+    "shop_note": "Fresh sitaphal: Blinkit, Zepto, BigBasket in season. Frozen pulp: Fooda Custard Apple on BigBasket."
+  },
+  {
+    "slug": "tender-coconut-ice-cream",
+    "title": "Tender Coconut Ice Cream",
+    "subtitle": "Soft malai, coconut water, chewy bits",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 15,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Mix-In Special",
+      "No-Cook",
+      "Eggless"
+    ],
+    "colors": {
+      "base": "#F8F5EC",
+      "accent": "#6E9C3A",
+      "deep": "#3E5E22"
+    },
+    "intro": "Naturals' tender coconut converts people who think they dislike coconut. Two malai-wale nariyal give soft, jelly-like flesh and sweet water; most of the malai goes into the base, the rest in chewy pieces.",
+    "ingredients": [
+      {
+        "qty": "100 g (⅔ cup)",
+        "item": "tender coconut malai (soft, jelly-like)",
+        "note": "plus 50 g for mix-in; 2 coconuts"
+      },
+      {
+        "qty": "100 ml (scant ½ cup)",
+        "item": "tender coconut water",
+        "note": "fresh, or unsweetened packaged"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      },
+      {
+        "qty": "60 g (3 tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "60 ml (¼ cup)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "1 tbsp (12 g)",
+        "item": "sugar",
+        "note": "coconut water is only lightly sweet"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "50 g (⅓ cup)",
+        "item": "tender coconut malai, in 1 cm pieces, chilled"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Measure 100 ml coconut water. Scoop out the malai, scrape off any brown skin, and set 50 g aside for the mix-in."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend 100 g malai with the coconut water, Milkmaid, milk and sugar in the Ninja Blast for 30–40 s until smooth. Add cream; blend 10 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the chilled malai pieces and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve at once, while the malai pieces are soft and chewy."
+      }
+    ],
+    "tips": [
+      "Ask for a 'malai wala' coconut with thin, soft flesh. Thick, mature malai blends grainy and tastes oily.",
+      "Keep mix-in pieces small. Big chunks of malai turn icy when refrozen.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Protein: swap cream for 120 g Greek yogurt + 30 g whey and skip the sugar; rest for foam, run LITE ICE CREAM.",
+      "Vegan: use thick coconut cream for the dairy cream, coconut milk for the milk, and 50 g sugar instead of Milkmaid.",
+      "Coconut-jaggery: replace the sugar and Milkmaid with 60 g jaggery powder dissolved in the coconut water."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 748,
+      "protein_g": 12,
+      "carbs_g": 66,
+      "fat_g": 48
+    },
+    "shop_note": "Tender coconuts: local nariyal-wala or Blinkit/Zepto. Packaged coconut water: Paper Boat or Raw Pressery on Blinkit, Amazon."
+  },
+  {
+    "slug": "masala-chai-ice-cream",
+    "title": "Masala Chai Ice Cream",
+    "subtitle": "Kadak doodh-patti chai with Parle-G",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Mix-In Special",
+      "Kid Favourite",
+      "Eggless"
+    ],
+    "colors": {
+      "base": "#D2AE84",
+      "accent": "#A0522D",
+      "deep": "#5C3317"
+    },
+    "intro": "Strong, spiced chai with a Parle-G dunked in it is India's real comfort food. Brewing the tea in full cream milk keeps it bold enough to survive freezing, and the biscuit softens just as it does in the cup.",
+    "ingredients": [
+      {
+        "qty": "320 ml (1⅓ cups)",
+        "item": "Amul Gold full cream milk",
+        "note": "reduces to about 250 ml chai"
+      },
+      {
+        "qty": "10 g (2 tbsp)",
+        "item": "strong CTC tea leaves",
+        "note": "Tata Tea Gold, Red Label or Wagh Bakri"
+      },
+      {
+        "qty": "whole spices",
+        "item": "4 green cardamom pods, 2 cloves, 2 cm cinnamon, 4 peppercorns, crushed",
+        "note": "or 1 tsp Everest Tea Masala"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "saunth (dry ginger powder)",
+        "note": "not fresh ginger (see Tips)"
+      },
+      {
+        "qty": "70 g (3½ tbsp)",
+        "item": "Nestlé Milkmaid condensed milk"
+      },
+      {
+        "qty": "1 tbsp (12 g)",
+        "item": "sugar",
+        "note": "or to taste"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat)"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "25 g (6 biscuits)",
+        "item": "Parle-G, broken into small pieces"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Boil the milk with the crushed spices and saunth. Add the tea and simmer on low for 6–8 min, until deep tan."
+      },
+      {
+        "tag": "COOK",
+        "text": "Strain, pressing the leaves; you want about 250 ml. Stir in the Milkmaid and sugar while hot."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cool to room temperature, about 40 min, or over an ice-water bath. Never pour hot chai into the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled chai and cream in the Ninja Blast for 15–20 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the Parle-G pieces and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in a kulhad with a pinch of cinnamon on top."
+      }
+    ],
+    "tips": [
+      "Fresh ginger can curdle hot milk; saunth gives the same warmth with no risk.",
+      "Brew stronger than you would drink. Cold dulls spice and tannin, so chai that tastes too kadak hot is right frozen.",
+      "Leftovers: flatten, refreeze and re-spin. The biscuit softens more on day two, which many prefer."
+    ],
+    "swaps": [
+      "Protein: use toned milk and Sugar Free Natura; swap cream for 120 g Greek yogurt + 30 g whey; rest for foam, run LITE ICE CREAM.",
+      "Elaichi chai: skip the other spices and use 8 crushed cardamom pods.",
+      "Chai-rusk: swap the Parle-G for 2 broken Britannia Toastea rusks."
+    ],
+    "egg_option": {
+      "title": "Chai custard with 2 yolks",
+      "text": "Whisk 2 yolks in a bowl; slowly whisk in the hot sweetened chai, then stir on low heat to 80–82 °C until it coats a spoon. Cut cream to 90 ml. Cool fully; Blast.",
+      "adds": "+2 yolks · net ≈ +40 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": {
+      "kcal": 952,
+      "protein_g": 19,
+      "carbs_g": 90,
+      "fat_g": 57
+    },
+    "shop_note": "Saunth and tea masala: Everest or MDH at any kirana or Blinkit. Kulhads: Amazon."
+  }
+]

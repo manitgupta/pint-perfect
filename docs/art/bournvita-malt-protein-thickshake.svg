@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art">
+<circle cx="100" cy="104" r="86" fill="#E3D6CD"/>
+<circle cx="100" cy="104" r="86" fill="none" stroke="#C4A695" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M23.1,31.4 Q23.1,37.6 29.2,37.6 Q23.1,37.6 23.1,43.8 Q23.1,37.6 16.9,37.6 Q23.1,37.6 23.1,31.4Z" fill="#5A3420" opacity="0.8"/><path d="M48.9,34.6 Q48.9,38.9 53.2,38.9 Q48.9,38.9 48.9,43.2 Q48.9,38.9 44.6,38.9 Q48.9,38.9 48.9,34.6Z" fill="#5A3420" opacity="0.8"/><path d="M48.0,31.9 Q48.0,37.9 54.0,37.9 Q48.0,37.9 48.0,44.0 Q48.0,37.9 41.9,37.9 Q48.0,37.9 48.0,31.9Z" fill="#5A3420" opacity="0.8"/><path d="M57.7,63.5 Q57.7,68.1 62.4,68.1 Q57.7,68.1 57.7,72.7 Q57.7,68.1 53.1,68.1 Q57.7,68.1 57.7,63.5Z" fill="#5A3420" opacity="0.8"/>
+<path d="M154.2,39.8 Q154.2,44.9 159.2,44.9 Q154.2,44.9 154.2,49.9 Q154.2,44.9 149.2,44.9 Q154.2,44.9 154.2,39.8Z" fill="#806A5D" opacity="0.8"/><path d="M174.1,42.8 Q174.1,49.1 180.4,49.1 Q174.1,49.1 174.1,55.4 Q174.1,49.1 167.8,49.1 Q174.1,49.1 174.1,42.8Z" fill="#806A5D" opacity="0.8"/>
+<path d="M66,70 L134,70 L124,178 L76,178 Z" fill="#9C6B4E" stroke="#9FB3C8" stroke-width="2" stroke-linejoin="round"/>
+<path d="M70,82 L74,170" stroke="#FFFFFF" stroke-width="5" opacity="0.5" stroke-linecap="round"/>
+<g transform="rotate(14 112 40)"><rect x="108" y="14" width="9" height="64" fill="#FFFFFF" stroke="#5A3420" stroke-width="1.5"/><rect x="108" y="18" width="9" height="5" fill="#5A3420"/><rect x="108" y="30" width="9" height="5" fill="#5A3420"/><rect x="108" y="42" width="9" height="5" fill="#5A3420"/><rect x="108" y="54" width="9" height="5" fill="#5A3420"/><rect x="108" y="66" width="9" height="5" fill="#5A3420"/></g>
+<path d="M62,72 q8,-18 22,-10 q8,-16 24,-6 q14,-10 24,4 q10,4 6,12 Z" fill="#FFFDF7" stroke="#D9D2C3" stroke-width="1.6"/>
+<circle cx="100" cy="48" r="7" fill="#C62828"/>
+</svg>

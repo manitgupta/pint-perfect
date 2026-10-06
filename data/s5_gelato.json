@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "sicilian-pistachio-gelato",
+    "title": "Sicilian Pistachio Gelato",
+    "subtitle": "Real pistachios, honest khaki colour",
+    "program": "GELATO",
+    "respin": "Usually none; if crumbly, 1 tbsp milk and RE-SPIN",
+    "prep_min": 25,
+    "cook_min": 10,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": ["Eggless", "Gluten-Free Option", "Party Pint"],
+    "colors": { "base": "#BDB98A", "accent": "#8DA35A", "deep": "#4A5422" },
+    "intro": "In Bronte, Sicily, pistachio gelato is dusty olive-khaki, because that is the colour of ground pistachios. The neon-green mall scoop is food colour. This one tastes of toasted nut, salt and cream.",
+    "ingredients": [
+      { "qty": "60 g (½ cup)", "item": "unsalted shelled pistachios", "note": "or 55 g pure pistachio paste, unsoaked" },
+      { "qty": "270 ml (1⅛ cups)", "item": "Amul Gold full cream milk" },
+      { "qty": "40 ml (2½ tbsp)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "60 g (5 tbsp)", "item": "sugar" },
+      { "qty": "12 g (1½ tbsp)", "item": "cornflour" },
+      { "qty": "15 g (2 tbsp)", "item": "milk powder", "note": "Amul Spray or any whole milk powder" },
+      { "qty": "1 pinch", "item": "salt" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "PREP", "text": "Toast the pistachios in a dry pan 3 minutes. Soak in boiling water 15 minutes, rub off loose skins for a greener tint, and drain." },
+      { "tag": "PREP", "text": "In a heavy pan, whisk sugar, cornflour, milk powder and salt with 60 ml of the cold milk until smooth." },
+      { "tag": "COOK", "text": "Add the remaining milk and cream. Cook on medium-low, whisking, 5–6 minutes until it coats a spoon like thin custard. Don't boil hard." },
+      { "tag": "COOL", "text": "Press cling film onto the surface and cool fully to room temperature, about 45 minutes." },
+      { "tag": "BLAST", "text": "Blend the cooled base and pistachios in the Blast 60 seconds (2–3 cycles) until silky. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO. If crumbly at the edges, add 1 tbsp milk and RE-SPIN." },
+      { "tag": "SERVE", "text": "Finish with chopped pistachios and a tiny pinch of flaky salt." }
+    ],
+    "tips": [
+      "For the smoothest texture, blend the nuts with half the base into a thick paste first, then add the rest. Fine specks are normal.",
+      "Buy plain, uncoloured pistachios. Roasted salted snack pistachios work if rinsed and dried; then skip the added salt.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO before serving."
+    ],
+    "swaps": [
+      "Protein: cut milk to 230 ml; blast 1 scoop vanilla whey into the cooled base. Rest foam 2–3 minutes; expect one RE-SPIN. Adds 24 g protein.",
+      "Pista-elaichi: blend in the seeds of 3 green cardamoms with the nuts for a kulfi-leaning scoop.",
+      "Pistachio praline: caramelise 2 tbsp chopped pistachios in 1 tbsp sugar, cool, crush, add to a 4 cm well and run MIX-IN."
+    ],
+    "egg_option": {
+      "title": "Custard-style with 2 yolks",
+      "text": "Whisk 2 yolks with the sugar, milk powder and salt. Heat milk and cream until steaming, pour slowly onto the yolks, return to low heat and stir to 80–82 °C. Skip cornflour; use 240 ml milk.",
+      "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 1030, "protein_g": 25, "carbs_g": 108, "fat_g": 57 },
+    "shop_note": "Unsalted pistachios: Happilo or Nutraj on BigBasket/Amazon. Pistachio paste: Amazon; choose '100% pistachio', no colour."
+  },
+  {
+    "slug": "stracciatella-gelato",
+    "title": "Stracciatella",
+    "subtitle": "Milk gelato, shattered dark chocolate",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 15,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Eggless", "Mix-In Special", "Kid Favourite", "Gluten-Free Option"],
+    "colors": { "base": "#F7F1E3", "accent": "#3B2416", "deep": "#3B2416" },
+    "intro": "Stracciatella means 'little shreds': warm chocolate drizzled into cold gelato snaps into thin, irregular shards. The CREAMi MIX-IN cycle does this beautifully, and every spoonful crackles.",
+    "ingredients": [
+      { "qty": "300 ml (1¼ cups)", "item": "Amul Gold full cream milk" },
+      { "qty": "60 ml (¼ cup)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "55 g (4½ tbsp)", "item": "sugar" },
+      { "qty": "12 g (1½ tbsp)", "item": "cornflour" },
+      { "qty": "20 g (3 tbsp)", "item": "milk powder", "note": "Amul Spray or any whole milk powder" },
+      { "qty": "1 pinch", "item": "salt" }
+    ],
+    "mixins": [
+      { "qty": "40 g", "item": "dark chocolate, chopped", "note": "Amul Dark 55% or any 50–70%" },
+      { "qty": "1 tsp (5 ml)", "item": "coconut oil", "note": "keeps the shards thin and snappy" }
+    ],
+    "steps": [
+      { "tag": "PREP", "text": "In a heavy pan, whisk sugar, cornflour, milk powder and salt with 60 ml of the cold milk until smooth." },
+      { "tag": "COOK", "text": "Add the remaining milk and cream. Cook on medium-low, whisking, 5–6 minutes until it coats a spoon. Don't boil hard." },
+      { "tag": "COOL", "text": "Press cling film onto the surface and cool fully to room temperature." },
+      { "tag": "BLAST", "text": "Blend the cooled base in the Blast 30 seconds to smooth out lumps. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO. Meanwhile, melt the chocolate with the coconut oil in 20-second microwave bursts; cool 2 minutes until just warm." },
+      { "tag": "MIXIN", "text": "Make a 4 cm well to the bottom. Drizzle the chocolate into the well and over the top, then run MIX-IN. Serve at once." }
+    ],
+    "tips": [
+      "The chocolate must be fluid but only warm. Too hot melts the gelato into streaks; too cool clumps instead of shattering.",
+      "Drizzle a thin stream from a spoon held high. Thinner streams make finer, more classic shreds.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO; the shards survive fine."
+    ],
+    "swaps": [
+      "Protein: cut milk to 270 ml; blast 1 scoop vanilla whey into the cooled base. Rest foam 2–3 minutes; expect one RE-SPIN before MIX-IN.",
+      "Mint stracciatella: steep a handful of fresh pudina in the hot base 15 minutes, then strain before cooling.",
+      "Use ghee instead of coconut oil if you prefer; the shards will be slightly softer."
+    ],
+    "egg_option": {
+      "title": "Crema base with 3 yolks",
+      "text": "Richer than the egg-free Bergamo original. Whisk 3 yolks with the sugar; slowly pour in the steaming milk and cream, return to low heat and stir to 80–82 °C. Skip cornflour; use 260 ml milk.",
+      "adds": "+3 yolks · ≈ +165 kcal, +8 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 1030, "protein_g": 18, "carbs_g": 110, "fat_g": 57 },
+    "shop_note": "Dark chocolate: Amul Dark or Morde on Blinkit/Zepto. Coconut oil: Parachute or KLF on any grocery app."
+  },
+  {
+    "slug": "fior-di-latte-gelato",
+    "title": "Fior di Latte",
+    "subtitle": "The purest milk gelato",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 10,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Eggless", "Gluten-Free Option", "Kid Favourite"],
+    "colors": { "base": "#FBF7EC", "accent": "#E8DCC2", "deep": "#4A3F2C" },
+    "intro": "Italian gelaterias judge each other on fior di latte, 'flower of milk': no vanilla, no egg, nowhere to hide. Made with good full cream milk, it tastes like the cleanest, coldest malai.",
+    "ingredients": [
+      { "qty": "320 ml (1⅓ cups)", "item": "Amul Gold full cream milk", "note": "the freshest pouch milk you can buy" },
+      { "qty": "60 ml (¼ cup)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "55 g (4½ tbsp)", "item": "sugar" },
+      { "qty": "12 g (1½ tbsp)", "item": "cornflour" },
+      { "qty": "25 g (¼ cup)", "item": "milk powder", "note": "Amul Spray; boosts milky flavour and body" },
+      { "qty": "1 small pinch", "item": "salt" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "PREP", "text": "In a heavy pan, whisk sugar, cornflour, milk powder and salt with 60 ml of the cold milk until completely smooth." },
+      { "tag": "COOK", "text": "Add the remaining milk and cream. Cook on medium-low, whisking constantly, 5–6 minutes until it coats a spoon. Keep it just below a boil." },
+      { "tag": "COOL", "text": "Press cling film onto the surface and cool fully to room temperature." },
+      { "tag": "BLAST", "text": "Blend the cooled base in the Blast 30 seconds until glossy. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO." },
+      { "tag": "SERVE", "text": "Serve plain, with honey, olive oil and sea salt, or with warm gulab jamun." }
+    ],
+    "tips": [
+      "With so few ingredients, milk quality is everything. Fresh pouch full cream milk beats UHT tetra packs, which can taste cooked.",
+      "If the base catches on the pan, don't scrape the scorched layer in. A burnt note is impossible to hide here.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO before serving."
+    ],
+    "swaps": [
+      "Protein: replace the milk powder with 1 scoop unflavoured whey, blasted into the cooled base, and cut milk to 290 ml. Rest foam; expect one RE-SPIN.",
+      "Vanilla gelato: add ½ tsp vanilla extract or half a pod's seeds at the BLAST stage.",
+      "Gulkand ripple: after spinning, spoon 2 tbsp gulkand into a 4 cm well and run MIX-IN for rose-petal streaks through the milk."
+    ],
+    "egg_option": {
+      "title": "Crema-style: becomes classic Crema",
+      "text": "Yolks turn this into Crema, a different Italian classic. Whisk 3 yolks with the sugar, slowly pour in steaming milk and cream, return to low heat, stir to 80–82 °C. Skip cornflour; use 270 ml milk.",
+      "adds": "+3 yolks · ≈ +165 kcal, +8 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 820, "protein_g": 18, "carbs_g": 93, "fat_g": 41 },
+    "shop_note": "Milk powder: Amul Spray on Blinkit/Zepto/BigBasket. Avoid dairy whiteners; they contain added sugar."
+  },
+  {
+    "slug": "tiramisu-gelato",
+    "title": "Tiramisu Gelato",
+    "subtitle": "Coffee, cream cheese, soaked biscuit",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 20,
+    "cook_min": 10,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": ["Eggless", "Mix-In Special", "Party Pint"],
+    "colors": { "base": "#D9C2A0", "accent": "#5A3A22", "deep": "#4A2E1A" },
+    "intro": "Everything good about tiramisu in a scoop: a tangy coffee base standing in for mascarpone, chunks of coffee-soaked biscuit and a dark dusting of cocoa. Non-alcoholic, and far easier than layering a dish.",
+    "ingredients": [
+      { "qty": "250 ml (1 cup)", "item": "Amul Gold full cream milk" },
+      { "qty": "60 ml (¼ cup)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "60 g (5 tbsp)", "item": "sugar" },
+      { "qty": "12 g (1½ tbsp)", "item": "cornflour" },
+      { "qty": "2 tsp (4 g)", "item": "Nescafé Classic instant coffee", "note": "or Bru" },
+      { "qty": "60 g (¼ cup)", "item": "plain cream cheese, softened", "note": "D'lecta or Flanders; or thick hung curd" }
+    ],
+    "mixins": [
+      { "qty": "4 biscuits (~25 g)", "item": "Britannia Marie Gold, in 2 cm pieces", "note": "or savoiardi (ladyfingers)" },
+      { "qty": "2 tbsp (30 ml)", "item": "strong coffee, cooled, for soaking", "note": "½ tsp instant coffee in 2 tbsp water" },
+      { "qty": "1 tsp (3 g)", "item": "cocoa powder" }
+    ],
+    "steps": [
+      { "tag": "PREP", "text": "In a heavy pan, whisk sugar and cornflour with 60 ml of the cold milk until smooth. Dissolve the coffee in 1 tbsp hot water." },
+      { "tag": "COOK", "text": "Add the remaining milk, cream and coffee. Cook on medium-low, whisking, 5–6 minutes until it coats a spoon. Don't boil hard." },
+      { "tag": "COOL", "text": "Press on cling film and cool fully. Meanwhile, dip the biscuit pieces in the soaking coffee for 2 seconds each and freeze them flat." },
+      { "tag": "BLAST", "text": "Blend the cooled base with the cream cheese in the Blast 30–45 seconds until smooth. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h. Box the soaked biscuits and keep them frozen." },
+      { "tag": "SPIN", "text": "Run GELATO." },
+      { "tag": "MIXIN", "text": "Make a 4 cm well to the bottom, add the frozen biscuit pieces, sift in the cocoa and run MIX-IN." },
+      { "tag": "SERVE", "text": "Dust generously with more cocoa and serve." }
+    ],
+    "tips": [
+      "Freezing the soaked biscuits keeps them as distinct, cakey chunks. Added unfrozen, they turn to mush during MIX-IN.",
+      "Add cream cheese at the BLAST stage, never to the hot pan, or it can turn grainy and lose its tang.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO; the biscuit stays soft and cake-like."
+    ],
+    "swaps": [
+      "Protein: cut milk to 200 ml, replace the cream cheese with 80 g Greek yogurt, blast in 1 scoop coffee whey. Rest foam; expect one RE-SPIN.",
+      "Hung curd: strain 120 g dahi overnight and use the ~60 g thick curd in place of cream cheese; tangier, lighter.",
+      "Gluten-free: use gluten-free cookies, or skip the biscuits and add 2 tbsp grated dark chocolate."
+    ],
+    "egg_option": {
+      "title": "Zabaione-style with 3 yolks",
+      "text": "Closer to real tiramisu. Whisk 3 yolks with the sugar, slowly pour in the steaming coffee-milk and cream, return to low heat and stir to 80–82 °C. Skip cornflour; use 210 ml milk.",
+      "adds": "+3 yolks · ≈ +165 kcal, +8 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 970, "protein_g": 16, "carbs_g": 107, "fat_g": 52 },
+    "shop_note": "Cream cheese: D'lecta, Flanders or Philadelphia on Blinkit/Zepto/Amazon. Savoiardi (optional): Amazon."
+  },
+  {
+    "slug": "nolen-gur-gelato",
+    "title": "Nolen Gur Gelato",
+    "subtitle": "Bengal's winter jaggery, frozen silky",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 10,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": ["Eggless", "Desi Classic", "Gluten-Free Option"],
+    "colors": { "base": "#C9A06A", "accent": "#8B5A2B", "deep": "#5A3414" },
+    "intro": "Every winter, Kolkata's sweet shops switch to nolen gur, the smoky, caramel-scented jaggery made from date palm sap. In a milky gelato it tastes like frozen nolen gurer sandesh. Make several pints while the season lasts.",
+    "ingredients": [
+      { "qty": "280 ml (scant 1¼ cups)", "item": "Amul Gold full cream milk" },
+      { "qty": "60 ml (¼ cup)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "12 g (1½ tbsp)", "item": "cornflour" },
+      { "qty": "20 g (3 tbsp)", "item": "milk powder", "note": "Amul Spray or any whole milk powder" },
+      { "qty": "90 g (⅓ cup)", "item": "nolen gur (liquid jhola or grated patali)", "note": "or 80 g jaggery + 10 g sugar" },
+      { "qty": "1 pinch", "item": "salt" }
+    ],
+    "mixins": [],
+    "steps": [
+      { "tag": "PREP", "text": "In a heavy pan, whisk cornflour, milk powder and salt with 60 ml of the cold milk until smooth." },
+      { "tag": "COOK", "text": "Add the remaining milk and cream. Cook on medium-low, whisking, 5–6 minutes until it coats a spoon like thin custard." },
+      { "tag": "COOL", "text": "Cool 10–15 minutes until warm, not hot. Stir in the nolen gur until dissolved, press on cling film and cool fully." },
+      { "tag": "BLAST", "text": "Blend the cooled base in the Blast 30 seconds. Taste; add 1 tsp more gur if needed. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO." },
+      { "tag": "SERVE", "text": "Drizzle with liquid nolen gur, or crumble a Joynagar moa on top." }
+    ],
+    "tips": [
+      "Never add gur to very hot milk; its natural acidity can split it. Waiting until the base is just warm keeps it smooth.",
+      "Nolen gur is in season November to February. Otherwise buy jars or tubes online; real ones smell smoky-sweet, not like molasses.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO before serving."
+    ],
+    "swaps": [
+      "Regular jaggery: use 80 g dark, soft jaggery plus 10 g sugar. Tasty, without nolen gur's smoky perfume.",
+      "Mix-in: after spinning, add 2 crumbled Joynagar moa or 2 tbsp toasted chopped cashews to a well and run MIX-IN.",
+      "Protein: cut milk to 250 ml; blast 1 scoop unflavoured whey into the fully cooled base. Rest foam; expect one RE-SPIN. Adds 24 g protein."
+    ],
+    "egg_option": {
+      "title": "Custard-style with 2 yolks",
+      "text": "Whisk 2 yolks with the milk powder and salt, slowly pour in the steaming milk and cream, return to low heat and stir to 80–82 °C. Skip cornflour; use 250 ml milk. Add gur once warm.",
+      "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 825, "protein_g": 16, "carbs_g": 106, "fat_g": 37 },
+    "shop_note": "Nolen gur jars and tubes: Amazon, BigBasket or Bengali sweet shops in winter. Regular jaggery: any kirana."
+  },
+  {
+    "slug": "gianduja-gelato",
+    "title": "Gianduja Gelato",
+    "subtitle": "Turin's chocolate and hazelnut classic",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 15,
+    "cook_min": 10,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": ["Eggless", "Mix-In Special", "Kid Favourite", "Party Pint"],
+    "colors": { "base": "#7A4E30", "accent": "#C49A6C", "deep": "#3E2414" },
+    "intro": "Gianduja was born in 19th-century Turin, when cocoa was scarce and chocolatiers stretched it with local hazelnuts. Deeper and nuttier than plain chocolate, it tastes like the best spoonful of Nutella, frozen dense.",
+    "ingredients": [
+      { "qty": "280 ml (scant 1¼ cups)", "item": "Amul Gold full cream milk" },
+      { "qty": "40 ml (2½ tbsp)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "40 g (3¼ tbsp)", "item": "sugar" },
+      { "qty": "10 g (1¼ tbsp)", "item": "cornflour" },
+      { "qty": "10 g (1½ tbsp)", "item": "cocoa powder", "note": "Hershey's or Cadbury" },
+      { "qty": "25 g", "item": "dark chocolate, chopped", "note": "Amul Dark 55% or Morde" },
+      { "qty": "60 g (3 tbsp)", "item": "Nutella", "note": "or any chocolate-hazelnut spread" },
+      { "qty": "1 pinch", "item": "salt" }
+    ],
+    "mixins": [
+      { "qty": "30 g (¼ cup)", "item": "roasted, skinned hazelnuts, chopped", "note": "toast raw ones 10 min at 170 °C" }
+    ],
+    "steps": [
+      { "tag": "PREP", "text": "In a heavy pan, whisk sugar, cornflour, cocoa and salt with 60 ml of the cold milk into a smooth paste." },
+      { "tag": "COOK", "text": "Add the remaining milk and cream. Cook on medium-low, whisking, 5–6 minutes until thickened. Off heat, whisk in chocolate and Nutella until glossy." },
+      { "tag": "COOL", "text": "Press cling film onto the surface and cool fully to room temperature." },
+      { "tag": "BLAST", "text": "Blend the cooled base in the Blast 30–45 seconds until completely smooth. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO." },
+      { "tag": "MIXIN", "text": "Make a 4 cm well to the bottom, add the hazelnuts and run MIX-IN." },
+      { "tag": "SERVE", "text": "Serve with extra hazelnuts or a warm spoonful of Nutella." }
+    ],
+    "tips": [
+      "The cooled base should pour like thick chocolate custard. If it sets too firm, loosen it with 1 tbsp milk in the Blast.",
+      "Taste hazelnuts before using; old stock turns rancid quickly. Buy small packs and keep them in the fridge.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO before serving."
+    ],
+    "swaps": [
+      "Pure hazelnut: skip the Nutella; soak 50 g roasted hazelnuts in hot water 30 minutes, drain and blend with the base, plus 15 g sugar.",
+      "Protein: cut milk to 250 ml; blast 1 scoop chocolate whey into the cooled base. Rest foam; expect one RE-SPIN. Adds 24 g protein.",
+      "Swap the hazelnuts for roasted almonds or cashews if easier to find."
+    ],
+    "egg_option": {
+      "title": "Custard-style with 2 yolks",
+      "text": "Whisk 2 yolks with the sugar, cocoa and salt; slowly pour in the steaming milk and cream, return to low heat and stir to 80–82 °C. Skip cornflour; use 250 ml milk. Then add chocolate and Nutella.",
+      "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 1220, "protein_g": 22, "carbs_g": 121, "fat_g": 74 },
+    "shop_note": "Hazelnuts: Happilo or Urban Platter on Amazon/BigBasket. Nutella: Blinkit/Zepto."
+  },
+  {
+    "slug": "dulce-de-leche-gelato",
+    "title": "Dulce de Leche Gelato",
+    "subtitle": "Milkmaid, slowly caramelised, safely",
+    "program": "GELATO",
+    "respin": "Not usually needed",
+    "prep_min": 15,
+    "cook_min": 55,
+    "difficulty": "Weekend Project",
+    "servings": 3,
+    "tags": ["Eggless", "Mix-In Special", "Gluten-Free Option", "Party Pint"],
+    "colors": { "base": "#D2A26B", "accent": "#9C5A24", "deep": "#5C3110" },
+    "intro": "Cook Milkmaid slowly in an open bowl and it turns into dulce de leche, Argentina's thick, toffee-brown caramel. It flavours this milky gelato, then goes in again as a sticky ribbon.",
+    "ingredients": [
+      { "qty": "1 tin (380 g)", "item": "Nestlé Milkmaid, for the dulce de leche", "note": "150 g for base, 40 g ribbon" },
+      { "qty": "260 ml (generous 1 cup)", "item": "Amul Gold full cream milk" },
+      { "qty": "50 ml (3½ tbsp)", "item": "Amul Fresh Cream (25% fat)" },
+      { "qty": "10 g (1¼ tbsp)", "item": "cornflour" },
+      { "qty": "¼ tsp", "item": "salt" }
+    ],
+    "mixins": [
+      { "qty": "40 g (2 tbsp)", "item": "chilled dulce de leche, from the batch" }
+    ],
+    "steps": [
+      { "tag": "COOK", "text": "Pour the Milkmaid into a steel bowl; cover with foil. Never heat the sealed tin. Stand it on a trivet in a pressure cooker, water halfway up." },
+      { "tag": "COOK", "text": "High heat to the first whistle, then low 40 minutes; let pressure release naturally. Whisk the amber caramel smooth and cool." },
+      { "tag": "COOK", "text": "Whisk cornflour and salt into 60 ml cold milk, add the remaining milk and cream, and cook, whisking, 5 minutes until it coats a spoon." },
+      { "tag": "COOL", "text": "Off heat, whisk in 150 g dulce de leche. Press on cling film and cool fully to room temperature." },
+      { "tag": "BLAST", "text": "Blend the cooled base in the Blast 30 seconds. Pour into the pint under MAX FILL." },
+      { "tag": "FREEZE", "text": "Lid on; freeze level for 24 h." },
+      { "tag": "SPIN", "text": "Run GELATO." },
+      { "tag": "MIXIN", "text": "Make a 4 cm well to the bottom, spoon in 40 g chilled dulce de leche and run MIX-IN for ribbons. Serve at once." }
+    ],
+    "tips": [
+      "No cooker? Stir Milkmaid in a heavy non-stick pan on the lowest flame 25–35 minutes, or bake covered in a water bath, 220 °C, 60–75 minutes.",
+      "Never boil the unopened tin, a popular shortcut: if the water runs low, the tin can burst violently. Extra dulce keeps a week, refrigerated.",
+      "Leftovers: flatten the top, refreeze, and RE-SPIN on GELATO before serving."
+    ],
+    "swaps": [
+      "Salted caramel crunch: add 2 crushed Lotus Biscoff biscuits to the well with the ribbon.",
+      "Protein: cut milk to 230 ml; blast 1 scoop vanilla or caramel whey into the cooled base. Rest foam; expect one RE-SPIN. Adds 24 g protein.",
+      "Short on time: use 190 g store-bought dulce de leche or thick caramel spread."
+    ],
+    "egg_option": {
+      "title": "Custard-style with 2 yolks",
+      "text": "Whisk 2 yolks with the salt, slowly pour in the steaming milk and cream, return to low heat and stir to 80–82 °C. Skip cornflour; use 230 ml milk. Then whisk in the dulce de leche.",
+      "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
+    },
+    "nutrition_per_pint": { "kcal": 1005, "protein_g": 25, "carbs_g": 128, "fat_g": 44 },
+    "shop_note": "Milkmaid: any grocery app or kirana. Ready dulce de leche (optional): Amazon."
+  }
+]

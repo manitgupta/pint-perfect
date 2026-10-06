@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art">
+<circle cx="100" cy="104" r="86" fill="#FAF8F5"/>
+<circle cx="100" cy="104" r="86" fill="none" stroke="#F4F0E9" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M45.1,53.1 Q45.1,59.9 52.0,59.9 Q45.1,59.9 45.1,66.8 Q45.1,59.9 38.3,59.9 Q45.1,59.9 45.1,53.1Z" fill="#2B2522" opacity="0.8"/><path d="M33.1,51.7 Q33.1,57.8 39.2,57.8 Q33.1,57.8 33.1,64.0 Q33.1,57.8 26.9,57.8 Q33.1,57.8 33.1,51.7Z" fill="#2B2522" opacity="0.8"/><path d="M52.4,19.6 Q52.4,23.7 56.5,23.7 Q52.4,23.7 52.4,27.8 Q52.4,23.7 48.3,23.7 Q52.4,23.7 52.4,19.6Z" fill="#2B2522" opacity="0.8"/><path d="M38.0,52.1 Q38.0,56.8 42.7,56.8 Q38.0,56.8 38.0,61.6 Q38.0,56.8 33.2,56.8 Q38.0,56.8 38.0,52.1Z" fill="#2B2522" opacity="0.8"/>
+<path d="M162.6,39.3 Q162.6,45.9 169.1,45.9 Q162.6,45.9 162.6,52.4 Q162.6,45.9 156.0,45.9 Q162.6,45.9 162.6,39.3Z" fill="#6D6A68" opacity="0.8"/><path d="M182.5,43.1 Q182.5,50.1 189.5,50.1 Q182.5,50.1 182.5,57.1 Q182.5,50.1 175.5,50.1 Q182.5,50.1 182.5,43.1Z" fill="#6D6A68" opacity="0.8"/>
+<path d="M60.0,82.0 A40.0,38.0 0 0 1 140.0,82.0 Q133.3,102.2 126.7,82.0 Q120.0,102.1 113.3,82.0 Q106.7,96.4 100.0,82.0 Q93.3,96.6 86.7,82.0 Q80.0,101.4 73.3,82.0 Q66.7,100.8 60.0,82.0 Z" fill="#EDE6DA" stroke="#C2BDB3" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M78.4,88.0 q0,16.8 3.6,16.8 q3.6,0 3.6,-16.8z" fill="#EDE6DA"/>
+<path d="M75.2,74.0 A28.0,28.0 0 0 1 98.0,50.8" fill="none" stroke="#F5F1EB" stroke-width="4.8" stroke-linecap="round" opacity="0.85"/>
+<circle cx="111.2" cy="57.2" r="2.8" fill="#F5F1EB" opacity="0.9"/>
+<circle cx="88.7" cy="64.6" r="2.2" fill="#2B2522"/>
+<rect x="100.1" y="70.5" width="5.6" height="2.0" rx="1.0" fill="#2B2522" transform="rotate(71 102.9 71.5)"/>
+<circle cx="117.7" cy="58.8" r="2.2" fill="#2B2522"/>
+<rect x="99.5" y="64.3" width="5.6" height="2.0" rx="1.0" fill="#2B2522" transform="rotate(6 102.3 65.3)"/>
+<rect x="78.0" y="76.9" width="5.6" height="2.0" rx="1.0" fill="#2B2522" transform="rotate(68 80.8 77.9)"/>
+<circle cx="118.5" cy="73.5" r="2.2" fill="#2B2522"/>
+<rect x="90.4" y="75.3" width="5.6" height="2.0" rx="1.0" fill="#2B2522" transform="rotate(25 93.2 76.3)"/>
+<circle cx="100.9" cy="53.6" r="2.2" fill="#2B2522"/>
+<circle cx="77.9" cy="65.2" r="2.2" fill="#2B2522"/>
+<path d="M56,92 L144,92 L138,176 L62,176 Z" fill="#FFFFFF" stroke="#6D6A68" stroke-width="2" stroke-linejoin="round"/>
+<rect x="52" y="88" width="96" height="10" rx="4" fill="#F3EFE7" stroke="#6D6A68" stroke-width="1.6"/>
+<rect x="64" y="118" width="72" height="30" rx="5" fill="#2E2A28"/>
+<text x="100" y="138" text-anchor="middle" font-family="DM Sans, sans-serif" font-weight="800" font-size="13" letter-spacing="1.5" fill="#FFFFFF">PROTEIN</text>
+<path d="M66,160 L134,160" stroke="#6D6A68" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>

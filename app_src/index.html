@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pint Perfect</title>
+<meta name="description" content="50 Ninja CREAMi recipes for the Indian kitchen">
+<meta name="theme-color" content="#FBF7F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15120F" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pint Perfect">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="fonts/DMSans.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Fraunces.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <main id="view" class="view"></main>
+  <nav id="tabs" class="tabs" aria-label="Main">
+    <a href="#/" data-tab="home"><svg viewBox="0 0 24 24"><path d="M12 3a5 5 0 0 1 5 5v.3a3.5 3.5 0 0 1-1.5 6.7h-7A3.5 3.5 0 0 1 7 8.3V8a5 5 0 0 1 5-5z"/><path d="M8.5 15l3.5 6 3.5-6"/></svg><span>Recipes</span></a>
+    <a href="#/saved" data-tab="saved"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span>Saved</span></a>
+    <a href="#/freezer" data-tab="freezer"><svg viewBox="0 0 24 24"><path d="M12 2v20M4.9 6.5l14.2 11M4.9 17.5l14.2-11"/><path d="M9.5 3.5 12 5.5l2.5-2M9.5 20.5 12 18.5l2.5 2"/></svg><span>Freezer</span><b class="badge" id="freezer-badge" hidden></b></a>
+    <a href="#/guide" data-tab="guide"><svg viewBox="0 0 24 24"><path d="M5 4h9a4 4 0 0 1 4 4v12H9a4 4 0 0 1-4-4z"/><path d="M5 16a4 4 0 0 1 4-4h9"/></svg><span>Guide</span></a>
+  </nav>
+  <div id="sheet-root"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>

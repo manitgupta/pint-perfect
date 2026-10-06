@@ -1,0 +1,625 @@
+{
+  "welcome": {
+    "title": "Welcome to Your Creami Kitchen",
+    "paragraphs": [
+      "This book has 50 recipes written for the Ninja CREAMi NC300IN and the Ninja Blast portable blender, using ingredients you can order on Blinkit, Zepto, Instamart, BigBasket or Amazon, or pick up at the kirana. High-protein pints run through the whole book, alongside kulfi-style desi flavours, gelatos and fruit sorbets.",
+      "The recipes are split into six sections: Protein Pints: Whey-Powered; Protein Pints: Greek Yogurt, Turbo & Paneer; Desi Ice Creams; Global Classics; Gelato; and Sorbets, Bowls & Shakes. Start with the reference pages that follow. They explain the programs, the sweeteners and the fixes for common texture problems.",
+      "Each recipe page shows a program badge (the button to press), a Blast step for blending the base, a 24-hour freeze, the spin and any re-spin. Quantities are metric first, with Indian cups (240 ml) in brackets. Use the notes area to record your freezer's quirks, sweetness changes and the brands you prefer."
+    ]
+  },
+  "how_it_works": [
+    {
+      "step": "Blend",
+      "text": "Add the cold or room-temperature base to the Blast and blend 30–60 s. Cook-and-cool recipes must be fully cool before they go in."
+    },
+    {
+      "step": "Settle",
+      "text": "Rest the blended base 2–3 min, or tap the vessel on the counter, so the foam from whey or yogurt subsides."
+    },
+    {
+      "step": "Fill",
+      "text": "Pour into a CREAMi pint up to, never above, the MAX FILL line (about 400–450 ml). Lid it and label it with the name and date."
+    },
+    {
+      "step": "Freeze 24 h",
+      "text": "Freeze the pint on a level shelf for a full 24 hours at -13 °C to -22 °C. A slanted pint freezes with an uneven top."
+    },
+    {
+      "step": "Spin",
+      "text": "Remove the lid, flatten any hump, lock the pint into the outer bowl and press the program shown on the recipe."
+    },
+    {
+      "step": "Re-spin",
+      "text": "If it looks powdery or crumbly, add 1–2 tbsp milk and press RE-SPIN. Lite and protein bases often need one or two."
+    },
+    {
+      "step": "Mix-in & store",
+      "text": "Dig a 4 cm well, add up to ⅓ cup mix-ins and run MIX-IN. Flatten leftovers, refreeze, and re-spin before serving again."
+    }
+  ],
+  "programs": [
+    {
+      "name": "ICE CREAM",
+      "best_for": "Full-fat bases with cream, milk and sugar or condensed milk",
+      "texture": "Thick, scoopable, classic parlour",
+      "use_when": "The base has real sugar and at least some cream"
+    },
+    {
+      "name": "LITE ICE CREAM",
+      "best_for": "Protein, low-fat and sugar-substitute bases",
+      "texture": "Soft-serve once re-spun; may start powdery",
+      "use_when": "Using whey, Greek yogurt, paneer, stevia, sucralose, erythritol or allulose"
+    },
+    {
+      "name": "GELATO",
+      "best_for": "Cooked custard or cornflour-thickened bases",
+      "texture": "Dense, silky, slightly elastic",
+      "use_when": "The base was cooked and cooled: gelato, kulfi, rabdi, caramel"
+    },
+    {
+      "name": "SORBET",
+      "best_for": "Fruit-heavy, high-water bases, usually dairy-free",
+      "texture": "Smooth, bright, firm-melting",
+      "use_when": "Mango, jamun, kokum, lemon or watermelon with sugar or syrup"
+    },
+    {
+      "name": "SMOOTHIE BOWL",
+      "best_for": "Frozen fruit with yogurt, juice or milk",
+      "texture": "Thick, spoonable, less sweet",
+      "use_when": "You want a breakfast bowl to top with granola and fruit"
+    },
+    {
+      "name": "MILKSHAKE",
+      "best_for": "A frozen or processed pint plus about 120 ml milk",
+      "texture": "Thick, sippable shake",
+      "use_when": "Turning a pint (or leftovers) into a shake in about 2 minutes"
+    },
+    {
+      "name": "MIX-IN",
+      "best_for": "Folding in biscuits, nuts, chocolate or ripples",
+      "texture": "Even chunks without over-crushing them",
+      "use_when": "The pint is already processed and a 4 cm well is dug to the bottom"
+    },
+    {
+      "name": "RE-SPIN",
+      "best_for": "Rescuing powdery, crumbly or too-cold results",
+      "texture": "Turns crumbs creamy",
+      "use_when": "After any program, with 1–2 tbsp milk added; repeat if needed"
+    }
+  ],
+  "blast": {
+    "intro": "The Ninja Blast holds 530 ml with a practical max fill of about 470 ml, so one full pint base blends in a single go. It is cordless and charges by USB-C.",
+    "dos": [
+      "Blend cold or room-temperature bases for 30–60 s, or 2–3 blend cycles.",
+      "Add liquids first, then powders (whey, cocoa, gum), then soft solids.",
+      "Rest whey and yogurt bases 2–3 min so foam settles before pouring.",
+      "Sprinkle xanthan or guar gum over moving liquid to avoid lumps.",
+      "Charge it fully before a batch day; one charge covers several pints."
+    ],
+    "donts": [
+      "Never blend hot liquids: the sealed vessel builds pressure.",
+      "Don't fill above about 470 ml.",
+      "Don't grind hard nuts, ice or whole spices on their own.",
+      "Don't knead thick doughs or very dense pastes without liquid.",
+      "Don't submerge the motor base in water; rinse only the jar and lid."
+    ]
+  },
+  "golden_rules": [
+    {
+      "title": "Freeze a full 24 hours",
+      "text": "A part-frozen core gives soupy, uneven results. Plan one day ahead."
+    },
+    {
+      "title": "Respect MAX FILL",
+      "text": "Overfilled pints can jam or damage the machine. Keep bases at about 400–450 ml."
+    },
+    {
+      "title": "Freeze level",
+      "text": "Set pints on a flat shelf away from the door. A slanted top strains the blade."
+    },
+    {
+      "title": "Flatten the hump",
+      "text": "If the top freezes domed, rest 5–10 min or scrape it flat with a spoon before spinning."
+    },
+    {
+      "title": "Powdery is normal",
+      "text": "Lite and protein pints often come out crumbly first. Add 1–2 tbsp milk and re-spin."
+    },
+    {
+      "title": "Never cook whey",
+      "text": "Heat makes whey grainy and clumpy. Blend it into a cold or cooled base."
+    },
+    {
+      "title": "Keep whey to 1–1.5 scoops",
+      "text": "30–45 g per pint is the sweet spot; more turns chalky and icy."
+    },
+    {
+      "title": "Use a pinch of gum",
+      "text": "⅛–¼ tsp xanthan or guar gum makes low-fat bases noticeably creamier."
+    },
+    {
+      "title": "Cool before you Blast",
+      "text": "Cooked bases for gelato, kulfi or chai must reach room temperature before blending."
+    },
+    {
+      "title": "Mix-ins go in last",
+      "text": "Add them after processing, into a 4 cm well, and use MIX-IN, never the main program."
+    }
+  ],
+  "pantry": [
+    {
+      "category": "Dairy & Bases",
+      "items": [
+        {
+          "name": "Amul Taaza toned milk",
+          "use": "Everyday base; lighter pints",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Amul Gold full-cream milk",
+          "use": "Richer ice creams and kulfi",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Amul Fresh Cream (25% fat), 250 ml",
+          "use": "Body and creaminess in ICE CREAM pints",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Nestlé Milkmaid, 400 g tin",
+          "use": "Sweetener and body for desi pints",
+          "where": "Blinkit · Zepto · Instamart · kirana"
+        },
+        {
+          "name": "Epigamia / Milky Mist Greek yogurt",
+          "use": "Tangy, protein-rich base",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Dabur Hommade coconut milk",
+          "use": "Dairy-free and vegan bases",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Fresh eggs (optional)",
+          "use": "Yolks for custard-style gelato and ice cream",
+          "where": "Blinkit · Zepto · Instamart · kirana"
+        }
+      ]
+    },
+    {
+      "category": "Protein",
+      "items": [
+        {
+          "name": "Whey protein (MuscleBlaze, Avvatar, ON, AS-IT-IS)",
+          "use": "Main protein source; unflavoured or vanilla is the most versatile",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Epigamia Turbo High Protein Yogurt",
+          "use": "Thick, fat-free, ~50 g protein per tub",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Amul High Protein Paneer",
+          "use": "Blends into cheesecake-style pints",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Pintola / Alpino peanut butter powder",
+          "use": "Nutty flavour with less fat",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Amul protein lassi / buttermilk",
+          "use": "Ready liquid base with added whey",
+          "where": "Blinkit · Zepto · Instamart"
+        }
+      ]
+    },
+    {
+      "category": "Sweeteners",
+      "items": [
+        {
+          "name": "Sugar (grind to caster in a mixie)",
+          "use": "Softest scoop in full-fat pints",
+          "where": "Anywhere"
+        },
+        {
+          "name": "Sugar Free Natura (sucralose) / Gold (aspartame)",
+          "use": "Zero-calorie sweetness for lite pints",
+          "where": "Blinkit · Zepto · chemists"
+        },
+        {
+          "name": "Sugar Free Green (stevia)",
+          "use": "Plant-based zero-calorie option",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Allulose (Trulo, Velvey)",
+          "use": "Low-calorie and keeps pints softer",
+          "where": "Blinkit · Amazon"
+        },
+        {
+          "name": "Erythritol / monk fruit blends",
+          "use": "Bulk sweetener for sugar-free pints",
+          "where": "Amazon · Blinkit"
+        },
+        {
+          "name": "Jaggery powder & honey",
+          "use": "Desi caramel notes; softer freeze",
+          "where": "Blinkit · Zepto · kirana"
+        },
+        {
+          "name": "Seedless dates (Lion)",
+          "use": "Natural sweetness for shakes and bowls",
+          "where": "Blinkit · Zepto · kirana"
+        }
+      ]
+    },
+    {
+      "category": "Flavour & Spices",
+      "items": [
+        {
+          "name": "Hershey's / Cadbury cocoa powder",
+          "use": "Chocolate bases",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Nescafé / Bru instant coffee",
+          "use": "Coffee and mocha pints",
+          "where": "Anywhere"
+        },
+        {
+          "name": "Kesar (Baby Brand, Lion)",
+          "use": "Kulfi, kesar-pista, shrikhand",
+          "where": "Blinkit · Zepto · kirana"
+        },
+        {
+          "name": "Elaichi, cinnamon, nutmeg",
+          "use": "Desi and chai-spiced pints",
+          "where": "Anywhere"
+        },
+        {
+          "name": "Vanilla extract (Urban Platter, Sprig)",
+          "use": "Cleaner flavour than essence",
+          "where": "Amazon · Blinkit"
+        },
+        {
+          "name": "Hamdard Rooh Afza / rose water",
+          "use": "Rose, falooda and gulkand pints",
+          "where": "Blinkit · Zepto · kirana"
+        }
+      ]
+    },
+    {
+      "category": "Fruit & Pulps",
+      "items": [
+        {
+          "name": "Swad Alphonso / Kesar mango pulp",
+          "use": "Year-round mango ice cream and sorbet",
+          "where": "Amazon · Blinkit · BigBasket"
+        },
+        {
+          "name": "Frozen berries & mixed fruit",
+          "use": "Smoothie bowls and sorbets",
+          "where": "Blinkit · Zepto · BigBasket"
+        },
+        {
+          "name": "Mapro / Kissan fruit crushes",
+          "use": "Quick ripples and sorbet flavour",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Seasonal fruit: chikoo, sitaphal, jamun, strawberries",
+          "use": "Peak-season pints; freeze extra pulp",
+          "where": "Blinkit · Zepto · local market"
+        },
+        {
+          "name": "Ripe bananas",
+          "use": "Natural creaminess in bowls and shakes",
+          "where": "Anywhere"
+        }
+      ]
+    },
+    {
+      "category": "Mix-ins",
+      "items": [
+        {
+          "name": "Oreo / Hide & Seek",
+          "use": "Cookies-and-cream",
+          "where": "Anywhere"
+        },
+        {
+          "name": "Lotus Biscoff biscuits & spread",
+          "use": "Caramel-biscuit pints and ripples",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Amul / Morde dark chocolate",
+          "use": "Chips, shards and fudge ripples",
+          "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Pistachios, almonds, cashews",
+          "use": "Kulfi crunch and garnish",
+          "where": "Blinkit · Zepto · kirana"
+        },
+        {
+          "name": "Veg marshmallows (Kandee Marshmelts)",
+          "use": "Rocky road; check for the green dot",
+          "where": "Amazon · Blinkit (varies)"
+        },
+        {
+          "name": "Parle-G / Britannia Good Day",
+          "use": "Nostalgic biscuit mix-ins",
+          "where": "Anywhere"
+        }
+      ]
+    },
+    {
+      "category": "Texture Helpers",
+      "items": [
+        {
+          "name": "Urban Platter xanthan gum",
+          "use": "⅛–¼ tsp for creamier protein and lite pints",
+          "where": "Amazon · Blinkit · Instamart"
+        },
+        {
+          "name": "Guar gum",
+          "use": "Alternative to xanthan, same dose",
+          "where": "Amazon"
+        },
+        {
+          "name": "Amul Sagar skimmed milk powder",
+          "use": "Adds body and protein; cuts iciness",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Cornflour (Weikfield, Brown & Polson)",
+          "use": "Thickens eggless gelato and ice cream bases",
+          "where": "Anywhere"
+        },
+        {
+          "name": "Urban Platter pistachio paste",
+          "use": "Real pistachio gelato flavour",
+          "where": "Amazon"
+        }
+      ]
+    }
+  ],
+  "protein_guide": {
+    "intro": "Protein sources freeze differently. Fat-free and high-protein bases freeze harder, so expect a re-spin and add a pinch of gum. Figures are typical label values; check your pack.",
+    "rows": [
+      {
+        "base": "Whey isolate",
+        "protein": "~25–27 g / 30 g scoop",
+        "texture": "Clean taste, can turn icy",
+        "tip": "Add gum + 1 tbsp cream or SMP"
+      },
+      {
+        "base": "Whey concentrate",
+        "protein": "~22–24 g / 30–33 g scoop",
+        "texture": "Creamier than isolate",
+        "tip": "Best all-rounder; 1–1.5 scoops"
+      },
+      {
+        "base": "Casein / whey-casein blend",
+        "protein": "~24 g / 33 g scoop",
+        "texture": "Thickest, most ice-cream-like",
+        "tip": "Thickens on standing; add 2–3 tbsp extra milk"
+      },
+      {
+        "base": "Greek yogurt (Epigamia, Milky Mist)",
+        "protein": "~7–10 g / 100 g",
+        "texture": "Tangy, frozen-yogurt style",
+        "tip": "Balance tang with honey or fruit"
+      },
+      {
+        "base": "Epigamia Turbo High Protein Yogurt",
+        "protein": "~12 g / 100 g (50 g per tub)",
+        "texture": "Very thick, fat-free, firm when frozen",
+        "tip": "Thin with milk; plan one re-spin"
+      },
+      {
+        "base": "Amul High Protein Paneer",
+        "protein": "~25 g / 100 g",
+        "texture": "Cheesecake-like once blended",
+        "tip": "Crumble and blend with milk until fully smooth"
+      },
+      {
+        "base": "Amul protein lassi / buttermilk",
+        "protein": "~15 g / 200 ml pack",
+        "texture": "Light and tangy",
+        "tip": "Use as the liquid; sweetness is already low"
+      },
+      {
+        "base": "Skimmed milk powder",
+        "protein": "~3 g / tbsp (8 g)",
+        "texture": "Adds body, reduces ice",
+        "tip": "2–3 tbsp per pint is enough"
+      },
+      {
+        "base": "Peanut butter powder",
+        "protein": "~7–8 g / 2 tbsp (16 g)",
+        "texture": "Nutty, slightly dry",
+        "tip": "Pair with banana or cocoa"
+      }
+    ]
+  },
+  "sweetener_guide": [
+    {
+      "name": "Sugar",
+      "sweetness": "1×",
+      "freeze_effect": "Keeps pints soft and scoopable",
+      "program": "ICE CREAM",
+      "tip": "Grind to caster so it dissolves in cold bases"
+    },
+    {
+      "name": "Condensed milk (Milkmaid)",
+      "sweetness": "~0.5× by weight",
+      "freeze_effect": "Soft and creamy, adds milk solids",
+      "program": "ICE CREAM",
+      "tip": "About 100 g sweetens a pint; whisk in first"
+    },
+    {
+      "name": "Honey / jaggery",
+      "sweetness": "~1.2× / ~0.8×",
+      "freeze_effect": "Softer than sugar; jaggery adds caramel notes",
+      "program": "ICE CREAM",
+      "tip": "Add jaggery to warm, not boiling, milk to avoid curdling"
+    },
+    {
+      "name": "Sucralose / aspartame (Sugar Free Natura / Gold)",
+      "sweetness": "~600× / ~200×",
+      "freeze_effect": "No softening; freezes hard and powdery",
+      "program": "LITE ICE CREAM",
+      "tip": "Add to cold bases (aspartame loses sweetness with heat); plan a re-spin"
+    },
+    {
+      "name": "Stevia (Sugar Free Green)",
+      "sweetness": "~200–300×",
+      "freeze_effect": "No softening; freezes hard",
+      "program": "LITE ICE CREAM",
+      "tip": "Use less than you think; vanilla masks the aftertaste"
+    },
+    {
+      "name": "Erythritol / monk fruit blends",
+      "sweetness": "~0.7×",
+      "freeze_effect": "Freezes very hard; can recrystallise",
+      "program": "LITE ICE CREAM",
+      "tip": "Mix with allulose; eat within a week"
+    },
+    {
+      "name": "Allulose",
+      "sweetness": "~0.7×",
+      "freeze_effect": "Softer than sugar, like a regular ice cream",
+      "program": "LITE ICE CREAM",
+      "tip": "Best sugar-free option for scoopable pints"
+    },
+    {
+      "name": "Dates",
+      "sweetness": "~0.6× (soaked)",
+      "freeze_effect": "Thick, slightly fibrous",
+      "program": "SMOOTHIE BOWL",
+      "tip": "Soak in hot water 15 min, cool, then Blast with the milk"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "Powdery / crumbly",
+      "why": "Low fat or sugar, or a very cold freezer",
+      "fix": "Add 1–2 tbsp milk and RE-SPIN; repeat once if needed"
+    },
+    {
+      "problem": "Icy, crystalline",
+      "why": "Too much water, too little fat, sugar or solids",
+      "fix": "Add SMP, cream or a pinch of gum next time"
+    },
+    {
+      "problem": "Too soft / melty",
+      "why": "Too much sugar, honey or allulose, or freezer too warm",
+      "fix": "Refreeze 1–2 h; reduce sweetener; check freezer is -18 °C"
+    },
+    {
+      "problem": "Hump on top",
+      "why": "Base expanded as it froze; pint not level",
+      "fix": "Rest 5–10 min or scrape flat before spinning"
+    },
+    {
+      "problem": "Mix-ins sink or don't spread",
+      "why": "Added without a well, or too many",
+      "fix": "Dig a 4 cm well to the bottom; max ⅓ cup; use MIX-IN"
+    },
+    {
+      "problem": "Foam overflows MAX FILL",
+      "why": "Whey or yogurt whipped air into the base",
+      "fix": "Rest 2–3 min or tap the Blast before pouring"
+    },
+    {
+      "problem": "Chalky protein taste",
+      "why": "Too much whey, or isolate with no fat",
+      "fix": "Stay at 1–1.5 scoops; add 2 tbsp cream or SMP"
+    },
+    {
+      "problem": "Machine won't start / bowl won't lock",
+      "why": "Lid, bowl or pint not seated and twisted fully",
+      "fix": "Twist the outer bowl until it clicks; check the paddle is fitted"
+    },
+    {
+      "problem": "Rock hard after storage",
+      "why": "Pint refroze solid after the first spin",
+      "fix": "Flatten the top, add 1 tbsp milk, run the program again"
+    },
+    {
+      "problem": "Gritty or curdled base",
+      "why": "Whey heated, or acidic fruit added to hot milk",
+      "fix": "Cool bases first; add fruit and whey cold"
+    }
+  ],
+  "storage": [
+    "Flatten the surface of leftovers with a spoon, lid tightly and refreeze; re-spin before serving again.",
+    "Plain dairy pints keep best for 2–3 weeks; protein, sugar-free and sorbet pints for 1–2 weeks.",
+    "Refreeze a pint only once or twice; repeated thawing makes it icy.",
+    "Label every lid with recipe name, date and program; masking tape and a marker work well.",
+    "Keep pints at the back of a level shelf, away from the door, at about -18 °C."
+  ],
+  "conversions": [
+    {
+      "from": "1 cup (Indian)",
+      "to": "240 ml"
+    },
+    {
+      "from": "1 tbsp",
+      "to": "15 ml"
+    },
+    {
+      "from": "1 tsp",
+      "to": "5 ml"
+    },
+    {
+      "from": "CREAMi pint",
+      "to": "473 ml total; fill ~400–450 ml"
+    },
+    {
+      "from": "1 scoop whey",
+      "to": "≈ 30–33 g"
+    },
+    {
+      "from": "1 tbsp cocoa powder",
+      "to": "≈ 6 g"
+    },
+    {
+      "from": "1 tbsp sugar",
+      "to": "≈ 12.5 g"
+    },
+    {
+      "from": "1 tbsp skimmed milk powder",
+      "to": "≈ 8 g"
+    },
+    {
+      "from": "1 tin Milkmaid",
+      "to": "400 g (≈ 300 ml)"
+    },
+    {
+      "from": "1 pack Amul Fresh Cream",
+      "to": "250 ml (≈ 1 cup)"
+    },
+    {
+      "from": "Freezer setting",
+      "to": "-18 °C = 0 °F"
+    },
+    {
+      "from": "1 cup Greek yogurt",
+      "to": "≈ 250 g"
+    }
+  ],
+  "shopping_tips": [
+    "Keep a standing basket of milk, cream, Milkmaid, cocoa, whey and xanthan, so a pint takes one reorder.",
+    "Order cream and Greek yogurt last, check the expiry date on delivery, and refrigerate straight away.",
+    "Check marshmallows, sprinkles and jelly sweets for the FSSAI green dot; many imported ones contain gelatin.",
+    "Buy specialty items such as xanthan gum, pistachio paste and vanilla extract from Urban Platter on Amazon.",
+    "Buy mango pulp tins in May–June when stock is fresh, and freeze seasonal fruit pulp in pint-sized batches.",
+    "Compare whey per-scoop protein on the label, not the pack size; flavoured tubs vary widely."
+  ]
+}
