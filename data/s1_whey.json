@@ -4,7 +4,7 @@
     "title": "Chocolate Peanut Butter Protein",
     "subtitle": "The gym-bag classic, now scoopable",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -47,9 +47,9 @@
         "note": "Hershey's or Cadbury"
       },
       {
-        "qty": "2–4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "1 pinch",
@@ -96,23 +96,183 @@
     ],
     "swaps": [
       "No PB powder: use 2 tbsp peanut butter in total (adds about 70 kcal and 7 g fat).",
-      "Higher protein: swap 250 ml of the milk for one pack of Amul High Protein Milk (about +27 g protein).",
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin.",
       "Gluten-free: most plain chocolate wheys are, but check the label."
     ],
     "nutrition_per_pint": {
       "kcal": 582,
       "protein_g": 50,
       "carbs_g": 30,
-      "fat_g": 30
+      "fat_g": 30,
+      "added_sugar_g": 0
     },
-    "shop_note": "PB powder: Alpino on Amazon or Blinkit. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "PB powder: Alpino on Amazon or Blinkit. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and extra PB powder replace toned milk and peanut butter, cutting fat by more than half. Allulose keeps it scoopable and xanthan stops the leaner base turning icy.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk (35 g protein)",
+              "note": "fat-free"
+            },
+            {
+              "match": "peanut butter powder",
+              "qty": "30 g (4 tbsp)",
+              "item": "Alpino peanut butter powder",
+              "note": "unsweetened; or Pintola"
+            }
+          ],
+          "remove": [
+            "natural peanut butter"
+          ],
+          "add": [
+            {
+              "qty": "90 ml (⅓ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "peanuts",
+              "qty": "10 g (1 tbsp)",
+              "item": "roasted salted peanuts, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend both milks, PB powder, cocoa, sweetener, salt and xanthan in the Ninja Blast, adding the whey last, for 45–60 s until smooth."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve at once, dusted with a little PB powder."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Gluten-Free Option"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 540,
+          "protein_g": 80,
+          "carbs_g": 29,
+          "fat_g": 12,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Unflavoured isolate, extra cocoa and PB powder replace flavoured whey and peanut butter. Milk powder and allulose give body and softness without gum, and fat drops by almost two-thirds.",
+        "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "340 ml (scant 1½ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "chocolate whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "peanut butter powder",
+              "qty": "30 g (4 tbsp)",
+              "item": "peanut butter powder (plain)",
+              "note": "Alpino or Pintola, no added sugar"
+            },
+            {
+              "match": "cocoa",
+              "qty": "12 g (2 tbsp)",
+              "item": "pure cocoa powder (100% cocoa)",
+              "note": "Hershey's natural or Cadbury"
+            },
+            {
+              "match": "Munkito",
+              "qty": "55 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "natural peanut butter",
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "skimmed milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "peanuts",
+              "qty": "10 g (1 tbsp)",
+              "item": "roasted salted peanuts, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend skimmed milk, milk powder, PB powder, cocoa, sweetener and salt in the Ninja Blast, whey last, for 60 s until smooth."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve at once, dusted with a little PB powder."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Gluten-Free Option"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 490,
+          "protein_g": 63,
+          "carbs_g": 36,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "cookies-and-cream-protein",
     "title": "Cookies & Cream Protein",
     "subtitle": "Vanilla protein, Oreo in every bite",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -145,9 +305,9 @@
         "item": "skimmed milk powder, e.g. Amul Sagar"
       },
       {
-        "qty": "2 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "½ tsp",
@@ -196,22 +356,88 @@
     "swaps": [
       "Use Hide & Seek, Bourbon or Dark Fantasy pieces instead of Oreo.",
       "Chocolate: use chocolate whey and add 1 tbsp cocoa to the base.",
-      "Lighter: use 2 Oreos (saves about 55 kcal)."
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin."
     ],
     "nutrition_per_pint": {
       "kcal": 448,
       "protein_g": 41,
       "carbs_g": 51,
-      "fat_g": 9
+      "fat_g": 9,
+      "added_sugar_g": 13
     },
-    "shop_note": "Skimmed milk powder: Amul Sagar on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Skimmed milk powder: Amul Sagar on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk adds 27 g protein with no fat, and one fewer Oreo keeps added sugar at 9 g. Milk powder, allulose and xanthan keep it creamy.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "skimmed milk, e.g.",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk (35 g protein)",
+              "note": "fat-free"
+            }
+          ],
+          "add": [
+            {
+              "qty": "80 ml (⅓ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "Oreo",
+              "qty": "2 biscuits (24 g)",
+              "item": "Oreo, broken into pieces",
+              "note": "or any chocolate cream biscuit"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend both milks, milk powder, sweetener, vanilla and xanthan in the Ninja Blast, whey last, for 45 s until no powder remains."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve at once; skip the extra Oreo on top to keep sugar under 10 g."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 505,
+          "protein_g": 68,
+          "carbs_g": 43,
+          "fat_g": 7,
+          "added_sugar_g": 9
+        }
+      },
+      "diabetic": {
+        "unsuitable": true,
+        "why": "The Oreo is the point, and every cream biscuit is mostly sugar. For a diabetic chocolate-chunk pint, make the Diabetic Brownie Batter Protein.",
+        "try": "brownie-batter-protein"
+      }
+    }
   },
   {
     "slug": "kesar-pista-protein-kulfi",
     "title": "Kesar Pista Protein Kulfi",
     "subtitle": "Matka kulfi flavour, no hours of stirring",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 15,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -259,9 +485,9 @@
         "note": "or 4 pods, seeds crushed"
       },
       {
-        "qty": "4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "55 g (⅓ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "⅛ tsp",
@@ -309,22 +535,124 @@
     "swaps": [
       "Malai kulfi: skip the saffron; add 1 tsp edible rose water and a pinch of nutmeg.",
       "No Amul High Protein Milk: use 360 ml toned milk and 30 g whey in total (about 45 g protein).",
-      "Badam-pista: add 1 tbsp chopped almonds with the pistachios."
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin."
     ],
     "nutrition_per_pint": {
       "kcal": 480,
       "protein_g": 60,
       "carbs_g": 35,
-      "fat_g": 11
+      "fat_g": 11,
+      "added_sugar_g": 0
     },
-    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com (often sells out). Kesar: Blinkit. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com (often sells out). Kesar: Blinkit. Xanthan: Urban Platter, Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Already a gym pint at 60 g protein. Skimmed milk replaces toned to trim fat; High Protein Milk and milk powder carry the rabdi body, and allulose keeps it soft.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "110 ml (scant ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "2 tbsp of it for the saffron"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Warm 2 tbsp of the skimmed milk for 10 s, crush in the saffron and steep 10 min. Cool to room temperature."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 455,
+          "protein_g": 60,
+          "carbs_g": 35,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Unflavoured isolate, skimmed milk and fewer pistachios bring fat to about 5 g. Milk powder and High Protein Milk give dense kulfi body without gum; allulose stops it freezing rock-hard.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "110 ml (scant ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "2 tbsp of it for the saffron"
+            },
+            {
+              "match": "whey",
+              "qty": "15 g (½ scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "pistachios",
+              "qty": "10 g (1 tbsp)",
+              "item": "unsalted pistachios, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Warm 2 tbsp of the skimmed milk for 10 s, crush in the saffron and steep 10 min. Cool to room temperature."
+            },
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend both milks, saffron milk, milk powder, cardamom and sweetener in the Ninja Blast, whey last, for 45 s."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 410,
+          "protein_g": 61,
+          "carbs_g": 30,
+          "fat_g": 5,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "cold-coffee-mocha-chip-protein",
     "title": "Cold Coffee Mocha Chip Protein",
     "subtitle": "Café cold coffee, frozen solid",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -366,9 +694,9 @@
         "note": "Hershey's or Cadbury"
       },
       {
-        "qty": "2–4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "⅛ tsp",
@@ -417,15 +745,156 @@
     "swaps": [
       "Decaf: use any decaf instant coffee for an evening pint.",
       "Hazelnut mocha: add 1 tbsp hazelnut spread to the base and skip the cocoa.",
-      "Lighter: use skimmed milk instead of toned (saves about 70 kcal and 9 g fat)."
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin."
     ],
     "nutrition_per_pint": {
       "kcal": 420,
       "protein_g": 35,
       "carbs_g": 32,
-      "fat_g": 17
+      "fat_g": 17,
+      "added_sugar_g": 10
     },
-    "shop_note": "Morde dark chocolate chips: Amazon or BigBasket. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Morde dark chocolate chips: Amazon or BigBasket. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skimmed milk plus 15 g milk powder replaces toned milk, cutting 10 g fat while keeping body; fewer chips hold added sugar at 7 g. Xanthan and allulose keep it smooth.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "320 ml (1⅓ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "chocolate chips",
+              "qty": "15 g (1½ tbsp)",
+              "item": "dark chocolate chips, e.g. Morde",
+              "note": "or chopped Amul dark chocolate"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, milk powder, cooled coffee, cocoa, sweetener and xanthan in the Ninja Blast, whey last, for 45 s."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 380,
+          "protein_g": 42,
+          "carbs_g": 37,
+          "fat_g": 7,
+          "added_sugar_g": 7
+        }
+      },
+      "diabetic": {
+        "why": "Unflavoured isolate and pure cocoa replace flavoured whey; skimmed milk with milk powder gives body without gum or fat. A little 99% chocolate keeps the chip crunch with zero sugar.",
+        "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "320 ml (1⅓ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "cocoa",
+              "qty": "6 g (1 tbsp)",
+              "item": "pure cocoa powder (100% cocoa)",
+              "note": "Hershey's natural or Cadbury"
+            },
+            {
+              "match": "Munkito",
+              "qty": "55 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "chocolate chips",
+              "qty": "10 g (1 tbsp)",
+              "item": "Amul 99% cacao dark chocolate, chopped",
+              "note": "or Ambriona stevia dark; avoid maltitol"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, milk powder, cooled coffee, cocoa and sweetener in the Ninja Blast, whey last, for 45 s."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the chopped 99% chocolate and run MIX-IN."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 350,
+          "protein_g": 46,
+          "carbs_g": 26,
+          "fat_g": 7,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "banana-bread-protein",
@@ -539,16 +1008,171 @@
       "kcal": 517,
       "protein_g": 36,
       "carbs_g": 65,
-      "fat_g": 15
+      "fat_g": 15,
+      "added_sugar_g": 14
     },
-    "shop_note": "Jaggery powder: 24 Mantra or Organic Tattva on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Jaggery powder: 24 Mantra or Organic Tattva on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Munkito replaces jaggery and toasted oats replace the biscuit, so the only sugar is the banana's own. Banana still gives the body, so it stays creamy with one re-spin at most.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "jaggery",
+              "qty": "20 g (2 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "walnuts",
+              "qty": "10 g (1½ tbsp)",
+              "item": "walnuts, toasted and chopped"
+            },
+            {
+              "match": "oats biscuit",
+              "qty": "10 g (1½ tbsp)",
+              "item": "rolled oats, toasted",
+              "note": "replaces the biscuit"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Dry-toast the walnuts and oats 3–4 min until fragrant; cool, then chop the walnuts. Break the banana into chunks."
+            },
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, banana, sweetener, cinnamon, nutmeg, salt and xanthan in the Ninja Blast, whey last, for 45–60 s until silky."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the walnuts and toasted oats, and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 430,
+          "protein_g": 37,
+          "carbs_g": 50,
+          "fat_g": 9,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Less banana, Munkito for jaggery and unflavoured isolate with vanilla remove all added sugar. Banana's own pectin gives body without gum; extra milk keeps the base volume.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "banana",
+              "qty": "90 g (¾ medium, peeled)",
+              "item": "very ripe banana, brown-spotted",
+              "note": "Robusta or elaichi bananas"
+            },
+            {
+              "match": "skimmed milk",
+              "qty": "280 ml (1 cup + 2 tbsp)",
+              "item": "skimmed milk, e.g. Amul Slim n Trim"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "jaggery",
+              "qty": "30 g (3 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "½ tsp",
+              "item": "vanilla essence",
+              "after": "whey"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "walnuts",
+              "qty": "10 g (1½ tbsp)",
+              "item": "walnuts, toasted and chopped"
+            },
+            {
+              "match": "oats biscuit",
+              "qty": "10 g (1½ tbsp)",
+              "item": "rolled oats, toasted",
+              "note": "replaces the biscuit"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Dry-toast the walnuts and oats 3–4 min until fragrant; cool, then chop the walnuts. Break the banana into chunks."
+            },
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, banana, sweetener, vanilla, cinnamon, nutmeg and salt in the Ninja Blast, whey last, for 45–60 s until silky."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the walnuts and toasted oats, and run MIX-IN."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 400,
+          "protein_g": 41,
+          "carbs_g": 42,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "strawberry-cheesecake-protein",
     "title": "Strawberry Cheesecake Protein",
     "subtitle": "Strawberries meet digestive biscuit crumble",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -572,7 +1196,7 @@
         "note": "fresh Dec–Mar; frozen year-round"
       },
       {
-        "qty": "180 ml (¾ cup)",
+        "qty": "160 ml (⅔ cup)",
         "item": "Amul Taaza toned milk"
       },
       {
@@ -591,9 +1215,9 @@
         "note": "MuscleBlaze, ON or Avvatar"
       },
       {
-        "qty": "3–4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "1 tsp",
@@ -640,24 +1264,177 @@
       "Leftovers: flatten, refreeze and re-spin; add fresh crumble, as the old pieces go soft."
     ],
     "swaps": [
-      "Blueberry cheesecake: use frozen blueberries instead of strawberries.",
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin.",
       "Mango cheesecake: use 130 g Alphonso pulp in season.",
       "No cream cheese: use 40 g more Greek yogurt for a lighter, tangier pint."
     ],
     "nutrition_per_pint": {
-      "kcal": 555,
-      "protein_g": 39,
-      "carbs_g": 46,
-      "fat_g": 24
+      "kcal": 543,
+      "protein_g": 38,
+      "carbs_g": 45,
+      "fat_g": 23,
+      "added_sugar_g": 5
     },
-    "shop_note": "Frozen strawberries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Cream cheese: D'lecta on BigBasket. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Frozen strawberries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Cream cheese: D'lecta on BigBasket. Xanthan: Urban Platter, Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skyr replaces Greek yogurt and cream cheese, keeping the cheesecake tang for a fraction of the fat; skimmed milk and one biscuit bring fat to 6 g. Xanthan and allulose keep it smooth.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "160 ml (⅔ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "Greek yogurt",
+              "qty": "100 g (scant ½ cup)",
+              "item": "Milky Mist Skyr, plain",
+              "note": "or Epigamia Greek yogurt, plain"
+            }
+          ],
+          "remove": [
+            "cream cheese"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "digestive",
+              "qty": "1 biscuit (15 g)",
+              "item": "digestive biscuit, crushed",
+              "note": "or 2 Britannia Marie Gold"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend milk, strawberries, skyr, lemon juice, sweetener and xanthan in the Ninja Blast, whey last, for 60 s until smooth and pink."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "Low Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 350,
+          "protein_g": 42,
+          "carbs_g": 33,
+          "fat_g": 6,
+          "added_sugar_g": 2
+        }
+      },
+      "diabetic": {
+        "why": "Plain skyr gives the tang without cream cheese, unflavoured isolate and vanilla replace flavoured whey, and toasted almonds stand in for the biscuit base. Skyr's thickness gives body without gum.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "strawberries",
+              "qty": "100 g (7–8 berries)",
+              "item": "strawberries, hulled, fresh or frozen",
+              "note": "frozen must be unsweetened"
+            },
+            {
+              "match": "toned milk",
+              "qty": "160 ml (⅔ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "Greek yogurt",
+              "qty": "120 g (½ cup)",
+              "item": "Milky Mist Skyr, plain",
+              "note": "or Epigamia Greek yogurt, plain"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "Munkito",
+              "qty": "55 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "cream cheese",
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "½ tsp",
+              "item": "vanilla essence",
+              "after": "whey"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "digestive",
+              "qty": "10 g (1 tbsp)",
+              "item": "almonds, toasted and chopped",
+              "note": "stands in for the biscuit base"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend milk, strawberries, skyr, lemon juice, vanilla and sweetener in the Ninja Blast, whey last, for 60 s until smooth and pink."
+            },
+            {
+              "i": 3,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the toasted almonds and run MIX-IN."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Top with a sliced fresh strawberry."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 330,
+          "protein_g": 48,
+          "carbs_g": 21,
+          "fat_g": 6,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "thandai-protein",
     "title": "Thandai Protein",
     "subtitle": "Holi's favourite drink, set as a pint",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 20,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -704,9 +1481,9 @@
         "note": "food-grade only, not cosmetic Gulabari"
       },
       {
-        "qty": "4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "55 g (⅓ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "⅛ tsp",
@@ -744,23 +1521,114 @@
     ],
     "swaps": [
       "Homemade masala: grind 1 tbsp almonds, 1 tsp each fennel and melon seeds, ½ tsp poppy seeds, 6 peppercorns, 4 cardamom pods, 1 tsp rose petals.",
-      "Instead of paneer, use 60 g Greek yogurt for a tangier pint.",
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin.",
       "Kesar thandai: bloom 10 saffron strands in 1 tbsp warm milk, cool, and add with the rose water."
     ],
     "nutrition_per_pint": {
       "kcal": 497,
       "protein_g": 50,
       "carbs_g": 25,
-      "fat_g": 22
+      "fat_g": 22,
+      "added_sugar_g": 0
     },
-    "shop_note": "Thandai masala: Badshah on Amazon or Blinkit. Edible rose water and dried petals: Blinkit, or Urban Platter on Amazon."
+    "shop_note": "Thandai masala: Badshah on Amazon or Blinkit. Edible rose water and dried petals: Blinkit, or Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skimmed milk replaces toned and cuts fat by 9 g. Paneer and whey still give malai-like body, and allulose with xanthan keeps the leaner base soft and smooth.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 420,
+          "protein_g": 50,
+          "carbs_g": 25,
+          "fat_g": 13,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Unflavoured isolate, skimmed milk and no extra almonds (the masala already has nuts) halve the fat. Blended paneer gives the body that gum would, and allulose keeps it soft.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "thandai masala",
+              "qty": "12 g (1½ tbsp)",
+              "item": "thandai masala powder (spices and nuts only)",
+              "note": "check label, or homemade (see Swaps)"
+            }
+          ],
+          "remove": [
+            "almonds",
+            "xanthan"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Stir the thandai masala into the cold milk and leave 15 min to infuse."
+            },
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend spiced milk, paneer, rose water and sweetener in the Ninja Blast, whey last, for 60 s until no paneer grains remain."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 385,
+          "protein_g": 52,
+          "carbs_g": 21,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "lotus-biscoff-protein",
     "title": "Lotus Biscoff Protein",
     "subtitle": "Caramelised biscuit, blended and crunched",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -801,9 +1669,9 @@
         "item": "ground cinnamon"
       },
       {
-        "qty": "2 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "⅛ tsp",
@@ -850,23 +1718,99 @@
     ],
     "swaps": [
       "No Biscoff: crushed ginger or cinnamon biscuits give a similar spiced-caramel flavour.",
-      "Lighter: skip the mix-in spread and use 4 crushed biscuits (saves about 50 kcal).",
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin.",
       "Coffee Biscoff: dissolve 1 tsp instant coffee in 1 tbsp hot water, cool, and add to the base."
     ],
     "nutrition_per_pint": {
       "kcal": 629,
       "protein_g": 40,
       "carbs_g": 54,
-      "fat_g": 28
+      "fat_g": 28,
+      "added_sugar_g": 26
     },
-    "shop_note": "Lotus Biscoff spread and biscuits: Blinkit, Zepto or Amazon. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Lotus Biscoff spread and biscuits: Blinkit, Zepto or Amazon. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Two biscuits blended into the base carry the caramel flavour for less sugar than spread; skimmed milk trims fat. Added sugar drops from 26 g to 9 g, and yogurt plus xanthan keep it creamy.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "280 ml (1 cup + 2 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "Biscoff spread",
+              "qty": "2 biscuits (16 g)",
+              "item": "Lotus Biscoff biscuits",
+              "note": "blended into the base"
+            },
+            {
+              "match": "cinnamon",
+              "qty": "½ tsp",
+              "item": "ground cinnamon"
+            }
+          ]
+        },
+        "mixins": {
+          "remove": [
+            "spread"
+          ],
+          "replace": [
+            {
+              "match": "biscuits",
+              "qty": "1 biscuit",
+              "item": "Lotus Biscoff biscuit, roughly crushed"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend milk, yogurt, 2 Biscoff biscuits, cinnamon, sweetener and xanthan in the Ninja Blast, whey last, for 45–60 s."
+            },
+            {
+              "i": 3,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the crushed biscuit and run MIX-IN."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve dusted with a pinch of cinnamon."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 410,
+          "protein_g": 40,
+          "carbs_g": 38,
+          "fat_g": 11,
+          "added_sugar_g": 9
+        }
+      },
+      "diabetic": {
+        "unsuitable": true,
+        "why": "Biscoff is caramelised sugar in spread and biscuit form; without it this is cinnamon milk. The Diabetic Banana Bread Protein gives a similar warm-spice pint.",
+        "try": "banana-bread-protein"
+      }
+    }
   },
   {
     "slug": "rose-falooda-protein",
     "title": "Rose Falooda Protein",
     "subtitle": "The Irani café falooda, in a pint",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1 re-spin with 1 tbsp milk",
+    "respin": "Often none; if crumbly, 1 re-spin with 1 tbsp milk",
     "prep_min": 20,
     "cook_min": 0,
     "difficulty": "Medium",
@@ -904,9 +1848,9 @@
         "note": "for a stronger aroma"
       },
       {
-        "qty": "1 pack spoon, if needed",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "20 g (2 tbsp), if needed",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "Rooh Afza sweetens too; or sucralose, see swaps"
       },
       {
         "qty": "⅛ tsp",
@@ -962,23 +1906,211 @@
     ],
     "swaps": [
       "Falooda shake: add 120 ml (½ cup) cold milk to the spun pint and run MILKSHAKE.",
-      "Kesar falooda: replace Rooh Afza with 15 saffron strands bloomed in warm milk, cooled, plus 4 spoons Sugar Free Natura.",
-      "Swap the tutti-frutti for chopped pistachios for a less sweet, crunchier pint."
+      "Kesar falooda: replace Rooh Afza with 15 saffron strands bloomed in warm milk, cooled, plus 45 g Munkito.",
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin."
     ],
     "nutrition_per_pint": {
-      "kcal": 467,
-      "protein_g": 35,
-      "carbs_g": 55,
-      "fat_g": 12
+      "kcal": 505,
+      "protein_g": 36,
+      "carbs_g": 62,
+      "fat_g": 13,
+      "added_sugar_g": 41
     },
-    "shop_note": "Sabja and falooda sev: Blinkit or BigBasket (Weikfield falooda mix also works). Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Sabja and falooda sev: Blinkit or BigBasket (Weikfield falooda mix also works). Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Just 1½ tsp Rooh Afza for colour, with rose water and allulose doing the rest, keeps added sugar at 8 g. Milk powder gives skimmed milk body; pistachios replace tutti-frutti.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "340 ml (scant 1½ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "Rooh Afza",
+              "qty": "1½ tsp (8 ml)",
+              "item": "Hamdard Rooh Afza",
+              "note": "for colour"
+            },
+            {
+              "match": "rose water",
+              "qty": "1 tsp",
+              "item": "edible rose water",
+              "note": "food-grade only"
+            },
+            {
+              "match": "Munkito",
+              "qty": "45 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or sucralose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "tutti-frutti",
+              "qty": "10 g (1 tbsp)",
+              "item": "pistachios, chopped",
+              "note": "replaces tutti-frutti"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, milk powder, Rooh Afza, rose water, sweetener and xanthan in the Ninja Blast, whey last, for 45 s."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the drained sabja, pistachios and sev, and run MIX-IN."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve in tall glasses, topped with a few dried rose petals."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "Low Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 400,
+          "protein_g": 44,
+          "carbs_g": 39,
+          "fat_g": 7,
+          "added_sugar_g": 8
+        }
+      },
+      "diabetic": {
+        "why": "Rose water and Munkito replace Rooh Afza, a pinch of beetroot powder keeps the falooda pink, and pistachios replace tutti-frutti. Milk powder gives body without gum.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "340 ml (scant 1½ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "Rooh Afza",
+              "qty": "¼ tsp",
+              "item": "beetroot powder",
+              "note": "for colour only; or skip"
+            },
+            {
+              "match": "rose water",
+              "qty": "1½ tsp",
+              "item": "edible rose water",
+              "note": "food-grade only"
+            },
+            {
+              "match": "Munkito",
+              "qty": "55 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "tutti-frutti",
+              "qty": "10 g (1 tbsp)",
+              "item": "pistachios, chopped",
+              "note": "replaces tutti-frutti"
+            }
+          ],
+          "remove": [
+            "falooda sev"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Soak the sabja in 3 tbsp water for 15 min, then drain well and chill."
+            },
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend milk, milk powder, beetroot powder, rose water and sweetener in the Ninja Blast, whey last, for 45 s."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the drained sabja and pistachios, and run MIX-IN."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve in tall glasses, topped with a few dried rose petals."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 360,
+          "protein_g": 47,
+          "carbs_g": 29,
+          "fat_g": 6,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "brownie-batter-protein",
     "title": "Brownie Batter Protein",
     "subtitle": "Double chocolate with real brownie chunks",
     "program": "LITE ICE CREAM",
-    "respin": "Usually 1–2 re-spins with 1–2 tbsp milk",
+    "respin": "Often 1 re-spin with 1–2 tbsp milk",
     "prep_min": 10,
     "cook_min": 0,
     "difficulty": "Easy",
@@ -1024,9 +2156,9 @@
         "item": "instant coffee, e.g. Nescafé or Bru"
       },
       {
-        "qty": "2–4 pack spoons",
-        "item": "Sugar Free Natura powder (sucralose)",
-        "note": "1 spoon = 1 tsp sugar; or erythritol"
+        "qty": "45 g (¼ cup)",
+        "item": "Munkito Monk Sweet + Allulose 1:1",
+        "note": "or sucralose, see swaps"
       },
       {
         "qty": "1 pinch",
@@ -1079,14 +2211,157 @@
     "swaps": [
       "Protein brownie: use cubes of a chocolate protein bar (Yoga Bar, RiteBite Max Protein) instead of brownie.",
       "No Amul High Protein Milk: use 370 ml toned milk and 35 g chocolate whey (about 44 g protein).",
-      "Mint brownie: add ¼ tsp peppermint essence to the base."
+      "Sucralose: use 3–4 spoons Sugar Free Natura instead of Munkito; the pint sets harder, so expect a re-spin."
     ],
     "nutrition_per_pint": {
       "kcal": 585,
       "protein_g": 58,
       "carbs_g": 57,
-      "fat_g": 14
+      "fat_g": 14,
+      "added_sugar_g": 23
     },
-    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com; stock comes and goes. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Amul High Protein Milk: Blinkit, Zepto or shop.amul.com; stock comes and goes. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Dropping the syrup and swapping brownie for a little dark chocolate cuts added sugar from 23 g to 6 g. High Protein Milk, cocoa, allulose and xanthan keep it dense and fudgy.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "remove": [
+            "chocolate syrup"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "brownie",
+              "qty": "15 g (1½ tbsp)",
+              "item": "Amul dark chocolate, chopped",
+              "note": "or any 70% bar"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend both milks, cocoa, coffee, sweetener, salt and xanthan in the Ninja Blast, whey last, for 60 s so the cocoa dissolves."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the chopped dark chocolate and run MIX-IN."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve at once with a light dusting of cocoa."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 425,
+          "protein_g": 59,
+          "carbs_g": 30,
+          "fat_g": 8,
+          "added_sugar_g": 6
+        }
+      },
+      "diabetic": {
+        "why": "Unflavoured isolate, extra pure cocoa and Munkito replace chocolate whey and syrup; 99% chocolate replaces the brownie. High Protein Milk gives body without gum.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "whey",
+              "qty": "20 g (⅔ scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE, Avvatar Raw or Amul Whey"
+            },
+            {
+              "match": "cocoa",
+              "qty": "15 g (2½ tbsp)",
+              "item": "pure cocoa powder (100% cocoa)",
+              "note": "Hershey's natural or Cadbury"
+            },
+            {
+              "match": "Munkito",
+              "qty": "55 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or its liquid drops to taste"
+            }
+          ],
+          "remove": [
+            "chocolate syrup",
+            "xanthan"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "brownie",
+              "qty": "10 g (1 tbsp)",
+              "item": "Amul 99% cacao dark chocolate, chopped",
+              "note": "or Ambriona stevia dark; avoid maltitol"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend both milks, cocoa, coffee, sweetener and salt in the Ninja Blast, whey last, for 60 s so the cocoa dissolves."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the chopped 99% chocolate and run MIX-IN."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve at once with a light dusting of cocoa."
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 400,
+          "protein_g": 61,
+          "carbs_g": 22,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      }
+    }
   }
 ]

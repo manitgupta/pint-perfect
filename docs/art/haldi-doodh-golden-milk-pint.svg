@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art">
+<circle cx="100" cy="104" r="86" fill="#FBEFD2"/>
+<circle cx="100" cy="104" r="86" fill="none" stroke="#F6DD9E" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M60.7,17.1 Q60.7,23.1 66.7,23.1 Q60.7,23.1 60.7,29.0 Q60.7,23.1 54.8,23.1 Q60.7,23.1 60.7,17.1Z" fill="#8B4A22" opacity="0.8"/><path d="M39.1,41.3 Q39.1,46.6 44.3,46.6 Q39.1,46.6 39.1,51.8 Q39.1,46.6 33.9,46.6 Q39.1,46.6 39.1,41.3Z" fill="#8B4A22" opacity="0.8"/><path d="M39.1,47.0 Q39.1,53.5 45.6,53.5 Q39.1,53.5 39.1,60.0 Q39.1,53.5 32.6,53.5 Q39.1,53.5 39.1,47.0Z" fill="#8B4A22" opacity="0.8"/><path d="M26.9,52.1 Q26.9,57.9 32.8,57.9 Q26.9,57.9 26.9,63.8 Q26.9,57.9 21.0,57.9 Q26.9,57.9 26.9,52.1Z" fill="#8B4A22" opacity="0.8"/>
+<path d="M161.5,58.4 Q161.5,64.7 167.8,64.7 Q161.5,64.7 161.5,70.9 Q161.5,64.7 155.2,64.7 Q161.5,64.7 161.5,58.4Z" fill="#A28758" opacity="0.8"/><path d="M171.1,47.8 Q171.1,54.3 177.6,54.3 Q171.1,54.3 171.1,60.8 Q171.1,54.3 164.6,54.3 Q171.1,54.3 171.1,47.8Z" fill="#A28758" opacity="0.8"/>
+<path d="M60.0,82.0 A40.0,38.0 0 0 1 140.0,82.0 Q133.3,96.4 126.7,82.0 Q120.0,99.9 113.3,82.0 Q106.7,96.2 100.0,82.0 Q93.3,99.4 86.7,82.0 Q80.0,102.3 73.3,82.0 Q66.7,97.9 60.0,82.0 Z" fill="#F0C75E" stroke="#C5A34D" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M118.1,88.0 q0,16.8 3.6,16.8 q3.6,0 3.6,-16.8z" fill="#F0C75E"/>
+<path d="M75.2,74.0 A28.0,28.0 0 0 1 98.0,50.8" fill="none" stroke="#F7E0A6" stroke-width="4.8" stroke-linecap="round" opacity="0.85"/>
+<circle cx="111.2" cy="57.2" r="2.8" fill="#F7E0A6" opacity="0.9"/>
+<path d="M56,92 L144,92 L138,176 L62,176 Z" fill="#FFFFFF" stroke="#A28758" stroke-width="2" stroke-linejoin="round"/>
+<rect x="52" y="88" width="96" height="10" rx="4" fill="#F5DB96" stroke="#A28758" stroke-width="1.6"/>
+<rect x="64" y="118" width="72" height="30" rx="5" fill="#7A5410"/>
+<text x="100" y="138" text-anchor="middle" font-family="DM Sans, sans-serif" font-weight="800" font-size="13" letter-spacing="1.5" fill="#FFFFFF">PINT</text>
+<path d="M66,160 L134,160" stroke="#A28758" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>

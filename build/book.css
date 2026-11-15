@@ -327,3 +327,77 @@ h1, h2, h3, h4 { margin: 0; }
 .c101 p { margin: 2.5mm 0 0; font-size: 8pt; color: #6B5A2E; }
 .egg.in-col { margin-top: 3mm; font-size: .88em; }
 .egg.in-col .egg-adds { white-space: normal; display: inline-block; margin-top: .6mm; }
+
+/* contents: denser rows when 7+ sections / 60+ recipes would overflow */
+.contents.dense .c-sec { margin-bottom: 3mm; }
+.contents.dense .c-sec li { font-size: 8pt; padding: .2mm 0; }
+.contents.dense .c-sec h3 { font-size: 11pt; margin-bottom: .8mm; }
+.contents-page .pg-head { margin-bottom: 3.5mm; }
+
+/* diabetic-friendly mark (sweetener guide, healthy shelf) */
+.dmark { display: inline-block; margin-left: 1.4mm; width: 3.6mm; height: 3.6mm; border-radius: 50%; background: #0F8077; color: #fff;
+  font: 800 6pt/3.6mm "DM Sans"; text-align: center; vertical-align: .1em; }
+.dleg { font-size: 7.4pt; color: var(--muted); margin: 1.6mm 0 0; }
+.dleg .dmark { margin: 0 .8mm 0 0; }
+
+/* protein & sweeteners: tighter tables (sweetener list grew) */
+.ps .tbl td { padding: 1.2mm 2mm; line-height: 1.3; }
+.ps .lede { margin: 1mm 0 2mm; }
+.ps .sec-h { margin: 3.5mm 0 1.8mm; }
+.ps .pg-head { margin-bottom: 2mm; }
+
+/* healthier pints */
+.healthier .pg-head { margin-bottom: 3mm; }
+.healthier .pg-head .lede { margin-bottom: 0; }
+.hv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.hv-card { background: color-mix(in srgb, var(--hc) 7%, white); border-top: 1.4mm solid var(--hc); border-radius: 3mm; padding: 2.6mm 3.4mm; }
+.hv-card h3 { font: 700 1.094em/1.25 var(--serif); color: #2B1E16; margin-bottom: 1.4mm; }
+.hv-card h3 span { display: block; font: 800 0.771em "DM Sans"; letter-spacing: .14em; text-transform: uppercase; color: var(--hc); margin-bottom: .4mm; }
+.hv-card ul { margin: 0; padding-left: 3.8mm; font-size: 0.854em; line-height: 1.32; }
+.hv-card li { margin-bottom: .7mm; }
+.hv-disc { font-size: 0.75em; color: var(--muted); margin: 1.8mm 0 0; font-style: italic; }
+.healthier .sec-h { margin: 4mm 0 1.8mm; }
+.healthier .tbl td { padding: 1.2mm 2mm; line-height: 1.3; font-size: 0.875em; }
+.tbl.hs td.arrow { color: #0F8077; font-weight: 800; padding-left: 0; padding-right: 0; width: 3mm; }
+.tbl.hs td.saves { font-weight: 700; color: #0F6E66; white-space: nowrap; }
+.tbl.hs td:first-child { color: #6B645C; }
+.tbl.lr td.code { font-weight: 800; white-space: nowrap; color: #3A2E26; }
+
+/* healthy shelf + texture science */
+.hshelf { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 7mm; }
+.hshelf li { break-inside: avoid; display: grid; grid-template-columns: 4mm 1fr; gap: 0 1.5mm; padding: 1.3mm 0; border-bottom: 1px solid var(--rule); }
+.hshelf b { font-size: 0.927em; }
+.hshelf i { font-style: normal; font-size: 0.792em; color: var(--muted); }
+.hshelf p { margin: .2mm 0 0; font-size: 0.833em; color: #4A433C; line-height: 1.32; }
+.hshelf .where { font-size: 0.729em; font-weight: 700; color: #0F8077; letter-spacing: .02em; }
+.tsci { margin-top: 2mm; }
+.tsci ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2.4mm 6mm; counter-reset: t; }
+.tsci li { counter-increment: t; background: var(--cream); border-radius: 3mm; padding: 2.2mm 3mm; border-left: 1.2mm solid #2563EB; }
+.tsci li b { font: 700 1.042em var(--serif); }
+.tsci li b::before { content: counter(t) ". "; color: #2563EB; }
+.tsci li p { margin: .5mm 0 0; font-size: 0.854em; line-height: 1.32; }
+
+/* divider with many recipes (or recipes + custard panel) */
+.divider.compact .div-num { font-size: 96pt; }
+.divider.compact .div-art { width: 56mm; }
+.divider.compact .div-title { font-size: 32pt; }
+.divider.compact .div-sub { margin-bottom: 2.5mm; }
+.divider.compact .div-blurb { font-size: 10pt; margin-bottom: 4mm; }
+.divider.compact .div-list li { padding: 1.2mm 0; }
+.divider.compact .c101 { margin-top: 3.5mm; padding: 3mm 4mm; }
+
+/* healthy pantry + labels page: compact */
+.shelf .pg-head { margin-bottom: 1mm; }
+.shelf .sec-h { margin: 2.5mm 0 1mm; }
+.shelf .lede { margin: 0 0 1.5mm; font-size: .86em; }
+.shelf .hshelf li { padding: .9mm 0; }
+.shelf .hshelf p { font-size: .8em; line-height: 1.28; }
+.hshelf p u { text-decoration: none; color: #6B645C; }
+.shelf .tbl.lr td { padding: .9mm 1.8mm; font-size: .82em; line-height: 1.26; }
+.tbl.lr td:nth-child(2) { width: 46%; }
+.science .tsci ol { gap: 3.5mm 6mm; }
+.science .tsci li { padding: 3mm 3.6mm; }
+.ps .tbl td { padding: 1mm 1.8mm; }
+.ps .tbl th { padding: 1.5mm 1.8mm; }
+.ps td.progs { width: 1%; } .ps td.progs .prog { margin: .3mm 0; }
+.tbl.lr th:first-child { white-space: nowrap; }

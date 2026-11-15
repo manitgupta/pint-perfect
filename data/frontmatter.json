@@ -135,7 +135,7 @@
     },
     {
       "title": "Use a pinch of gum",
-      "text": "⅛–¼ tsp xanthan or guar gum makes low-fat bases noticeably creamier."
+      "text": "⅛–¼ tsp xanthan or guar makes low-fat bases creamier. Gum-free? Use SMP, inulin or cooked cornflour."
     },
     {
       "title": "Cool before you Blast",
@@ -151,13 +151,18 @@
       "category": "Dairy & Bases",
       "items": [
         {
-          "name": "Amul Taaza toned milk",
-          "use": "Everyday base; lighter pints",
+          "name": "Amul Taaza toned / Slim n Trim skimmed milk",
+          "use": "Everyday base; lighter Gym and Diabetic pints",
           "where": "Blinkit · Zepto · Instamart"
         },
         {
           "name": "Amul Gold full-cream milk",
           "use": "Richer ice creams and kulfi",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Amul High Protein Milk, 250 ml",
+          "use": "~35 g protein, almost no fat per pack; whey and chocolate pints",
           "where": "Blinkit · Zepto · Instamart"
         },
         {
@@ -167,23 +172,18 @@
         },
         {
           "name": "Nestlé Milkmaid, 400 g tin",
-          "use": "Sweetener and body for desi pints",
+          "use": "Sweetener and body for desi pints (Default only)",
           "where": "Blinkit · Zepto · Instamart · kirana"
         },
         {
-          "name": "Epigamia / Milky Mist Greek yogurt",
-          "use": "Tangy, protein-rich base",
+          "name": "Milky Mist Skyr / Epigamia Greek yogurt",
+          "use": "Thick, tangy, protein-rich; buy plain for Diabetic",
           "where": "Blinkit · Zepto · Instamart"
         },
         {
           "name": "Dabur Hommade coconut milk",
           "use": "Dairy-free and vegan bases",
           "where": "Blinkit · Zepto · Amazon"
-        },
-        {
-          "name": "Fresh eggs (optional)",
-          "use": "Yolks for custard-style gelato and ice cream",
-          "where": "Blinkit · Zepto · Instamart · kirana"
         }
       ]
     },
@@ -191,29 +191,34 @@
       "category": "Protein",
       "items": [
         {
-          "name": "Whey protein (MuscleBlaze, Avvatar, ON, AS-IT-IS)",
-          "use": "Main protein source; unflavoured or vanilla is the most versatile",
+          "name": "Unflavoured whey isolate (AS-IT-IS ONE, Avvatar Raw, Amul Whey sachets)",
+          "use": "No hidden sucralose; the only whey for Diabetic versions",
+          "where": "Amazon.in · Blinkit · brand sites"
+        },
+        {
+          "name": "Flavoured whey (MuscleBlaze, Avvatar, ON)",
+          "use": "Gym versions; most contain sucralose",
           "where": "Blinkit · Zepto · Amazon"
         },
         {
           "name": "Epigamia Turbo High Protein Yogurt",
-          "use": "Thick, fat-free, ~50 g protein per tub",
+          "use": "Thick, fat-free, ~17 g protein per 140 g tub",
           "where": "Blinkit · Zepto · Instamart"
         },
         {
           "name": "Amul High Protein Paneer",
-          "use": "Blends into cheesecake-style pints",
+          "use": "Blend fully smooth for cheesecake-style pints",
           "where": "Blinkit · Zepto · Instamart"
         },
         {
-          "name": "Pintola / Alpino peanut butter powder",
-          "use": "Nutty flavour with less fat",
+          "name": "Amul High Protein Buttermilk / Plain Lassi",
+          "use": "Ready liquid base, ~15 g protein a pack",
+          "where": "Blinkit · Zepto · Instamart"
+        },
+        {
+          "name": "Alpino / Pintola peanut butter powder (no sugar)",
+          "use": "Nutty flavour with far less fat",
           "where": "Blinkit · Zepto · Amazon"
-        },
-        {
-          "name": "Amul protein lassi / buttermilk",
-          "use": "Ready liquid base with added whey",
-          "where": "Blinkit · Zepto · Instamart"
         }
       ]
     },
@@ -221,29 +226,29 @@
       "category": "Sweeteners",
       "items": [
         {
+          "name": "Munkito Monk Sweet + Allulose 1:1 (red pouch)",
+          "use": "Default in whey pints and every Diabetic version; keeps pints soft",
+          "where": "munkito.in · Amazon.in"
+        },
+        {
+          "name": "Munkito liquid monk fruit drops",
+          "use": "Tops up sweetness without softening",
+          "where": "munkito.in · Amazon.in"
+        },
+        {
+          "name": "Trulo allulose",
+          "use": "Plain allulose, ~70% as sweet as sugar",
+          "where": "Amazon.in"
+        },
+        {
           "name": "Sugar (grind to caster in a mixie)",
-          "use": "Softest scoop in full-fat pints",
+          "use": "Softest scoop in full-fat Default pints",
           "where": "Anywhere"
         },
         {
-          "name": "Sugar Free Natura (sucralose) / Gold (aspartame)",
-          "use": "Zero-calorie sweetness for lite pints",
+          "name": "Sugar Free Natura (sucralose)",
+          "use": "Gym alternative only; no texture benefit",
           "where": "Blinkit · Zepto · chemists"
-        },
-        {
-          "name": "Sugar Free Green (stevia)",
-          "use": "Plant-based zero-calorie option",
-          "where": "Blinkit · Zepto · Amazon"
-        },
-        {
-          "name": "Allulose (Trulo, Velvey)",
-          "use": "Low-calorie and keeps pints softer",
-          "where": "Blinkit · Amazon"
-        },
-        {
-          "name": "Erythritol / monk fruit blends",
-          "use": "Bulk sweetener for sugar-free pints",
-          "where": "Amazon · Blinkit"
         },
         {
           "name": "Jaggery powder & honey",
@@ -261,13 +266,8 @@
       "category": "Flavour & Spices",
       "items": [
         {
-          "name": "Hershey's / Cadbury cocoa powder",
-          "use": "Chocolate bases",
-          "where": "Blinkit · Zepto · Instamart"
-        },
-        {
-          "name": "Nescafé / Bru instant coffee",
-          "use": "Coffee and mocha pints",
+          "name": "Cocoa powder (Hershey's, Cadbury) & instant coffee (Nescafé, Bru)",
+          "use": "Chocolate, coffee and mocha pints",
           "where": "Anywhere"
         },
         {
@@ -287,7 +287,7 @@
         },
         {
           "name": "Hamdard Rooh Afza / rose water",
-          "use": "Rose, falooda and gulkand pints",
+          "use": "Rose and falooda pints; rose water for Diabetic",
           "where": "Blinkit · Zepto · kirana"
         }
       ]
@@ -297,18 +297,18 @@
       "items": [
         {
           "name": "Swad Alphonso / Kesar mango pulp",
-          "use": "Year-round mango ice cream and sorbet",
+          "use": "Year-round mango pints; sweetened, Default only",
           "where": "Amazon · Blinkit · BigBasket"
+        },
+        {
+          "name": "Fresh Alphonso / Kesar mango",
+          "use": "Cube and freeze in season; Gym and Diabetic mango pints",
+          "where": "Blinkit · Zepto · local market"
         },
         {
           "name": "Frozen berries & mixed fruit",
           "use": "Smoothie bowls and sorbets",
           "where": "Blinkit · Zepto · BigBasket"
-        },
-        {
-          "name": "Mapro / Kissan fruit crushes",
-          "use": "Quick ripples and sorbet flavour",
-          "where": "Blinkit · Zepto · Amazon"
         },
         {
           "name": "Seasonal fruit: chikoo, sitaphal, jamun, strawberries",
@@ -326,19 +326,24 @@
       "category": "Mix-ins",
       "items": [
         {
-          "name": "Oreo / Hide & Seek",
-          "use": "Cookies-and-cream",
+          "name": "Oreo, Hide & Seek, Parle-G, Lotus Biscoff",
+          "use": "Biscuit mix-ins and Biscoff ripples",
           "where": "Anywhere"
-        },
-        {
-          "name": "Lotus Biscoff biscuits & spread",
-          "use": "Caramel-biscuit pints and ripples",
-          "where": "Blinkit · Zepto · Amazon"
         },
         {
           "name": "Amul / Morde dark chocolate",
           "use": "Chips, shards and fudge ripples",
           "where": "Blinkit · Zepto · Amazon"
+        },
+        {
+          "name": "Amul 99% cacao / Ambriona stevia dark chocolate",
+          "use": "Diabetic mix-ins; skip maltitol 'sugar-free' bars",
+          "where": "Amazon.in · Blinkit (varies)"
+        },
+        {
+          "name": "Urban Platter cocoa nibs",
+          "use": "Sugar-free crunch instead of biscuits",
+          "where": "Amazon.in · BigBasket"
         },
         {
           "name": "Pistachios, almonds, cashews",
@@ -349,11 +354,6 @@
           "name": "Veg marshmallows (Kandee Marshmelts)",
           "use": "Rocky road; check for the green dot",
           "where": "Amazon · Blinkit (varies)"
-        },
-        {
-          "name": "Parle-G / Britannia Good Day",
-          "use": "Nostalgic biscuit mix-ins",
-          "where": "Anywhere"
         }
       ]
     },
@@ -361,23 +361,23 @@
       "category": "Texture Helpers",
       "items": [
         {
-          "name": "Urban Platter xanthan gum",
+          "name": "Amul Sagar skimmed milk powder",
+          "use": "15–30 g adds body without fat; over 40 g goes sandy",
+          "where": "Blinkit · Zepto · Instamart · kirana"
+        },
+        {
+          "name": "Urban Platter chicory inulin",
+          "use": "5–10 g for gum-free body in lite pints",
+          "where": "Amazon.in"
+        },
+        {
+          "name": "Urban Platter xanthan / guar gum",
           "use": "⅛–¼ tsp for creamier protein and lite pints",
           "where": "Amazon · Blinkit · Instamart"
         },
         {
-          "name": "Guar gum",
-          "use": "Alternative to xanthan, same dose",
-          "where": "Amazon"
-        },
-        {
-          "name": "Amul Sagar skimmed milk powder",
-          "use": "Adds body and protein; cuts iciness",
-          "where": "Blinkit · Zepto · Instamart"
-        },
-        {
           "name": "Cornflour (Weikfield, Brown & Polson)",
-          "use": "Thickens eggless gelato and ice cream bases",
+          "use": "8–10 g, cooked, thickens eggless and gum-free bases",
           "where": "Anywhere"
         },
         {
@@ -395,7 +395,7 @@
         "base": "Whey isolate",
         "protein": "~25–27 g / 30 g scoop",
         "texture": "Clean taste, can turn icy",
-        "tip": "Add gum + 1 tbsp cream or SMP"
+        "tip": "Pair with 15–20 g SMP; gum optional"
       },
       {
         "base": "Whey concentrate",
@@ -410,14 +410,14 @@
         "tip": "Thickens on standing; add 2–3 tbsp extra milk"
       },
       {
-        "base": "Greek yogurt (Epigamia, Milky Mist)",
+        "base": "Skyr / Greek yogurt (Milky Mist, Epigamia)",
         "protein": "~7–10 g / 100 g",
         "texture": "Tangy, frozen-yogurt style",
-        "tip": "Balance tang with honey or fruit"
+        "tip": "Balance tang with Munkito or fruit"
       },
       {
         "base": "Epigamia Turbo High Protein Yogurt",
-        "protein": "~12 g / 100 g (50 g per tub)",
+        "protein": "~12 g / 100 g (~17 g per 140 g tub)",
         "texture": "Very thick, fat-free, firm when frozen",
         "tip": "Thin with milk; plan one re-spin"
       },
@@ -437,7 +437,7 @@
         "base": "Skimmed milk powder",
         "protein": "~3 g / tbsp (8 g)",
         "texture": "Adds body, reduces ice",
-        "tip": "2–3 tbsp per pint is enough"
+        "tip": "15–30 g per pint; over 40 g goes sandy"
       },
       {
         "base": "Peanut butter powder",
@@ -449,60 +449,84 @@
   },
   "sweetener_guide": [
     {
+      "name": "Munkito Monk Sweet + Allulose 1:1",
+      "sweetness": "1×",
+      "freeze_effect": "Softens ~1.9× as much as sugar; scoopable",
+      "program": "LITE ICE CREAM or ICE CREAM",
+      "tip": "45–60 g lite; 75–80% of sugar weight full-fat. Off the heat. Red pouch, not the erythritol one; ≤ ~30 g a serving",
+      "diabetic_ok": true
+    },
+    {
+      "name": "Allulose (Trulo)",
+      "sweetness": "~0.7×",
+      "freeze_effect": "Softens ~1.9× as much as sugar",
+      "program": "LITE ICE CREAM",
+      "tip": "Too much turns soupy; boost sweetness with monk fruit drops, not more allulose",
+      "diabetic_ok": true
+    },
+    {
+      "name": "Monk fruit drops (Munkito)",
+      "sweetness": "Very high",
+      "freeze_effect": "No softening",
+      "program": "LITE ICE CREAM",
+      "tip": "A few drops top up sweetness without softening",
+      "diabetic_ok": true
+    },
+    {
       "name": "Sugar",
       "sweetness": "1×",
       "freeze_effect": "Keeps pints soft and scoopable",
       "program": "ICE CREAM",
-      "tip": "Grind to caster so it dissolves in cold bases"
+      "tip": "Grind to caster so it dissolves in cold bases",
+      "diabetic_ok": false
     },
     {
       "name": "Condensed milk (Milkmaid)",
       "sweetness": "~0.5× by weight",
       "freeze_effect": "Soft and creamy, adds milk solids",
       "program": "ICE CREAM",
-      "tip": "About 100 g sweetens a pint; whisk in first"
+      "tip": "About 100 g sweetens a pint; whisk in first",
+      "diabetic_ok": false
     },
     {
       "name": "Honey / jaggery",
       "sweetness": "~1.2× / ~0.8×",
       "freeze_effect": "Softer than sugar; jaggery adds caramel notes",
       "program": "ICE CREAM",
-      "tip": "Add jaggery to warm, not boiling, milk to avoid curdling"
+      "tip": "Add jaggery to warm, not boiling, milk to avoid curdling",
+      "diabetic_ok": false
     },
     {
       "name": "Sucralose / aspartame (Sugar Free Natura / Gold)",
       "sweetness": "~600× / ~200×",
       "freeze_effect": "No softening; freezes hard and powdery",
       "program": "LITE ICE CREAM",
-      "tip": "Add to cold bases (aspartame loses sweetness with heat); plan a re-spin"
+      "tip": "Gym only, no texture benefit, not for diabetic. Add cold; plan a re-spin",
+      "diabetic_ok": false
     },
     {
       "name": "Stevia (Sugar Free Green)",
       "sweetness": "~200–300×",
       "freeze_effect": "No softening; freezes hard",
       "program": "LITE ICE CREAM",
-      "tip": "Use less than you think; vanilla masks the aftertaste"
+      "tip": "Use less than you think; sachets carry bulking agents",
+      "diabetic_ok": false
     },
     {
-      "name": "Erythritol / monk fruit blends",
+      "name": "Erythritol / erythritol-monk fruit blends",
       "sweetness": "~0.7×",
-      "freeze_effect": "Freezes very hard; can recrystallise",
+      "freeze_effect": "Freezes rock hard; recrystallises into grit",
       "program": "LITE ICE CREAM",
-      "tip": "Mix with allulose; eat within a week"
-    },
-    {
-      "name": "Allulose",
-      "sweetness": "~0.7×",
-      "freeze_effect": "Softer than sugar, like a regular ice cream",
-      "program": "LITE ICE CREAM",
-      "tip": "Best sugar-free option for scoopable pints"
+      "tip": "Cooling aftertaste; skip it, including Munkito's erythritol pouch",
+      "diabetic_ok": false
     },
     {
       "name": "Dates",
       "sweetness": "~0.6× (soaked)",
       "freeze_effect": "Thick, slightly fibrous",
       "program": "SMOOTHIE BOWL",
-      "tip": "Soak in hot water 15 min, cool, then Blast with the milk"
+      "tip": "Soak in hot water 15 min, cool, then Blast with the milk",
+      "diabetic_ok": false
     }
   ],
   "troubleshooting": [
@@ -518,8 +542,18 @@
     },
     {
       "problem": "Too soft / melty",
-      "why": "Too much sugar, honey or allulose, or freezer too warm",
+      "why": "Too much sugar or honey, or freezer too warm",
       "fix": "Refreeze 1–2 h; reduce sweetener; check freezer is -18 °C"
+    },
+    {
+      "problem": "Allulose pint too soft / melts fast",
+      "why": "Allulose depresses the freezing point ~1.9× as much as sugar; too much for the fat level",
+      "fix": "Skip the re-spin; refreeze 1–2 h. Next time cut Munkito to 75–80% and add monk fruit drops"
+    },
+    {
+      "problem": "Lite pint powdery even after re-spin",
+      "why": "Too few solids or sweetener, or freezer below -20 °C",
+      "fix": "Rest 10 min, add 1 tbsp milk, RE-SPIN. Next time add 15–20 g SMP or 5–10 g inulin"
     },
     {
       "problem": "Hump on top",
@@ -560,6 +594,7 @@
   "storage": [
     "Flatten the surface of leftovers with a spoon, lid tightly and refreeze; re-spin before serving again.",
     "Plain dairy pints keep best for 2–3 weeks; protein, sugar-free and sorbet pints for 1–2 weeks.",
+    "Allulose (Munkito) pints stay soft at -18 °C and scoop straight from the freezer, but melt faster; serve at once.",
     "Refreeze a pint only once or twice; repeated thawing makes it icy.",
     "Label every lid with recipe name, date and program; masking tape and a marker work well.",
     "Keep pints at the back of a level shelf, away from the door, at about -18 °C."
@@ -615,11 +650,309 @@
     }
   ],
   "shopping_tips": [
-    "Keep a standing basket of milk, cream, Milkmaid, cocoa, whey and xanthan, so a pint takes one reorder.",
-    "Order cream and Greek yogurt last, check the expiry date on delivery, and refrigerate straight away.",
+    "Keep a standing basket of milk, SMP, cocoa, whey, Munkito and xanthan, so a pint takes one reorder.",
+    "Order cream and yogurt last, check the expiry date on delivery, and refrigerate straight away.",
     "Check marshmallows, sprinkles and jelly sweets for the FSSAI green dot; many imported ones contain gelatin.",
-    "Buy specialty items such as xanthan gum, pistachio paste and vanilla extract from Urban Platter on Amazon.",
-    "Buy mango pulp tins in May–June when stock is fresh, and freeze seasonal fruit pulp in pint-sized batches.",
-    "Compare whey per-scoop protein on the label, not the pack size; flavoured tubs vary widely."
-  ]
+    "Buy Munkito from munkito.in or Amazon.in; pick the red Allulose 1:1 pouch, not the erythritol blend.",
+    "Buy xanthan, inulin, cocoa nibs, pistachio paste and vanilla extract from Urban Platter on Amazon.",
+    "Read the back of 'sugar-free' and flavoured whey packs: INS 955, 965 or maltodextrin rule them out for Diabetic pints."
+  ],
+  "variants_legend": {
+    "title": "Default, Gym and Diabetic versions",
+    "intro": "Every recipe in the app comes in three versions. Default is the printed recipe. Gym and Diabetic change only what they need to, keep the base at 400–450 ml, and the \"why\" note says how the texture holds up. The printed book shows the Default only.",
+    "gym": {
+      "goal": "More protein, less fat, minimal sugar, still scoopable.",
+      "rules": [
+        "Per pint: protein ≥ 35 g, fat ≤ 15 g, added sugar ≤ 10 g. If a recipe misses a target, the note says why.",
+        "Cream and Milkmaid give way to Amul Sagar SMP, Amul High Protein Milk, whey, skyr or high-protein paneer.",
+        "Sweetened with Munkito Monk Sweet + Allulose 1:1; sucralose is an accepted alternative.",
+        "Usually LITE ICE CREAM with one re-spin; an optional ⅛ tsp xanthan is fine."
+      ]
+    },
+    "diabetic": {
+      "goal": "No added sugar, less fat, no artificial sweeteners or gums.",
+      "rules": [
+        "Zero added sugar: no sugar, jaggery, honey, condensed milk, syrups, sweetened pulp, biscuits or sweetened chocolate.",
+        "No sucralose, aspartame, maltitol or maltodextrin. Munkito allulose or its monk fruit drops only.",
+        "Unflavoured whey isolate and plain skyr or curd only; flavoured whey hides sucralose.",
+        "No gum in the main method. Switch to \"With xanthan\" for a smoother pint and fewer re-spins.",
+        "Fresh fruit capped at about 100 g a pint; fat roughly half of the Default."
+      ]
+    },
+    "disclaimer": "No added sugar is not the same as no carbs: milk lactose and fruit still raise blood sugar. Nutrition figures are estimates from typical Indian label values. Check portions with your doctor, especially if you take insulin or other glucose-lowering medicine."
+  },
+  "healthy_pantry": {
+    "title": "The healthy pantry",
+    "intro": "Twelve products that make the Gym and Diabetic versions work. All of them are sold in India on Amazon.in, quick-commerce apps or brand sites.",
+    "items": [
+      {
+        "name": "Monk Sweet + Allulose 1:1 (red pouch)",
+        "brand": "Munkito",
+        "why": "Sweet like sugar with zero added sugar, and allulose keeps pints soft.",
+        "use": "45–60 g in lite pints; 75–80% of the sugar weight in full-fat bases; stir in off the heat.",
+        "where": "munkito.in · Amazon.in",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Liquid monk fruit drops",
+        "brand": "Munkito",
+        "why": "Adds sweetness without calories or extra softening.",
+        "use": "A few drops to top up sweetness instead of adding more allulose.",
+        "where": "munkito.in · Amazon.in",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Sagar skimmed milk powder",
+        "brand": "Amul",
+        "why": "Milk protein and lactose soak up free water, so less ice without cream.",
+        "use": "15–30 g per pint; above 40 g it turns sandy.",
+        "where": "Blinkit · Zepto · Instamart · BigBasket · kirana",
+        "diabetic_ok": true
+      },
+      {
+        "name": "High Protein Milk, 250 ml",
+        "brand": "Amul",
+        "why": "About 35 g protein and almost no fat per pack.",
+        "use": "Replaces toned milk in whey, chocolate and coffee pints.",
+        "where": "Blinkit · Zepto · Instamart",
+        "diabetic_ok": true
+      },
+      {
+        "name": "High Protein Buttermilk / Plain Lassi",
+        "brand": "Amul",
+        "why": "Ready liquid with about 15 g protein a pack and a tang that suits fruit.",
+        "use": "Use as the liquid in froyo and fruit pints; pick unsweetened packs.",
+        "where": "Blinkit · Zepto · Instamart · BigBasket",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Skyr / Greek yogurt (plain)",
+        "brand": "Milky Mist · Epigamia",
+        "why": "Thick and high in protein; gives body the way cream does.",
+        "use": "150–250 g replaces cream or part of the milk.",
+        "where": "Blinkit · Zepto · Instamart",
+        "diabetic_ok": true
+      },
+      {
+        "name": "High Protein Paneer",
+        "brand": "Amul",
+        "why": "About 25 g protein per 100 g and a cheesecake texture once blended.",
+        "use": "100–150 g, blended completely smooth with the milk.",
+        "where": "Blinkit · Zepto · Instamart",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Unflavoured whey isolate",
+        "brand": "AS-IT-IS ONE · Avvatar Raw · Amul Whey sachets",
+        "why": "Protein with no hidden sucralose; flavour comes from your cocoa, fruit or spice.",
+        "use": "30 g per pint, blended cold; pair with SMP so it isn't chalky.",
+        "where": "Amazon.in · Blinkit · brand sites",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Chicory inulin",
+        "brand": "Urban Platter",
+        "why": "Soluble fibre that adds body and slows ice crystals, with little sweetness.",
+        "use": "5–10 g per pint; more can cause bloating.",
+        "where": "Amazon.in",
+        "diabetic_ok": true
+      },
+      {
+        "name": "99% cacao / stevia dark chocolate",
+        "brand": "Amul · Ambriona",
+        "why": "Real chocolate without sugar or maltitol.",
+        "use": "Chop 15–25 g as a mix-in or melt into a thin ripple.",
+        "where": "Amazon.in · Blinkit (varies)",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Peanut butter powder, no sugar",
+        "brand": "Alpino · Pintola",
+        "why": "Peanut flavour with a fraction of the fat of peanut butter.",
+        "use": "2–3 tbsp in the base; check the label says no added sugar.",
+        "where": "Amazon.in · Blinkit · Zepto",
+        "diabetic_ok": true
+      },
+      {
+        "name": "Cocoa nibs",
+        "brand": "Urban Platter",
+        "why": "Crunch and dark chocolate flavour with zero sugar.",
+        "use": "1–2 tbsp as a mix-in instead of biscuits or chips.",
+        "where": "Amazon.in · BigBasket",
+        "diabetic_ok": true
+      }
+    ]
+  },
+  "texture_science": {
+    "title": "Why pints turn out the way they do",
+    "intro": "The CREAMi shaves a frozen block, so texture comes down to how much water freezes and how big the crystals are. Healthier versions change that balance; here is what each part does.",
+    "points": [
+      {
+        "h": "Why pints go hard, powdery or icy",
+        "text": "Sugar, milk solids and fat keep part of the water unfrozen at -18 °C. Cut them and more water freezes: the pint shaves into powder, or grows large crystals and tastes icy. That is why lite pints often need a re-spin."
+      },
+      {
+        "h": "Sugar and allulose",
+        "text": "Dissolved sugars lower the freezing point. Allulose lowers it about 1.9× as much as sugar at the same weight, so Munkito pints scoop softer. In cream-rich bases use 75–80% of the sugar weight or the pint turns soupy. Sucralose, stevia and monk fruit drops are used in tiny doses and soften nothing."
+      },
+      {
+        "h": "Milk solids",
+        "text": "Skimmed milk powder adds protein and lactose that hold free water and make a pint taste richer. 15–30 g per pint is the useful range; above about 40 g the lactose crystallises and the pint feels sandy."
+      },
+      {
+        "h": "Fat",
+        "text": "Fat coats the tongue and breaks up ice crystals, which is why cream reads as smooth. When fat drops, replace its body with skyr, high-protein paneer, SMP or reduced milk, not with more water."
+      },
+      {
+        "h": "Protein and chalkiness",
+        "text": "Whey thickens and holds air, but too much binds all the water and tastes chalky, isolate most of all. Stay at 30–45 g per pint, blend it cold, and pair it with SMP, yogurt or a little fat."
+      },
+      {
+        "h": "Gums and gum-free body",
+        "text": "Xanthan or guar at ⅛–¼ tsp holds water so crystals stay small. Without gum, use 5–10 g inulin, 8–10 g cornflour cooked into the milk, or milk reduced on the stove as for kulfi. Expect one extra re-spin."
+      },
+      {
+        "h": "Re-spin and tempering",
+        "text": "A powdery first spin means the pint is too cold, not ruined. Rest it 5–10 min on the counter, add 1–2 tbsp milk and RE-SPIN. A freezer colder than -20 °C makes every lite pint harder."
+      }
+    ]
+  },
+  "healthier_swaps": {
+    "title": "Healthier swaps",
+    "rows": [
+      {
+        "out": "Fresh cream, 100 ml",
+        "in": "20 g Amul Sagar SMP + 100 ml toned milk",
+        "effect": "Body from milk solids; a little less rich, one re-spin",
+        "saves": "~110 kcal, ~22 g fat"
+      },
+      {
+        "out": "Milkmaid, 200 g",
+        "in": "45–60 g Munkito + 25 g SMP + 100 ml milk",
+        "effect": "Keeps sweetness and milky body; loses the cooked-milk caramel note",
+        "saves": "~490 kcal, ~110 g added sugar"
+      },
+      {
+        "out": "Sugar, 80 g",
+        "in": "60–64 g Munkito (75–80% of the weight)",
+        "effect": "Same sweetness, softer scoop; full 1:1 turns full-fat pints soupy",
+        "saves": "~320 kcal, 80 g added sugar"
+      },
+      {
+        "out": "Jaggery or honey, 60 g",
+        "in": "45 g Munkito + cinnamon, elaichi or vanilla",
+        "effect": "Loses some caramel depth; reduce the milk a little to bring it back",
+        "saves": "~230 kcal, ~55 g added sugar"
+      },
+      {
+        "out": "Sucralose (Sugar Free Natura)",
+        "in": "Munkito Monk Sweet + Allulose 1:1",
+        "effect": "Softer, scoopable pint with fewer re-spins; no bitter finish",
+        "saves": "Same 0 kcal; usually one fewer re-spin"
+      },
+      {
+        "out": "Full-cream milk, 400 ml",
+        "in": "Amul High Protein Milk 250 ml + 150 ml toned milk",
+        "effect": "More protein and a thicker base; add SMP if it feels thin",
+        "saves": "~85 kcal, ~19 g fat; +20 g protein"
+      },
+      {
+        "out": "Flavoured whey, 1 scoop",
+        "in": "Unflavoured isolate + 1 tbsp cocoa or vanilla + Munkito",
+        "effect": "Same protein; you control sweetness and skip hidden sucralose",
+        "saves": "Hidden sucralose, ~3 g carbs"
+      },
+      {
+        "out": "Oreo or biscuits, 40 g",
+        "in": "1–2 tbsp cocoa nibs or chopped roasted nuts",
+        "effect": "Crunch without sugar; nibs taste darker",
+        "saves": "~100 kcal, ~15 g added sugar"
+      },
+      {
+        "out": "Nutella, 2 tbsp (37 g)",
+        "in": "15 g roasted hazelnuts + 1 tbsp cocoa + Munkito",
+        "effect": "Real hazelnut flavour; less sweet and slightly grainier",
+        "saves": "~85 kcal, ~21 g added sugar"
+      },
+      {
+        "out": "Dairy Milk or chips, 30 g",
+        "in": "20 g Amul 99% cacao or Ambriona, chopped",
+        "effect": "Darker, less sweet shards",
+        "saves": "~40 kcal, ~16 g added sugar"
+      },
+      {
+        "out": "Tinned mango pulp, 200 g",
+        "in": "100–150 g fresh ripe mango (100 g for Diabetic)",
+        "effect": "Brighter flavour, still smooth; a bit less sweet",
+        "saves": "~110 kcal, ~15 g added sugar"
+      },
+      {
+        "out": "Xanthan gum",
+        "in": "5–10 g inulin or 8–10 g cooked cornflour",
+        "effect": "Gum-free body; expect one extra re-spin",
+        "saves": "One additive (INS 415)"
+      }
+    ]
+  },
+  "label_reading": {
+    "title": "Reading the label",
+    "intro": "Indian labels list additives by INS number. These are the ones that matter for pints and for blood sugar. Check the ingredient list, not just the front of the pack.",
+    "rows": [
+      {
+        "code": "INS 955",
+        "what": "Sucralose, ~600× sugar. In Sugar Free Natura, most flavoured whey and diet drinks.",
+        "verdict": "Gym only. No texture benefit; not used in Diabetic versions."
+      },
+      {
+        "code": "INS 950",
+        "what": "Acesulfame-K. Usually paired with sucralose in protein powders and drinks.",
+        "verdict": "Same as sucralose: Gym only."
+      },
+      {
+        "code": "INS 951",
+        "what": "Aspartame. In Sugar Free Gold and diet colas; loses sweetness when heated.",
+        "verdict": "Avoid in cooked bases and Diabetic versions."
+      },
+      {
+        "code": "INS 965",
+        "what": "Maltitol. The sugar alcohol in most 'sugar-free' chocolate and biscuits.",
+        "verdict": "Avoid: raises blood sugar about half as much as sugar and upsets the stomach."
+      },
+      {
+        "code": "INS 968",
+        "what": "Erythritol. Bulk sweetener in many monk fruit and stevia blends.",
+        "verdict": "Low impact on blood sugar, but freezes rock hard, recrystallises and tastes cooling. Skip in pints."
+      },
+      {
+        "code": "INS 415",
+        "what": "Xanthan gum, a fermentation thickener.",
+        "verdict": "Fine at ⅛–¼ tsp. Optional \"With xanthan\" toggle in Diabetic versions."
+      },
+      {
+        "code": "INS 412",
+        "what": "Guar gum, from guar beans.",
+        "verdict": "Same job and dose as xanthan."
+      },
+      {
+        "code": "INS 1442",
+        "what": "Modified starch (hydroxypropyl distarch phosphate). In ready desserts, sauces and flavoured yogurt.",
+        "verdict": "Fine in small amounts, but a sign of a processed product; cooked cornflour does the same job."
+      },
+      {
+        "code": "Maltodextrin",
+        "what": "Starch-based filler in sweetener sachets, protein powders and 'sugar-free' mixes. No INS number.",
+        "verdict": "Raises blood sugar as fast as glucose. Not for Diabetic versions."
+      },
+      {
+        "code": "'No added sugar'",
+        "what": "No sugar added in processing; lactose and fruit sugar can still be high.",
+        "verdict": "Check total sugar and carbs per 100 g."
+      },
+      {
+        "code": "'Sugar free'",
+        "what": "FSSAI allows it at ≤ 0.5 g sugar per 100 g; often met with maltitol or sucralose.",
+        "verdict": "Read the sweetener list before you trust it."
+      }
+    ]
+  }
 }

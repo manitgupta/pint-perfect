@@ -36,15 +36,35 @@
     scale: '<path d="M12 3v18M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/>',
     save: '<path d="M12 3v12M7 10l5 5 5-5"/><path d="M5 21h14"/>',
     trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',
+    heartbeat: '<path d="M3 12h4l2-5 4 10 2-5h6"/>',
+    leaf: '<path d="M5 19c0-8 5-14 15-15-1 10-7 15-15 15z"/><path d="M5 19l7-7"/>',
+    flask: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/>',
     grid: '<rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/>',
   };
   const ic = (n, cls = "ic") => `<svg class="${cls}" viewBox="0 0 24 24">${ICONS[n]}</svg>`;
 
   // ------------------------------------------------------------------ state
-  const KEY = "pp:v1";
-  const DEFAULTS = { favs: {}, ratings: {}, notes: {}, made: {}, ticks: {}, done: {}, freezer: [], pantry: {}, recent: [], dismissInstall: false, per: "pint" };
+  // v2 adds per-recipe version choice (ver), the global "My version" (myver) and the diabetic gum toggle (gum).
+  // Ticks/done keys stay "slug" for Default and become "slug|gym" / "slug|diabetic" for the variants.
+  const KEY = "pp:v2", OLD_KEYS = ["pp:v1"];
+  const DEFAULTS = { favs: {}, ratings: {}, notes: {}, made: {}, ticks: {}, done: {}, freezer: [], pantry: {}, recent: [], dismissInstall: false, per: "pint",
+    ver: {}, myver: "default", gum: {} };
+  const VIDS = ["default", "gym", "diabetic"];
+  const VLABEL = { default: "Default", gym: "Gym", diabetic: "Diabetic" };
+  const migrate = (d) => {
+    const out = Object.assign({}, DEFAULTS, d && typeof d === "object" ? d : {});
+    for (const k of ["favs", "ratings", "notes", "made", "ticks", "done", "pantry", "ver", "gum"]) if (!out[k] || typeof out[k] !== "object" || Array.isArray(out[k])) out[k] = {};
+    for (const k of ["freezer", "recent"]) if (!Array.isArray(out[k])) out[k] = [];
+    if (!VIDS.includes(out.myver)) out.myver = "default";
+    return out;
+  };
   let S;
-  try { S = Object.assign({}, DEFAULTS, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch { S = { ...DEFAULTS }; }
+  try {
+    let raw = localStorage.getItem(KEY), migrated = false;
+    if (raw === null) for (const k of OLD_KEYS) { raw = localStorage.getItem(k); if (raw !== null) { migrated = true; break; } }
+    S = migrate(JSON.parse(raw || "{}"));
+    if (migrated) localStorage.setItem(KEY, JSON.stringify(S));
+  } catch { S = migrate({}); }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
   let BOOK, R = {}, ORDER = [], SECT = {};
@@ -62,8 +82,40 @@
   const fmtTime = (ts) => new Date(ts).toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
   const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/&/g, " and ").replace(/[^a-z0-9%]+/g, " ").trim();
 
+  // ------------------------------------------------------------------ versions (Default / Gym / Diabetic)
+  let HAS_VARIANTS = false;
+  const vinfo = (r, vid) => (vid !== "default" && r.versions && r.versions[vid]) || null;
+  const usable = (r, vid) => vid === "default" || !!(vinfo(r, vid) && !vinfo(r, vid).unsuitable);
+  const diabeticOk = (r) => usable(r, "diabetic") && !!vinfo(r, "diabetic");
+  // The merged recipe for a version (cached). Falls back to Default if the version is missing or unsuitable.
+  function V(r, vid) {
+    if (!usable(r, vid)) vid = "default";
+    r._v = r._v || {};
+    if (!r._v[vid]) r._v[vid] = vid === "default" ? Object.assign({}, r, { _vid: "default" }) : Object.assign({}, r, vinfo(r, vid), { _vid: vid, egg_option: null });
+    return r._v[vid];
+  }
+  // The version the global "My version" preference points at, falling back to Gym / Default when unsuitable.
+  function prefVid(r) {
+    if (S.myver === "diabetic") return usable(r, "diabetic") && vinfo(r, "diabetic") ? "diabetic" : vinfo(r, "gym") ? "gym" : "default";
+    if (S.myver === "gym" && vinfo(r, "gym")) return "gym";
+    return "default";
+  }
+  const listV = (r) => V(r, prefVid(r)); // what lists, sorts and filters use
+  // The version a recipe page opens on: deep link > remembered choice > My version.
+  function openVid(r, want) {
+    for (const v of [want, S.ver[r.slug]]) if (v === "default" || (v && vinfo(r, v))) return v;
+    return prefVid(r);
+  }
+  const tkey = (slug, vid) => (vid && vid !== "default" ? `${slug}|${vid}` : slug);
+  const gumOn = (rv) => rv._vid === "diabetic" && !!rv.gum_option && !!S.gum[rv.slug];
+  const ingList = (rv) => (gumOn(rv) ? [...rv.ingredients, Object.assign({}, rv.gum_option, { gum: true })] : rv.ingredients);
+  const hasGum = (rv) => [...rv.ingredients, ...(rv.mixins || [])].some((x) => /xanthan|guar/i.test(x.item));
+  const added = (n) => (typeof n.added_sugar_g === "number" ? n.added_sugar_g : null);
+
   // ------------------------------------------------------------------ search
   const SYN = [
+    ["diabetic", "sugar free", "sugarfree", "keto", "no sugar", "no added sugar"], ["gym", "lean", "macro", "macros", "high protein"],
+    ["munkito", "allulose", "monk fruit", "monkfruit"],
     ["kesar", "saffron"], ["pista", "pistachio"], ["aam", "mango", "alphonso", "aamras", "kesar mango"], ["elaichi", "cardamom"],
     ["choco", "chocolate", "cocoa", "brownie"], ["dahi", "curd", "yogurt", "yoghurt", "greek", "skyr", "froyo", "shrikhand"],
     ["nimbu", "lemon", "lime", "shikanji"], ["santra", "orange"], ["chikoo", "chiku", "sapota"], ["sitaphal", "custard apple"],
@@ -81,12 +133,15 @@
   }
   function indexRecipe(r) {
     const s = SECT[r.section];
-    const ing = [...r.ingredients, ...(r.mixins || [])];
+    const vs = ["gym", "diabetic"].map((k) => vinfo(r, k)).filter((v) => v && !v.unsuitable);
+    const ing = [...r.ingredients, ...(r.mixins || []), ...vs.flatMap((v) => [...(v.ingredients || []), ...(v.mixins || []), ...(v.gum_option ? [v.gum_option] : [])])];
+    const vtags = [vinfo(r, "gym") ? "gym lean macro" : "", diabeticOk(r) ? "diabetic sugar free" : "", ...vs.map((v) => (v.tags || []).join(" "))].join(" ");
     r._i = {
       t: " " + norm(r.title),
-      s: " " + norm([r.subtitle, r.tags.join(" "), r.program, s.title, s.sub].join(" ")),
+      s: " " + norm([r.subtitle, r.tags.join(" "), r.program, s.title, s.sub, vtags].join(" ")),
       i: " " + norm(ing.map((x) => x.item + " " + (x.note || "")).join(" ")),
-      x: " " + norm([r.intro, r.steps.map((x) => x.text).join(" "), r.tips.join(" "), r.swaps.join(" "), r.egg_option ? "egg yolk custard " + r.egg_option.text : ""].join(" ")),
+      x: " " + norm([r.intro, r.steps.map((x) => x.text).join(" "), r.tips.join(" "), r.swaps.join(" "), r.egg_option ? "egg yolk custard " + r.egg_option.text : "",
+        ...["gym", "diabetic"].map((k) => (vinfo(r, k) || {}).why || "")].join(" ")),
     };
   }
   function score(r, toks) {
@@ -109,8 +164,11 @@
   }
 
   const FILTERS = [
-    { id: "protein", label: "High protein", test: (r) => r.nutrition_per_pint.protein_g >= 30 },
-    { id: "lean", label: "Under 450 kcal", test: (r) => r.nutrition_per_pint.kcal < 450 },
+    { id: "protein", label: "High protein", test: (r) => listV(r).nutrition_per_pint.protein_g >= 30 },
+    { id: "lean", label: "Under 450 kcal", test: (r) => listV(r).nutrition_per_pint.kcal < 450 },
+    { id: "diabetic", label: "Diabetic-friendly", test: diabeticOk, vonly: true },
+    { id: "nosugar", label: "No added sugar", test: (r) => added(listV(r).nutrition_per_pint) === 0 },
+    { id: "nogum", label: "No gums", test: (r) => !hasGum(listV(r)) },
     { id: "quick", label: "10-min prep", test: (r) => !r.cook_min && r.prep_min <= 10 },
     { id: "nocook", label: "No-cook", test: (r) => !r.cook_min },
     { id: "vegan", label: "Vegan", test: (r) => r.tags.includes("Vegan") },
@@ -132,8 +190,9 @@
       if (HOME.sort === "book") list.sort((a, b) => b[1] - a[1] || a[0].num - b[0].num);
       list = list.map(([r]) => r);
     }
-    const by = { protein: (a, b) => b.nutrition_per_pint.protein_g - a.nutrition_per_pint.protein_g,
-      kcal: (a, b) => a.nutrition_per_pint.kcal - b.nutrition_per_pint.kcal,
+    const np = (r) => listV(r).nutrition_per_pint;
+    const by = { protein: (a, b) => np(b).protein_g - np(a).protein_g,
+      kcal: (a, b) => np(a).kcal - np(b).kcal,
       quick: (a, b) => (a.prep_min + (a.cook_min || 0)) - (b.prep_min + (b.cook_min || 0)) }[HOME.sort];
     if (by) list = [...list].sort(by);
     return { list, toks };
@@ -153,11 +212,11 @@
 
   // ------------------------------------------------------------------ fragments
   function row(r, toks) {
-    const n = r.nutrition_per_pint;
+    const rv = listV(r), n = rv.nutrition_per_pint;
     return `<a class="row" href="#/r/${r.slug}" style="--tint:${r.tint}">
       <div class="thumb"><img src="art/${r.slug}.svg" alt="" width="62" height="62" loading="lazy"></div>
       <div class="txt"><h4>${toks ? highlight(r.title, toks) : esc(r.title)}</h4><div class="st">${esc(r.subtitle)}</div>
-        <div class="meta"><span class="prog" style="--pc:${progColour(r.program)}"><i></i>${esc(PROG_LABEL(r.program))}</span>
+        <div class="meta">${rv._vid !== "default" ? `<span class="vtag v-${rv._vid}">${VLABEL[rv._vid]}</span>` : ""}<span class="prog" style="--pc:${progColour(rv.program)}"><i></i>${esc(PROG_LABEL(rv.program))}</span>
         <span class="p">${n.protein_g} g protein</span><span>${n.kcal} kcal</span>${r.egg_option ? ic("egg", "ic egg-dot") : ""}</div></div>
       ${S.favs[r.slug] ? ic("heart", "ic fav") : ""}</a>`;
   }
@@ -174,6 +233,7 @@
       <div class="search-wrap flat" id="sw"><label class="search">${ic("search")}<input id="q" type="search" placeholder="Search mango, kesar, whey, vegan…" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search" value="${esc(HOME.q)}">
         <button class="clear" data-act="clear-q" aria-label="Clear" ${HOME.q ? "" : "hidden"}>${ic("x")}</button></label></div>
       <div class="chips" id="chips">${chips()}</div>
+      ${HAS_VARIANTS ? `<div class="myver" id="myver-home">${myverCtl()}</div>` : ""}
       <div id="res"></div>`;
     renderResults();
     const q = $("#q");
@@ -181,9 +241,16 @@
     q.addEventListener("keydown", (e) => { if (e.key === "Enter") q.blur(); });
   }
   function chips() {
-    const f = FILTERS.map((x) => `<button class="chip ${HOME.f.has(x.id) ? "on" : ""}" data-f="${x.id}">${esc(x.label)}</button>`).join("");
+    const f = FILTERS.filter((x) => HAS_VARIANTS || !x.vonly).map((x) => `<button class="chip ${HOME.f.has(x.id) ? "on" : ""}" data-f="${x.id}">${esc(x.label)}</button>`).join("");
     const p = PROGS.map((x) => `<button class="chip ${HOME.p.has(x) ? "on" : ""}" data-p="${x}" style="--pc:${progColour(x)}"><span class="dot"></span>${esc(PROG_LABEL(x))}</button>`).join("");
     return f + '<span class="chip-sep"></span>' + p;
+  }
+  const myverCtl = () => `<span class="lbl">My version</span><div class="seg">${VIDS.map((k) => `<button data-myver="${k}" class="${S.myver === k ? "on" : ""}">${VLABEL[k]}</button>`).join("")}</div>`;
+  function setMyver(k) {
+    S.myver = k; S.ver = {}; save();
+    $$("[data-myver]").forEach((b) => b.classList.toggle("on", b.dataset.myver === k));
+    if ((location.hash || "").startsWith("#/guide")) route(true); else renderResults();
+    toast(k === "default" ? "Showing the Default recipes" : `Recipes open on the ${VLABEL[k]} version`);
   }
   function renderResults() {
     const res = $("#res");
@@ -225,69 +292,117 @@
 
   // ------------------------------------------------------------------ recipe
   let TAB = "ing";
-  function renderRecipe(slug) {
+  let VID = "default"; // version shown on the open recipe page
+  function renderRecipe(slug, want) {
     const r = R[slug];
     if (!r) return renderHome();
     S.recent = [slug, ...S.recent.filter((k) => k !== slug)].slice(0, 12);
+    VID = openVid(r, want);
+    if (want && want === VID) rememberVid(r, VID);
     save();
     const s = SECT[r.section];
     const fav = !!S.favs[slug];
     const time = `${r.prep_min} min` + (r.cook_min ? ` + ${r.cook_min}` : "");
+    const vids = VIDS.filter((k) => k === "default" || vinfo(r, k));
     view.innerHTML = `${navbar(r.title, `<button class="circ" data-act="share" aria-label="Share">${ic("share")}</button><button class="circ ${fav ? "faved" : ""}" data-act="fav" aria-label="Save">${ic("heart")}</button>`)}
       <article class="recipe" style="--deep:${r.deep};--base:${r.base};--tint:${r.tint};--tint2:${r.tint2}">
         <div class="r-hero">
           <img class="r-art" src="art/${r.slug}.svg" alt="">
           <div class="r-kicker"><span class="no">No. ${String(r.num).padStart(2, "0")}</span>${esc(s.title)}</div>
           <h1 class="r-title">${esc(r.title)}</h1><p class="r-sub">${esc(r.subtitle)}</p>
-          <div class="r-tags">${r.tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div>
+          <div class="r-tags" id="rtags"></div>
         </div>
         <div class="stats"><div><b>${esc(time)}</b><span>+ 24 h freeze</span></div><div><b>${esc(r.difficulty)}</b><span>difficulty</span></div><div><b>Serves ${r.servings}</b><span>1 pint · 473 ml</span></div></div>
-        <div class="prog-row"><span class="prog-pill" style="--pc:${progColour(r.program)}">${esc(r.program)}</span><span>${esc(r.respin)}</span></div>
+        ${vids.length > 1 ? `<div class="vseg-wrap"><div class="seg vseg" id="vseg" role="tablist" aria-label="Version">${vids.map((k) =>
+          `<button data-ver="${k}" class="v-${k}${usable(r, k) ? "" : " un"}" role="tab">${VLABEL[k]}</button>`).join("")}</div></div>` : ""}
+        <div class="prog-row" id="prog"></div>
         <div class="nutri" id="nutri"></div>
         <p class="intro">${rich(r.intro)}</p>
         <div class="tabs-r"><div class="seg" id="rtabs">
           ${[["ing", "Ingredients"], ["method", "Method"], ["tips", "Tips"], ["notes", "Notes"]].map(([k, v]) => `<button data-tab-r="${k}" class="${TAB === k ? "on" : ""}">${v}</button>`).join("")}
         </div></div>
         <div class="panel" id="panel"></div>
-        <p class="foot">Page ${r.page} in your printed book</p>
+        <p class="foot">Page ${r.page} in your printed book${vids.length > 1 ? " (Default version)" : ""}</p>
       </article>`;
+    renderVersion(r);
+  }
+  function rememberVid(r, vid) {
+    if (vid === prefVid(r)) delete S.ver[r.slug]; else S.ver[r.slug] = vid;
+  }
+  const recipeHash = (slug, vid) => `#/r/${slug}` + (vid && vid !== "default" ? `?v=${vid}` : "");
+  function setVersion(r, vid) {
+    if (vid === VID) return;
+    VID = vid; rememberVid(r, vid); save();
+    const h = recipeHash(r.slug, vid);
+    try { history.replaceState(history.state, "", h); } catch {}
+    if (stack.length && stack[stack.length - 1] === current) stack[stack.length - 1] = h;
+    current = h;
+    renderVersion(r);
+  }
+  function renderVersion(r) {
+    const ok = usable(r, VID), rv = V(r, VID);
+    $("#rtags").innerHTML = rv.tags.map((t) => `<span>${esc(t)}</span>`).join("");
+    $$("#vseg button").forEach((b) => { b.classList.toggle("on", b.dataset.ver === VID); b.setAttribute("aria-selected", b.dataset.ver === VID); });
+    const prog = $("#prog");
+    prog.hidden = !ok;
+    prog.innerHTML = `<span class="prog-pill" style="--pc:${progColour(rv.program)}">${esc(rv.program)}</span><span>${esc(rv.respin)}</span>`;
     renderNutri(r);
     renderPanel(r);
   }
+  function unsuitCard(r) {
+    const u = vinfo(r, "diabetic"), t = u.try && R[u.try];
+    return `<div class="unsuit"><div class="nutri-h"><span>No diabetic version</span></div><p>${rich(u.why)}</p>
+      ${t ? `<a class="try" href="${recipeHash(t.slug, usable(t, "diabetic") && vinfo(t, "diabetic") ? "diabetic" : "default")}" style="--tint:${t.tint}"><span class="thumb"><img src="art/${t.slug}.svg" alt=""></span>
+        <span class="txt"><small>Try this instead</small><b>${esc(t.title)}</b></span>${ic("chev", "ic chev")}</a>` : ""}
+      ${vinfo(r, "gym") ? `<button class="btn ghost" data-ver="gym">${ic("bolt")}See the lower-sugar Gym version</button>` : ""}</div>`;
+  }
   function renderNutri(r) {
-    const n = r.nutrition_per_pint, d = S.per === "pint" ? 1 : r.servings;
+    const el = $("#nutri");
+    if (!usable(r, VID)) { el.innerHTML = unsuitCard(r); return; }
+    const rv = V(r, VID), n = rv.nutrition_per_pint, d = S.per === "pint" ? 1 : r.servings;
     const v = (x) => Math.round(x / d);
-    $("#nutri").innerHTML = `<div class="nutri-h"><span>Nutrition</span><div class="seg"><button data-per="pint" class="${S.per === "pint" ? "on" : ""}">Per pint</button><button data-per="serv" class="${S.per !== "pint" ? "on" : ""}">Per serving</button></div></div>
-      <div class="n-grid"><div class="np"><b>${v(n.protein_g)}<u>g</u></b><span>protein</span></div><div><b>${v(n.kcal)}</b><span>kcal</span></div><div><b>${v(n.carbs_g)}<u>g</u></b><span>carbs</span></div><div><b>${v(n.fat_g)}<u>g</u></b><span>fat</span></div></div>`;
+    const as = added(n), das = added(r.nutrition_per_pint);
+    el.innerHTML = `<div class="nutri-h"><span>Nutrition${rv._vid !== "default" ? ` · ${VLABEL[rv._vid]}` : ""}</span><div class="seg"><button data-per="pint" class="${S.per === "pint" ? "on" : ""}">Per pint</button><button data-per="serv" class="${S.per !== "pint" ? "on" : ""}">Per serving</button></div></div>
+      <div class="n-grid"><div class="np"><b>${v(n.protein_g)}<u>g</u></b><span>protein</span></div><div><b>${v(n.kcal)}</b><span>kcal</span></div><div><b>${v(n.carbs_g)}<u>g</u></b><span>carbs</span></div><div><b>${v(n.fat_g)}<u>g</u></b><span>fat</span></div></div>
+      ${as !== null ? `<div class="n-sugar"><span>Added sugar</span><b>${v(as)} g</b>${rv._vid !== "default" && das !== null && das !== as ? `<s>${v(das)} g</s>` : ""}</div>` : ""}`;
   }
   function eggCallout(r) {
     const e = r.egg_option;
     if (!e) return "";
     return `<div class="callout egg">${ic("egg")}<div><h4>With eggs (optional)</h4><b>${esc(e.title)}.</b> ${rich(e.text)}${e.adds ? `<br><span class="egg-adds">${esc(e.adds)}</span>` : ""}</div></div>`;
   }
+  const chgBadge = (x) => (x.changed ? `<span class="chg">${x.was ? "changed" : "added"}</span>` : x.gum ? '<span class="chg">optional</span>' : "");
   function renderPanel(r) {
     const p = $("#panel");
-    const ticks = new Set(S.ticks[r.slug] || []);
-    const done = new Set(S.done[r.slug] || []);
-    const ingLi = (items, pre) => items.map((x, i) => `<li data-tick="${pre}${i}" class="${ticks.has(pre + i) ? "on" : ""}"><span class="ck">${ic("check")}</span>
-        <div class="body"><span class="q">${esc(x.qty)}</span> <span class="it">${esc(x.item)}</span>${x.note ? `<small>${esc(x.note)}</small>` : ""}</div></li>`).join("");
+    const ok = usable(r, VID), rv = V(r, VID), key = tkey(r.slug, rv._vid);
+    if (!ok && (TAB === "ing" || TAB === "method")) {
+      p.innerHTML = `<div class="card"><div class="v-empty">There's no diabetic version of this pint (see above). Switch to ${vinfo(r, "gym") ? "Default or Gym" : "Default"} for the ingredients and method.</div></div>`;
+      return;
+    }
+    const ticks = new Set(S.ticks[key] || []);
+    const done = new Set(S.done[key] || []);
+    const ingLi = (items, pre) => items.map((x, i) => `<li data-tick="${pre}${i}" class="${ticks.has(pre + i) ? "on" : ""}${x.changed || x.gum ? " changed" : ""}"><span class="ck">${ic("check")}</span>
+        <div class="body"><span class="q">${esc(x.qty)}</span> <span class="it">${esc(x.item)}</span>${chgBadge(x)}${x.note ? `<small>${esc(x.note)}</small>` : ""}${x.was ? `<small class="was">was <s>${esc(x.was)}</s></small>` : ""}</div></li>`).join("");
+    const why = rv._vid !== "default" && rv.why ? `<div class="callout vwhy v-${rv._vid}">${ic(rv._vid === "gym" ? "bolt" : "sweet")}<div><h4>${VLABEL[rv._vid]} version</h4>${rich(rv.why)}</div></div>` : "";
+    const gum = rv._vid === "diabetic" && rv.gum_option ? `<div class="gum-row"><span>Gum</span><div class="seg"><button data-gum="0" class="${gumOn(rv) ? "" : "on"}">No gum</button><button data-gum="1" class="${gumOn(rv) ? "on" : ""}">With xanthan</button></div></div>` : "";
     if (TAB === "ing") {
-      p.innerHTML = `<div class="card"><div class="card-h"><h3>Ingredients</h3>${ticks.size ? '<button data-act="clear-ticks">Clear ticks</button>' : ""}</div><ul class="ing">${ingLi(r.ingredients, "i")}</ul></div>
-        ${r.mixins && r.mixins.length ? `<div class="card"><div class="card-h"><h3>Mix-ins</h3></div><ul class="ing">${ingLi(r.mixins, "m")}</ul></div>` : ""}
+      p.innerHTML = `${why}<div class="card"><div class="card-h"><h3>Ingredients</h3>${ticks.size ? '<button data-act="clear-ticks">Clear ticks</button>' : ""}</div><ul class="ing">${ingLi(ingList(rv), "i")}</ul>${gum}</div>
+        ${rv.mixins && rv.mixins.length ? `<div class="card"><div class="card-h"><h3>Mix-ins</h3></div><ul class="ing">${ingLi(rv.mixins, "m")}</ul></div>` : ""}
         <div class="btns"><button class="btn ghost" data-act="shoplist">${ic("cart")}Shopping list</button><button class="btn primary" data-act="tab-method">${ic("list")}Method</button></div>
         ${r.shop_note ? `<div class="callout shop" style="margin-top:12px">${ic("cart")}<div><h4>Where to buy</h4>${rich(r.shop_note)}</div></div>` : ""}`;
     } else if (TAB === "method") {
       p.innerHTML = `<button class="btn primary" data-act="cook">${ic("play")}Start cook mode</button>
-        <div class="card"><div class="card-h"><h3>Method</h3>${done.size ? '<button data-act="clear-done">Reset</button>' : ""}</div><ol class="steps">
-        ${r.steps.map((st, i) => { const t = BOOK.steps[st.tag] || { label: st.tag, colour: "#666" };
-          return `<li data-step="${i}" class="${done.has(i) ? "on" : ""}"><span class="num">${done.has(i) ? ic("check") : i + 1}</span><div class="txt"><span class="stag" style="--tc:${t.colour}">${esc(t.label)}</span>${rich(st.text)}</div></li>`; }).join("")}
+        <div class="card"><div class="card-h"><h3>Method${rv._vid !== "default" ? ` · ${VLABEL[rv._vid]}` : ""}</h3>${done.size ? '<button data-act="clear-done">Reset</button>' : ""}</div><ol class="steps">
+        ${rv.steps.map((st, i) => { const t = BOOK.steps[st.tag] || { label: st.tag, colour: "#666" };
+          return `<li data-step="${i}" class="${done.has(i) ? "on" : ""}${st.changed ? " changed" : ""}"><span class="num">${done.has(i) ? ic("check") : i + 1}</span><div class="txt"><span class="stag" style="--tc:${t.colour}">${esc(t.label)}</span>${st.changed ? '<span class="chg">changed</span>' : ""}${rich(st.text)}</div></li>`; }).join("")}
         </ol></div>
-        ${r.egg_option ? `<div style="margin-top:12px">${eggCallout(r)}</div>` : ""}
+        ${gumOn(rv) ? `<div class="callout vwhy v-diabetic" style="margin-top:12px">${ic("sweet")}<div><h4>With xanthan</h4>Add ${esc(rv.gum_option.qty)} ${esc(rv.gum_option.item)} with the other ingredients before you Blast.</div></div>` : ""}
+        ${rv.egg_option ? `<div style="margin-top:12px">${eggCallout(rv)}</div>` : ""}
         <button class="btn ghost" data-act="freeze" style="margin-top:12px">${ic("snow")}It's in the freezer: start 24 h timer</button>`;
     } else if (TAB === "tips") {
       p.innerHTML = `<div class="callout tips">${ic("bulb")}<div><h4>Pro tips</h4><ul>${r.tips.map((t) => `<li>${rich(t)}</li>`).join("")}</ul></div></div>
         <div class="callout swaps">${ic("swap")}<div><h4>Swaps &amp; twists</h4><ul>${r.swaps.map((t) => `<li>${rich(t)}</li>`).join("")}</ul></div></div>
-        ${r.egg_option ? `<div style="margin-top:12px">${eggCallout(r)}</div>` : ""}`;
+        ${rv.egg_option ? `<div style="margin-top:12px">${eggCallout(rv)}</div>` : ""}`;
     } else {
       const rating = S.ratings[r.slug] || 0;
       const made = S.made[r.slug] || [];
@@ -316,6 +431,7 @@
     document.body.appendChild(el);
     let locked = false;
     lockScreen().then((ok) => { locked = ok; draw(); });
+    draw();
     const onVis = () => { if (document.visibilityState === "visible" && el.isConnected) lockScreen(); };
     document.addEventListener("visibilitychange", onVis);
     function close() {
@@ -326,7 +442,7 @@
     function draw() {
       const st = r.steps[i], t = BOOK.steps[st.tag] || { label: st.tag, colour: "#666" };
       const last = i === r.steps.length - 1;
-      el.innerHTML = `<div class="cook-top"><div class="t">${esc(r.title)}</div><button class="circ" data-c="close" aria-label="Close">${ic("x")}</button></div>
+      el.innerHTML = `<div class="cook-top"><div class="t">${esc(r.title)}${r._vid && r._vid !== "default" ? ` · ${VLABEL[r._vid]}` : ""}</div><button class="circ" data-c="close" aria-label="Close">${ic("x")}</button></div>
         <div class="cook-prog">${r.steps.map((_, k) => `<i class="${k <= i ? "on" : ""}"></i>`).join("")}</div>
         <div class="cook-body"><div class="cook-n">Step ${i + 1} of ${r.steps.length} &nbsp;<span class="stag" style="--tc:${t.colour}">${esc(t.label)}</span></div>
           <div class="cook-txt">${rich(st.text)}</div>
@@ -343,7 +459,7 @@
       else if (c === "next") { i = Math.min(i + 1, r.steps.length - 1); draw(); }
       else if (c === "prev") { i = Math.max(i - 1, 0); draw(); }
       else if (c === "done") { close(); toast("Enjoy your pint! 🍨"); }
-      else if (c === "freeze") { addFreezer(r.slug); }
+      else if (c === "freeze") { addFreezer(r.slug, r._vid); }
     });
     let x0 = null;
     el.addEventListener("touchstart", (e) => { x0 = e.touches[0].clientX; }, { passive: true });
@@ -356,8 +472,8 @@
   }
 
   // ------------------------------------------------------------------ freezer
-  function addFreezer(slug) {
-    S.freezer.push({ id: Date.now().toString(36), slug, ts: Date.now() });
+  function addFreezer(slug, vid) {
+    S.freezer.push(Object.assign({ id: Date.now().toString(36), slug, ts: Date.now() }, vid && vid !== "default" ? { v: vid } : {}));
     save(); updateBadge();
     toast(`Timer started. Ready ${fmtTime(Date.now() + DAY)}`, "View", () => { location.hash = "#/freezer"; });
   }
@@ -369,8 +485,8 @@
       <div class="list" style="margin-top:14px">${items.length ? items.map((p) => {
         const r = R[p.slug], pct = Math.min(1, (now - p.ts) / DAY), ready = pct >= 1;
         const left = p.ts + DAY - now, h = Math.floor(left / 3600000), m = Math.floor((left % 3600000) / 60000);
-        return `<div class="pint ${ready ? "ready" : ""}" style="--tint:${r.tint}"><a class="thumb" href="#/r/${r.slug}"><img src="art/${r.slug}.svg" alt=""></a>
-          <div class="txt"><h4>${esc(r.title)}</h4><div class="when">Frozen ${fmtTime(p.ts)} · ${esc(PROG_LABEL(r.program))}</div>
+        return `<div class="pint ${ready ? "ready" : ""}" style="--tint:${r.tint}"><a class="thumb" href="${recipeHash(r.slug, p.v)}"><img src="art/${r.slug}.svg" alt=""></a>
+          <div class="txt"><h4>${esc(r.title)}</h4><div class="when">Frozen ${fmtTime(p.ts)} · ${esc(PROG_LABEL(V(r, p.v || "default").program))}${p.v && VLABEL[p.v] ? ` · ${VLABEL[p.v]}` : ""}</div>
           <div class="bar"><i style="width:${Math.round(pct * 100)}%"></i></div><div class="state">${ready ? "Ready to spin" : `Ready in ${h} h ${m} min`}</div></div>
           <div class="acts">${ready ? `<button class="go" data-spun="${p.id}">Spun it</button>` : ""}<button data-rm="${p.id}">Remove</button></div></div>`;
       }).join("") : `<div class="empty"><img src="art/section-1.svg" alt=""><h3>Freezer's empty</h3><p>Start a timer from any recipe's Method tab, or log a pint here.</p></div>`}
@@ -420,7 +536,10 @@
     ["method", "Blast to bowl", "The 24 h method + golden rules", "list", "#D0611B"],
     ["pantry", "Pantry checklist", "What to stock, where to buy", "cart", "#0F8077"],
     ["protein", "Protein toolkit", "Whey, Turbo, paneer & more", "bolt", "#3559A8"],
-    ["sweet", "Sweeteners", "And what they do to texture", "sweet", "#C2366B"],
+    ["sweet", "Sweeteners", "Munkito, allulose & a converter", "sweet", "#C2366B"],
+    ["healthy", "Healthier pints", "Gym & diabetic versions, smart swaps", "heartbeat", "#15803D", "variants_legend"],
+    ["hpantry", "Healthy pantry", "What to buy, how to read labels", "leaf", "#0E7490", "healthy_pantry"],
+    ["science", "Texture science", "Why low-sugar pints still scoop", "flask", "#7C3AED", "texture_science"],
     ["custard", "Egg-yolk custard 101", "For the optional egg versions", "egg", "#C98F00"],
     ["trouble", "Troubleshooting", "Powdery, icy, too soft…", "wrench", "#A3324F"],
     ["storage", "Storage & conversions", "Leftovers, cups, grams", "scale", "#5C7F2C"],
@@ -428,12 +547,14 @@
   ];
   function renderGuide(id) {
     const g = BOOK.guide;
+    const topics = TOPICS.filter((t) => !t[5] || g[t[5]]);
     if (!id) {
       view.innerHTML = `<header class="hdr"><div class="eyebrow">Reference</div><h1 class="big-title">Guide</h1><p class="sub">Everything from the front of the printed book.</p></header>
-        <div class="g-list" style="margin-top:12px">${TOPICS.map(([k, t, d, i, c]) => `<a class="g-item" href="#/guide/${k}" style="--gc:${c}"><span class="gi">${ic(i)}</span><div><h4>${esc(t)}</h4><p>${esc(d)}</p></div>${ic("chev", "ic chev")}</a>`).join("")}</div>`;
+        ${HAS_VARIANTS ? `<div class="myver card-ish" style="margin-top:10px">${myverCtl()}</div><p class="myver-note">Recipes open on this version, and lists show its protein and calories.</p>` : ""}
+        <div class="g-list" style="margin-top:12px">${topics.map(([k, t, d, i, c]) => `<a class="g-item" href="#/guide/${k}" style="--gc:${c}"><span class="gi">${ic(i)}</span><div><h4>${esc(t)}</h4><p>${esc(d)}</p></div>${ic("chev", "ic chev")}</a>`).join("")}</div>`;
       return;
     }
-    const topic = TOPICS.find((t) => t[0] === id);
+    const topic = topics.find((t) => t[0] === id);
     if (!topic) return renderGuide();
     let body = "";
     const card = (inner) => `<div class="card">${inner}</div>`;
@@ -441,6 +562,7 @@
       body = g.welcome.paragraphs.map((p) => `<p>${rich(p)}</p>`).join("") +
         `<h3>On a recipe page</h3>${card(`<div class="kv">
           <div><b>Program</b>The CREAMi button to press, colour-coded across the app.</div>
+          ${HAS_VARIANTS ? "<div><b>Default · Gym · Diabetic</b>Every recipe has a leaner, higher-protein Gym version and a no-added-sugar Diabetic version. Switch above the nutrition card, or set My version on the Recipes tab. The printed book shows the Default.</div>" : ""}
           <div><b>Tabs</b>Ingredients you can tick off, a method with tappable steps, tips &amp; swaps, and your own notes.</div>
           <div><b>Cook mode</b>Big-text, one step at a time, with the screen kept awake.</div>
           <div><b>Freezer timer</b>Start it when the pint goes in; the Freezer tab shows when it's ready.</div>
@@ -463,8 +585,31 @@
     } else if (id === "protein") {
       body = `<p>${rich(g.protein_guide.intro)}</p>` + card(`<div class="kv">${g.protein_guide.rows.map((r) => `<div><b>${esc(r.base)}</b><div class="line"><span class="lbl">Protein</span>${esc(r.protein)}</div><div class="line"><span class="lbl">Texture</span>${esc(r.texture)}</div><div class="line"><span class="lbl">Tip</span>${esc(r.tip)}</div></div>`).join("")}</div>`);
     } else if (id === "sweet") {
-      body = `<p>Sugar keeps a pint soft. Swap it out and the pint freezes harder, so expect LITE ICE CREAM and a RE-SPIN.</p>` +
-        card(`<div class="kv">${g.sweetener_guide.map((r) => `<div><b>${esc(r.name)}</b><div class="line"><span class="lbl">vs sugar</span>${esc(r.sweetness)} · <span class="pw">${esc(r.program)}</span></div><div class="line"><span class="lbl">Freezing</span>${esc(r.freeze_effect)}</div><div class="line"><span class="lbl">Tip</span>${esc(r.tip)}</div></div>`).join("")}</div>`);
+      body = `<p>Sugar keeps a pint soft. Swap it out and the pint freezes harder, so expect LITE ICE CREAM and a RE-SPIN. Allulose (Munkito Monk Sweet + Allulose 1:1) is the exception: it keeps pints soft without sugar.</p>
+        <h3>Sugar to Munkito converter</h3>${card(`<div class="conv-tool"><label class="sc-in"><input id="sc-g" type="number" inputmode="decimal" min="0" step="5" value="60" aria-label="Sugar in grams"><span>g sugar</span></label>
+          <div class="seg"><button data-sconv="lite" class="on">Lite / protein</button><button data-sconv="full">Full-fat / cream</button></div>
+          <div class="sc-out" id="sc-out"></div></div>`)}
+        <h3>Sweeteners compared</h3>` +
+        card(`<div class="kv">${g.sweetener_guide.map((r) => `<div><b>${esc(r.name)}${r.diabetic_ok === true ? ' <span class="okb">Diabetic OK</span>' : r.diabetic_ok === false ? ' <span class="okb no">Not for diabetics</span>' : ""}</b><div class="line"><span class="lbl">vs sugar</span>${esc(r.sweetness)} · <span class="pw">${esc(r.program)}</span></div><div class="line"><span class="lbl">Freezing</span>${esc(r.freeze_effect)}</div><div class="line"><span class="lbl">Tip</span>${esc(r.tip)}</div></div>`).join("")}</div>`);
+    } else if (id === "healthy") {
+      const L = g.variants_legend, sw = g.healthier_swaps;
+      const vcard = (k, x) => x ? `<div class="vcard v-${k}"><div class="vh">${ic(k === "gym" ? "bolt" : "sweet")}<b>${VLABEL[k]}</b></div><p>${rich(x.goal)}</p>${(x.rules || []).length ? `<ul>${x.rules.map((t) => `<li>${rich(t)}</li>`).join("")}</ul>` : ""}</div>` : "";
+      body = `${L.intro ? `<p>${rich(L.intro)}</p>` : ""}
+        ${HAS_VARIANTS ? `<div class="myver card-ish" style="margin:14px 0 0">${myverCtl()}</div>` : ""}
+        <div class="vcards">${vcard("gym", L.gym)}${vcard("diabetic", L.diabetic)}</div>
+        ${L.disclaimer ? `<p class="disc">${rich(L.disclaimer)}</p>` : ""}
+        ${sw && (sw.rows || []).length ? `<h3>${esc(sw.title || "Healthier swaps")}</h3>${card(`<div class="kv">${sw.rows.map((x) => `<div><div class="swap-l"><s>${esc(x.out)}</s>${ic("chev", "ic")}<b>${esc(x.in)}</b></div>
+          <div class="line"><span class="lbl">Effect</span>${rich(x.effect)}</div>${x.saves ? `<div class="line"><span class="lbl">Saves</span>${esc(x.saves)}</div>` : ""}</div>`).join("")}</div>`)}` : ""}
+        ${HAS_VARIANTS ? `<h3>Diabetic-friendly recipes</h3><div class="list" style="padding:0">${ORDER.filter((k) => diabeticOk(R[k])).map((k) => row(R[k])).join("")}</div>` : ""}`;
+    } else if (id === "hpantry") {
+      const hp = g.healthy_pantry, lr = g.label_reading;
+      body = `${hp.intro ? `<p>${rich(hp.intro)}</p>` : ""}` + card(`<div class="kv">${(hp.items || []).map((x) => `<div><b>${esc(x.name)}${x.diabetic_ok ? ' <span class="okb">Diabetic OK</span>' : ""}</b>
+          ${x.brand ? `<div class="line"><span class="lbl">Buy</span>${esc(x.brand)}</div>` : ""}<div class="line"><span class="lbl">Why</span>${rich(x.why)}</div>
+          <div class="line"><span class="lbl">Use</span>${rich(x.use)}</div>${x.where ? `<span class="where">${esc(x.where)}</span>` : ""}</div>`).join("")}</div>`) +
+        (lr ? `<h3>${esc(lr.title || "Reading labels")}</h3>${lr.intro ? `<p>${rich(lr.intro)}</p>` : ""}${card(`<div class="kv">${(lr.rows || []).map((x) => `<div><b>${esc(x.code)}</b><div class="line">${rich(x.what)}</div><div class="line"><span class="lbl">Verdict</span>${rich(x.verdict)}</div></div>`).join("")}</div>`)}` : "");
+    } else if (id === "science") {
+      const ts = g.texture_science;
+      body = `${ts.intro ? `<p>${rich(ts.intro)}</p>` : ""}` + card((ts.points || []).map((x, i) => `<div class="rule"><span class="n">${i + 1}</span><div><b>${esc(x.h)}</b><br>${rich(x.text)}</div></div>`).join(""));
     } else if (id === "custard") {
       const steps = [["Whisk", "Yolks and sugar together until pale and thick, about 1 minute."],
         ["Temper", "Heat the milk until steaming, not boiling. Pour a ladleful into the yolks while whisking, then the rest."],
@@ -491,10 +636,22 @@
       <div class="g-body">${body}</div>`;
     const imp = $("#import");
     if (imp) imp.addEventListener("change", () => importData(imp.files[0]));
+    const sg = $("#sc-g");
+    if (sg) { sg.addEventListener("input", sweetConv); sweetConv(); }
+  }
+  // Sugar grams -> Munkito Monk Sweet + Allulose 1:1 grams (1.0x in lite pints, ~0.78x in full-fat pints).
+  function sweetConv() {
+    const inp = $("#sc-g"), out = $("#sc-out");
+    if (!inp || !out) return;
+    const full = !!$('[data-sconv="full"].on'), g = Math.max(0, parseFloat(inp.value) || 0);
+    const m = Math.round(g * (full ? 0.78 : 1));
+    out.innerHTML = `<div class="sc-res"><b>${m} g</b><span>Munkito Monk Sweet + Allulose 1:1</span></div>
+      <p>${full ? "Full-fat and cream-rich pints turn soupy with a 1:1 swap, so use about 78% of the sugar weight. Top up with a few drops of Munkito liquid monk fruit if needed." : "Lite and protein pints swap 1:1 by weight."}
+      Keep it to about 60 g per pint so a half-pint serving stays under ~30 g; more can upset the stomach.${m > 60 ? ' <b class="warn">That\'s more than 60 g for one pint.</b>' : ""}</p>`;
   }
 
   async function exportData() {
-    const blob = new Blob([JSON.stringify({ app: "pint-perfect", v: 1, at: new Date().toISOString(), data: S }, null, 1)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify({ app: "pint-perfect", v: 2, at: new Date().toISOString(), data: S }, null, 1)], { type: "application/json" });
     const name = `pint-perfect-backup-${new Date().toISOString().slice(0, 10)}.json`;
     const file = new File([blob], name, { type: "application/json" });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
@@ -509,7 +666,7 @@
     file.text().then((t) => {
       const j = JSON.parse(t);
       if (j.app !== "pint-perfect" || !j.data) throw new Error("bad");
-      S = Object.assign({}, DEFAULTS, j.data); save(); updateBadge();
+      S = migrate(j.data); save(); updateBadge();
       toast("Backup restored"); route(true);
     }).catch(() => toast("That doesn't look like a Pint Perfect backup"));
   }
@@ -529,8 +686,9 @@
   document.addEventListener("click", (e) => {
     const t = e.target;
     const act = t.closest("[data-act]");
-    const slug = (location.hash.match(/^#\/r\/(.+)$/) || [])[1];
+    const slug = (location.hash.match(/^#\/r\/([^?]+)/) || [])[1];
     const r = slug && R[decodeURIComponent(slug)];
+    const rv = r && V(r, VID);
     if (act) {
       const a = act.dataset.act;
       if (a === "back") goBack();
@@ -540,26 +698,35 @@
         if (S.favs[r.slug]) delete S.favs[r.slug]; else S.favs[r.slug] = Date.now();
         save(); act.classList.toggle("faved", !!S.favs[r.slug]); toast(S.favs[r.slug] ? "Saved" : "Removed from saved");
       } else if (a === "share" && r) {
-        const url = location.href;
-        if (navigator.share) navigator.share({ title: r.title, text: `${r.title}: ${r.subtitle}`, url }).catch(() => {});
+        const url = location.href.split("#")[0] + recipeHash(r.slug, VID);
+        const vt = VID !== "default" ? ` (${VLABEL[VID]} version)` : "";
+        if (navigator.share) navigator.share({ title: r.title + vt, text: `${r.title}${vt}: ${r.subtitle}`, url }).catch(() => {});
         else navigator.clipboard?.writeText(url).then(() => toast("Link copied"));
-      } else if (a === "clear-ticks" && r) { delete S.ticks[r.slug]; save(); renderPanel(r); }
-      else if (a === "clear-done" && r) { delete S.done[r.slug]; save(); renderPanel(r); }
+      } else if (a === "clear-ticks" && r) { delete S.ticks[tkey(r.slug, rv._vid)]; save(); renderPanel(r); }
+      else if (a === "clear-done" && r) { delete S.done[tkey(r.slug, rv._vid)]; save(); renderPanel(r); }
       else if (a === "tab-method" && r) { setTab("method", r); }
-      else if (a === "cook" && r) cookMode(r);
-      else if (a === "freeze" && r) addFreezer(r.slug);
+      else if (a === "cook" && r) cookMode(rv);
+      else if (a === "freeze" && r) addFreezer(r.slug, rv._vid);
       else if (a === "made" && r) { (S.made[r.slug] = S.made[r.slug] || []).push(Date.now()); save(); renderPanel(r); toast("Logged. Nice pint!"); }
       else if (a === "shoplist" && r) {
-        const ticks = new Set(S.ticks[r.slug] || []);
-        const need = [...r.ingredients.map((x, i) => ["i" + i, x]), ...(r.mixins || []).map((x, i) => ["m" + i, x])].filter(([k]) => !ticks.has(k));
-        const text = `${r.title}: shopping list\n` + need.map(([, x]) => `• ${x.item} (${x.qty})`).join("\n");
+        const ticks = new Set(S.ticks[tkey(r.slug, rv._vid)] || []);
+        const need = [...ingList(rv).map((x, i) => ["i" + i, x]), ...(rv.mixins || []).map((x, i) => ["m" + i, x])].filter(([k]) => !ticks.has(k));
+        const text = `${r.title}${rv._vid !== "default" ? ` (${VLABEL[rv._vid]})` : ""}: shopping list\n` + need.map(([, x]) => `• ${x.item} (${x.qty})`).join("\n");
         if (navigator.share) navigator.share({ title: `${r.title} shopping list`, text }).catch(() => {});
         else navigator.clipboard?.writeText(text).then(() => toast("List copied"));
       } else if (a === "log-pint") pickSheet((s) => { addFreezer(s); renderFreezer(); });
       else if (a === "export") exportData();
-      else if (a === "reset") { if (confirm("Erase saved recipes, ratings, notes and freezer log on this phone?")) { S = { ...DEFAULTS }; save(); updateBadge(); toast("All data erased"); route(true); } }
+      else if (a === "reset") { if (confirm("Erase saved recipes, ratings, notes and freezer log on this phone?")) { S = migrate({}); save(); updateBadge(); toast("All data erased"); route(true); } }
       return;
     }
+    const mv = t.closest("[data-myver]");
+    if (mv) { if (mv.dataset.myver !== S.myver) setMyver(mv.dataset.myver); return; }
+    const vb = t.closest("[data-ver]");
+    if (vb && r) { setVersion(r, vb.dataset.ver); return; }
+    const gb = t.closest("[data-gum]");
+    if (gb && r) { if (gb.dataset.gum === "1") S.gum[r.slug] = true; else delete S.gum[r.slug]; save(); renderPanel(r); return; }
+    const sc = t.closest("[data-sconv]");
+    if (sc) { $$("[data-sconv]").forEach((b) => b.classList.toggle("on", b === sc)); sweetConv(); return; }
     const f = t.closest("[data-f]"), p = t.closest("[data-p]");
     if (f || p) {
       const set = f ? HOME.f : HOME.p, k = f ? f.dataset.f : p.dataset.p;
@@ -574,18 +741,18 @@
     if (per && r) { S.per = per.dataset.per; save(); renderNutri(r); return; }
     const tick = t.closest("[data-tick]");
     if (tick && r) {
-      const set = new Set(S.ticks[r.slug] || []), k = tick.dataset.tick;
+      const tk = tkey(r.slug, rv._vid), set = new Set(S.ticks[tk] || []), k = tick.dataset.tick;
       set.has(k) ? set.delete(k) : set.add(k);
-      S.ticks[r.slug] = [...set]; save(); tick.classList.toggle("on");
+      S.ticks[tk] = [...set]; save(); tick.classList.toggle("on");
       const h = tick.closest(".card")?.querySelector(".card-h");
       if (h && !h.querySelector("button") && set.size && h.textContent.includes("Ingredients")) h.insertAdjacentHTML("beforeend", '<button data-act="clear-ticks">Clear ticks</button>');
       return;
     }
     const step = t.closest("[data-step]");
     if (step && r) {
-      const set = new Set(S.done[r.slug] || []), k = +step.dataset.step;
+      const dk = tkey(r.slug, rv._vid), set = new Set(S.done[dk] || []), k = +step.dataset.step;
       set.has(k) ? set.delete(k) : set.add(k);
-      S.done[r.slug] = [...set]; save(); renderPanel(r); return;
+      S.done[dk] = [...set]; save(); renderPanel(r); return;
     }
     const star = t.closest("[data-star]");
     if (star && r) { const n = +star.dataset.star; S.ratings[r.slug] = S.ratings[r.slug] === n ? 0 : n; save(); renderPanel(r); return; }
@@ -638,8 +805,9 @@
     }
     const prevTop = current && TOP.includes(current);
     current = h;
-    const parts = h.slice(2).split("/");
-    if (parts[0] === "r") { if (!back && !keep) TAB = "ing"; renderRecipe(decodeURIComponent(parts[1])); }
+    const [path, qs] = h.slice(2).split("?");
+    const parts = path.split("/");
+    if (parts[0] === "r") { if (!back && !keep) TAB = "ing"; renderRecipe(decodeURIComponent(parts[1] || ""), new URLSearchParams(qs || "").get("v")); }
     else if (parts[0] === "s") renderSection(+parts[1]);
     else if (parts[0] === "saved") renderSaved();
     else if (parts[0] === "freezer") renderFreezer();
@@ -696,6 +864,7 @@
     const names = Object.keys(book.programs).sort((a, b) => b.length - a.length).concat(["MAX FILL"]);
     PW_RE = new RegExp("(?<![A-Za-z-])(" + names.map((n) => n.replace(/[-]/g, "\\-")).join("|") + ")(?![A-Za-z-])", "g");
     book.sections.forEach((s) => { SECT[s.num] = s; });
+    HAS_VARIANTS = book.recipes.some((r) => r.versions && Object.keys(r.versions).length);
     book.recipes.forEach((r) => { R[r.slug] = r; ORDER.push(r.slug); indexRecipe(r); });
     updateBadge();
     setInterval(() => { updateBadge(); if (location.hash === "#/freezer" && !$("#sheet-root").innerHTML) renderFreezer(); }, 30000);

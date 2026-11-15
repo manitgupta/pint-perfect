@@ -1,6 +1,6 @@
 # Pint Perfect
 
-50 Ninja CREAMi (NC300IN) + Ninja Blast recipes for the Indian kitchen, as a printable PDF and an offline iPhone app. Both are generated from the same recipe data.
+60 Ninja CREAMi (NC300IN) + Ninja Blast recipes for the Indian kitchen, as a printable PDF and an offline iPhone app. Both are generated from the same recipe data. Every recipe also has a Gym and a Diabetic version, shown in the app (the PDF prints the Default).
 
 - **App:** https://manitgupta.github.io/pint-perfect/
 - **PDFs:** `Pint-Perfect-Ninja-Creami-Recipes.pdf` (single-sided) and `Pint-Perfect-Ninja-Creami-Recipes-duplex.pdf` (double-sided)
@@ -9,7 +9,9 @@
 
 | Path | What it is |
 |---|---|
-| `data/s1_whey.json` … `s6_sorbet.json` | The 50 recipes, one file per section, in book order |
+| `data/s1_whey.json` … `s7_milk.json` | The 60 recipes, one file per section, in book order |
+| `data/VARIANTS.md` | Gym / Diabetic variant format, goals and Munkito dosing |
+| `build/variants.py`, `validate.py` | Variant resolver, and the data checker (`python3 build/validate.py`) |
 | `data/frontmatter.json` | Guide pages: programs, Blast tips, golden rules, pantry, protein & sweetener guides, troubleshooting, storage, conversions |
 | `build/build.py`, `book.css`, `fit.js`, `art.py` | PDF builder (HTML → headless Chrome). `art.py` draws the ice-cream illustrations |
 | `build/build_app.py`, `deploy_app.sh` | App builder and deploy script |
@@ -23,13 +25,14 @@ Requirements: macOS with Google Chrome installed (used headless for the PDF and 
 
 ### Edit or add a recipe
 
-1. Edit the recipe in `data/sN_*.json` (format below).
-2. Rebuild and check the PDF still fits one page per recipe:
+1. Edit the recipe in `data/sN_*.json` (format below), including its `variants` (see `data/VARIANTS.md`).
+2. Check the data: `python3 build/validate.py` must show 0 errors.
+3. Rebuild and check the PDF still fits one page per recipe:
    ```sh
    ./build/check.sh          # lists pages whose text was shrunk to fit; below ~0.85 is getting small
    python3 build/build.py && python3 build/build.py --duplex
    ```
-3. Publish the app and commit everything:
+4. Publish the app and commit everything:
    ```sh
    ./build/deploy_app.sh     # rebuilds docs/, commits docs/ only, pushes; live in ~1 min
    git add -A && git commit -m "Update recipes" && git push   # data, PDFs and anything else

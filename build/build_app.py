@@ -14,28 +14,40 @@ import subprocess
 from pathlib import Path
 
 from art import illustration, legible, lighten, darken
-from build import SECTIONS, PROGRAM_COLOURS, STEP_TAGS, CHROME, load
+from build import SECTIONS, PROGRAM_COLOURS, STEP_TAGS, CHROME, load, page_plan
+from variants import VARIANTS, VariantError, resolve
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "app_src"
 OUT = ROOT / "docs"
 
 
-def book_pages(sections):
-    """Mirror build.py's pagination so the app can point at printed pages."""
-    page = 2 + 7
-    pages = {}
-    for s in sections:
-        page += 1
-        for r in s["recipes"]:
-            page += 1
-            pages[r["num"]] = page
-    return pages
+VERSION_FIELDS = ("program", "respin", "tags", "ingredients", "mixins", "steps", "nutrition_per_pint", "why", "gum_option")
+
+
+def versions(r):
+    """Pre-resolve the Gym / Diabetic variants into just the fields the app swaps."""
+    out = {}
+    for vid in VARIANTS:
+        v = (r.get("variants") or {}).get(vid)
+        if not v:
+            continue
+        if v.get("unsuitable"):
+            out[vid] = dict(unsuitable=True, why=v.get("why", ""), **({"try": v["try"]} if v.get("try") else {}))
+            continue
+        try:
+            full = resolve(r, vid)
+        except (VariantError, KeyError, TypeError, IndexError) as ex:
+            print(f"warning: skipping {r['slug']}/{vid}: {ex}")
+            continue
+        if full:
+            out[vid] = {k: full[k] for k in VERSION_FIELDS if k in full}
+    return out
 
 
 def main():
     sections, fm = load()
-    pages = book_pages(sections)
+    pages = page_plan(sections, fm)[0]
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "art").mkdir(parents=True)
@@ -62,7 +74,10 @@ def main():
             (OUT / "art" / f"{r['slug']}.svg").write_text(
                 illustration(r["program"], base, accent, deep, seed=r["num"],
                              has_mixins=bool(r.get("mixins")), protein=is_protein))
-            rec = {k: v for k, v in r.items() if k not in ("section", "colors")}
+            rec = {k: v for k, v in r.items() if k not in ("section", "colors", "variants")}
+            vers = versions(r)
+            if vers:
+                rec["versions"] = vers
             rec.update(section=s["num"], page=pages[r["num"]],
                        base=base, accent=accent, deep=deep,
                        tint=lighten(base, 0.8), tint2=lighten(base, 0.9))

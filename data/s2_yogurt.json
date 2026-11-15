@@ -40,7 +40,7 @@
       {
         "qty": "20 g (1½ tbsp)",
         "item": "powdered sugar",
-        "note": "or 4 spoons Sugar Free Natura (sucralose)"
+        "note": "or Munkito Monk Sweet + Allulose 1:1"
       },
       {
         "qty": "45 ml (3 tbsp)",
@@ -98,9 +98,146 @@
       "kcal": 540,
       "protein_g": 44,
       "carbs_g": 72,
-      "fat_g": 8
+      "fat_g": 8,
+      "added_sugar_g": 32
     },
-    "shop_note": "Alphonso pulp: Swad or Ratna's on Blinkit, Zepto, Amazon. Kesar: Baby Brand or Lion. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Alphonso pulp: Swad or Ratna's on Blinkit, Zepto, Amazon. Kesar: Baby Brand or Lion. Xanthan: Urban Platter, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skyr replaces Greek yogurt for more protein and almost no fat; fresh mango and Munkito replace sweetened tinned pulp and sugar. Allulose keeps the scoop soft, xanthan keeps it silky.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Greek Yogurt",
+              "qty": "220 g (2 × 100 g cups + 2 tbsp)",
+              "item": "Milky Mist Skyr Natural",
+              "note": "or Epigamia Turbo Natural"
+            },
+            {
+              "match": "mango pulp",
+              "qty": "150 g (1 cup chopped)",
+              "item": "ripe mango, fresh or frozen, chopped",
+              "note": "Alphonso or Kesar; tinned pulp is sweetened"
+            },
+            {
+              "match": "powdered sugar",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ]
+        },
+        "steps": {
+          "insert": [
+            {
+              "after": 0,
+              "tag": "PREP",
+              "text": "Peel and chop the mango. Frozen mango chunks work too; thaw them 10 min so the Blast can purée them."
+            }
+          ],
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend skyr, mango, milk, saffron milk, Munkito, cardamom, whey and xanthan in the Ninja Blast: two 45 s cycles, until silky."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 375,
+          "protein_g": 50,
+          "carbs_g": 36,
+          "fat_g": 4,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Plain skyr, 100 g fresh mango, unflavoured whey and Munkito: no added sugar and half the fat. Skyr gives shrikhand body; allulose stops it freezing rock hard without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Greek Yogurt",
+              "qty": "250 g (2½ × 100 g cups)",
+              "item": "Milky Mist Skyr Natural",
+              "note": "plain, or Epigamia Turbo Natural"
+            },
+            {
+              "match": "mango pulp",
+              "qty": "100 g (⅔ cup chopped)",
+              "item": "ripe mango, fresh or frozen, chopped",
+              "note": "not tinned pulp, which is sweetened"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw"
+            },
+            {
+              "match": "powdered sugar",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "toned milk",
+              "qty": "45 ml (3 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "insert": [
+            {
+              "after": 0,
+              "tag": "PREP",
+              "text": "Peel and chop the mango. Frozen mango chunks work too; thaw them 10 min so the Blast can purée them."
+            }
+          ],
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend skyr, mango, skimmed milk, saffron milk, Munkito, cardamom and whey in the Ninja Blast: two 45 s cycles, until silky."
+            },
+            {
+              "i": 3,
+              "tag": "SPIN",
+              "text": "Flatten any hump, then run LITE ICE CREAM. Without gum it can spin crumbly: add 1 tbsp milk and RE-SPIN, up to twice."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 365,
+          "protein_g": 57,
+          "carbs_g": 29,
+          "fat_g": 2,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "epigamia-turbo-chocolate-pint",
@@ -132,8 +269,8 @@
       },
       {
         "qty": "150 g (⅔ cup)",
-        "item": "Epigamia Turbo Natural yogurt (50 g protein tub)",
-        "note": "or Milky Mist Skyr Natural"
+        "item": "Epigamia Turbo Natural protein yogurt",
+        "note": "unsweetened; 430 g tub = 50 g protein"
       },
       {
         "qty": "5 g (1 tbsp)",
@@ -183,9 +320,132 @@
       "kcal": 250,
       "protein_g": 43,
       "carbs_g": 18,
-      "fat_g": 1
+      "fat_g": 1,
+      "added_sugar_g": 0
     },
-    "shop_note": "Turbo shakes and the 430 g Turbo yogurt tub (50 g protein): Blinkit, Zepto, Instamart. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Turbo shakes and the 430 g Turbo yogurt tub (50 g protein): Blinkit, Zepto, Instamart. Xanthan gum: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Already lean and high-protein. Milk powder adds body and protein without fat; a little Munkito is mainly for softness, as allulose lowers the freezing point, so fewer re-spins.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "add": [
+            {
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder",
+              "after": "cocoa"
+            },
+            {
+              "qty": "20 g (1½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose",
+              "after": "milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Shake the bottle well. Blend the shake, yogurt, cocoa, milk powder, Munkito and xanthan in the Ninja Blast for 30–40 s."
+            },
+            {
+              "i": 1,
+              "tag": "FREEZE",
+              "text": "Rest 2–3 min for the foam to settle, then pour into the pint (about 425 ml, under MAX FILL). Lid on; freeze level for 24 h."
+            },
+            {
+              "i": 3,
+              "tag": "RESPIN",
+              "text": "Milk powder and allulose make it far less powdery. If needed, add 1 tbsp milk and RE-SPIN once until glossy."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "No Added Sugar",
+          "No-Cook",
+          "Eggless"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 320,
+          "protein_g": 50,
+          "carbs_g": 28,
+          "fat_g": 1,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Plain Amul High Protein Milk replaces the flavoured shake (which hides sucralose); extra cocoa and Munkito bring back the chocolate. Allulose keeps this gum-free, lean pint scoopable.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Turbo Chocolate",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "plain, 35 g protein; not the flavoured shakes"
+            },
+            {
+              "match": "cocoa",
+              "qty": "12 g (2 tbsp)",
+              "item": "pure cocoa powder",
+              "note": "Hershey's or Cadbury, no sugar"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose",
+              "after": "cocoa"
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend the protein milk, yogurt, cocoa and Munkito in the Ninja Blast for 30–40 s, until no cocoa specks remain."
+            },
+            {
+              "i": 1,
+              "tag": "FREEZE",
+              "text": "Rest 2–3 min for the foam to settle, then pour into the pint (about 430 ml, under MAX FILL). Lid on; freeze level for 24 h."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Eat from the pint, or grate over a little Amul 99% cacao dark chocolate."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 355,
+          "protein_g": 56,
+          "carbs_g": 28,
+          "fat_g": 2,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "mixed-berry-greek-froyo",
@@ -271,15 +531,145 @@
     "swaps": [
       "Strawberry: use 160 g frozen or fresh strawberries and 1 tbsp more honey.",
       "Turbo: swap the skyr for a 140 g Epigamia Turbo Mixed Berries cup plus 60 g Turbo Natural.",
-      "Sugar-free: replace the honey with 6 spoons Sugar Free Natura plus 1 tbsp milk; run LITE ICE CREAM instead."
+      "Sugar-free: replace the honey with 45 g Munkito Monk Sweet + Allulose; run LITE ICE CREAM instead."
     ],
     "nutrition_per_pint": {
       "kcal": 375,
       "protein_g": 36,
       "carbs_g": 52,
-      "fat_g": 3
+      "fat_g": 3,
+      "added_sugar_g": 24
     },
-    "shop_note": "Frozen berries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Milky Mist Skyr: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Frozen berries: Pluckk, Delishh or RealFrost on Blinkit/Zepto. Milky Mist Skyr: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Munkito replaces the honey and a full scoop of whey lifts protein. Allulose keeps the froyo soft and xanthan stops iciness, but it now runs best on LITE ICE CREAM.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1–2 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "honey",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "vanilla whey protein",
+              "note": "MuscleBlaze, ON or Avvatar"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the berries and juice, skyr, milk, Munkito, whey and xanthan in the Ninja Blast for 45–60 s until no chunks remain."
+            },
+            {
+              "i": 3,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. If the edges are crumbly, add 1–2 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 325,
+          "protein_g": 48,
+          "carbs_g": 26,
+          "fat_g": 3,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Fewer berries, more plain skyr, skimmed milk, unflavoured whey and Munkito instead of honey. Skyr carries the body and allulose keeps it soft without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1–2 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "mixed berries",
+              "qty": "120 g (1 cup)",
+              "item": "frozen mixed berries, thawed 15 min",
+              "note": "unsweetened IQF pack, e.g. Pluckk"
+            },
+            {
+              "match": "Skyr",
+              "qty": "250 g (2½ × 100 g cups)",
+              "item": "Milky Mist Skyr Natural",
+              "note": "plain, or Epigamia Turbo Natural"
+            },
+            {
+              "match": "toned milk",
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "honey",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "whey",
+              "qty": "15 g (½ scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the berries and juice, skyr, skimmed milk, Munkito and whey in the Ninja Blast for 45–60 s until no chunks remain."
+            },
+            {
+              "i": 3,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. Gum-free, the edges may be crumbly: add 1–2 tbsp milk and RE-SPIN, up to twice."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve as a froyo cup or a breakfast bowl with fresh berries and a few toasted almonds."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 270,
+          "protein_g": 42,
+          "carbs_g": 23,
+          "fat_g": 1,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "rasmalai-paneer-protein-ice-cream",
@@ -380,7 +770,7 @@
       "Leftovers: flatten the top, refreeze, and re-spin before serving again."
     ],
     "swaps": [
-      "Lower sugar: replace the condensed milk with 30 g milk powder and 7 spoons Sugar Free Natura; expect one more re-spin.",
+      "Lower sugar: replace the condensed milk with 25 g milk powder and 45 g Munkito Monk Sweet + Allulose.",
       "Angoori: MIX-IN 2 chopped Haldiram's rasgullas, squeezed dry, with the pistachios.",
       "Regular paneer: use 200 g fresh malai paneer plus 15 g unflavoured whey; rest the base 2–3 min for the foam to settle."
     ],
@@ -388,9 +778,153 @@
       "kcal": 740,
       "protein_g": 64,
       "carbs_g": 54,
-      "fat_g": 30
+      "fat_g": 30,
+      "added_sugar_g": 26
     },
-    "shop_note": "Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket. Kewra water: kirana or Amazon. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket. Kewra water: kirana or Amazon. Xanthan: Urban Platter, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Milk powder and Munkito replace condensed milk; skimmed milk cuts fat. Paneer still gives the rasmalai body and allulose keeps it soft. Fat (16 g) is mostly paneer and pistachio.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "180 ml (¾ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "condensed",
+              "qty": "25 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "condensed-milk body without sugar"
+            }
+          ],
+          "add": [
+            {
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose",
+              "after": "milk powder"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "pistachios",
+              "qty": "8 g (1 tbsp)",
+              "item": "unsalted pistachios, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Add milk powder, Munkito, saffron milk, cardamom, kewra and xanthan; blend 30 s more."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 550,
+          "protein_g": 68,
+          "carbs_g": 33,
+          "fat_g": 16,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Less paneer, skimmed milk and milk powder halve the fat; Munkito replaces condensed milk. Fully blended paneer plus milk powder keeps it creamy, and allulose softens it without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Paneer",
+              "qty": "150 g",
+              "item": "Amul High Protein Paneer, room temperature",
+              "note": "blend until completely smooth"
+            },
+            {
+              "match": "toned milk",
+              "qty": "200 ml (¾ cup + 1 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "condensed",
+              "qty": "25 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "condensed-milk body without sugar"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose",
+              "after": "milk powder"
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "pistachios",
+              "qty": "8 g (1 tbsp)",
+              "item": "unsalted pistachios, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the paneer with the 200 ml milk in the Ninja Blast, two or three 60 s cycles, until completely smooth."
+            },
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Add milk powder, Munkito, saffron milk, cardamom and kewra; blend 30 s more."
+            },
+            {
+              "i": 4,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. Gum-free, it may spin chalky: add 1 tbsp milk and RE-SPIN, up to twice."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 460,
+          "protein_g": 55,
+          "carbs_g": 31,
+          "fat_g": 13,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "amul-protein-shake-pint-hack",
@@ -468,9 +1002,125 @@
       "kcal": 276,
       "protein_g": 40,
       "carbs_g": 24,
-      "fat_g": 2
+      "fat_g": 2,
+      "added_sugar_g": 0
     },
-    "shop_note": "Amul High Protein Blueberry Shake: Blinkit, Zepto, Instamart, BigBasket or shop.amul.com. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Amul High Protein Blueberry Shake: Blinkit, Zepto, Instamart, BigBasket or shop.amul.com. Xanthan gum: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Already lean and sugar-free. Milk powder replaces the optional cream, adding protein and body without fat, so the pint spins creamier with fewer re-spins.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Shake the cartons and blend both with the milk powder and xanthan in the Ninja Blast for 30 s, until no powder lumps remain."
+            },
+            {
+              "i": 3,
+              "tag": "RESPIN",
+              "text": "Milk powder cuts the powderiness. If needed, add 1 tbsp milk and RE-SPIN once."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Lazy 3-Ingredient",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 340,
+          "protein_g": 47,
+          "carbs_g": 34,
+          "fat_g": 2,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Flavoured shakes hide sucralose, so use plain Amul High Protein Milk with real blueberries, unsweetened Turbo yogurt and Munkito. Yogurt adds body and allulose keeps it soft without gum.",
+        "respin": "Usually 2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Blueberry Shake",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "plain, 35 g protein; not the flavoured shakes"
+            }
+          ],
+          "remove": [
+            "xanthan",
+            "Fresh Cream"
+          ],
+          "add": [
+            {
+              "qty": "80 g (½ cup)",
+              "item": "blueberries, fresh or frozen",
+              "note": "Blinkit/Zepto punnet or frozen pack"
+            },
+            {
+              "qty": "80 g (⅓ cup)",
+              "item": "Epigamia Turbo Natural protein yogurt",
+              "note": "unsweetened, or Milky Mist Skyr"
+            },
+            {
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend the protein milk, blueberries, yogurt and Munkito in the Ninja Blast for 45 s, until smooth and purple."
+            },
+            {
+              "i": 3,
+              "tag": "RESPIN",
+              "text": "Lean, gum-free bases need this: add 1 tbsp milk and RE-SPIN; repeat once if still powdery."
+            },
+            {
+              "i": 4,
+              "tag": "SERVE",
+              "text": "Serve plain or with a few fresh blueberries."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 320,
+          "protein_g": 45,
+          "carbs_g": 33,
+          "fat_g": 1,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "honey-anjeer-greek-froyo",
@@ -575,9 +1225,147 @@
       "kcal": 620,
       "protein_g": 35,
       "carbs_g": 85,
-      "fat_g": 17
+      "fat_g": 17,
+      "added_sugar_g": 24
     },
-    "shop_note": "Dried figs: Happilo or Nutraj on Blinkit or Amazon. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Dried figs: Happilo or Nutraj on Blinkit or Amazon. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Munkito replaces honey; milk powder replaces cream, adding protein without fat. The figs still bring jammy sweetness, and allulose plus xanthan stop the lean base going icy.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "honey",
+              "qty": "30 g (2½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the figs and their milk in the Ninja Blast for 40 s. Add yogurt, Munkito, milk powder and xanthan; blend 20 s more."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve with a few walnut halves or a slice of fresh fig."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 515,
+          "protein_g": 41,
+          "carbs_g": 70,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Dried figs concentrate sugar, so use half as many and skip the fig mix-in; Munkito replaces honey, milk powder replaces cream. Milk powder and allulose keep it smooth without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "stems snipped",
+              "qty": "25 g (2–3 figs)",
+              "item": "dried anjeer, stems snipped, chopped",
+              "note": "Happilo, Nutraj or loose"
+            },
+            {
+              "match": "toned milk",
+              "qty": "130 ml (½ cup + 1 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "honey",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "mixins": {
+          "remove": [
+            "anjeer"
+          ],
+          "replace": [
+            {
+              "match": "walnuts",
+              "qty": "10 g (1½ tbsp)",
+              "item": "walnuts, chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the figs and their milk in the Ninja Blast for 40 s. Add yogurt, Munkito and milk powder; blend 20 s more."
+            },
+            {
+              "i": 3,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. Gum-free, it may be crumbly: add 1 tbsp milk and RE-SPIN, up to twice."
+            },
+            {
+              "i": 4,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the walnuts, and run MIX-IN."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve with a couple of walnut halves on top."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 395,
+          "protein_g": 41,
+          "carbs_g": 43,
+          "fat_g": 6,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "pina-colada-protein-froyo",
@@ -625,7 +1413,7 @@
       {
         "qty": "20 g (1½ tbsp)",
         "item": "sugar",
-        "note": "or 4 spoons Sugar Free Natura (sucralose)"
+        "note": "or Munkito Monk Sweet + Allulose 1:1"
       },
       {
         "qty": "1 pinch",
@@ -679,9 +1467,157 @@
       "kcal": 605,
       "protein_g": 39,
       "carbs_g": 55,
-      "fat_g": 26
+      "fat_g": 26,
+      "added_sugar_g": 20
     },
-    "shop_note": "Coconut milk: Dabur Hommade or Real Thai on Blinkit, Zepto, BigBasket. Xanthan gum: Urban Platter on Amazon."
+    "shop_note": "Coconut milk: Dabur Hommade or Real Thai on Blinkit, Zepto, BigBasket. Xanthan gum: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Half the coconut milk (topped up with skimmed milk), fat-free Turbo yogurt and Munkito instead of sugar. Coconut flavour stays; whey, xanthan and allulose keep the scoop smooth.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Greek Yogurt",
+              "qty": "150 g (⅔ cup)",
+              "item": "Epigamia Turbo Natural protein yogurt",
+              "note": "or Milky Mist Skyr Natural"
+            },
+            {
+              "match": "coconut milk",
+              "qty": "40 ml (2½ tbsp)",
+              "item": "coconut milk",
+              "note": "Dabur Hommade or Real Thai"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "coconut milk"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend pineapple, yogurt, coconut milk, skimmed milk, Munkito and salt in the Ninja Blast for 30 s. Add whey and xanthan; blend 20 s more."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 445,
+          "protein_g": 46,
+          "carbs_g": 32,
+          "fat_g": 15,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Less pineapple, half the coconut milk, unsweetened Turbo yogurt, unflavoured whey and Munkito: no added sugar, under half the fat. Yogurt body and allulose keep it creamy without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "pineapple",
+              "qty": "100 g (⅔ cup)",
+              "item": "ripe pineapple, chopped",
+              "note": "fresh; tinned is usually in syrup"
+            },
+            {
+              "match": "Greek Yogurt",
+              "qty": "200 g (¾ cup)",
+              "item": "Epigamia Turbo Natural protein yogurt",
+              "note": "unsweetened, or Milky Mist Skyr"
+            },
+            {
+              "match": "coconut milk",
+              "qty": "40 ml (2½ tbsp)",
+              "item": "coconut milk",
+              "note": "Dabur Hommade or Real Thai"
+            },
+            {
+              "match": "whey",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "coconut milk"
+            }
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "desiccated",
+              "qty": "5 g (1 tbsp)",
+              "item": "desiccated coconut, toasted golden, cooled"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "BLAST",
+              "text": "Blend pineapple, yogurt, coconut milk, skimmed milk, Munkito and salt in the Ninja Blast for 30 s. Add whey; blend 20 s more."
+            },
+            {
+              "i": 2,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. Gum-free, it may be powdery: add 1 tbsp milk and RE-SPIN, up to twice."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Fruit Forward",
+          "No Added Sugar"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 415,
+          "protein_g": 54,
+          "carbs_g": 25,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "chikoo-malai-protein",
@@ -777,9 +1713,131 @@
       "kcal": 525,
       "protein_g": 31,
       "carbs_g": 57,
-      "fat_g": 20
+      "fat_g": 20,
+      "added_sugar_g": 9
     },
-    "shop_note": "Chikoo: Blinkit or Zepto fruit aisle, best Oct–Mar. Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket."
+    "shop_note": "Chikoo: Blinkit or Zepto fruit aisle, best Oct–Mar. Amul High Protein Paneer: Blinkit, Zepto, Instamart, BigBasket.",
+    "variants": {
+      "gym": {
+        "why": "Milk powder replaces the cream and Munkito replaces condensed milk, lifting protein and cutting fat. Ripe chikoo and paneer give the body; allulose keeps it soft.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            },
+            {
+              "match": "condensed",
+              "qty": "20 g (1½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Add chikoo, milk powder, Munkito and xanthan; blend 30 s."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 490,
+          "protein_g": 36,
+          "carbs_g": 62,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Chikoo is sugary, so 100 g of it, more paneer, skimmed milk and milk powder instead of cream, Munkito instead of condensed milk. Paneer and milk powder give body; allulose softens it without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "chikoo",
+              "qty": "100 g (2 small)",
+              "item": "ripe chikoo (sapota), peeled and seeded",
+              "note": "soft, brown-skinned fruit only"
+            },
+            {
+              "match": "Paneer",
+              "qty": "120 g",
+              "item": "Amul High Protein Paneer, room temperature",
+              "note": "blend until completely smooth"
+            },
+            {
+              "match": "toned milk",
+              "qty": "150 ml (⅔ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            },
+            {
+              "match": "condensed",
+              "qty": "40 g (3 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Add chikoo, milk powder and Munkito; blend 30 s."
+            },
+            {
+              "i": 4,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. Gum-free, it may be crumbly: add 1 tbsp milk and RE-SPIN, up to twice."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Dust with a pinch of cinnamon and serve."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 430,
+          "protein_g": 43,
+          "carbs_g": 47,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "gulkand-rose-protein",
@@ -879,9 +1937,65 @@
       "kcal": 540,
       "protein_g": 44,
       "carbs_g": 64,
-      "fat_g": 12
+      "fat_g": 12,
+      "added_sugar_g": 45
     },
-    "shop_note": "Amul High Protein Rose Lassi: Blinkit, Zepto, Instamart. Gulkand: Dabur or Patanjali. Rose petals: Urban Platter on Amazon."
+    "shop_note": "Amul High Protein Rose Lassi: Blinkit, Zepto, Instamart. Gulkand: Dabur or Patanjali. Rose petals: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Gulkand is about 75% sugar, so use 2 tsp for flavour and Munkito for sweetness; the rose lassi and petals carry the rose. Allulose keeps it soft. About 9 g added sugar remains.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "gulkand",
+              "qty": "12 g (2 heaped tsp)",
+              "item": "gulkand",
+              "note": "Dabur, Patanjali or your paanwala's"
+            }
+          ],
+          "add": [
+            {
+              "qty": "30 g (2½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose",
+              "after": "gulkand"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Add the rose lassi, gulkand, Munkito and xanthan; blend 30 s."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Serve with a few crumbled rose petals instead of extra gulkand."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 410,
+          "protein_g": 44,
+          "carbs_g": 29,
+          "fat_g": 13,
+          "added_sugar_g": 9
+        }
+      },
+      "diabetic": {
+        "unsuitable": true,
+        "why": "Gulkand is rose petals preserved in sugar, about 75% sugar, and it is the flavour. Try the Rasmalai Paneer pint's Diabetic version: saffron, kewra and pistachio, no added sugar.",
+        "try": "rasmalai-paneer-protein-ice-cream"
+      }
+    }
   },
   {
     "slug": "guava-chilli-froyo",
@@ -986,8 +2100,379 @@
       "kcal": 445,
       "protein_g": 30,
       "carbs_g": 61,
-      "fat_g": 10
+      "fat_g": 10,
+      "added_sugar_g": 25
     },
-    "shop_note": "Pink guava: Blinkit or Zepto fruit aisle, best Nov–Feb. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon."
+    "shop_note": "Pink guava: Blinkit or Zepto fruit aisle, best Nov–Feb. Epigamia Turbo yogurt: Blinkit, Zepto, Instamart. Xanthan: Urban Platter, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Munkito replaces sugar and milk powder replaces cream, adding protein without fat. Allulose keeps the lean Turbo base scoopable, so one re-spin usually does it.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "sugar",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "25 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Rinse the Blast. Blend the sieved pulp, yogurt, Munkito, milk powder, kala namak and xanthan for 30 s until smooth and pink."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Fruit Forward"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 320,
+          "protein_g": 36,
+          "carbs_g": 40,
+          "fat_g": 2,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Less guava, more unsweetened Turbo yogurt, milk powder instead of cream and Munkito instead of sugar. Guava's fibre and the milk powder give body; allulose softens it without gum.",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "guava pulp",
+              "qty": "120 g (½ cup)",
+              "item": "pink guava pulp, sieved (about 2 guavas)",
+              "note": "fresh only; canned pulp is sweetened"
+            },
+            {
+              "match": "Turbo",
+              "qty": "230 g (1 cup)",
+              "item": "Epigamia Turbo Natural yogurt",
+              "note": "unsweetened, or Milky Mist Skyr"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (3½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "or any skimmed milk powder"
+            },
+            {
+              "match": "toned milk",
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Rinse the Blast. Blend the sieved pulp, yogurt, Munkito, milk powder and kala namak for 30 s until smooth and pink."
+            },
+            {
+              "i": 4,
+              "tag": "RESPIN",
+              "text": "Add 1 tbsp milk and RE-SPIN; gum-free, it often needs a second."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Fruit Forward"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 295,
+          "protein_g": 38,
+          "carbs_g": 33,
+          "fat_g": 1,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "mishti-doi-froyo",
+    "title": "Mishti Doi Froyo",
+    "subtitle": "Kolkata's caramel curd, in a pint",
+    "program": "LITE ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 15,
+    "cook_min": 20,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "High Protein"
+    ],
+    "colors": {
+      "base": "#D9AE7E",
+      "accent": "#B5562E",
+      "deep": "#6B3A12"
+    },
+    "intro": "In Kolkata, mishti doi is set in clay pots from milk cooked down with caramelised sugar, so it tastes faintly of toffee and tang. This pint folds that caramel milk into thick hung dahi.",
+    "ingredients": [
+      {
+        "qty": "450 g (2 cups), hung to 250 g",
+        "item": "Amul Masti dahi",
+        "note": "or 250 g Epigamia Greek yogurt, Natural"
+      },
+      {
+        "qty": "300 ml (1¼ cups)",
+        "item": "Amul Gold full cream milk",
+        "note": "reduced to 180 ml"
+      },
+      {
+        "qty": "60 g (5 tbsp)",
+        "item": "sugar",
+        "note": "half caramelised, half stirred in"
+      },
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "Amul Sagar skimmed milk powder",
+        "note": "body without iciness"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "green cardamom powder",
+        "note": "optional; many Kolkata shops skip it"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Hang the dahi in a muslin-lined sieve in the fridge for 2 hours, until thick and about 250 g."
+      },
+      {
+        "tag": "COOK",
+        "text": "In a heavy pan on medium heat, melt 30 g of the sugar without stirring, swirling the pan, until deep amber, 3–4 min."
+      },
+      {
+        "tag": "COOK",
+        "text": "Off the heat, carefully pour in the milk; it will spit. Add the rest of the sugar and simmer on medium-low 15 min, stirring, to 180 ml."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cool the caramel milk fully, about 40 min, or 15 min over ice water. Never put a warm base in the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the hung dahi, caramel milk, milk powder, salt, cardamom and xanthan in the Ninja Blast 30–45 s, until glossy."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Spoon into small clay kulhads, the way Kolkata sweet shops sell it, with a few pistachio slivers."
+      }
+    ],
+    "tips": [
+      "Take the caramel to deep amber; a pale caramel vanishes once frozen. If it smells acrid or looks black, start again.",
+      "Hung dahi should be thick but spoonable. If it's as firm as paneer, loosen it with 1–2 tbsp of the drained whey.",
+      "Leftovers: flatten the top, refreeze, and re-spin on LITE ICE CREAM before serving."
+    ],
+    "swaps": [
+      "Nolen gur doi: in winter, skip caramelising and stir 70 g nolen gur into the reduced milk once it's below 60 °C.",
+      "Bhapa doi style: add 2 tbsp Milkmaid to the Blast and cut the sugar to 45 g for a denser, fudgier scoop.",
+      "Shortcut: skip hanging and use 250 g Epigamia Greek yogurt, Natural, for about 10 g more protein."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 780,
+      "protein_g": 28,
+      "carbs_g": 95,
+      "fat_g": 32,
+      "added_sugar_g": 60
+    },
+    "shop_note": "Amul Masti dahi and Amul Sagar: any kirana, Blinkit or Zepto. Muslin: any kitchen shop. Xanthan: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skimmed milk and skyr cut the fat; whey lifts protein near 60 g. Munkito browns gently for the caramel note, and allulose keeps the low-fat pint soft and scoopable.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "dahi",
+              "qty": "220 g (1 cup)",
+              "item": "Milky Mist Skyr, plain",
+              "note": "or Epigamia Greek yogurt, Natural"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "reduced to 180 ml"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (5 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; 20 g browned"
+            }
+          ],
+          "add": [
+            {
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw",
+              "after": "skyr"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "In a heavy pan on low heat, stir 20 g Munkito with 1 tbsp water until light golden, 2–3 min. Allulose browns fast; don't walk away."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Off the heat, pour in the skimmed milk. Simmer on medium-low 15 min, stirring, to 180 ml. Cool 5 min, then stir in the remaining Munkito."
+            },
+            {
+              "i": 4,
+              "tag": "BLAST",
+              "text": "Blend skyr, caramel milk, whey, milk powder, salt, cardamom and xanthan in the Ninja Blast 30–45 s. Rest 2–3 min so the foam settles."
+            }
+          ],
+          "remove": [
+            0
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 405,
+          "protein_g": 59,
+          "carbs_g": 33,
+          "fat_g": 4,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Munkito, gently caramelised, gives a lighter toffee note with zero added sugar; skimmed milk for the reduction halves the fat. Hung dahi and milk powder hold the body without gum.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "dahi",
+              "qty": "450 g (2 cups), hung to 250 g",
+              "item": "homemade dahi from Amul Taaza toned milk",
+              "note": "plain, unsweetened curd only"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "reduced to 180 ml"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (5 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; 20 g caramelised"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Set dahi overnight from boiled, cooled toned milk, then hang it in muslin in the fridge 2–3 hours, to about 250 g."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "On the lowest heat, stir 20 g Munkito with 1 tbsp water until pale gold, 2–3 min. Allulose scorches quickly; pull it early."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Off the heat, pour in the skimmed milk. Simmer on medium-low 15 min, stirring, to 180 ml. Cool 5 min, then stir in the remaining Munkito."
+            },
+            {
+              "i": 4,
+              "tag": "BLAST",
+              "text": "Blend the hung dahi, caramel milk, milk powder, salt and cardamom in the Ninja Blast 30–45 s, until glossy and smooth."
+            }
+          ]
+        },
+        "tags": [
+          "Desi Classic",
+          "Eggless",
+          "No Added Sugar",
+          "High Protein"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 380,
+          "protein_g": 28,
+          "carbs_g": 35,
+          "fat_g": 14,
+          "added_sugar_g": 0
+        }
+      }
+    }
   }
 ]

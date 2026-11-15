@@ -1,21 +1,21 @@
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art">
 <circle cx="100" cy="104" r="86" fill="#F4EEE4"/>
 <circle cx="100" cy="104" r="86" fill="none" stroke="#E8DAC6" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
-<path d="M37.4,22.0 Q37.4,28.3 43.7,28.3 Q37.4,28.3 37.4,34.6 Q37.4,28.3 31.1,28.3 Q37.4,28.3 37.4,22.0Z" fill="#5A3A22" opacity="0.8"/><path d="M66.2,29.8 Q66.2,34.6 71.0,34.6 Q66.2,34.6 66.2,39.4 Q66.2,34.6 61.4,34.6 Q66.2,34.6 66.2,29.8Z" fill="#5A3A22" opacity="0.8"/><path d="M58.4,20.0 Q58.4,25.5 63.9,25.5 Q58.4,25.5 58.4,30.9 Q58.4,25.5 52.9,25.5 Q58.4,25.5 58.4,20.0Z" fill="#5A3A22" opacity="0.8"/><path d="M28.2,32.8 Q28.2,36.9 32.3,36.9 Q28.2,36.9 28.2,40.9 Q28.2,36.9 24.2,36.9 Q28.2,36.9 28.2,32.8Z" fill="#5A3A22" opacity="0.8"/>
-<path d="M172.0,34.4 Q172.0,39.7 177.3,39.7 Q172.0,39.7 172.0,45.0 Q172.0,39.7 166.7,39.7 Q172.0,39.7 172.0,34.4Z" fill="#806D5F" opacity="0.8"/><path d="M178.4,25.7 Q178.4,30.8 183.6,30.8 Q178.4,30.8 178.4,36.0 Q178.4,30.8 173.3,30.8 Q178.4,30.8 178.4,25.7Z" fill="#806D5F" opacity="0.8"/>
-<path d="M56.0,100.0 A44.0,41.8 0 0 1 144.0,100.0 Q136.7,117.0 129.3,100.0 Q122.0,118.2 114.7,100.0 Q107.3,116.9 100.0,100.0 Q92.7,118.3 85.3,100.0 Q78.0,119.4 70.7,100.0 Q63.3,120.0 56.0,100.0 Z" fill="#D9C2A0" stroke="#B29F83" stroke-width="1.6" stroke-linejoin="round"/>
-<path d="M110.4,106.6 q0,18.5 4.0,18.5 q4.0,0 4.0,-18.5z" fill="#D9C2A0"/>
+<path d="M60.7,27.2 Q60.7,31.4 64.9,31.4 Q60.7,31.4 60.7,35.6 Q60.7,31.4 56.5,31.4 Q60.7,31.4 60.7,27.2Z" fill="#5A3A22" opacity="0.8"/><path d="M40.7,64.0 Q40.7,68.5 45.1,68.5 Q40.7,68.5 40.7,72.9 Q40.7,68.5 36.2,68.5 Q40.7,68.5 40.7,64.0Z" fill="#5A3A22" opacity="0.8"/><path d="M46.7,41.0 Q46.7,45.7 51.4,45.7 Q46.7,45.7 46.7,50.4 Q46.7,45.7 42.0,45.7 Q46.7,45.7 46.7,41.0Z" fill="#5A3A22" opacity="0.8"/><path d="M34.7,27.8 Q34.7,34.0 41.0,34.0 Q34.7,34.0 34.7,40.3 Q34.7,34.0 28.5,34.0 Q34.7,34.0 34.7,27.8Z" fill="#5A3A22" opacity="0.8"/>
+<path d="M167.8,60.4 Q167.8,66.5 173.9,66.5 Q167.8,66.5 167.8,72.6 Q167.8,66.5 161.7,66.5 Q167.8,66.5 167.8,60.4Z" fill="#806D5F" opacity="0.8"/><path d="M153.0,66.9 Q153.0,72.6 158.7,72.6 Q153.0,72.6 153.0,78.3 Q153.0,72.6 147.3,72.6 Q153.0,72.6 153.0,66.9Z" fill="#806D5F" opacity="0.8"/>
+<path d="M56.0,100.0 A44.0,41.8 0 0 1 144.0,100.0 Q136.7,118.4 129.3,100.0 Q122.0,119.3 114.7,100.0 Q107.3,121.6 100.0,100.0 Q92.7,116.7 85.3,100.0 Q78.0,117.1 70.7,100.0 Q63.3,115.7 56.0,100.0 Z" fill="#D9C2A0" stroke="#B29F83" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M83.5,106.6 q0,18.5 4.0,18.5 q4.0,0 4.0,-18.5z" fill="#D9C2A0"/>
 <path d="M72.7,91.2 A30.8,30.8 0 0 1 97.8,65.7" fill="none" stroke="#EADDCB" stroke-width="5.3" stroke-linecap="round" opacity="0.85"/>
 <circle cx="112.3" cy="72.7" r="3.1" fill="#EADDCB" opacity="0.9"/>
-<circle cx="94.3" cy="88.7" r="2.4" fill="#5A3A22"/>
-<rect x="80.2" y="74.8" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(2 83.3 75.9)"/>
-<circle cx="95.8" cy="82.4" r="2.4" fill="#5A3A22"/>
-<rect x="116.2" y="88.5" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(129 119.3 89.6)"/>
-<rect x="95.1" y="84.8" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(0 98.2 85.9)"/>
-<rect x="103.3" y="91.3" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(112 106.3 92.4)"/>
-<circle cx="108.1" cy="78.7" r="2.4" fill="#5A3A22"/>
-<circle cx="124.1" cy="79.6" r="2.4" fill="#5A3A22"/>
-<rect x="91.2" y="83.4" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(78 94.3 84.5)"/>
+<circle cx="85.8" cy="98.4" r="2.4" fill="#5A3A22"/>
+<rect x="123.6" y="93.8" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(73 126.7 94.9)"/>
+<rect x="106.1" y="85.4" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(151 109.1 86.5)"/>
+<rect x="101.1" y="88.7" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(17 104.2 89.8)"/>
+<circle cx="112.7" cy="97.6" r="2.4" fill="#5A3A22"/>
+<rect x="108.1" y="97.4" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(86 111.2 98.5)"/>
+<rect x="110.8" y="94.4" width="6.2" height="2.2" rx="1.1" fill="#5A3A22" transform="rotate(45 113.9 95.5)"/>
+<circle cx="74.7" cy="92.6" r="2.4" fill="#5A3A22"/>
+<circle cx="98.0" cy="91.0" r="2.4" fill="#5A3A22"/>
 <path d="M50,106 L150,106 L138,172 L62,172 Z" fill="#FFFFFF" stroke="#89776A" stroke-width="2" stroke-linejoin="round"/>
 <path d="M58,124 L142,124" stroke="#E1CEB3" stroke-width="7"/>
 <path d="M60,140 L140,140" stroke="#5A3A22" stroke-width="3" opacity="0.6"/>

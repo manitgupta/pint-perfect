@@ -93,9 +93,162 @@
       "kcal": 935,
       "protein_g": 10,
       "carbs_g": 81,
-      "fat_g": 61
+      "fat_g": 61,
+      "added_sugar_g": 65
     },
-    "shop_note": "Vanilla pods and pure extract: Urban Platter or Sprig on Amazon; Kerala-grown pods online."
+    "shop_note": "Vanilla pods and pure extract: Urban Platter or Sprig on Amazon; Kerala-grown pods online.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and milk powder replace most of the cream for about 45 g protein. A splash of cream carries the vanilla; allulose keeps it scoopable and the milk solids stop iciness.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": "a little fat carries the vanilla"
+            }
+          ],
+          "add": [
+            {
+              "qty": "80 ml (⅓ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Split the pod, scrape out the seeds and rub them into the Munkito with your fingertips so they don't clump."
+            },
+            {
+              "i": 2,
+              "text": "Blend both milks, milk powder, vanilla Munkito, salt and xanthan in the Ninja Blast 40 seconds. Add the cream; blend 5 seconds. Rest 2–3 minutes for foam."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 423,
+          "protein_g": 45,
+          "carbs_g": 36,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Munkito replaces the sugar and half the cream goes; High Protein Milk and milk powder rebuild body. Allulose keeps it soft without gum, and a re-spin does the final smoothing.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "100 ml (scant ½ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": "25% fat; any fresh cream"
+            }
+          ],
+          "add": [
+            {
+              "qty": "40 ml (2½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Split the pod, scrape out the seeds and rub them into the Munkito with your fingertips so they don't clump."
+            },
+            {
+              "i": 2,
+              "text": "Blend both milks, milk powder, vanilla Munkito and salt in the Ninja Blast 40 seconds. Add the cream; blend 5 seconds. Rest 2 minutes for foam."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 542,
+          "protein_g": 44,
+          "carbs_g": 33,
+          "fat_g": 26,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "belgian-dark-chocolate-ice-cream",
@@ -205,9 +358,194 @@
       "kcal": 1070,
       "protein_g": 17,
       "carbs_g": 103,
-      "fat_g": 64
+      "fat_g": 64,
+      "added_sugar_g": 75
     },
-    "shop_note": "Callebaut 811 callets: Amazon or BigBasket. Cocoa and Amul Dark: Blinkit/Zepto or any kirana."
+    "shop_note": "Callebaut 811 callets: Amazon or BigBasket. Cocoa and Amul Dark: Blinkit/Zepto or any kirana.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and milk powder replace cream; 99% cacao and Munkito replace sugar and sweet chocolate. Cocoa solids and allulose keep it dense and fudgy rather than icy.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "dark chocolate",
+              "qty": "20 g",
+              "item": "Amul 99% cacao dark chocolate, finely chopped",
+              "note": "or 75% for a sweeter bar"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "100 ml (scant ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "cocoa"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder, salt and coffee in a saucepan. Simmer gently 1 minute, whisking, until smooth."
+            },
+            {
+              "i": 1,
+              "text": "Off the heat, stir in the chopped chocolate until melted. Once below 70 °C, whisk in the Munkito."
+            },
+            {
+              "i": 2,
+              "text": "Whisk in the remaining High Protein Milk and the skimmed milk. Cool to room temperature, about 30 minutes; never blend a warm base."
+            },
+            {
+              "i": 3,
+              "text": "Add the xanthan and blend in the Ninja Blast 30 seconds until silky. Rest 2–3 minutes for foam, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            },
+            {
+              "i": 6,
+              "text": "Finish with a pinch of flaky salt or a few cocoa nibs."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Kid Favourite"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 529,
+          "protein_g": 52,
+          "carbs_g": 51,
+          "fat_g": 13,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Munkito and 99% cacao replace sugar and sweet chocolate; High Protein Milk and milk powder rebuild body with half the cream. Cocoa solids and allulose keep it fudgy, not icy, without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "dark chocolate",
+              "qty": "25 g",
+              "item": "Amul 99% cacao dark chocolate, finely chopped",
+              "note": "or Ambriona stevia dark; not maltitol"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            },
+            {
+              "match": "cocoa powder",
+              "qty": "20 g (3½ tbsp)",
+              "item": "pure cocoa powder",
+              "note": "unsweetened; Hershey's or Cadbury"
+            }
+          ],
+          "add": [
+            {
+              "qty": "50 ml (3½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "cocoa"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder, salt and coffee in a saucepan. Simmer gently 1 minute, whisking, until smooth."
+            },
+            {
+              "i": 1,
+              "text": "Off the heat, stir in the chopped chocolate until melted. Once below 70 °C, whisk in the Munkito."
+            },
+            {
+              "i": 2,
+              "text": "Whisk in the remaining High Protein Milk, the skimmed milk and cream. Cool to room temperature, about 30 minutes; never blend a warm base."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            },
+            {
+              "i": 6,
+              "text": "Finish with a pinch of flaky salt or a few cocoa nibs."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Kid Favourite"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 666,
+          "protein_g": 50,
+          "carbs_g": 49,
+          "fat_g": 30,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "butterscotch-praline-crunch",
@@ -335,9 +673,223 @@
       "kcal": 1275,
       "protein_g": 17,
       "carbs_g": 132,
-      "fat_g": 75
+      "fat_g": 75,
+      "added_sugar_g": 120
     },
-    "shop_note": "Butterscotch essence (optional): Bush on Blinkit/Amazon. Ready butterscotch nuts: Morde on Amazon."
+    "shop_note": "Butterscotch essence (optional): Bush on Blinkit/Amazon. Ready butterscotch nuts: Morde on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Brown butter and essence give the butterscotch flavour without caramel; High Protein Milk and milk powder replace cream and Milkmaid. Allulose keeps it soft. Milder than real caramel, but properly toffee-ish.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "salted butter",
+              "qty": "10 g (2 tsp)",
+              "item": "Amul salted butter",
+              "note": "browned; gives the toffee note"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, chilled",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "remove": [
+            "sugar, for the caramel",
+            "sugar, for the praline",
+            "cashews, chopped"
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "praline",
+              "qty": "2 tbsp (15 g)",
+              "item": "toasted cashews, chopped, lightly salted"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Brown the butter in a small pan on medium-low, swirling, until golden and nutty-smelling, 2–3 minutes. Take it off the heat."
+            },
+            {
+              "i": 1,
+              "tag": "COOL",
+              "text": "Cool 5 minutes, then scrape the brown butter and its toasty bits into the Ninja Blast with both milks, milk powder, Munkito, vanilla, essence and xanthan."
+            },
+            {
+              "i": 2,
+              "text": "Toast the cashews in a dry pan on low until golden, 3–4 minutes. Salt lightly, cool and chop to pea-sized bits."
+            },
+            {
+              "i": 4,
+              "text": "Blend 30–40 seconds until the butter is fully emulsified. Rest 2–3 minutes for foam, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 6,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            },
+            {
+              "i": 7,
+              "text": "Make a 4 cm well to the bottom, add the toasted cashews and run MIX-IN."
+            }
+          ],
+          "remove": [
+            3
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 504,
+          "protein_g": 49,
+          "carbs_g": 41,
+          "fat_g": 16,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "No caramel or Milkmaid: browned butter, toasted cashews and vanilla carry a milder butterscotch flavour. Allulose keeps it soft without gum; milk powder and a little cream give body.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            }
+          ],
+          "remove": [
+            "sugar, for the caramel",
+            "sugar, for the praline",
+            "cashews, chopped",
+            "essence"
+          ],
+          "add": [
+            {
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "praline",
+              "qty": "2 tbsp (15 g)",
+              "item": "toasted cashews, chopped, lightly salted"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Brown the butter in a small pan on medium-low, swirling, until golden and nutty-smelling, 2–3 minutes. Take it off the heat."
+            },
+            {
+              "i": 1,
+              "tag": "COOL",
+              "text": "Cool 5 minutes, then scrape the brown butter and its toasty bits into the Ninja Blast with both milks, cream, milk powder, Munkito and vanilla."
+            },
+            {
+              "i": 2,
+              "text": "Toast the cashews in a dry pan on low until golden, 3–4 minutes. Salt lightly, cool and chop to pea-sized bits."
+            },
+            {
+              "i": 4,
+              "text": "Blend 30–40 seconds until the butter is fully emulsified. Rest 2 minutes for foam, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 6,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            },
+            {
+              "i": 7,
+              "text": "Make a 4 cm well to the bottom, add the toasted cashews and run MIX-IN."
+            }
+          ],
+          "remove": [
+            3
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 638,
+          "protein_g": 46,
+          "carbs_g": 37,
+          "fat_g": 34,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "eggless-cookie-dough-ice-cream",
@@ -459,9 +1011,199 @@
       "kcal": 1185,
       "protein_g": 15,
       "carbs_g": 122,
-      "fat_g": 70
+      "fat_g": 70,
+      "added_sugar_g": 83
     },
-    "shop_note": "Mini chocolate chips: Morde or Hershey's on Blinkit/Amazon. Brown sugar: BigBasket or any kirana."
+    "shop_note": "Mini chocolate chips: Morde or Hershey's on Blinkit/Amazon. Brown sugar: BigBasket or any kirana.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk, skimmed milk and milk powder replace the cream; Munkito replaces brown sugar. Allulose keeps base and dough soft; the only sugar left is the chips.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "sugar, for the dough",
+              "qty": "10 g (1 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1, for the dough",
+              "note": "or any allulose"
+            },
+            {
+              "match": "brown sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "butter, softened",
+              "qty": "10 g (2 tsp)",
+              "item": "Amul butter, softened, for the dough",
+              "note": ""
+            },
+            {
+              "match": "milk, for the dough",
+              "qty": "1 tbsp (15 ml)",
+              "item": "milk, for the dough",
+              "note": ""
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, chilled",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins",
+              "after": "Amul Sagar"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Mix the atta with butter, 10 g Munkito, the milk, a drop of vanilla and a pinch of salt. Fold in chips, roll pea-sized balls; freeze."
+            },
+            {
+              "i": 2,
+              "text": "Blend both milks, milk powder, 50 g Munkito, vanilla, salt and xanthan in the Ninja Blast 40 seconds. Rest 2–3 minutes for foam to settle."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 611,
+          "protein_g": 51,
+          "carbs_g": 68,
+          "fat_g": 15,
+          "added_sugar_g": 8
+        }
+      },
+      "diabetic": {
+        "why": "Munkito replaces both brown sugars and 99% cacao replaces the chips. Less cream plus milk powder and High Protein Milk keep body; allulose keeps it soft without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "sugar, for the dough",
+              "qty": "10 g (1 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1, for the dough",
+              "note": "or any allulose"
+            },
+            {
+              "match": "brown sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "butter, softened",
+              "qty": "10 g (2 tsp)",
+              "item": "Amul butter, softened, for the dough",
+              "note": ""
+            },
+            {
+              "match": "milk, for the dough",
+              "qty": "1 tbsp (15 ml)",
+              "item": "milk, for the dough",
+              "note": ""
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "mini chocolate chips",
+              "qty": "15 g (1 heaped tbsp)",
+              "item": "Amul 99% cacao dark chocolate, finely chopped, for the dough",
+              "note": "or Ambriona stevia dark; not maltitol"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "70 ml (scant ⅓ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            }
+          ],
+          "add": [
+            {
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Mix the atta with butter, 10 g Munkito, the milk, a drop of vanilla and a pinch of salt. Fold in the chopped chocolate, roll pea-sized balls; freeze."
+            },
+            {
+              "i": 2,
+              "text": "Blend both milks, milk powder, 50 g Munkito, vanilla and salt in the Ninja Blast 40 seconds. Add the cream; blend 5 seconds. Rest 2 minutes for foam."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 747,
+          "protein_g": 50,
+          "carbs_g": 58,
+          "fat_g": 35,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "fresh-pudina-choc-chip",
@@ -566,9 +1308,177 @@
       "kcal": 1105,
       "protein_g": 13,
       "carbs_g": 101,
-      "fat_g": 72
+      "fat_g": 72,
+      "added_sugar_g": 83
     },
-    "shop_note": "Fresh pudina: any sabziwala or Blinkit/Zepto. Dark chocolate chips: Morde or Amul on Amazon/BigBasket."
+    "shop_note": "Fresh pudina: any sabziwala or Blinkit/Zepto. Dark chocolate chips: Morde or Amul on Amazon/BigBasket.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk carries the mint instead of cream; milk powder and allulose replace the body and softness sugar gave. Darker chocolate keeps the added sugar low.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "140 ml (generous ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, chilled",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins",
+              "after": "Amul Sagar"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate",
+              "qty": "25 g (2½ tbsp)",
+              "item": "75% dark chocolate, chopped",
+              "note": "Amul Bitter 75%; 99% for zero sugar"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Heat the High Protein Milk and salt until steaming; don't boil. Off the heat, push the mint under, cover and steep 25–30 minutes."
+            },
+            {
+              "i": 3,
+              "text": "Blend the minty milk, skimmed milk, milk powder, Munkito and xanthan in the Ninja Blast 40 seconds. Rest 2–3 minutes for foam to settle."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 484,
+          "protein_g": 49,
+          "carbs_g": 45,
+          "fat_g": 12,
+          "added_sugar_g": 6
+        }
+      },
+      "diabetic": {
+        "why": "Munkito replaces sugar and 99% cacao the chips; less than half the cream, with milk powder and High Protein Milk for body. Allulose keeps it soft without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "80 ml (⅓ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            }
+          ],
+          "add": [
+            {
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "Slim n Trim"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate",
+              "qty": "25 g (2½ tbsp)",
+              "item": "Amul 99% cacao dark chocolate, chopped",
+              "note": "or Ambriona stevia dark; not maltitol"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Heat both milks and the salt until steaming; don't boil. Off the heat, push the mint under, cover and steep 25–30 minutes."
+            },
+            {
+              "i": 3,
+              "text": "Blend the minty milk, milk powder, Munkito and cream in the Ninja Blast 30 seconds. It should taste slightly over-minty. Rest 2 minutes for foam."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 637,
+          "protein_g": 47,
+          "carbs_g": 38,
+          "fat_g": 33,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "black-forest-ice-cream",
@@ -700,9 +1610,231 @@
       "kcal": 1030,
       "protein_g": 17,
       "carbs_g": 122,
-      "fat_g": 52
+      "fat_g": 52,
+      "added_sugar_g": 96
     },
-    "shop_note": "Frozen cherries: Frugivore on BigBasket. Canned: Druk Red Cherry in syrup (BigBasket). Fresh Himachal/Kashmiri cherries May–July."
+    "shop_note": "Frozen cherries: Frugivore on BigBasket. Canned: Druk Red Cherry in syrup (BigBasket). Fresh Himachal/Kashmiri cherries May–July.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and milk powder replace cream; Munkito sweetens base and compote. Cocoa solids and allulose keep the chocolate dense and soft; the cherries stay tart and jammy.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar, for the compote",
+              "qty": "10 g (1 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1, for the compote",
+              "note": "stir in off the heat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "pitted cherries",
+              "qty": "100 g (⅔ cup)",
+              "item": "pitted cherries, halved, for the compote",
+              "note": "fresh or frozen, not syrup-canned"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "100 ml (scant ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "cocoa"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins",
+              "after": "salt + vanilla"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate shavings",
+              "qty": "2 tbsp (15 g)",
+              "item": "dark chocolate shavings, 75% or higher",
+              "note": "Amul Bitter 75% or 99%"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+            },
+            {
+              "i": 1,
+              "text": "Off heat, whisk in the remaining milks and vanilla. Once below 70 °C, whisk in 50 g Munkito. Cool to room temperature, about 30 minutes."
+            },
+            {
+              "i": 2,
+              "text": "Meanwhile, cook cherries and lemon juice on medium 5–6 minutes. Stir in the slurry; cook 1 minute until jammy. Off heat, stir in 10 g Munkito; chill."
+            },
+            {
+              "i": 3,
+              "text": "Add the xanthan and blend the cooled base in the Ninja Blast 30 seconds. Rest 2–3 minutes for foam, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            },
+            {
+              "i": 7,
+              "text": "Top with leftover compote, extra shavings and a spoon of plain skyr or Greek yogurt."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 607,
+          "protein_g": 53,
+          "carbs_g": 74,
+          "fat_g": 11,
+          "added_sugar_g": 4
+        }
+      },
+      "diabetic": {
+        "why": "Munkito sweetens base and compote, 99% cacao replaces sweet chocolate, and the cream is halved. Milk powder, cocoa solids and allulose keep it dense and soft without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar, for the compote",
+              "qty": "10 g (1 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1, for the compote",
+              "note": "stir in off the heat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "pitted cherries",
+              "qty": "100 g (⅔ cup)",
+              "item": "pitted cherries, halved, for the compote",
+              "note": "fresh or frozen, not syrup-canned"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "60 ml (¼ cup)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            },
+            {
+              "match": "cocoa powder",
+              "qty": "25 g (4 tbsp)",
+              "item": "pure cocoa powder",
+              "note": "unsweetened; Hershey's or Cadbury"
+            }
+          ],
+          "add": [
+            {
+              "qty": "50 ml (3½ tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat",
+              "after": "cocoa"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate shavings",
+              "qty": "2 tbsp (12 g)",
+              "item": "Amul 99% cacao dark chocolate shavings",
+              "note": "or Ambriona stevia dark; not maltitol"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+            },
+            {
+              "i": 1,
+              "text": "Off heat, whisk in the remaining milks, the cream and vanilla. Once below 70 °C, whisk in 50 g Munkito. Cool to room temperature, about 30 minutes."
+            },
+            {
+              "i": 2,
+              "text": "Meanwhile, cook cherries and lemon juice on medium 5–6 minutes. Stir in the slurry; cook 1 minute until jammy. Off heat, stir in 10 g Munkito; chill."
+            },
+            {
+              "i": 3,
+              "text": "Blend the cooled base in the Ninja Blast 30 seconds. Rest 2 minutes for bubbles to settle, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 5,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            },
+            {
+              "i": 7,
+              "text": "Top with leftover compote, extra shavings and a spoon of plain skyr or Greek yogurt."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 701,
+          "protein_g": 51,
+          "carbs_g": 68,
+          "fat_g": 25,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "rocky-road-ice-cream",
@@ -817,8 +1949,211 @@
       "kcal": 1090,
       "protein_g": 21,
       "carbs_g": 112,
-      "fat_g": 62
+      "fat_g": 62,
+      "added_sugar_g": 83
     },
-    "shop_note": "Gelatin-free marshmallows: Kandee Factory Marshmelts, online or on Amazon; always check for the green dot."
+    "shop_note": "Gelatin-free marshmallows: Kandee Factory Marshmelts, online or on Amazon; always check for the green dot.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and milk powder replace cream and Milkmaid; Munkito replaces sugar. Allulose keeps it soft. A few marshmallows stay, so the only sugar is in the mix-ins.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "milky body without condensed milk"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, chilled",
+              "note": "or any skimmed milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum (optional)",
+              "note": "Urban Platter; smoother, fewer re-spins"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate chunks",
+              "qty": "1 tbsp (12 g)",
+              "item": "dark chocolate chunks, 75% or higher",
+              "note": "Amul Bitter 75% or 99%"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+            },
+            {
+              "i": 1,
+              "text": "Off heat, whisk in the remaining milks. Once below 70 °C, whisk in the Munkito. Cool to room temperature, about 30 minutes."
+            },
+            {
+              "i": 2,
+              "text": "Add the xanthan and blend the cooled base in the Ninja Blast 30 seconds. Rest 2–3 minutes for foam, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; protein pints often need one."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 582,
+          "protein_g": 54,
+          "carbs_g": 60,
+          "fat_g": 14,
+          "added_sugar_g": 9
+        }
+      },
+      "diabetic": {
+        "why": "Marshmallows are pure sugar, so toasted almonds join the peanuts for the rocky bumps, with 99% cacao chunks. Milk powder and allulose keep the base dense and soft without Milkmaid or gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1–2 re-spins with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk, chilled",
+              "note": "35 g protein, almost no fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (⅓ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "milky body without condensed milk"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "50 ml (3½ tbsp)",
+              "item": "Amul Fresh Cream, chilled",
+              "note": ""
+            },
+            {
+              "match": "cocoa powder",
+              "qty": "20 g (3½ tbsp)",
+              "item": "pure cocoa powder",
+              "note": "unsweetened; Hershey's or Cadbury"
+            }
+          ],
+          "add": [
+            {
+              "qty": "70 ml (5 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "or any skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate chunks",
+              "qty": "1 tbsp (10 g)",
+              "item": "Amul 99% cacao dark chocolate chunks",
+              "note": "or Ambriona stevia dark; not maltitol"
+            }
+          ],
+          "remove": [
+            "marshmallows"
+          ],
+          "add": [
+            {
+              "qty": "1 tbsp (10 g)",
+              "item": "toasted almonds, chopped",
+              "after": "peanuts"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Whisk 120 ml of the High Protein Milk with cocoa, milk powder and salt in a saucepan. Simmer gently 1–2 minutes, whisking, until glossy."
+            },
+            {
+              "i": 1,
+              "text": "Off heat, whisk in the remaining milks and the cream. Once below 70 °C, whisk in the Munkito. Cool to room temperature, about 30 minutes."
+            },
+            {
+              "i": 2,
+              "text": "Blend the cooled base in the Ninja Blast 30 seconds. Rest 2 minutes for bubbles to settle, then pour into the pint under MAX FILL."
+            },
+            {
+              "i": 3,
+              "text": "Lid on; freeze level for 24 h."
+            },
+            {
+              "i": 4,
+              "text": "Flatten any hump and run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN; without gum, expect one or two."
+            },
+            {
+              "i": 5,
+              "text": "Make a 4 cm well to the bottom, add the peanuts, almonds and chocolate, and run MIX-IN."
+            },
+            {
+              "i": 6,
+              "text": "Scatter a few extra chopped nuts on top and serve straight away."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 686,
+          "protein_g": 54,
+          "carbs_g": 50,
+          "fat_g": 30,
+          "added_sugar_g": 0
+        }
+      }
+    }
   }
 ]

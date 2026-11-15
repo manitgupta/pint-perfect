@@ -45,6 +45,10 @@ SECTIONS = [
          blurb="Gola-stall kala khatta, aam panna, Nagpur santra and more dairy-free sorbets, plus a protein "
                "smoothie bowl and a nostalgic malt thickshake.",
          art=("SORBET", "#E8506A", "#7BC043")),
+    dict(key="s7_milk", title="Everyday Milk Pints", sub="Ghar Ka Doodh, Spun", colour="#B07A2A",
+         blurb="Haldi doodh, ragi malt, til-gud and a banana paneer shake. Low-cook pints built on the milk "
+               "already in your fridge, and the easiest ones to make gym- or diabetic-friendly.",
+         art=("LITE ICE CREAM", "#E9C46A", "#8C5A2B")),
 ]
 
 PROGRAM_COLOURS = {
@@ -179,14 +183,14 @@ def cover(sections):
   <div class="cv-top">
     <div class="cv-eyebrow">For the Ninja CREAMi NC300IN &amp; Ninja Blast</div>
     <h1 class="cv-title">Pint<br><em>Perfect</em></h1>
-    <p class="cv-sub">50 Ninja CREAMi recipes for the Indian kitchen</p>
+    <p class="cv-sub">{len(allr)} Ninja CREAMi recipes for the Indian kitchen</p>
     <p class="cv-chips"><span>High-protein pints</span><span>Desi classics</span><span>Gelato</span><span>Sorbet</span><span>Shakes &amp; bowls</span></p>
   </div>
   <div class="cv-arts">{"".join(arts)}</div>
   <div class="cv-bottom">
     <ul class="cv-secs">{secs}</ul>
     <div class="cv-stats">{stats}</div>
-    <p class="cv-note">Everything sourced from Blinkit, Zepto, Instamart, BigBasket &amp; Amazon. Vegetarian throughout. Every recipe works without eggs; optional egg-yolk versions where they help.</p>
+    <p class="cv-note">Everything sourced from Blinkit, Zepto, Instamart, BigBasket &amp; Amazon. Vegetarian throughout. Every recipe works without eggs; optional egg-yolk versions where they help. Gym and diabetic versions of every recipe are in the companion app.</p>
   </div>
 </div>'''
     return fn
@@ -207,17 +211,24 @@ def contents(sections, recipe_pages, divider_pages, extra):
                         f'<small>{e(s["sub"])}</small><em>{divider_pages[s["num"]]}</em></h3><ol>{rows}</ol></div>')
         ex = "".join(f'<li><span class="c-t">{e(t)}</span><span class="c-dots"></span><span class="c-pg">{p}</span></li>'
                      for t, p in extra)
+        # split sections across the two columns so the taller column is as short as possible
+        # (the guide list sits at the top of the left column; a heading costs about 2.4 lines)
+        guide_h = len(extra) + 2.4
+        heights = [len(s["recipes"]) + 2.4 for s in sections]
+        split = min(range(len(sections) + 1),
+                    key=lambda k: max(guide_h + sum(heights[:k]), sum(heights[k:])))
+        dense = " dense" if max(guide_h + sum(heights[:split]), sum(heights[split:])) > 44 else ""
         return f'''
 <div class="inner">
   <div class="pg-head"><div class="eyebrow">Inside</div><h1>Contents</h1></div>
-  <div class="contents">
+  <div class="contents{dense}">
     <div class="c-col">
       <div class="c-sec c-guide"><h3><span>✦</span>The Guide</h3><ol class="c-extra">{ex}</ol></div>
-      {"".join(cols[:3])}
+      {"".join(cols[:split])}
     </div>
-    <div class="c-col">{"".join(cols[3:])}</div>
+    <div class="c-col">{"".join(cols[split:])}</div>
   </div>
-  <p class="c-legend">Numbers in grey = protein per pint. Recipe pages show nutrition for the whole pint and per serving.</p>
+  <p class="c-legend">Numbers in grey = protein per pint. Recipe pages show nutrition for the whole pint and per serving. Gym and diabetic versions of every recipe are in the app.</p>
 </div>'''
     return fn
 
@@ -244,12 +255,38 @@ def finder(sections):
     return f'<div class="finder"><h2 class="sec-h">Find your pint</h2><div class="fd-grid">{"".join(cards)}</div></div>'
 
 
-def welcome(fm, sections):
+NUM_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"]
+
+
+def section_name(s):
+    return f'{s["title"]}: {s["sub"]}' if s["title"] == "Protein Pints" else s["title"]
+
+
+def live_counts(text, sections):
+    """Keep recipe / section counts in guide prose in step with the data (the prose is hand-written)."""
+    n = sum(len(s["recipes"]) for s in sections)
+    k = len(sections)
+    word = NUM_WORDS[k] if k < len(NUM_WORDS) else str(k)
+    text = re.sub(r"\b\d+ recipes\b", f"{n} recipes", text)
+    text = re.sub(r"\b(?:\d+|" + "|".join(NUM_WORDS[2:]) + r") sections\b", f"{word} sections", text)
+    names = [section_name(s) for s in sections]
+    listing = "; ".join(names[:-1]) + "; and " + names[-1] if len(names) > 1 else names[0]
+    return re.sub(r"(\b\w+ sections: )[^.]*\.", lambda m: m.group(1) + listing + ".", text, count=1)
+
+
+def welcome(fm, sections, ctx):
     def fn(_):
         w = fm["welcome"]
-        paras = "".join(f"<p>{rich(p)}</p>" for p in w["paragraphs"])
+        paras = "".join(f"<p>{rich(live_counts(p, sections))}</p>" for p in w["paragraphs"])
+        hp = ctx.get("healthier pints")
+        eggs_row = ('<div class="an-row"><b>With eggs (optional)</b><p>Every recipe is eggless as written. Where yolks make it richer, '
+                    'a yellow panel shows the custard-style upgrade.</p></div>')
         progs = "".join(f'<li>{program_badge(k, True)}</li>' for k in PROGRAM_COLOURS if k not in ("MIX-IN", "RE-SPIN"))
         tags = "".join(f'<li><span class="stag" style="--tc:{c}">{e(lbl)}</span></li>' for k, (lbl, c) in STEP_TAGS.items())
+        if fm.get("variants_legend"):
+            eggs_row = ('<div class="an-row"><b>Eggs, gym &amp; diabetic</b><p>Every recipe is eggless as written; a yellow panel shows '
+                        'the optional custard-style upgrade. The app adds a Gym and a Diabetic version of every recipe'
+                        + (f' (see p.&nbsp;{hp})' if hp else "") + '.</p></div>')
         return f'''
 <div class="inner">
   <div class="pg-head"><div class="eyebrow">Start here</div><h1>{e(w["title"])}</h1></div>
@@ -261,7 +298,7 @@ def welcome(fm, sections):
       <div class="an-row"><b>Step tags</b><p>Every step is labelled so you can see the flow at a glance:</p><ul class="pill-list">{tags}</ul></div>
       <div class="an-row"><b>Per pint</b><p>Nutrition is for the whole 473 ml pint, with a per-serving figure underneath. Estimates from typical Indian label values.</p></div>
       <div class="an-row"><b>Re-spin</b><p>How many re-spins to expect. Protein and sugar-free pints almost always need one.</p></div>
-      <div class="an-row"><b>With eggs (optional)</b><p>Every recipe is eggless as written. Where yolks make it richer, a yellow panel shows the custard-style upgrade.</p></div>
+      {eggs_row}
       <div class="an-row"><b>My notes</b><p>Space to log the date, rate the pint, and write down your tweaks.</p></div>
     </aside>
   </div>
@@ -354,25 +391,130 @@ def pantry_pages(fm):
     return [mk(halves[0], True), mk(halves[1], False)]
 
 
+def program_cell(text):
+    """'LITE ICE CREAM or ICE CREAM' -> one badge per program; anything else stays as text."""
+    parts = [x.strip() for x in re.split(r"\s+or\s+|\s*/\s*", text)]
+    if all(x.upper() in PROGRAM_COLOURS for x in parts):
+        return " ".join(program_badge(x, True) for x in parts)
+    return e(text)
+
+
 def protein_sweet(fm):
     def fn(_):
         pg = fm["protein_guide"]
         prow = "".join(f'<tr><td><b>{e(r["base"])}</b></td><td class="num">{e(r["protein"])}</td><td>{e(r["texture"])}</td><td>{e(r["tip"])}</td></tr>'
                        for r in pg["rows"])
-        srow = "".join(f'<tr><td><b>{e(r["name"])}</b></td><td class="num">{e(r["sweetness"])}</td><td>{e(r["freeze_effect"])}</td>'
-                       f'<td>{program_badge(r["program"], True) if r["program"].upper() in PROGRAM_COLOURS else e(r["program"])}</td><td>{e(r["tip"])}</td></tr>'
+        srow = "".join(f'<tr><td><b>{e(r["name"])}</b>{DIAB_MARK if r.get("diabetic_ok") else ""}</td><td class="num">{e(r["sweetness"])}</td><td>{e(r["freeze_effect"])}</td>'
+                       f'<td class="progs">{program_cell(r["program"])}</td><td>{e(r["tip"])}</td></tr>'
                        for r in fm["sweetener_guide"])
+        legend = (f'<p class="dleg">{DIAB_MARK} = diabetic-friendly: no added sugar and little effect on blood glucose. '
+                  'The Diabetic versions in the app use only these.</p>') if any(r.get("diabetic_ok") for r in fm["sweetener_guide"]) else ""
         return f'''
-<div class="inner">
+<div class="inner ps">
   <div class="pg-head"><div class="eyebrow">Building blocks</div><h1>Protein &amp; sweeteners</h1></div>
   <h2 class="sec-h">{icon("bolt")} The protein toolkit</h2>
   <p class="lede">{rich(pg["intro"])}</p>
   <table class="tbl"><thead><tr><th>Base</th><th>Protein</th><th>Texture</th><th>Tip</th></tr></thead><tbody>{prow}</tbody></table>
   <h2 class="sec-h">Sweeteners &amp; what they do to texture</h2>
   <p class="lede">Sugar does more than sweeten: it keeps the pint soft. Swap it out and the pint freezes harder, so expect LITE ICE CREAM and a RE-SPIN.</p>
-  <table class="tbl"><thead><tr><th>Sweetener</th><th>vs sugar</th><th>Freezing effect</th><th>Program</th><th>Tip</th></tr></thead><tbody>{srow}</tbody></table>
+  <table class="tbl sweet"><thead><tr><th>Sweetener</th><th>vs sugar</th><th>Freezing effect</th><th>Program</th><th>Tip</th></tr></thead><tbody>{srow}</tbody></table>
+  {legend}
 </div>'''
     return fn
+
+
+DIAB_MARK = '<span class="dmark" title="Diabetic-friendly">D</span>'
+
+
+def _lede(d):
+    return f'<p class="lede">{rich(d["intro"])}</p>' if d.get("intro") else ""
+
+
+def variants_block(fm):
+    vl = fm.get("variants_legend") or {}
+    cards = ""
+    for key, lbl, c in (("gym", "Gym", "#3559A8"), ("diabetic", "Diabetic", "#0F8077")):
+        v = vl.get(key)
+        if v:
+            rules = "".join(f"<li>{rich(x)}</li>" for x in v.get("rules", []))
+            cards += f'<div class="hv-card" style="--hc:{c}"><h3><span>{lbl}</span>{e(v.get("goal", ""))}</h3><ul>{rules}</ul></div>'
+    disc = f'<p class="hv-disc">{rich(vl["disclaimer"])}</p>' if vl.get("disclaimer") else ""
+    return f'<div class="hv-grid">{cards}</div>{disc}' if cards else ""
+
+
+def swaps_block(fm):
+    hs = fm.get("healthier_swaps") or {}
+    if not hs.get("rows"):
+        return ""
+    rows = "".join(f'<tr><td>{rich(r["out"])}</td><td class="arrow">→</td><td><b>{rich(r["in"])}</b></td>'
+                   f'<td>{rich(r["effect"])}</td><td class="saves">{e(r["saves"])}</td></tr>' for r in hs["rows"])
+    return (f'<h2 class="sec-h">{icon("swap")} {e(hs.get("title") or "Healthier swaps")}</h2>'
+            f'<table class="tbl hs"><thead><tr><th>Swap out</th><th></th><th>Swap in</th><th>What changes</th><th>Saves</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>')
+
+
+def label_block(fm):
+    lr = fm.get("label_reading") or {}
+    if not lr.get("rows"):
+        return ""
+    rows = "".join(f'<tr><td class="code">{e(r["code"])}</td><td>{rich(r["what"])}</td><td>{rich(r["verdict"])}</td></tr>'
+                   for r in lr["rows"])
+    return (f'<h2 class="sec-h">{icon("check")} {e(lr.get("title") or "Reading the label")}</h2>{_lede(lr)}'
+            f'<table class="tbl lr"><thead><tr><th>On the label</th><th>What it is</th><th>Verdict</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>')
+
+
+def shelf_block(fm):
+    hp = fm.get("healthy_pantry") or {}
+    items = hp.get("items") or []
+    if not items:
+        return ""
+    mixed = len({bool(i.get("diabetic_ok")) for i in items}) > 1  # mark only if it tells items apart
+    lis = "".join(
+        f'<li><span class="chk"></span><div><b>{e(i["name"])}</b>{DIAB_MARK if mixed and i.get("diabetic_ok") else ""}'
+        f'{(" <i>" + e(i["brand"]) + "</i>") if i.get("brand") else ""}'
+        f'<p>{rich(i.get("why", ""))} <u>{rich(i.get("use", ""))}</u></p><span class="where">{e(i.get("where", ""))}</span></div></li>'
+        for i in items)
+    leg = f'<p class="dleg">{DIAB_MARK} = fine in the Diabetic versions.</p>' if mixed else ""
+    return (f'<h2 class="sec-h">{icon("cart")} {e(hp.get("title") or "The healthy pantry")}</h2>{_lede(hp)}'
+            f'<ul class="hshelf">{lis}</ul>{leg}')
+
+
+def science_block(fm, head=True):
+    ts = fm.get("texture_science") or {}
+    if not ts.get("points"):
+        return ""
+    pts = "".join(f'<li><b>{e(x["h"])}</b><p>{rich(x["text"])}</p></li>' for x in ts["points"])
+    h = f'<h2 class="sec-h">{icon("snow")} {e(ts.get("title") or "Texture science")}</h2>{_lede(ts)}' if head else ""
+    return f'<div class="tsci">{h}<ol>{pts}</ol></div>'
+
+
+def guide_page(eyebrow, title, lede, blocks, cls=""):
+    """Generic guide page: page heading, optional lede, then content blocks."""
+    def fn(_):
+        body = "".join(blocks)
+        return (f'<div class="inner hpage {cls}"><div class="pg-head"><div class="eyebrow">{eyebrow}</div><h1>{e(title)}</h1>'
+                f'{lede}</div>{body}</div>')
+    return fn
+
+
+def healthier_pages(fm):
+    """New 'healthier pints' guide pages, in book order, as (contents title, builder). Empty if the data is absent."""
+    vl = fm.get("variants_legend") or {}
+    out = []
+    a = [variants_block(fm), swaps_block(fm)]
+    if any(a):
+        out.append(("Healthier pints: gym & diabetic, swaps",
+                    guide_page("Gym &amp; diabetic", vl.get("title") or "Healthier pints", _lede(vl), a, "healthier")))
+    b = [shelf_block(fm), label_block(fm)]
+    if any(b):
+        out.append(("The healthy pantry & reading labels",
+                    guide_page("Shop smarter", "The healthy pantry & labels", "", b, "shelf")))
+    c = science_block(fm, head=False)
+    if c:
+        ts = fm["texture_science"]
+        out.append(("Texture science", guide_page("The science", ts.get("title") or "Texture science", _lede(ts), [c], "science")))
+    return out
 
 
 def trouble(fm):
@@ -413,11 +555,13 @@ def divider(s, recipe_pages):
             f'<li><span class="d-n">{r["num"]:02d}</span><span class="d-t">{e(r["title"])}<small>{e(r["subtitle"])}</small></span>'
             f'{program_badge(r["program"], True)}<span class="d-pg">p. {recipe_pages[r["num"]]}</span></li>'
             for r in s["recipes"])
+        c101 = s["key"] == "s5_gelato"
+        compact = " compact" if len(s["recipes"]) + (4 if c101 else 0) > 10 else ""
         p, b, a = s["art"]
         art = illustration(p, b, a, darken(b, 0.5), seed=s["num"] * 5, has_mixins=True, protein=s["key"].startswith(("s1", "s2")))
         return f'''
 <div class="div-bg" style="--sc:{sc};--st:{lighten(sc, 0.9)}"></div>
-<div class="inner divider" style="--sc:{sc}">
+<div class="inner divider{compact}" style="--sc:{sc}">
   <div class="div-top">
     <div class="div-num">{s["num"]:02d}</div>
     <div class="div-art">{art}</div>
@@ -427,7 +571,7 @@ def divider(s, recipe_pages):
   <p class="div-sub">{e(s["sub"])}</p>
   <p class="div-blurb">{e(s["blurb"])}</p>
   <ol class="div-list">{items}</ol>
-  {custard101() if s["key"] == "s5_gelato" else ""}
+  {custard101() if c101 else ""}
 </div>'''
     return fn
 
@@ -539,7 +683,7 @@ def leaderboard(sections, recipe_pages):
         return f'''
 <div class="inner">
   <div class="pg-head"><div class="eyebrow">Quick reference</div><h1>Protein leaderboard</h1>
-  <p class="lede">The 24 highest-protein pints in the book, ranked per whole pint. "g / 100 kcal" shows how lean the protein is: above 7 is excellent.</p></div>
+  <p class="lede">The {len(top)} highest-protein pints of the {len(allr)} in the book, ranked per whole pint. "g / 100 kcal" shows how lean the protein is: above 7 is excellent.</p></div>
   <table class="tbl lb"><thead><tr><th>#</th><th>Recipe</th><th>Program</th><th>Protein / pint</th><th>kcal</th><th>g / 100 kcal</th><th>Page</th></tr></thead><tbody>{rows}</tbody></table>
 </div>'''
     return fn
@@ -575,17 +719,31 @@ def blank_recipe(i):
 
 # ---------------------------------------------------------------- assemble
 
-def build():
-    sections, fm = load()
-    book = Book()
-
-    # Pre-compute page numbers: cover, contents, 7 guide pages, then sections, then back matter.
-    guide = [("Start here", welcome(fm, sections)), ("Meet your machines", machines(fm)),
-             ("From Blast to bowl: method & golden rules", method_rules(fm))]
+def guide_entries(fm, sections, ctx=None):
+    """Front-matter guide pages in book order as (contents title, page builder). New guide pages go here."""
+    ctx = {} if ctx is None else ctx
     pp = pantry_pages(fm)
-    guide += [("The Indian Creami pantry", pp[0]), ("The pantry, continued", pp[1]),
-              ("Protein & sweeteners", protein_sweet(fm)), ("Troubleshooting, storage & conversions", trouble(fm))]
-    page = 2 + len(guide)
+    out = [("Start here", welcome(fm, sections, ctx)), ("Meet your machines", machines(fm)),
+           ("From Blast to bowl: method & golden rules", method_rules(fm)),
+           ("The Indian Creami pantry", pp[0]), ("The pantry, continued", pp[1]),
+           ("Protein & sweeteners", protein_sweet(fm))]
+    out += healthier_pages(fm)
+    out.append(("Troubleshooting, storage & conversions", trouble(fm)))
+    return out
+
+
+BACK_MATTER = ["Protein leaderboard", "Freezer pint log", "Your own recipes", "Your own recipes"]
+
+
+def page_plan(sections, fm):
+    """Printed page numbers, shared with build_app.py so the app's page refs match the PDF.
+
+    Book order: cover, contents, guide pages, then per section a divider and its recipes, then back matter.
+    Returns (recipe_pages {recipe num: page}, divider_pages {section num: page},
+             guide_titles [(title, page)] for the guide and back-matter entries listed on the contents page).
+    """
+    titles = [t for t, _ in guide_entries(fm, sections)]
+    page = 2 + len(titles)
     divider_pages, recipe_pages = {}, {}
     for s in sections:
         page += 1
@@ -593,13 +751,22 @@ def build():
         for r in s["recipes"]:
             page += 1
             recipe_pages[r["num"]] = page
-    back_start = page + 1
-    extra = [(t, 3 + i) for i, (t, _) in enumerate(guide)]
-    extra_back = [("Protein leaderboard", back_start), ("Freezer pint log", back_start + 1),
-                  ("Your own recipes", back_start + 2)]
+    guide_titles = [(t, 3 + i) for i, t in enumerate(titles)]
+    guide_titles += [(t, page + 1 + i) for i, t in enumerate(BACK_MATTER[:3])]
+    return recipe_pages, divider_pages, guide_titles
+
+
+def build():
+    sections, fm = load()
+    book = Book()
+
+    recipe_pages, divider_pages, guide_titles = page_plan(sections, fm)
+    ctx = {t.split(":")[0].lower(): p for t, p in guide_titles}
+    guide = guide_entries(fm, sections, ctx)
+    assert [t for t, _ in guide] == [t for t, _ in guide_titles[:len(guide)]]
 
     book.add(cover(sections), cls="cover nofolio")
-    book.add(contents(sections, recipe_pages, divider_pages, extra + extra_back), cls="contents-page")
+    book.add(contents(sections, recipe_pages, divider_pages, guide_titles), cls="contents-page")
     for _, g in guide:
         book.add(g, cls="guide")
     for s in sections:
@@ -610,9 +777,11 @@ def build():
     book.add(pint_log(sections), cls="guide")
     book.add(blank_recipe(1), cls="guide")
     book.add(blank_recipe(2), cls="guide")
+    assert len(book.pages) == 2 + len(guide) + len(sections) + len(recipe_pages) + len(BACK_MATTER)
+    n_recipes = len(recipe_pages)
 
     css = (BUILD / "book.css").read_text()
-    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK_TITLE}: 50 Ninja CREAMi Recipes</title>
+    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK_TITLE}: {n_recipes} Ninja CREAMi Recipes</title>
 <style>{css}</style></head><body class="{'duplex' if DUPLEX else 'simplex'}">
 {book.render()}
 <script>{(BUILD / "fit.js").read_text()}</script>

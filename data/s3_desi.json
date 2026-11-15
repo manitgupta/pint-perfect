@@ -110,9 +110,185 @@
       "kcal": 1105,
       "protein_g": 29,
       "carbs_g": 86,
-      "fat_g": 71
+      "fat_g": 71,
+      "added_sugar_g": 43
     },
-    "shop_note": "Khoya: local mithai shop or Amul khoya on BigBasket. Saffron: Baby Brand or Lion on Blinkit or Zepto."
+    "shop_note": "Khoya: local mithai shop or Amul khoya on BigBasket. Saffron: Baby Brand or Lion on Blinkit or Zepto.",
+    "variants": {
+      "gym": {
+        "why": "Toned milk is still reduced for the caramel kulfi taste; milk powder and cornflour replace khoya and cream, High Protein Milk adds 28 g protein. Fat lands near 17 g, from milk and pistachios.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "400 ml (1⅔ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "or any toned milk; reduced to 200 ml"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "200 ml (generous ¾ cup)",
+              "item": "Amul High Protein Milk",
+              "note": "most of a 250 ml pack"
+            }
+          ],
+          "remove": [
+            "khoya"
+          ],
+          "add": [
+            {
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "khoya-like body without fat",
+              "after": "toned milk"
+            },
+            {
+              "qty": "8 g (1 tbsp)",
+              "item": "cornflour",
+              "note": "cooked in; keeps it smooth",
+              "after": "skimmed milk powder"
+            }
+          ]
+        },
+        "mixins": {
+          "remove": [
+            "almonds"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Simmer the toned milk in a wide, heavy kadhai on medium-low for about 20 min, stirring and scraping the sides in, until reduced to 200 ml."
+            },
+            {
+              "i": 1,
+              "text": "Whisk the milk powder and cornflour into 60 ml of the High Protein Milk, stir into the pan with cardamom and saffron, and simmer 2 min."
+            },
+            {
+              "i": 2,
+              "text": "Off the heat, cool below 70 °C and stir in the Munkito. Cool fully, about 45 min, or over an ice-water bath."
+            },
+            {
+              "i": 3,
+              "text": "Blend the cooled base with the remaining High Protein Milk in the Ninja Blast for 30 s. Rest 2 min so the foam settles."
+            },
+            {
+              "i": 5,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 6,
+              "text": "Make a 4 cm well to the bottom, add the pistachios and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "No Added Sugar",
+          "Desi Classic",
+          "Eggless"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 585,
+          "protein_g": 51,
+          "carbs_g": 57,
+          "fat_g": 17,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Reduced toned milk keeps the kulfi flavour; smooth-blended paneer and milk powder replace cream and khoya, cooked cornflour keeps it creamy without gum, Munkito replaces Milkmaid. Fat halves, protein nearly doubles.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "540 ml (2¼ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "or any toned milk; reduced to 300 ml"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "55 g (generous ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            },
+            {
+              "match": "khoya",
+              "qty": "100 g",
+              "item": "Amul High Protein paneer, crumbled",
+              "note": "blended fully smooth; replaces khoya"
+            }
+          ],
+          "add": [
+            {
+              "qty": "8 g (1 tbsp)",
+              "item": "cornflour",
+              "note": "cooked in; smooth without gum",
+              "after": "skimmed milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Simmer the toned milk in a wide, heavy kadhai on medium-low for about 25 min, stirring and scraping the sides in, until reduced to 300 ml."
+            },
+            {
+              "i": 1,
+              "text": "Whisk the milk powder and cornflour with 3 tbsp of the hot milk, stir back in with cardamom and saffron, and simmer 2 min until lightly thick."
+            },
+            {
+              "i": 2,
+              "text": "Off the heat, cool below 70 °C and stir in the Munkito. Cool fully, about 45 min, or over an ice-water bath."
+            },
+            {
+              "i": 3,
+              "text": "Blend the cooled base and paneer in the Ninja Blast for 45–60 s, until completely smooth with no grain left."
+            },
+            {
+              "i": 5,
+              "text": "Run LITE ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "No Added Sugar",
+          "High Protein",
+          "Desi Classic",
+          "Eggless"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 708,
+          "protein_g": 53,
+          "carbs_g": 52,
+          "fat_g": 32,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "alphonso-aamras-ice-cream",
@@ -206,9 +382,168 @@
       "kcal": 735,
       "protein_g": 11,
       "carbs_g": 83,
-      "fat_g": 40
+      "fat_g": 40,
+      "added_sugar_g": 44
     },
-    "shop_note": "Mango pulp: Swad Alphonso or Kesar, or Harvesta (unsweetened), on Blinkit, Zepto and Amazon."
+    "shop_note": "Mango pulp: Swad Alphonso or Kesar, or Harvesta (unsweetened), on Blinkit, Zepto and Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Fresh mango replaces sweetened pulp; skyr, High Protein Milk and milk powder replace cream and Milkmaid. Mango pulp and skyr give thick body, Munkito keeps it scoopable, xanthan stops iciness.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "mango pulp",
+              "qty": "180 g (1 cup chopped)",
+              "item": "ripe Alphonso or Kesar mango",
+              "note": "fresh, or frozen unsweetened chunks"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "120 g (½ cup)",
+              "item": "Milky Mist Skyr, plain",
+              "note": "or plain Epigamia Greek yogurt"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "100 ml (scant ½ cup)",
+              "item": "Amul High Protein Milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "⅛ tsp",
+              "item": "xanthan gum",
+              "note": "optional; creamier, fewer re-spins"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Chill the mango and skyr for a few hours so the base starts cold."
+            },
+            {
+              "i": 1,
+              "text": "Blend everything in the Ninja Blast for 40–60 s until silky. Rest 2 min so the foam settles."
+            },
+            {
+              "i": 3,
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM."
+            }
+          ]
+        },
+        "tags": [
+          "Fruit Forward",
+          "High Protein",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 411,
+          "protein_g": 36,
+          "carbs_g": 60,
+          "fat_g": 3,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "100 g ripe fresh mango gives the flavour without tinned sugar; plain skyr, whey isolate and milk powder replace cream and Milkmaid for a thick, creamy body. Munkito sweetens and softens.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "mango pulp",
+              "qty": "100 g (½ cup chopped)",
+              "item": "ripe Alphonso or Kesar mango",
+              "note": "fresh; the most fragrant you can find"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "150 g (⅔ cup)",
+              "item": "Milky Mist Skyr, plain",
+              "note": "or plain Epigamia Greek yogurt"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "150 ml (⅔ cup)",
+              "item": "Amul Taaza toned milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS or Avvatar Raw",
+              "after": "toned milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "after": "whey isolate"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Chill the mango, skyr and milk for a few hours so the base starts cold."
+            },
+            {
+              "i": 1,
+              "text": "Blend everything in the Ninja Blast for 40–60 s until silky. Rest 2–3 min so the whey foam settles before pouring."
+            },
+            {
+              "i": 3,
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM."
+            },
+            {
+              "i": 5,
+              "text": "Serve at once; a few fresh mango cubes on top are plenty."
+            }
+          ]
+        },
+        "tags": [
+          "Fruit Forward",
+          "High Protein",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 460,
+          "protein_g": 50,
+          "carbs_g": 47,
+          "fat_g": 8,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "filter-coffee-ice-cream",
@@ -306,9 +641,158 @@
       "kcal": 768,
       "protein_g": 15,
       "carbs_g": 70,
-      "fat_g": 47
+      "fat_g": 47,
+      "added_sugar_g": 46
     },
-    "shop_note": "Filter coffee: Cothas, Narasu's or Bru Green Label on Amazon, BigBasket, Instamart. Steel filter: Amazon or any utensil shop."
+    "shop_note": "Filter coffee: Cothas, Narasu's or Bru Green Label on Amazon, BigBasket, Instamart. Steel filter: Amazon or any utensil shop.",
+    "variants": {
+      "gym": {
+        "why": "Same strong decoction; High Protein Milk and milk powder replace cream and Milkmaid, Munkito replaces sugar. Milk powder and xanthan give the body cream used to, allulose keeps it soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "lightly vanilla; suits kaapi"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "70 ml (¼ cup + 1 tbsp)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "sugar",
+              "qty": "⅛ tsp",
+              "item": "xanthan gum",
+              "note": "Urban Platter; smoother, fewer re-spins"
+            }
+          ],
+          "add": [
+            {
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "creamy body without fat",
+              "after": "toned milk"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "text": "Blend the decoction, both milks, milk powder, Munkito and xanthan in the Ninja Blast for 30–40 s. Rest 2 min so the foam settles."
+            },
+            {
+              "i": 4,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "Desi Classic",
+          "High Protein",
+          "No Added Sugar",
+          "Eggless"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 355,
+          "protein_g": 46,
+          "carbs_g": 36,
+          "fat_g": 3,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Same kaapi decoction; toned milk, whey isolate and milk powder replace cream and Milkmaid, Munkito replaces sugar. Cornflour cooked into part of the milk gives creaminess without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "or any toned milk"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "30 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS or Avvatar Raw"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            },
+            {
+              "match": "sugar",
+              "qty": "8 g (1 tbsp)",
+              "item": "cornflour",
+              "note": "cooked in; smooth without gum"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "after": "whey isolate"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Collect about 60 ml decoction. Cool it and the thickened milk to room temperature, about 20 min. Never put a hot base in the Blast."
+            },
+            {
+              "i": 2,
+              "text": "Blend the decoction, thickened milk, remaining milk, whey and milk powder in the Ninja Blast for 30 s. Rest 2–3 min so the foam settles."
+            },
+            {
+              "i": 4,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ],
+          "insert": [
+            {
+              "after": 0,
+              "tag": "COOK",
+              "text": "Meanwhile, whisk the cornflour into 150 ml of the milk and simmer 2 min, stirring, until thick. Off the heat, stir in the Munkito."
+            }
+          ]
+        },
+        "tags": [
+          "Desi Classic",
+          "High Protein",
+          "No Added Sugar",
+          "Eggless"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 390,
+          "protein_g": 43,
+          "carbs_g": 32,
+          "fat_g": 10,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "meetha-paan-ice-cream",
@@ -414,9 +898,210 @@
       "kcal": 928,
       "protein_g": 15,
       "carbs_g": 106,
-      "fat_g": 49
+      "fat_g": 49,
+      "added_sugar_g": 82
     },
-    "shop_note": "Paan leaves: local paan shop, or betel leaves for puja on Blinkit/Zepto. Gulkand, tutti-frutti: Blinkit, BigBasket, Amazon."
+    "shop_note": "Paan leaves: local paan shop, or betel leaves for puja on Blinkit/Zepto. Gulkand, tutti-frutti: Blinkit, BigBasket, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Gulkand cut to 2 tsp with rose water for perfume; High Protein Milk and milk powder replace cream and Milkmaid. Pistachios and roasted saunf replace tutti-frutti. About 9 g added sugar, all from gulkand.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk"
+            },
+            {
+              "match": "gulkand",
+              "qty": "12 g (2 tsp)",
+              "item": "gulkand (rose petal preserve)",
+              "note": "Dabur; less, boosted with rose water"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Taaza toned milk"
+            }
+          ],
+          "add": [
+            {
+              "qty": "½ tsp",
+              "item": "edible rose water",
+              "note": "food-grade only",
+              "after": "saunf"
+            },
+            {
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "creamy body without cream",
+              "after": "toned milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "tutti-frutti",
+              "qty": "10 g (1 tbsp)",
+              "item": "pistachios, finely chopped"
+            },
+            {
+              "match": "sugar-coated saunf",
+              "qty": "4 g (2 tsp)",
+              "item": "plain saunf, dry-roasted",
+              "note": "crunch without the sugar coat"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend the leaves, both milks, gulkand, saunf, rose water, milk powder and Munkito in the Ninja Blast for 45–60 s, until the leaves are fine specks."
+            },
+            {
+              "i": 2,
+              "text": "Rest 2 min so the foam settles. For a smoother pint, strain through a tea strainer."
+            },
+            {
+              "i": 4,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 5,
+              "text": "Make a 4 cm well to the bottom, add the pistachios and roasted saunf, and run MIX-IN."
+            },
+            {
+              "i": 6,
+              "text": "Top with a sliver of paan leaf and a pinch of roasted saunf."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Low Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 514,
+          "protein_g": 51,
+          "carbs_g": 55,
+          "fat_g": 10,
+          "added_sugar_g": 9
+        }
+      },
+      "diabetic": {
+        "why": "Paan leaves, saunf, rose water and dried rose petals carry the flavour without gulkand; smooth-blended paneer and milk powder replace cream and Milkmaid. Pistachios and roasted saunf replace tutti-frutti.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "280 ml (generous 1 cup)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "gulkand",
+              "qty": "2 g (1 tbsp)",
+              "item": "dried edible rose petals",
+              "note": "Urban Platter; unsweetened"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "100 g",
+              "item": "Amul High Protein paneer, crumbled",
+              "note": "blended fully smooth"
+            }
+          ],
+          "add": [
+            {
+              "qty": "½ tsp",
+              "item": "edible rose water",
+              "note": "food-grade only",
+              "after": "saunf"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "after": "toned milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "tutti-frutti",
+              "qty": "10 g (1 tbsp)",
+              "item": "pistachios, finely chopped"
+            },
+            {
+              "match": "sugar-coated saunf",
+              "qty": "4 g (2 tsp)",
+              "item": "plain saunf, dry-roasted"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend the leaves, milk, rose petals, saunf, rose water, milk powder and Munkito in the Ninja Blast for 45–60 s, until the leaves are fine specks."
+            },
+            {
+              "i": 2,
+              "text": "Add the paneer; blend 45 s more, until silky with no grain. For a smoother pint, strain through a tea strainer."
+            },
+            {
+              "i": 4,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 5,
+              "text": "Make a 4 cm well to the bottom, add the pistachios and roasted saunf, and run MIX-IN."
+            },
+            {
+              "i": 6,
+              "text": "Top with a sliver of paan leaf and a few rose petals."
+            }
+          ]
+        },
+        "tags": [
+          "No Added Sugar",
+          "High Protein",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 480,
+          "protein_g": 42,
+          "carbs_g": 33,
+          "fat_g": 20,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "gulab-jamun-ice-cream",
@@ -519,9 +1204,91 @@
       "kcal": 1013,
       "protein_g": 19,
       "carbs_g": 104,
-      "fat_g": 58
+      "fat_g": 58,
+      "added_sugar_g": 74
     },
-    "shop_note": "Tinned gulab jamun: Haldiram's or Bikano on Blinkit, Zepto, BigBasket. Edible rose water: Puramio or Mr. Merchant on Blinkit."
+    "shop_note": "Tinned gulab jamun: Haldiram's or Bikano on Blinkit, Zepto, BigBasket. Edible rose water: Puramio or Mr. Merchant on Blinkit.",
+    "variants": {
+      "gym": {
+        "why": "Rose-cardamom base on High Protein Milk and milk powder, sweetened with Munkito; the syrup goes and one rinsed jamun gives the mix-in, about 7 g added sugar. Milk powder brings the creamy body.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "gulab jamun syrup",
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "creamy body without cream"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "tinned gulab jamun",
+              "qty": "1 piece (30 g drained)",
+              "item": "tinned gulab jamun, rinsed, in 1 cm pieces",
+              "note": "rinsing removes most syrup"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "text": "Lift 1 jamun from the tin, rinse under warm water, gently squeeze and chop into 1 cm pieces. Chill, covered."
+            },
+            {
+              "i": 1,
+              "text": "Blend both milks, milk powder, Munkito, cardamom and rose water in the Ninja Blast for 30 s. Rest 2 min so the foam settles."
+            },
+            {
+              "i": 3,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 5,
+              "text": "Scoop at once, with a pinch of chopped pistachio on top."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Low Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 532,
+          "protein_g": 51,
+          "carbs_g": 55,
+          "fat_g": 12,
+          "added_sugar_g": 7
+        }
+      },
+      "diabetic": {
+        "unsuitable": true,
+        "why": "Gulab jamun is fried khoya soaked in sugar syrup; without it there is no dish. The Diabetic Malai Kulfi gives the same cardamom-milk comfort.",
+        "try": "malai-kulfi"
+      }
+    }
   },
   {
     "slug": "sitaphal-ice-cream",
@@ -602,9 +1369,132 @@
       "kcal": 720,
       "protein_g": 12,
       "carbs_g": 82,
-      "fat_g": 39
+      "fat_g": 39,
+      "added_sugar_g": 21
     },
-    "shop_note": "Fresh sitaphal: Blinkit, Zepto, BigBasket in season. Frozen pulp: Fooda Custard Apple on BigBasket."
+    "shop_note": "Fresh sitaphal: Blinkit, Zepto, BigBasket in season. Frozen pulp: Fooda Custard Apple on BigBasket.",
+    "variants": {
+      "gym": {
+        "why": "Sitaphal's own sugar does most of the sweetening; smooth-blended paneer and High Protein Milk replace cream and Milkmaid, like a sitaphal basundi. The fruit's pectin and paneer keep it creamy.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "100 g",
+              "item": "Amul High Protein paneer, crumbled",
+              "note": "blended fully smooth"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul High Protein Milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "30 g (2½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "the fruit is already sweet"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend the pulp, paneer, milk and Munkito in the Ninja Blast for 45–60 s, until the paneer is completely smooth."
+            },
+            {
+              "i": 3,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "Fruit Forward",
+          "High Protein",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 487,
+          "protein_g": 45,
+          "carbs_g": 61,
+          "fat_g": 7,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Fruit drops to 100 g; smooth-blended paneer, toned milk and milk powder replace cream and Milkmaid, Munkito sweetens. Paneer and the fruit's pectin give a creamy body with half the fat.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "sitaphal",
+              "qty": "100 g (⅓ cup)",
+              "item": "sitaphal (custard apple) pulp, fully deseeded",
+              "note": "1–2 ripe fruit, or unsweetened frozen pulp"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "100 g",
+              "item": "Amul High Protein paneer, crumbled",
+              "note": "blended fully smooth"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "200 ml (generous ¾ cup)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "after": "toned milk"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend the pulp, paneer, milk, milk powder and Munkito in the Ninja Blast for 45–60 s, until completely smooth."
+            },
+            {
+              "i": 3,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "Fruit Forward",
+          "High Protein",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 440,
+          "protein_g": 38,
+          "carbs_g": 45,
+          "fat_g": 12,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "tender-coconut-ice-cream",
@@ -703,9 +1593,127 @@
       "kcal": 748,
       "protein_g": 12,
       "carbs_g": 66,
-      "fat_g": 48
+      "fat_g": 48,
+      "added_sugar_g": 38
     },
-    "shop_note": "Tender coconuts: local nariyal-wala or Blinkit/Zepto. Packaged coconut water: Paper Boat or Raw Pressery on Blinkit, Amazon."
+    "shop_note": "Tender coconuts: local nariyal-wala or Blinkit/Zepto. Packaged coconut water: Paper Boat or Raw Pressery on Blinkit, Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Malai and coconut water stay; High Protein Milk and milk powder replace cream, Milkmaid and full cream milk, Munkito replaces the sugar. Blended malai and milk powder keep the body soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "200 ml (generous ¾ cup)",
+              "item": "Amul High Protein Milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "creamy body without fat"
+            }
+          ],
+          "remove": [
+            "sugar"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend 100 g malai with the coconut water, milk, milk powder and Munkito in the Ninja Blast for 30–40 s until smooth. Rest 2 min."
+            },
+            {
+              "i": 3,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "No Added Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 394,
+          "protein_g": 37,
+          "carbs_g": 39,
+          "fat_g": 10,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Malai and coconut water carry the flavour; toned milk, whey isolate and milk powder replace cream, Milkmaid and sugar. Blended malai gives natural creaminess, Munkito keeps it scoopable without gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Fresh Cream",
+              "qty": "170 ml (scant ¾ cup)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS or Avvatar Raw"
+            },
+            {
+              "match": "sugar",
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Blend 100 g malai with the coconut water, milk, whey, milk powder and Munkito in the Ninja Blast for 30–40 s. Rest 2–3 min so the foam settles."
+            },
+            {
+              "i": 3,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "No Added Sugar",
+          "High Protein",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 391,
+          "protein_g": 35,
+          "carbs_g": 29,
+          "fat_g": 15,
+          "added_sugar_g": 0
+        }
+      }
+    }
   },
   {
     "slug": "masala-chai-ice-cream",
@@ -823,8 +1831,1324 @@
       "kcal": 952,
       "protein_g": 19,
       "carbs_g": 90,
-      "fat_g": 57
+      "fat_g": 57,
+      "added_sugar_g": 48
     },
-    "shop_note": "Saunth and tea masala: Everest or MDH at any kirana or Blinkit. Kulhads: Amazon."
+    "shop_note": "Saunth and tea masala: Everest or MDH at any kirana or Blinkit. Kulhads: Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Chai brewed in toned milk, thickened with milk powder; High Protein Milk replaces cream, Munkito replaces Milkmaid and sugar. Three Parle-G keep the crunch at about 3 g added sugar.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "320 ml (1⅓ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "reduces to about 250 ml chai"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "creamy body without fat"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (scant ¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add below 70 °C"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "150 ml (⅔ cup)",
+              "item": "Amul High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "Parle-G",
+              "qty": "12 g (3 biscuits)",
+              "item": "Parle-G, broken into small pieces"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Strain, pressing the leaves; you want about 250 ml. Whisk in the milk powder while hot."
+            },
+            {
+              "i": 2,
+              "text": "Cool below 70 °C and stir in the Munkito, then cool fully, about 40 min, or over an ice-water bath. Never pour hot chai into the Blast."
+            },
+            {
+              "i": 3,
+              "text": "Blend the cooled chai and High Protein Milk in the Ninja Blast for 20–30 s. Rest 2 min so the foam settles."
+            },
+            {
+              "i": 5,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Low Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 476,
+          "protein_g": 41,
+          "carbs_g": 51,
+          "fat_g": 12,
+          "added_sugar_g": 3
+        }
+      },
+      "diabetic": {
+        "why": "More toned milk brewed into chai, thickened with milk powder and cooked cornflour instead of cream; whey adds body, Munkito replaces Milkmaid and sugar. Toasted almonds replace Parle-G for crunch.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "480 ml (2 cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "reduces to about 370 ml chai"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add below 70 °C"
+            },
+            {
+              "match": "Fresh Cream",
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS or Avvatar Raw"
+            }
+          ],
+          "add": [
+            {
+              "qty": "8 g (1 tbsp)",
+              "item": "cornflour",
+              "note": "cooked in; smooth without gum",
+              "after": "skimmed milk powder"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "Parle-G",
+              "qty": "15 g (2 tbsp)",
+              "item": "almonds, toasted and chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "text": "Strain, pressing the leaves; you want about 370 ml. Whisk in the milk powder and cornflour slaked in 2 tbsp cold milk; simmer 2 min."
+            },
+            {
+              "i": 2,
+              "text": "Cool below 70 °C and stir in the Munkito, then cool fully, about 40 min, or over an ice-water bath. Never pour hot chai into the Blast."
+            },
+            {
+              "i": 3,
+              "text": "Blend the cooled chai and whey in the Ninja Blast for 20–30 s. Rest 2–3 min so the foam settles."
+            },
+            {
+              "i": 5,
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 6,
+              "text": "Make a 4 cm well to the bottom, add the toasted almonds and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "No Added Sugar",
+          "High Protein",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in at BLAST; smoother, fewer re-spins"
+        },
+        "nutrition_per_pint": {
+          "kcal": 590,
+          "protein_g": 50,
+          "carbs_g": 48,
+          "fat_g": 22,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "kesar-badam-doodh-ice-cream",
+    "title": "Kesar Badam Doodh Ice Cream",
+    "subtitle": "Mumbai's kesar badam milk, frozen",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 15,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#F4DFA8",
+      "accent": "#C89B6D",
+      "deep": "#8A5A12"
+    },
+    "intro": "The chilled glass bottle of kesar badam doodh from the corner dairy, turned into a scoop. Soaked, peeled almonds blended into saffron milk give the body, so it needs only a splash of cream.",
+    "ingredients": [
+      {
+        "qty": "35 g (about 25)",
+        "item": "almonds, soaked and peeled",
+        "note": "overnight, or 30 min in hot water"
+      },
+      {
+        "qty": "280 ml (1 cup + 2 tbsp)",
+        "item": "Amul Gold full cream milk",
+        "note": "chilled, except 100 ml for saffron"
+      },
+      {
+        "qty": "90 g (4½ tbsp)",
+        "item": "Nestlé Milkmaid condensed milk",
+        "note": "or Amul Mithaimate"
+      },
+      {
+        "qty": "60 ml (¼ cup)",
+        "item": "Amul Fresh Cream (25% fat)",
+        "note": "chilled"
+      },
+      {
+        "qty": "15 strands",
+        "item": "saffron (kesar)",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder",
+        "note": "about 4 pods, freshly crushed"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "almonds, toasted and slivered"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Soak the almonds overnight, or 30 min in just-boiled water. Pinch off the skins; they should slip right off."
+      },
+      {
+        "tag": "COOK",
+        "text": "Heat 100 ml of the milk until steaming. Off the heat, add the saffron and cardamom and steep 15 min until deep gold."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cool the saffron milk to room temperature, about 10 min. Never put warm milk in the sealed Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the almonds with the saffron milk in the Ninja Blast for 60 s until silky. Add the remaining milk, Milkmaid and cream; blend 20 s."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "If the top has a hump, let the pint sit 5 min. Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the slivered almonds, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scoop into chilled glasses and finish with a few saffron strands."
+      }
+    ],
+    "tips": [
+      "Blend the almonds with only the saffron milk first. Less liquid means a finer paste and no gritty bits.",
+      "Saffron colour deepens overnight in the freezer, so don't add more strands if the base looks pale.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving again."
+    ],
+    "swaps": [
+      "Badam pista: replace half the almonds with soaked pistachios and use pistachios as the mix-in.",
+      "Rose badam: add 1 tsp Dabur Gulabari rose water with the Milkmaid.",
+      "Richer: add 20 g crumbled khoya to the warm saffron milk for a rabri-like depth."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1000,
+      "protein_g": 29,
+      "carbs_g": 75,
+      "fat_g": 65,
+      "added_sugar_g": 40
+    },
+    "shop_note": "Saffron: Baby Brand or Lion on Blinkit or Zepto. Almonds: California or Mamra on BigBasket or any kirana.",
+    "variants": {
+      "gym": {
+        "why": "Amul High Protein Milk and milk powder replace Gold milk and cream; Munkito replaces Milkmaid. Allulose keeps it soft, and the almond paste plus milk powder give the body cream used to.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "almonds, soaked",
+              "qty": "20 g (about 15)",
+              "item": "almonds, soaked and peeled",
+              "note": "overnight, or 30 min in hot water"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "chilled, except 100 ml for saffron"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            }
+          ],
+          "add": [
+            {
+              "qty": "100 ml (scant ½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "almonds",
+              "qty": "8 g (1 tbsp)",
+              "item": "almonds, toasted and slivered"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the almonds with the saffron milk for 60 s until silky. Add both remaining milks, Munkito and milk powder; blend 20 s."
+            },
+            {
+              "i": 5,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 475,
+          "protein_g": 51,
+          "carbs_g": 34,
+          "fat_g": 15,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Toned milk and milk powder replace Gold milk and cream; Munkito replaces Milkmaid. Almond paste and milk solids keep it creamy, allulose keeps it scoopable, and fat drops by more than half.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "almonds, soaked",
+              "qty": "30 g (about 22)",
+              "item": "almonds, soaked and peeled",
+              "note": "overnight, or 30 min in hot water"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "330 ml (1⅓ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "chilled, except 100 ml for saffron"
+            },
+            {
+              "match": "Milkmaid",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "almonds",
+              "qty": "10 g (1 tbsp)",
+              "item": "almonds, toasted and slivered"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the almonds with the saffron milk for 60 s until silky. Add the remaining milk, Munkito and milk powder; blend 20 s."
+            },
+            {
+              "i": 5,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic",
+          "Gluten-Free Option"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in last; smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 510,
+          "protein_g": 26,
+          "carbs_g": 34,
+          "fat_g": 30,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "gajar-halwa-ice-cream",
+    "title": "Gajar Halwa Ice Cream",
+    "subtitle": "Winter halwa, frozen into a scoop",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 15,
+    "cook_min": 35,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Mix-In Special",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#E9813F",
+      "accent": "#D9A55B",
+      "deep": "#8A3A0F"
+    },
+    "intro": "December's red Delhi carrots, slow-cooked in milk with khoya and elaichi, then blended into a pint. A spoonful of unblended halwa goes back in at the end, so every scoop has proper chunks.",
+    "ingredients": [
+      {
+        "qty": "150 g (1½ cups grated)",
+        "item": "red Delhi carrots, finely grated",
+        "note": "about 2 medium; orange carrots work"
+      },
+      {
+        "qty": "10 g (2 tsp)",
+        "item": "ghee",
+        "note": "Amul or GRB"
+      },
+      {
+        "qty": "330 ml (1⅓ cups)",
+        "item": "Amul Gold full cream milk",
+        "note": "200 ml to cook, 130 ml cold"
+      },
+      {
+        "qty": "45 g (3½ tbsp)",
+        "item": "sugar"
+      },
+      {
+        "qty": "40 g (⅓ cup)",
+        "item": "khoya / mawa, crumbled",
+        "note": "Amul or mithai shop"
+      },
+      {
+        "qty": "60 ml (¼ cup)",
+        "item": "Amul Fresh Cream (25% fat)",
+        "note": "chilled"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "cashews, toasted and chopped"
+      },
+      {
+        "qty": "10 g (1 tbsp)",
+        "item": "raisins (kishmish)"
+      },
+      {
+        "qty": "2 tbsp",
+        "item": "reserved halwa, chilled",
+        "note": "optional; from step 3"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Sauté the carrots in the ghee in a heavy kadhai on medium for 5 min, until they darken slightly and smell sweet."
+      },
+      {
+        "tag": "COOK",
+        "text": "Add 200 ml of the milk; simmer, stirring, 20–25 min until almost dry. Stir in the sugar, khoya and cardamom; cook 3 min."
+      },
+      {
+        "tag": "COOL",
+        "text": "Spoon out 2 tbsp halwa for the mix-in and chill it. Cool the rest to room temperature, about 30 min."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled halwa with the remaining 130 ml cold milk and the cream in the Ninja Blast for 45–60 s until smooth."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "If the top has a hump, let the pint sit 5 min. Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the cashews, raisins and reserved halwa, and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve slightly soft, with extra toasted cashews on top."
+      }
+    ],
+    "tips": [
+      "Grate fine. Coarse shreds stay stringy in the Blast and freeze into icy threads.",
+      "Cook until the milk is almost gone; leftover liquid makes the pint icy, not creamy.",
+      "Measure the base after blending. Over 450 ml and it passes MAX FILL; drink the extra."
+    ],
+    "swaps": [
+      "Leftover halwa: blend 250 g ready gajar halwa with 130 ml milk and the cream; skip the cooking.",
+      "Kesar gajar: add 10 saffron strands with the cardamom.",
+      "Nutty: swap cashews for chopped almonds and pistachios."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1055,
+      "protein_g": 22,
+      "carbs_g": 98,
+      "fat_g": 64,
+      "added_sugar_g": 45
+    },
+    "shop_note": "Red Delhi carrots: November to February at any sabziwala, Blinkit or BigBasket. Khoya: Amul on BigBasket or a mithai shop.",
+    "variants": {
+      "gym": {
+        "why": "No ghee, skimmed milk, high-protein paneer instead of khoya, milk powder instead of cream, Munkito instead of sugar. Blended paneer and milk solids give body; allulose keeps it soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "330 ml (1⅓ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "200 ml to cook, 130 ml cold"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "khoya",
+              "qty": "60 g",
+              "item": "Amul High Protein paneer",
+              "note": "crumbled; blended fully smooth"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            }
+          ],
+          "remove": [
+            "ghee"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "cashews",
+              "qty": "10 g (1 tbsp)",
+              "item": "cashews, toasted and chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "COOK",
+              "text": "Dry-sauté the carrots in a non-stick kadhai with 2 tbsp of the milk for 5 min, until soft and sweet-smelling."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Add 200 ml of the milk; simmer, stirring, 20–25 min until almost dry. Off the heat, cool 5 min, then stir in Munkito and cardamom."
+            },
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the cooled halwa, paneer, milk powder and remaining 130 ml cold milk in the Ninja Blast for 60 s, until no paneer grain remains."
+            },
+            {
+              "i": 5,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 465,
+          "protein_g": 37,
+          "carbs_g": 54,
+          "fat_g": 11,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Toned milk, 1 tsp ghee, milk powder cooked in for khoya flavour, Munkito for sugar, no cream or raisins. The reduced carrots and milk solids carry the body; allulose keeps it scoopable.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "ghee",
+              "qty": "5 g (1 tsp)",
+              "item": "ghee",
+              "note": "Amul or GRB"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "380 ml (1½ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "200 ml to cook, 180 ml cold"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "khoya",
+              "qty": "25 g (¼ cup)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "cooks into a khoya-like flavour"
+            }
+          ],
+          "remove": [
+            "fresh cream"
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "cashews",
+              "qty": "10 g (1 tbsp)",
+              "item": "cashews, toasted and chopped"
+            }
+          ],
+          "remove": [
+            "raisins"
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Add 200 ml of the milk; simmer, stirring, 20–25 min until almost dry. Whisk in the milk powder and cardamom; cook 2 min."
+            },
+            {
+              "i": 2,
+              "tag": "COOL",
+              "text": "Off the heat, cool 5 min and stir in Munkito. Chill 2 tbsp halwa for the mix-in; cool the rest to room temperature."
+            },
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the cooled halwa with the remaining 180 ml cold milk in the Ninja Blast for 45–60 s until smooth."
+            },
+            {
+              "i": 5,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 6,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the cashews and reserved halwa, and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in last; smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 475,
+          "protein_g": 24,
+          "carbs_g": 48,
+          "fat_g": 21,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "kesar-phirni-ice-cream",
+    "title": "Kesar Phirni Ice Cream",
+    "subtitle": "Rice-flour kheer, Eid-table creamy",
+    "program": "GELATO",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 10,
+    "cook_min": 15,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Gluten-Free Option",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#F6E7C1",
+      "accent": "#8DB255",
+      "deep": "#7A4E12"
+    },
+    "intro": "Phirni set in clay shikoras is the dessert of every Eid table. Coarse rice flour thickens the milk so well that this pint needs no cream or gum, just saffron, rosewater and pistachios.",
+    "ingredients": [
+      {
+        "qty": "430 ml (1¾ cups)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "20 g (2 tbsp)",
+        "item": "coarse rice flour",
+        "note": "or soaked basmati, ground coarse"
+      },
+      {
+        "qty": "65 g (⅓ cup)",
+        "item": "sugar"
+      },
+      {
+        "qty": "12 strands",
+        "item": "saffron (kesar)",
+        "note": "Baby Brand or Lion"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "Dabur Gulabari rose water",
+        "note": "add off the heat"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "20 g (2 tbsp)",
+        "item": "pistachios, finely chopped"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Whisk the rice flour into 100 ml of the cold milk until lump-free. Bloom the saffron in 1 tbsp warm milk."
+      },
+      {
+        "tag": "COOK",
+        "text": "Boil the remaining milk in a heavy pan. Whisk in the rice slurry; cook on low 8–10 min, stirring constantly, until it coats a spoon thickly."
+      },
+      {
+        "tag": "COOK",
+        "text": "Stir in the sugar, saffron and cardamom; cook 2 min more. Off the heat, stir in the rose water."
+      },
+      {
+        "tag": "COOL",
+        "text": "Press cling film onto the surface and cool to room temperature, about 45 min. It sets like soft custard."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled phirni in the Ninja Blast for 30 s to loosen it into a smooth, pourable base."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Run GELATO. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the pistachios, and run MIX-IN. Serve with a few rose petals."
+      }
+    ],
+    "tips": [
+      "Stir the whole time the rice cooks. It catches on the bottom within a minute and the scorched taste spreads.",
+      "Fine rice flour turns gluey; coarse gives the classic phirni grain. Rava-textured flour from a chakki is ideal.",
+      "Rose water is strong. Start with 1 tsp; you can add more in the Blast, never take it out."
+    ],
+    "swaps": [
+      "Shahi: add 20 g crumbled khoya with the sugar and use almonds plus pistachios as mix-ins.",
+      "Mango phirni: replace 100 ml milk with 100 g Alphonso pulp, blended in after cooling; cut sugar to 45 g.",
+      "Kewra: use 2 drops kewra essence instead of the rose water."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 825,
+      "protein_g": 19,
+      "carbs_g": 108,
+      "fat_g": 35,
+      "added_sugar_g": 65
+    },
+    "shop_note": "Coarse rice flour: chakki or kirana, or grind soaked basmati. Rose water: Dabur Gulabari on Blinkit, Zepto or Amazon.in.",
+    "variants": {
+      "gym": {
+        "why": "Amul High Protein Milk, skimmed milk and a little milk powder replace Gold milk; Munkito replaces sugar. The rice starch still gives the gelato body, and allulose keeps it soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            }
+          ],
+          "add": [
+            {
+              "qty": "180 ml (¾ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "100 ml of it for the slurry",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "extra body",
+              "after": "rice flour"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "pistachios",
+              "qty": "15 g (1½ tbsp)",
+              "item": "pistachios, finely chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Whisk the rice flour and milk powder into 100 ml of the cold skimmed milk until lump-free. Bloom the saffron in 1 tbsp warm milk."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Heat the remaining milks to a simmer in a heavy pan. Whisk in the slurry; cook on low 8–10 min, stirring constantly, until it coats a spoon thickly."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Stir in the saffron and cardamom; cook 1 min. Off the heat, cool 10 min, then stir in Munkito and rose water."
+            },
+            {
+              "i": 6,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic",
+          "Gluten-Free Option"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 485,
+          "protein_g": 51,
+          "carbs_g": 50,
+          "fat_g": 9,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Toned and skimmed milk replace Gold milk, Munkito replaces sugar, and milk powder adds body. Rice starch thickens the base so it stays creamy with no cream or gum.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "Amul Gold",
+              "qty": "300 ml (1¼ cups)",
+              "item": "Amul Taaza toned milk"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            }
+          ],
+          "add": [
+            {
+              "qty": "130 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "100 ml of it for the slurry",
+              "after": "Taaza"
+            },
+            {
+              "qty": "15 g (2 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "extra body",
+              "after": "rice flour"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "pistachios",
+              "qty": "15 g (1½ tbsp)",
+              "item": "pistachios, finely chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "Whisk the rice flour and milk powder into 100 ml of the cold skimmed milk until lump-free. Bloom the saffron in 1 tbsp warm milk."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Boil the remaining milks in a heavy pan. Whisk in the slurry; cook on low 8–10 min, stirring constantly, until it coats a spoon thickly."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Stir in the saffron and cardamom; cook 1 min. Off the heat, cool 10 min, then stir in Munkito and rose water."
+            },
+            {
+              "i": 6,
+              "tag": "SPIN",
+              "text": "Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic",
+          "Gluten-Free Option"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in last; smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 430,
+          "protein_g": 23,
+          "carbs_g": 48,
+          "fat_g": 16,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "mysore-pak-ice-cream",
+    "title": "Mysore Pak Ice Cream",
+    "subtitle": "Ghee-roasted besan, melt-in-mouth",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 5,
+    "cook_min": 20,
+    "difficulty": "Medium",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#E9C27A",
+      "accent": "#B5762A",
+      "deep": "#6B4210"
+    },
+    "intro": "Bengaluru's soft, ghee-heavy Mysore pak, melted into ice cream. Besan roasted slowly in ghee until it smells of biscuits gets cooked into the milk, and crumbled Mysore pak goes in at the end.",
+    "ingredients": [
+      {
+        "qty": "30 g (¼ cup)",
+        "item": "besan (gram flour), sifted",
+        "note": "fresh; Rajdhani or Tata Sampann"
+      },
+      {
+        "qty": "30 g (2 tbsp)",
+        "item": "ghee",
+        "note": "Amul, GRB or Nandini"
+      },
+      {
+        "qty": "300 ml (1¼ cups)",
+        "item": "Amul Gold full cream milk",
+        "note": "warm"
+      },
+      {
+        "qty": "70 g (⅓ cup)",
+        "item": "sugar"
+      },
+      {
+        "qty": "60 ml (¼ cup)",
+        "item": "Amul Fresh Cream (25% fat)",
+        "note": "chilled"
+      },
+      {
+        "qty": "1 pinch each",
+        "item": "salt and green cardamom powder",
+        "note": "cardamom optional"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "30 g (¼ cup)",
+        "item": "Mysore pak, crumbled",
+        "note": "store-bought soft Mysore pak"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "Melt the ghee in a heavy kadhai on low. Add the besan; roast, stirring constantly, 8–10 min until golden, nutty and loose like wet sand."
+      },
+      {
+        "tag": "COOK",
+        "text": "Take off the heat. Whisk in the warm milk a splash at a time, so no lumps form, then return to medium heat."
+      },
+      {
+        "tag": "COOK",
+        "text": "Add the sugar and simmer, whisking, 4–5 min until it thickens like thin custard. Stir in the salt and cardamom."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cool to room temperature, about 40 min, whisking once or twice. Never put a warm base in the Blast."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled base with the cream in the Ninja Blast for 20–30 s until smooth; any longer and the cream starts to whip."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "If the top has a hump, let the pint sit 5 min. Run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the crumbled Mysore pak, and run MIX-IN."
+      }
+    ],
+    "tips": [
+      "Roast on low and never stop stirring. Raw besan tastes bitter and grassy; burnt besan can't be rescued.",
+      "Warm milk stops the ghee from seizing. Cold milk on hot besan gives lumps the Blast can't fully fix.",
+      "Leftovers: flatten the top, refreeze, and re-spin. The Mysore pak bits soften but stay tasty."
+    ],
+    "swaps": [
+      "No Mysore pak at hand: roast 2 extra tbsp besan in 1 tsp ghee until crumbly, cool, and use as the mix-in.",
+      "Badam pak: swap 10 g besan for almond flour and add slivered almonds as the mix-in.",
+      "Kesar: bloom 10 saffron strands in the warm milk before whisking it in."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1230,
+      "protein_g": 20,
+      "carbs_g": 119,
+      "fat_g": 75,
+      "added_sugar_g": 84
+    },
+    "shop_note": "Mysore pak: Sri Krishna Sweets, Anand or any sweet shop; also on Swiggy Instamart. Besan: any kirana.",
+    "variants": {
+      "gym": {
+        "why": "Ghee cut to 1½ tsp, skimmed milk, milk powder and unflavoured whey instead of Gold milk and cream, Munkito instead of sugar. Cooked besan and milk solids give body; allulose keeps it soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "ghee",
+              "qty": "7 g (1½ tsp)",
+              "item": "ghee",
+              "note": "Amul, GRB or Nandini"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "330 ml (1⅓ cups)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "note": "warm"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "30 g (4 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            }
+          ],
+          "add": [
+            {
+              "qty": "20 g (⅔ scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS or Avvatar Raw",
+              "after": "milk powder"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "Mysore pak",
+              "qty": "15 g (2 tbsp)",
+              "item": "Mysore pak, crumbled",
+              "note": "store-bought; a little goes a long way"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "COOK",
+              "text": "Warm the ghee in a heavy non-stick pan on low. Add the besan; roast, stirring constantly, 8–10 min until golden and nutty. It stays crumbly."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Off the heat, whisk the milk powder into the warm milk, then whisk it into the besan a splash at a time. Return to medium heat."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Simmer, whisking, 4–5 min until it thickens like thin custard. Off the heat, cool 5 min, then stir in Munkito, salt and cardamom."
+            },
+            {
+              "i": 4,
+              "tag": "BLAST",
+              "text": "Blend the cooled base with the whey in the Ninja Blast for 30 s. Rest 5 min so the foam settles."
+            },
+            {
+              "i": 6,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 560,
+          "protein_g": 48,
+          "carbs_g": 58,
+          "fat_g": 15,
+          "added_sugar_g": 7
+        }
+      },
+      "diabetic": {
+        "why": "Besan dry-roasted in 1 tsp ghee, toned milk, milk powder for cream, Munkito for sugar, cashews instead of Mysore pak. Cooked besan thickens the base; allulose keeps it soft.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "ghee",
+              "qty": "5 g (1 tsp)",
+              "item": "ghee",
+              "note": "Amul, GRB or Nandini"
+            },
+            {
+              "match": "Amul Gold",
+              "qty": "350 ml (1½ cups)",
+              "item": "Amul Taaza toned milk",
+              "note": "warm"
+            },
+            {
+              "match": "sugar",
+              "qty": "55 g (¼ cup)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; add off the heat"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "20 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without fat"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "Mysore pak",
+              "qty": "15 g (2 tbsp)",
+              "item": "cashews, toasted and chopped"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "COOK",
+              "text": "Warm the ghee in a heavy non-stick pan on low. Add the besan; dry-roast, stirring constantly, 8–10 min until golden and nutty."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Off the heat, whisk the milk powder into the warm milk, then whisk it into the besan a splash at a time. Return to medium heat."
+            },
+            {
+              "i": 2,
+              "tag": "COOK",
+              "text": "Simmer, whisking, 4–5 min until it thickens like thin custard. Off the heat, cool 5 min, then stir in Munkito, salt and cardamom."
+            },
+            {
+              "i": 4,
+              "tag": "BLAST",
+              "text": "Blend the cooled base in the Ninja Blast for 30 s until smooth."
+            },
+            {
+              "i": 6,
+              "tag": "SPIN",
+              "text": "If the top has a hump, let the pint sit 5 min. Run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 7,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the cashews, and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic",
+          "Mix-In Special"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "blend in last; smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 520,
+          "protein_g": 27,
+          "carbs_g": 49,
+          "fat_g": 24,
+          "added_sugar_g": 0
+        }
+      }
+    }
   }
 ]

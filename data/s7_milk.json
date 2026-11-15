@@ -1,0 +1,1070 @@
+[
+  {
+    "slug": "haldi-doodh-golden-milk-pint",
+    "title": "Haldi Doodh Golden Milk Pint",
+    "subtitle": "Dadi's turmeric milk, chilled",
+    "program": "LITE ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 5,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Gluten-Free Option"
+    ],
+    "colors": {
+      "base": "#F0C75E",
+      "accent": "#8B4A22",
+      "deep": "#7A5410"
+    },
+    "intro": "Every Indian has been handed a hot glass of haldi doodh for a cold or a scraped knee. Here dadi's turmeric, pepper, saunth and cinnamon steep in milk, then freeze into a gentle, warming scoop.",
+    "ingredients": [
+      {
+        "qty": "380 ml (1½ cups + 2 tbsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "25 g (3 tbsp)",
+        "item": "Amul Sagar skimmed milk powder",
+        "note": "body without cream"
+      },
+      {
+        "qty": "8 g (1 tbsp)",
+        "item": "cornflour"
+      },
+      {
+        "qty": "45 g (4 tbsp)",
+        "item": "sugar"
+      },
+      {
+        "qty": "¾ tsp",
+        "item": "haldi (turmeric powder)"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "black pepper, freshly crushed",
+        "note": "helps the body absorb curcumin"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "saunth (dry ginger powder)"
+      },
+      {
+        "qty": "3 cm",
+        "item": "cinnamon stick (dalchini)",
+        "note": "or ⅛ tsp ground"
+      },
+      {
+        "qty": "1 tsp (5 g)",
+        "item": "ghee",
+        "note": "traditional; rounds out the spice"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "COOK",
+        "text": "In a pan, whisk the milk, milk powder, cornflour, haldi, saunth, pepper and cinnamon until lump-free. Bring to a simmer on medium, whisking."
+      },
+      {
+        "tag": "COOK",
+        "text": "Simmer gently 5 min, whisking, until slightly thick and deep yellow. Off the heat, stir in the sugar, ghee and salt."
+      },
+      {
+        "tag": "COOL",
+        "text": "Cover and let the spices steep as it cools to room temperature, about 45 min. Remove the cinnamon stick."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled base with the xanthan in the Ninja Blast 30 s, until smooth and the ghee is fully emulsified."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Serve in small steel katoris with a pinch of cinnamon on top."
+      }
+    ],
+    "tips": [
+      "Crush the pepper just before cooking; its piperine is what makes the curcumin count, and ready-ground pepper goes flat.",
+      "Haldi stains silicone and plastic; rinse the Blast and pint soon after use.",
+      "Leftovers: flatten the top, refreeze, and re-spin on LITE ICE CREAM before serving."
+    ],
+    "swaps": [
+      "Gud version: swap the sugar for 50 g jaggery powder, stirred in only once the milk is below 60 °C so it doesn't split.",
+      "Kesar haldi: add 10 saffron strands with the spices for a festive, wedding-style haldi doodh.",
+      "Fresh root: grate 15 g fresh turmeric and 5 g fresh ginger in place of the powders; strain after steeping."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 570,
+      "protein_g": 21,
+      "carbs_g": 83,
+      "fat_g": 17,
+      "added_sugar_g": 45
+    },
+    "shop_note": "Haldi and saunth: any kirana or Blinkit (Catch, Everest, MDH). Amul Sagar: Blinkit, Zepto, BigBasket. Xanthan: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk and skimmed milk replace toned milk, Munkito replaces sugar. Milk powder, cornflour and allulose's softening keep it creamy at about 6 g fat and nearly 50 g protein.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "about 35 g protein"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (5 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "130 ml (½ cup + 1 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "COOK",
+              "text": "In a pan, whisk both milks, milk powder, cornflour, haldi, saunth, pepper and cinnamon until lump-free. Bring to a simmer on medium, whisking."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Simmer gently 5 min, whisking, until slightly thick and deep yellow. Off the heat, stir in the ghee and salt."
+            },
+            {
+              "i": 2,
+              "tag": "COOL",
+              "text": "Cool 10 min, stir in the Munkito, then cover and steep until room temperature, about 45 min. Remove the cinnamon stick."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 405,
+          "protein_g": 49,
+          "carbs_g": 39,
+          "fat_g": 6,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Skimmed milk, Munkito and unflavoured whey isolate replace toned milk and sugar. Milk powder, cornflour and a teaspoon of ghee give body without gum; allulose keeps it scoopable.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "380 ml (1½ cups + 2 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (5 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "20 g (⅔ scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw; never cooked"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Simmer gently 5 min, whisking, until slightly thick and deep yellow. Off the heat, stir in the ghee and salt."
+            },
+            {
+              "i": 2,
+              "tag": "COOL",
+              "text": "Cool 10 min, stir in the Munkito, then cover and steep until room temperature, about 45 min. Remove the cinnamon stick."
+            },
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the cooled base and whey in the Ninja Blast 30 s. Rest 2–3 min so the foam settles."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 375,
+          "protein_g": 40,
+          "carbs_g": 40,
+          "fat_g": 6,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "chocolate-ragi-malt-pint",
+    "title": "Chocolate Ragi Malt Pint",
+    "subtitle": "Bournvita-free chocolate milk, millet-powered",
+    "program": "LITE ICE CREAM",
+    "respin": "Often 1 re-spin with 1 tbsp milk",
+    "prep_min": 5,
+    "cook_min": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "Kid Favourite",
+      "Eggless",
+      "Mix-In Special"
+    ],
+    "colors": {
+      "base": "#7A5240",
+      "accent": "#3B2218",
+      "deep": "#3E2417"
+    },
+    "intro": "Ragi malt is what Karnataka grandmothers stirred up long before chocolate health drinks. Sprouted ragi and cocoa cook into milk for a malty, chocolatey pint with no Bournvita jar in sight.",
+    "ingredients": [
+      {
+        "qty": "380 ml (1½ cups + 2 tbsp)",
+        "item": "Amul Taaza toned milk"
+      },
+      {
+        "qty": "25 g (3 tbsp)",
+        "item": "sprouted ragi flour",
+        "note": "Tata Soulfull or 24 Mantra"
+      },
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "cocoa powder",
+        "note": "unsweetened; Hershey's or Cadbury"
+      },
+      {
+        "qty": "45 g (4 tbsp)",
+        "item": "sugar"
+      },
+      {
+        "qty": "15 g (2 tbsp)",
+        "item": "Amul Sagar skimmed milk powder"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "vanilla essence"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt",
+        "note": "brings out the malt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "25 g",
+        "item": "Amul dark chocolate (55%), chopped",
+        "note": "or any 50–70% dark chocolate"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "In a pan, whisk the ragi flour, cocoa, milk powder, sugar and salt with 100 ml of the cold milk to a smooth, lump-free paste."
+      },
+      {
+        "tag": "COOK",
+        "text": "Whisk in the remaining milk. Cook on medium-low, whisking constantly, 6–8 min, until it coats a spoon and the raw ragi taste is gone."
+      },
+      {
+        "tag": "COOL",
+        "text": "Press cling film onto the surface and cool fully to room temperature, about 45 min. It thickens as it cools."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the cooled base with the vanilla and xanthan in the Ninja Blast 30–45 s, until smooth and pourable."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the chopped chocolate and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scoop and dust with a little cocoa; it tastes like a frozen ragi malt from a Bengaluru darshini."
+      }
+    ],
+    "tips": [
+      "Cook until the raw, grassy ragi taste is gone; undercooked ragi tastes floury once frozen.",
+      "Sprouted ragi is sweeter and smoother than plain. With plain ragi flour, sieve it and cook 2 min longer.",
+      "Leftovers: flatten the top, refreeze, and re-spin on LITE ICE CREAM before serving."
+    ],
+    "swaps": [
+      "Gud malt: swap the sugar for 50 g jaggery powder, stirred in once the base is below 60 °C so the milk doesn't split.",
+      "Choco-banana ragi: blend half a ripe banana into the cooled base and cut the milk by 50 ml.",
+      "Mocha ragi: add 1 tsp Nescafé or Bru to the milk with the cocoa."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 715,
+      "protein_g": 23,
+      "carbs_g": 108,
+      "fat_g": 21,
+      "added_sugar_g": 55
+    },
+    "shop_note": "Sprouted ragi: Tata Soulfull or 24 Mantra on BigBasket, Blinkit, Amazon. Cocoa: Hershey's or Cadbury. Xanthan: Urban Platter.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk, skimmed milk and chocolate whey replace toned milk and milk powder; Munkito replaces sugar and cocoa nibs replace the chocolate. Cooked ragi and allulose keep it creamy, not icy.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "about 35 g protein"
+            },
+            {
+              "match": "sugar",
+              "qty": "40 g (4 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; whey adds sweetness"
+            },
+            {
+              "match": "milk powder",
+              "qty": "30 g (1 scoop)",
+              "item": "chocolate whey protein",
+              "note": "MuscleBlaze, Avvatar or ON; never cooked"
+            }
+          ],
+          "add": [
+            {
+              "qty": "100 ml (7 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "after": "High Protein Milk"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate",
+              "qty": "15 g (2 tbsp)",
+              "item": "cocoa nibs",
+              "note": "Urban Platter or Paul and Mike"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "In a pan, whisk the ragi flour, cocoa and salt with 100 ml of the cold milk to a smooth, lump-free paste."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Whisk in the remaining milks. Cook on medium-low, whisking, 6–8 min, until it coats a spoon. Cool 10 min, then stir in the Munkito."
+            },
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the cooled base, chocolate whey, vanilla and xanthan in the Ninja Blast 30–45 s. Rest 2–3 min so the foam settles."
+            },
+            {
+              "i": 6,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the cocoa nibs and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Kid Favourite"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 590,
+          "protein_g": 70,
+          "carbs_g": 51,
+          "fat_g": 12,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Skimmed milk, less ragi, Munkito and unflavoured whey isolate cut sugar and fat; 99% cacao or no chunks keeps it sugar-free. Cooked ragi and milk powder give body without gum.",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "toned milk",
+              "qty": "380 ml (1½ cups + 2 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk"
+            },
+            {
+              "match": "ragi",
+              "qty": "15 g (2 tbsp)",
+              "item": "sprouted ragi flour",
+              "note": "Tata Soulfull or 24 Mantra"
+            },
+            {
+              "match": "sugar",
+              "qty": "50 g (5 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured whey isolate",
+              "note": "AS-IT-IS ONE or Avvatar Raw; never cooked",
+              "after": "milk powder"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "dark chocolate",
+              "qty": "15 g",
+              "item": "Amul 99% cacao dark chocolate, chopped",
+              "note": "or skip the mix-in"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 0,
+              "tag": "PREP",
+              "text": "In a pan, whisk the ragi flour, cocoa, milk powder and salt with 100 ml of the cold milk to a smooth, lump-free paste."
+            },
+            {
+              "i": 1,
+              "tag": "COOK",
+              "text": "Whisk in the remaining milk. Cook on medium-low, whisking, 6–8 min, until it coats a spoon. Cool 10 min, then stir in the Munkito."
+            },
+            {
+              "i": 3,
+              "tag": "BLAST",
+              "text": "Blend the cooled base, whey and vanilla in the Ninja Blast 30–45 s. Rest 2–3 min so the foam settles."
+            },
+            {
+              "i": 6,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the 99% chocolate and run MIX-IN. Skipping it? Go straight to serving."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Gluten-Free Option"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 465,
+          "protein_g": 46,
+          "carbs_g": 48,
+          "fat_g": 10,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "til-gud-chikki-ice-cream",
+    "title": "Til-Gud Chikki Ice Cream",
+    "subtitle": "Sankranti sesame chikki, scoopable",
+    "program": "ICE CREAM",
+    "respin": "Rarely needed; if crumbly, add 1 tbsp milk and RE-SPIN once",
+    "prep_min": 15,
+    "cook_min": 5,
+    "difficulty": "Easy",
+    "servings": 3,
+    "tags": [
+      "Desi Classic",
+      "Eggless",
+      "Mix-In Special",
+      "Party Pint"
+    ],
+    "colors": {
+      "base": "#D8B07A",
+      "accent": "#9A5B1E",
+      "deep": "#5E3610"
+    },
+    "intro": "On Makar Sankranti, til and gud go round in ladoos and chikki to keep winter at bay. This pint blends roasted sesame paste and jaggery into milk and cream, then crunches it up with crushed chikki.",
+    "ingredients": [
+      {
+        "qty": "35 g (¼ cup)",
+        "item": "white til (sesame seeds)",
+        "note": "hulled; roasted and ground"
+      },
+      {
+        "qty": "250 ml (1 cup + 1 tbsp)",
+        "item": "Amul Gold full cream milk"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Fresh Cream (25% fat), chilled"
+      },
+      {
+        "qty": "70 g (6 tbsp)",
+        "item": "jaggery powder",
+        "note": "Organic Tattva or 24 Mantra"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      }
+    ],
+    "mixins": [
+      {
+        "qty": "40 g (2 pieces)",
+        "item": "til chikki, crushed",
+        "note": "Haldiram's or any mithai shop"
+      }
+    ],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Dry-roast the til in a pan on medium-low 3–4 min, stirring, until light gold and popping. Cool completely."
+      },
+      {
+        "tag": "PREP",
+        "text": "Grind the til in a dry mixer-grinder jar in short pulses until it clumps like damp sand. Stop before it turns oily."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend milk, til paste, jaggery, cardamom and salt in the Ninja Blast 45 s until the jaggery dissolves. Add the cream; pulse 15 s only."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run ICE CREAM. If crumbly, add 1 tbsp milk and RE-SPIN."
+      },
+      {
+        "tag": "MIXIN",
+        "text": "Make a 4 cm well to the bottom, add the crushed chikki and run MIX-IN."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Scoop and serve at once. Eat it the Sankranti way: til-gul ghya, god god bola."
+      }
+    ],
+    "tips": [
+      "Jaggery can split hot milk, so this base stays cold; jaggery powder dissolves easily in the Blast.",
+      "Roast til only to light gold; dark til turns bitter, and frozen bitterness tastes stronger.",
+      "Leftovers: flatten the top, refreeze, and re-spin before serving; the chikki softens a little."
+    ],
+    "swaps": [
+      "Peanut chikki: use 40 g roasted peanuts in the base and crushed peanut chikki as the mix-in.",
+      "Black til: use black sesame for a smoky, grey-flecked pint with a deeper roast.",
+      "Til ladoo crumble: swap the chikki for 2 crushed til-gud ladoos."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 1230,
+      "protein_g": 23,
+      "carbs_g": 115,
+      "fat_g": 75,
+      "added_sugar_g": 88
+    },
+    "shop_note": "Jaggery powder: Organic Tattva or 24 Mantra on Blinkit, BigBasket. Til chikki: Haldiram's, Lonavala chikki brands or any mithai shop.",
+    "variants": {
+      "gym": {
+        "why": "High Protein Milk, skimmed milk and milk powder replace milk and cream; Munkito does most of the sweetening with 10 g jaggery for the gud note. Fat lands near 16 g, from sesame and peanuts.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "white til",
+              "qty": "20 g (2½ tbsp)",
+              "item": "white til (sesame seeds)",
+              "note": "hulled; roasted and ground"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "250 ml (1 pack)",
+              "item": "Amul High Protein Milk",
+              "note": "about 35 g protein"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "20 g (2½ tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without cream"
+            },
+            {
+              "match": "jaggery",
+              "qty": "45 g (4½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "100 ml (7 tbsp)",
+              "item": "Amul Slim n Trim skimmed milk",
+              "after": "High Protein Milk"
+            },
+            {
+              "qty": "10 g (1 tbsp)",
+              "item": "jaggery powder",
+              "note": "just enough for the gud note",
+              "after": "Munkito"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "chikki",
+              "qty": "10 g (1 tbsp)",
+              "item": "roasted peanuts and toasted til, crushed"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Blend both milks, til paste, milk powder, Munkito, jaggery, cardamom and salt in the Ninja Blast 45 s, until smooth."
+            },
+            {
+              "i": 4,
+              "tag": "SPIN",
+              "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 5,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the peanut-til crunch and run MIX-IN."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "Low Sugar",
+          "Desi Classic"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 525,
+          "protein_g": 51,
+          "carbs_g": 44,
+          "fat_g": 16,
+          "added_sugar_g": 10
+        }
+      },
+      "diabetic": {
+        "why": "All-Munkito sweetening, skimmed milk and milk powder replace jaggery and cream; cinnamon adds warmth. Honestly, it loses the jaggery note and tastes of toasted sesame, but til paste keeps it creamy.",
+        "program": "LITE ICE CREAM",
+        "respin": "Usually 1 re-spin with 1 tbsp milk",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "white til",
+              "qty": "30 g (3½ tbsp)",
+              "item": "white til (sesame seeds)",
+              "note": "hulled; roasted and ground"
+            },
+            {
+              "match": "full cream milk",
+              "qty": "330 ml (1⅓ cups)",
+              "item": "Amul Slim n Trim skimmed milk"
+            },
+            {
+              "match": "fresh cream",
+              "qty": "25 g (3 tbsp)",
+              "item": "Amul Sagar skimmed milk powder",
+              "note": "body without cream"
+            },
+            {
+              "match": "jaggery",
+              "qty": "55 g (5½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            }
+          ],
+          "add": [
+            {
+              "qty": "¼ tsp",
+              "item": "cinnamon (dalchini) powder",
+              "after": "cardamom"
+            }
+          ]
+        },
+        "mixins": {
+          "replace": [
+            {
+              "match": "chikki",
+              "qty": "15 g (2 tbsp)",
+              "item": "white til, toasted"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 2,
+              "tag": "BLAST",
+              "text": "Blend milk, til paste, milk powder, Munkito, cardamom, cinnamon and salt in the Ninja Blast 45 s, until smooth."
+            },
+            {
+              "i": 4,
+              "tag": "SPIN",
+              "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN."
+            },
+            {
+              "i": 5,
+              "tag": "MIXIN",
+              "text": "Make a 4 cm well to the bottom, add the toasted til and run MIX-IN."
+            },
+            {
+              "i": 6,
+              "tag": "SERVE",
+              "text": "Scoop and serve at once, with a pinch of cinnamon on top."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "Desi Classic"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 480,
+          "protein_g": 28,
+          "carbs_g": 40,
+          "fat_g": 23,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "banana-elaichi-paneer-thickshake",
+    "title": "Banana Elaichi Paneer Thickshake",
+    "subtitle": "Ghar-ka banana shake, extra protein",
+    "program": "MILKSHAKE",
+    "respin": "LITE ICE CREAM first; re-spin once with 1 tbsp milk if powdery, then MILKSHAKE",
+    "prep_min": 10,
+    "cook_min": 0,
+    "difficulty": "Easy",
+    "servings": 2,
+    "tags": [
+      "High Protein",
+      "Kid Favourite",
+      "Eggless",
+      "No-Cook"
+    ],
+    "colors": {
+      "base": "#F2E3B3",
+      "accent": "#E2B93B",
+      "deep": "#6B5418"
+    },
+    "intro": "Banana milkshake is India's original home protein shake, whirred in steel mixies before tuition. This one hides soft paneer in the base, then freezes, spins and whips into a spoon-thick shake.",
+    "ingredients": [
+      {
+        "qty": "130 g (1 large)",
+        "item": "ripe banana, sliced",
+        "note": "Robusta or any spotty banana"
+      },
+      {
+        "qty": "100 g",
+        "item": "Amul High Protein paneer",
+        "note": "or regular paneer"
+      },
+      {
+        "qty": "210 ml (¾ cup + 2 tbsp)",
+        "item": "Amul Taaza toned milk, for the base"
+      },
+      {
+        "qty": "20 g (2 tbsp)",
+        "item": "sugar"
+      },
+      {
+        "qty": "¼ tsp",
+        "item": "green cardamom powder"
+      },
+      {
+        "qty": "1 pinch",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "xanthan gum (optional, recommended)",
+        "note": "or guar gum"
+      },
+      {
+        "qty": "120 ml (½ cup)",
+        "item": "Amul Taaza toned milk, for the shake",
+        "note": "chilled; MILKSHAKE stage"
+      }
+    ],
+    "mixins": [],
+    "steps": [
+      {
+        "tag": "PREP",
+        "text": "Cut the paneer into small cubes, cover with hot water for 5 min and drain. Softened paneer blends silky, not grainy."
+      },
+      {
+        "tag": "BLAST",
+        "text": "Blend the base milk, banana, paneer, sugar, cardamom, salt and xanthan in the Ninja Blast 60 s (2 cycles), until no paneer grain remains."
+      },
+      {
+        "tag": "FREEZE",
+        "text": "Pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Flatten any hump and run LITE ICE CREAM. If powdery, add 1 tbsp milk and RE-SPIN once."
+      },
+      {
+        "tag": "SPIN",
+        "text": "Make a 4 cm well to the bottom, pour in the 120 ml shake milk and run MILKSHAKE."
+      },
+      {
+        "tag": "SERVE",
+        "text": "Pour into two tall glasses, dust with elaichi, add a few banana slices and serve with a wide straw."
+      }
+    ],
+    "tips": [
+      "Use a ripe, spotty banana: it's sweeter and freezes creamier. Green-tipped bananas taste starchy cold.",
+      "Regular paneer works too (less protein, more fat); soak it the same way and blend a little longer.",
+      "Leftovers: pour extra shake back into the pint, flatten, refreeze, and run LITE ICE CREAM before adding milk again."
+    ],
+    "swaps": [
+      "Chikoo shake: use 120 g peeled, seeded chikoo instead of the banana.",
+      "Banana-date: swap the sugar for 3 soft dates, soaked 10 min and pitted.",
+      "PB banana: add 1 tbsp natural peanut butter to the base for a gym-style shake."
+    ],
+    "nutrition_per_pint": {
+      "kcal": 640,
+      "protein_g": 37,
+      "carbs_g": 69,
+      "fat_g": 24,
+      "added_sugar_g": 20
+    },
+    "shop_note": "Amul High Protein paneer: Blinkit, Zepto, Instamart or BigBasket. Xanthan: Urban Platter on Amazon.",
+    "variants": {
+      "gym": {
+        "why": "Skimmed milk replaces toned milk, Munkito replaces sugar and a scoop of whey isolate takes protein near 58 g. Banana and soaked paneer still give a thick, creamy body.",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "for the base",
+              "qty": "190 ml (¾ cup)",
+              "item": "Amul Slim n Trim skimmed milk, for the base"
+            },
+            {
+              "match": "sugar",
+              "qty": "20 g (2 tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose; banana sweetens too"
+            },
+            {
+              "match": "for the shake",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, for the shake",
+              "note": "chilled; MILKSHAKE stage"
+            }
+          ],
+          "add": [
+            {
+              "qty": "25 g (1 scoop)",
+              "item": "unflavoured or vanilla whey isolate",
+              "note": "AS-IT-IS, Avvatar or ON",
+              "after": "paneer"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the base milk, banana, paneer, whey, Munkito, cardamom, salt and xanthan in the Ninja Blast 60 s (2 cycles), until smooth."
+            },
+            {
+              "i": 2,
+              "tag": "FREEZE",
+              "text": "Rest 2–3 min so the foam settles, then pour into the pint below MAX FILL. Lid on; freeze level for 24 h."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "nutrition_per_pint": {
+          "kcal": 565,
+          "protein_g": 58,
+          "carbs_g": 50,
+          "fat_g": 15,
+          "added_sugar_g": 0
+        }
+      },
+      "diabetic": {
+        "why": "Half a small banana keeps the flavour while cutting fruit sugar; extra paneer and skimmed milk lift protein, Munkito sweetens, cinnamon adds warmth. Blended paneer and allulose keep it creamy without gum.",
+        "respin": "LITE ICE CREAM first; often 1 re-spin with 1 tbsp milk, then MILKSHAKE",
+        "ingredients": {
+          "replace": [
+            {
+              "match": "banana",
+              "qty": "50 g (½ small)",
+              "item": "ripe banana, sliced",
+              "note": "no more; it's the main sugar"
+            },
+            {
+              "match": "paneer",
+              "qty": "120 g",
+              "item": "Amul High Protein paneer",
+              "note": "or regular paneer"
+            },
+            {
+              "match": "for the base",
+              "qty": "230 ml (1 cup)",
+              "item": "Amul Slim n Trim skimmed milk, for the base"
+            },
+            {
+              "match": "sugar",
+              "qty": "45 g (4½ tbsp)",
+              "item": "Munkito Monk Sweet + Allulose 1:1",
+              "note": "or any allulose"
+            },
+            {
+              "match": "for the shake",
+              "qty": "120 ml (½ cup)",
+              "item": "Amul Slim n Trim skimmed milk, for the shake",
+              "note": "chilled; MILKSHAKE stage"
+            }
+          ],
+          "remove": [
+            "xanthan"
+          ],
+          "add": [
+            {
+              "qty": "¼ tsp",
+              "item": "cinnamon (dalchini) powder",
+              "after": "cardamom"
+            }
+          ]
+        },
+        "steps": {
+          "replace": [
+            {
+              "i": 1,
+              "tag": "BLAST",
+              "text": "Blend the base milk, banana, paneer, Munkito, cardamom, cinnamon and salt in the Ninja Blast 60 s (2 cycles), until completely smooth."
+            },
+            {
+              "i": 5,
+              "tag": "SERVE",
+              "text": "Pour into two glasses, dust with cinnamon and serve with a wide straw."
+            }
+          ]
+        },
+        "tags": [
+          "High Protein",
+          "Eggless",
+          "No Added Sugar",
+          "No-Cook"
+        ],
+        "gum_option": {
+          "qty": "⅛ tsp",
+          "item": "xanthan gum",
+          "note": "smoother, fewer re-spins; skip for additive-free"
+        },
+        "nutrition_per_pint": {
+          "kcal": 455,
+          "protein_g": 43,
+          "carbs_g": 33,
+          "fat_g": 17,
+          "added_sugar_g": 0
+        }
+      }
+    }
+  }
+]
