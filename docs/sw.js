@@ -1,5 +1,5 @@
 // Offline-first service worker. VERSION and FILES are filled in by build_app.py.
-const VERSION = "c0988f1121";
+const VERSION = "06b513ff35";
 const CACHE = "pint-perfect-" + VERSION;
 const FILES = [
  "./",
