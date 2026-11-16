@@ -3,7 +3,9 @@
 cd "$(dirname "$0")"
 python3 build.py --html-only $1 >/dev/null
 f=book.html; [ "$1" = "--duplex" ] && f=book-duplex.html
-"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --virtual-time-budget=20000 --dump-dom "file://$PWD/$f" 2>/dev/null > dom.html
+CHROME=$(command -v google-chrome || command -v chromium || echo "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
+EXTRA=""; [ "$(uname)" = "Linux" ] && EXTRA="--no-sandbox"
+"$CHROME" --headless=new $EXTRA --disable-gpu --virtual-time-budget=20000 --dump-dom "file://$PWD/$f" 2>/dev/null > dom.html
 python3 - <<'PY'
 import re
 d=open('dom.html').read()

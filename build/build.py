@@ -6,6 +6,7 @@ Usage: python3 build.py [--duplex] [--html-only]
 import html
 import json
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -15,7 +16,8 @@ from art import illustration, legible, lighten, darken, mix
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 BUILD = ROOT / "build"
-CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME = shutil.which("google-chrome") or shutil.which("chromium") or "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME_ARGS = ["--no-sandbox"] if sys.platform == "linux" else []
 
 DUPLEX = "--duplex" in sys.argv
 BOOK_TITLE = "Pint Perfect"
@@ -793,7 +795,7 @@ def build():
     if "--html-only" in sys.argv:
         return
     pdf = ROOT / ("Pint-Perfect-Ninja-Creami-Recipes" + ("-duplex" if DUPLEX else "") + ".pdf")
-    subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--run-all-compositor-stages-before-draw",
+    subprocess.run([CHROME, "--headless=new", *CHROME_ARGS, "--disable-gpu", "--no-pdf-header-footer", "--run-all-compositor-stages-before-draw",
                     "--virtual-time-budget=20000", f"--print-to-pdf={pdf}", out_html.as_uri()],
                    check=True, capture_output=True)
     print(f"pdf: {pdf}")

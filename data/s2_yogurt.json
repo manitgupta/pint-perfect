@@ -332,7 +332,7 @@
           "add": [
             {
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder",
               "after": "cocoa"
             },
@@ -796,7 +796,7 @@
             {
               "match": "condensed",
               "qty": "25 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "condensed-milk body without sugar"
             }
           ],
@@ -861,7 +861,7 @@
             {
               "match": "condensed",
               "qty": "25 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "condensed-milk body without sugar"
             }
           ],
@@ -1015,7 +1015,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             }
           ]
@@ -1243,7 +1243,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             }
           ]
@@ -1302,7 +1302,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             }
           ],
@@ -1725,7 +1725,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             },
             {
@@ -1785,7 +1785,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             },
             {
@@ -2119,7 +2119,7 @@
             {
               "match": "Fresh Cream",
               "qty": "25 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             }
           ]
@@ -2173,7 +2173,7 @@
             {
               "match": "Fresh Cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "or any skimmed milk powder"
             },
             {
@@ -2261,7 +2261,7 @@
       },
       {
         "qty": "15 g (2 tbsp)",
-        "item": "Amul Sagar skimmed milk powder",
+        "item": "Nakpro skimmed milk powder",
         "note": "body without iciness"
       },
       {
@@ -2331,7 +2331,7 @@
       "fat_g": 32,
       "added_sugar_g": 60
     },
-    "shop_note": "Amul Masti dahi and Amul Sagar: any kirana, Blinkit or Zepto. Muslin: any kitchen shop. Xanthan: Urban Platter on Amazon.",
+    "shop_note": "Amul Masti dahi: any kirana, Blinkit or Zepto. Nakpro SMP and Urban Platter xanthan: Amazon.in. Muslin: any kitchen shop.",
     "variants": {
       "gym": {
         "why": "Skimmed milk and skyr cut the fat; whey lifts protein near 60 g. Munkito browns gently for the caramel note, and allulose keeps the low-fat pint soft and scoopable.",

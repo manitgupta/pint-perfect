@@ -14,7 +14,7 @@ import subprocess
 from pathlib import Path
 
 from art import illustration, legible, lighten, darken
-from build import SECTIONS, PROGRAM_COLOURS, STEP_TAGS, CHROME, load, page_plan
+from build import SECTIONS, PROGRAM_COLOURS, STEP_TAGS, CHROME, CHROME_ARGS, load, page_plan
 from variants import VARIANTS, VariantError, resolve
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -105,11 +105,11 @@ def main():
                 f'<rect width="200" height="200" fill="url(#bg)"/><g transform="translate(14 8) scale(.86)">{inner}</g></svg>')
     (OUT / "icons" / "icon.svg").write_text(icon_svg)
     for size in (180, 192, 512):
-        html = (f'<html><body style="margin:0;background:transparent">'
-                f'<div style="width:{size}px;height:{size}px">{icon_svg.replace("<svg ", f"<svg width=\"{size}\" height=\"{size}\" ", 1)}</div></body></html>')
+        sized_svg = icon_svg.replace("<svg ", f'<svg width="{size}" height="{size}" ', 1)
+        html = f'<html><body style="margin:0;background:transparent"><div style="width:{size}px;height:{size}px">{sized_svg}</div></body></html>'
         tmp = OUT / "icons" / f"_tmp{size}.html"
         tmp.write_text(html)
-        subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--default-background-color=00000000",
+        subprocess.run([CHROME, "--headless=new", *CHROME_ARGS, "--disable-gpu", "--hide-scrollbars", "--default-background-color=00000000",
                         f"--window-size={size},{size}", f"--screenshot={OUT / 'icons' / f'icon-{size}.png'}", tmp.as_uri()],
                        check=True, capture_output=True)
         tmp.unlink()

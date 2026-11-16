@@ -361,9 +361,9 @@
       "category": "Texture Helpers",
       "items": [
         {
-          "name": "Amul Sagar skimmed milk powder",
+          "name": "Nakpro skimmed milk powder",
           "use": "15–30 g adds body without fat; over 40 g goes sandy",
-          "where": "Blinkit · Zepto · Instamart · kirana"
+          "where": "nakpro.com · Amazon.in"
         },
         {
           "name": "Urban Platter chicory inulin",
@@ -434,7 +434,7 @@
         "tip": "Use as the liquid; sweetness is already low"
       },
       {
-        "base": "Skimmed milk powder",
+        "base": "Skimmed milk powder (Nakpro)",
         "protein": "~3 g / tbsp (8 g)",
         "texture": "Adds body, reduces ice",
         "tip": "15–30 g per pint; over 40 g goes sandy"
@@ -664,7 +664,7 @@
       "goal": "More protein, less fat, minimal sugar, still scoopable.",
       "rules": [
         "Per pint: protein ≥ 35 g, fat ≤ 15 g, added sugar ≤ 10 g. If a recipe misses a target, the note says why.",
-        "Cream and Milkmaid give way to Amul Sagar SMP, Amul High Protein Milk, whey, skyr or high-protein paneer.",
+        "Cream and Milkmaid give way to Nakpro SMP, Amul High Protein Milk, whey, skyr or high-protein paneer.",
         "Sweetened with Munkito Monk Sweet + Allulose 1:1; sucralose is an accepted alternative.",
         "Usually LITE ICE CREAM with one re-spin; an optional ⅛ tsp xanthan is fine."
       ]
@@ -702,11 +702,11 @@
         "diabetic_ok": true
       },
       {
-        "name": "Sagar skimmed milk powder",
-        "brand": "Amul",
+        "name": "Skimmed milk powder",
+        "brand": "Nakpro",
         "why": "Milk protein and lactose soak up free water, so less ice without cream.",
-        "use": "15–30 g per pint; above 40 g it turns sandy.",
-        "where": "Blinkit · Zepto · Instamart · BigBasket · kirana",
+        "use": "15–30 g per pint; above 40 g it turns sandy (pick SMP, not Dairy Whitener).",
+        "where": "nakpro.com · Amazon.in",
         "diabetic_ok": true
       },
       {
@@ -822,7 +822,7 @@
     "rows": [
       {
         "out": "Fresh cream, 100 ml",
-        "in": "20 g Amul Sagar SMP + 100 ml toned milk",
+        "in": "20 g Nakpro SMP + 100 ml toned milk",
         "effect": "Body from milk solids; a little less rich, one re-spin",
         "saves": "~110 kcal, ~22 g fat"
       },

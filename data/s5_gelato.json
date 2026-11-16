@@ -44,8 +44,8 @@
       },
       {
         "qty": "15 g (2 tbsp)",
-        "item": "milk powder",
-        "note": "Amul Spray or any whole milk powder"
+        "item": "Nakpro skimmed milk powder",
+        "note": "or any skimmed milk powder"
       },
       {
         "qty": "1 pinch",
@@ -103,10 +103,10 @@
       "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
     },
     "nutrition_per_pint": {
-      "kcal": 1030,
-      "protein_g": 25,
-      "carbs_g": 108,
-      "fat_g": 57,
+      "kcal": 1010,
+      "protein_g": 27,
+      "carbs_g": 110,
+      "fat_g": 53,
       "added_sugar_g": 60
     },
     "shop_note": "Unsalted pistachios: Happilo or Nutraj on BigBasket/Amazon. Pistachio paste: Amazon; choose '100% pistachio', no colour.",
@@ -144,7 +144,7 @@
             {
               "match": "milk powder",
               "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder"
+              "item": "Nakpro skimmed milk powder"
             }
           ]
         },
@@ -218,7 +218,7 @@
             {
               "match": "milk powder",
               "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder"
+              "item": "Nakpro skimmed milk powder"
             }
           ]
         },
@@ -302,8 +302,8 @@
       },
       {
         "qty": "20 g (3 tbsp)",
-        "item": "milk powder",
-        "note": "Amul Spray or any whole milk powder"
+        "item": "Nakpro skimmed milk powder",
+        "note": "or any skimmed milk powder"
       },
       {
         "qty": "1 pinch",
@@ -368,10 +368,10 @@
       "adds": "+3 yolks · ≈ +165 kcal, +8 g protein"
     },
     "nutrition_per_pint": {
-      "kcal": 1030,
-      "protein_g": 18,
-      "carbs_g": 110,
-      "fat_g": 57,
+      "kcal": 1005,
+      "protein_g": 20,
+      "carbs_g": 113,
+      "fat_g": 52,
       "added_sugar_g": 73
     },
     "shop_note": "Dark chocolate: Amul Dark or Morde on Blinkit/Zepto. Coconut oil: Parachute or KLF on any grocery app.",
@@ -399,11 +399,6 @@
               "qty": "50 g (¼ cup)",
               "item": "Munkito Monk Sweet + Allulose 1:1",
               "note": "or any allulose"
-            },
-            {
-              "match": "milk powder",
-              "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder"
             }
           ]
         },
@@ -477,11 +472,6 @@
               "qty": "45 g (scant ¼ cup)",
               "item": "Munkito Monk Sweet + Allulose 1:1",
               "note": "or Munkito liquid drops to taste"
-            },
-            {
-              "match": "milk powder",
-              "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder"
             }
           ]
         },
@@ -579,8 +569,8 @@
       },
       {
         "qty": "25 g (¼ cup)",
-        "item": "milk powder",
-        "note": "Amul Spray; boosts milky flavour and body"
+        "item": "Nakpro skimmed milk powder",
+        "note": "boosts milky flavour and body"
       },
       {
         "qty": "1 small pinch",
@@ -634,13 +624,13 @@
       "adds": "+3 yolks · ≈ +165 kcal, +8 g protein"
     },
     "nutrition_per_pint": {
-      "kcal": 820,
-      "protein_g": 18,
-      "carbs_g": 93,
-      "fat_g": 41,
+      "kcal": 785,
+      "protein_g": 21,
+      "carbs_g": 97,
+      "fat_g": 35,
       "added_sugar_g": 55
     },
-    "shop_note": "Milk powder: Amul Spray on Blinkit/Zepto/BigBasket. Avoid dairy whiteners; they contain added sugar.",
+    "shop_note": "Skimmed milk powder: Nakpro on Amazon.in or nakpro.com. Avoid dairy whiteners; they contain added sugar.",
     "variants": {
       "gym": {
         "why": "Skimmed milk, less cream and Munkito replace full cream milk and sugar. Extra skimmed milk powder and cooked cornflour keep it dense; unflavoured whey adds protein without masking the milk.",
@@ -668,7 +658,7 @@
             {
               "match": "milk powder",
               "qty": "30 g (5 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "boosts milky flavour and body"
             }
           ],
@@ -746,12 +736,6 @@
               "qty": "45 g (scant ¼ cup)",
               "item": "Munkito Monk Sweet + Allulose 1:1",
               "note": "or Munkito liquid drops to taste"
-            },
-            {
-              "match": "milk powder",
-              "qty": "25 g (¼ cup)",
-              "item": "Amul Sagar skimmed milk powder",
-              "note": "boosts milky flavour and body"
             }
           ]
         },
@@ -1021,7 +1005,7 @@
             {
               "match": "fresh cream",
               "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat"
             },
             {
@@ -1143,8 +1127,8 @@
       },
       {
         "qty": "20 g (3 tbsp)",
-        "item": "milk powder",
-        "note": "Amul Spray or any whole milk powder"
+        "item": "Nakpro skimmed milk powder",
+        "note": "or any skimmed milk powder"
       },
       {
         "qty": "90 g (⅓ cup)",
@@ -1203,10 +1187,10 @@
       "adds": "+2 yolks · ≈ +110 kcal, +5 g protein"
     },
     "nutrition_per_pint": {
-      "kcal": 825,
-      "protein_g": 16,
-      "carbs_g": 106,
-      "fat_g": 37,
+      "kcal": 800,
+      "protein_g": 18,
+      "carbs_g": 109,
+      "fat_g": 32,
       "added_sugar_g": 72
     },
     "shop_note": "Nolen gur jars and tubes: Amazon, BigBasket or Bengali sweet shops in winter. Regular jaggery: any kirana.",
@@ -1227,11 +1211,6 @@
               "match": "fresh cream",
               "qty": "30 ml (2 tbsp)",
               "item": "Amul Fresh Cream (25% fat)"
-            },
-            {
-              "match": "milk powder",
-              "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder"
             },
             {
               "match": "nolen gur",
@@ -1542,7 +1521,7 @@
             {
               "match": "fresh cream",
               "qty": "20 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat"
             },
             {
@@ -1766,7 +1745,7 @@
             },
             {
               "qty": "25 g (¼ cup)",
-              "item": "Amul Sagar skimmed milk powder, toasted",
+              "item": "Nakpro skimmed milk powder, toasted",
               "note": "gives the caramel flavour",
               "after": "cornflour"
             },
@@ -1995,7 +1974,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without cream",
               "after": "cornflour"
             }
@@ -2064,7 +2043,7 @@
             {
               "match": "fresh cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without cream"
             },
             {

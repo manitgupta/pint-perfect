@@ -27,7 +27,7 @@
       },
       {
         "qty": "25 g (3 tbsp)",
-        "item": "Amul Sagar skimmed milk powder",
+        "item": "Nakpro skimmed milk powder",
         "note": "body without cream"
       },
       {
@@ -119,7 +119,7 @@
       "fat_g": 17,
       "added_sugar_g": 45
     },
-    "shop_note": "Haldi and saunth: any kirana or Blinkit (Catch, Everest, MDH). Amul Sagar: Blinkit, Zepto, BigBasket. Xanthan: Urban Platter on Amazon.",
+    "shop_note": "Haldi and saunth: any kirana or Blinkit (Catch, Everest, MDH). Nakpro SMP and Urban Platter xanthan: Amazon.in.",
     "variants": {
       "gym": {
         "why": "High Protein Milk and skimmed milk replace toned milk, Munkito replaces sugar. Milk powder, cornflour and allulose's softening keep it creamy at about 6 g fat and nearly 50 g protein.",
@@ -289,7 +289,7 @@
       },
       {
         "qty": "15 g (2 tbsp)",
-        "item": "Amul Sagar skimmed milk powder"
+        "item": "Nakpro skimmed milk powder"
       },
       {
         "qty": "½ tsp",
@@ -364,7 +364,7 @@
       "fat_g": 21,
       "added_sugar_g": 55
     },
-    "shop_note": "Sprouted ragi: Tata Soulfull or 24 Mantra on BigBasket, Blinkit, Amazon. Cocoa: Hershey's or Cadbury. Xanthan: Urban Platter.",
+    "shop_note": "Sprouted ragi: Tata Soulfull or 24 Mantra on BigBasket, Blinkit, Amazon. Nakpro SMP and Urban Platter xanthan: Amazon.in.",
     "variants": {
       "gym": {
         "why": "High Protein Milk, skimmed milk and chocolate whey replace toned milk and milk powder; Munkito replaces sugar and cocoa nibs replace the chocolate. Cooked ragi and allulose keep it creamy, not icy.",
@@ -663,7 +663,7 @@
             {
               "match": "fresh cream",
               "qty": "20 g (2½ tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without cream"
             },
             {
@@ -749,7 +749,7 @@
             {
               "match": "fresh cream",
               "qty": "25 g (3 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without cream"
             },
             {

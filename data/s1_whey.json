@@ -217,7 +217,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat",
               "after": "skimmed milk"
             }
@@ -302,7 +302,8 @@
       },
       {
         "qty": "15 g (2 tbsp)",
-        "item": "skimmed milk powder, e.g. Amul Sagar"
+        "item": "Nakpro skimmed milk powder",
+        "note": "or any skimmed milk powder"
       },
       {
         "qty": "45 g (¼ cup)",
@@ -365,7 +366,7 @@
       "fat_g": 9,
       "added_sugar_g": 13
     },
-    "shop_note": "Skimmed milk powder: Amul Sagar on Blinkit or BigBasket. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
+    "shop_note": "Skimmed milk powder: Nakpro on Amazon.in or nakpro.com. Xanthan gum: Urban Platter on Amazon. Munkito: Amazon.",
     "variants": {
       "gym": {
         "why": "High Protein Milk adds 27 g protein with no fat, and one fewer Oreo keeps added sugar at 9 g. Milk powder, allulose and xanthan keep it creamy.",
@@ -472,7 +473,8 @@
       },
       {
         "qty": "20 g (2½ tbsp)",
-        "item": "skimmed milk powder, e.g. Amul Sagar"
+        "item": "Nakpro skimmed milk powder",
+        "note": "or any skimmed milk powder"
       },
       {
         "qty": "15–20 strands",
@@ -770,7 +772,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat",
               "after": "Slim n Trim"
             }
@@ -845,7 +847,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat",
               "after": "Slim n Trim"
             }
@@ -1950,7 +1952,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat",
               "after": "Slim n Trim"
             }
@@ -2041,7 +2043,7 @@
           "add": [
             {
               "qty": "15 g (2 tbsp)",
-              "item": "Amul Sagar skimmed milk powder",
+              "item": "Nakpro skimmed milk powder",
               "note": "body without fat",
               "after": "Slim n Trim"
             }

@@ -16,7 +16,7 @@ The resolver is `build/variants.py` (`resolve(recipe, "gym")` returns the full m
 | Sweetener | Munkito Monk Sweet + Allulose 1:1; sucralose OK as an alternative | Munkito only (or its liquid drops). No sucralose, aspartame, maltitol, erythritol-only blends |
 | Not allowed | | sugar, jaggery, honey, Milkmaid/condensed milk, syrups, Rooh Afza, gulkand, biscuits, Bournvita, flavoured whey or flavoured protein drinks (they hide sucralose), maltodextrin, sweetened chocolate, tinned/sweetened pulp, gums in the main list |
 | Gum | Optional ⅛ tsp xanthan is fine | Main method has **no gum**. Offer xanthan via `gum_option` so the app can show "With xanthan" / "No gum" |
-| Body without fat | skimmed milk powder (Amul Sagar), unflavoured or flavoured whey, skyr / Greek yogurt, high-protein paneer, Amul High Protein Milk, inulin, cornflour, milk reduction | same, but unflavoured whey isolate only; plain skyr/curd; fruit ≤ ~100 g fresh |
+| Body without fat | skimmed milk powder (Nakpro), unflavoured or flavoured whey, skyr / Greek yogurt, high-protein paneer, Amul High Protein Milk, inulin, cornflour, milk reduction | same, but unflavoured whey isolate only; plain skyr/curd; fruit ≤ ~100 g fresh |
 
 ## Munkito Monk Sweet + Allulose 1:1
 
@@ -42,7 +42,7 @@ come out softer and need fewer re-spins.
     "program": "LITE ICE CREAM",
     "respin": "Usually 1 re-spin with 1 tbsp milk",
     "ingredients": {
-      "replace": [{ "match": "fresh cream", "qty": "20 g (3 tbsp)", "item": "Amul Sagar skimmed milk powder", "note": "adds body without fat" }],
+      "replace": [{ "match": "fresh cream", "qty": "20 g (3 tbsp)", "item": "Nakpro skimmed milk powder", "note": "adds body without fat" }],
       "remove": ["xanthan"],
       "add": [{ "qty": "30 g (1 scoop)", "item": "unflavoured whey isolate", "note": "AS-IT-IS or Avvatar", "after": "milk" }]
     },
